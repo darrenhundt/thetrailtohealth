@@ -15,6 +15,6 @@ $(document).ready(function(){
 		var mainImage = $('.entry-content .image-block').first();
 		mainImage.addClass('main-image-block');
 		socialWrapper.addClass('my-socialWrapper-block');
-		socialWrapper.clone().insertAfter(mainImage);
+		socialWrapper.clone().insertAfter(mainImage).show();
 	}
 });
