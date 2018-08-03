@@ -96,7 +96,7 @@
 {.section item}
   {.comments?}
   <div id="commenting">
-	  <div id="toggleComments">Open Comments</div> 
+	  <div id="toggleComments"><a id="toggleCommentsLink">Open Comments</a></div> 
     <section id="comments-section" class="comments-wrapper">
       {@|comments}
     </section>
