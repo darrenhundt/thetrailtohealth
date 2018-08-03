@@ -10,4 +10,7 @@ $(document).ready(function(){
 		}
 	  });
 	});
+	var socialWrapper = $('.ss-social-list-wrapper').first();
+	var mainImage = $('.entry-content .image-block').first();
+	mainImage.addClass('main-image-block');
 });
