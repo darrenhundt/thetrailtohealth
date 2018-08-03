@@ -2,7 +2,12 @@
 $(document).ready(function(){
 	$( "#toggleCommentsLink" ).click(function() {
 	  $( "#comments-section" ).slideToggle( "slow", function() {
-		// Animation complete.
+		if ($("#toggleCommentsLink").html() == 'Open Comments') {
+			$("#toggleCommentsLink").html('Close Comments');
+		}
+		else {
+			$("#toggleCommentsLink").html('Open Comments');
+		}
 	  });
 	});
 });
