@@ -26,4 +26,7 @@
 body p a {
   color: #0085bd;
 }
- 
+a:link,
+a:visited {
+  color: #0085bd;
+}
