@@ -1,1 +1,28 @@
 /* CSS Document */
+#comments-section {
+  display: none;
+}
+#toggleCommentsLink {
+  cursor: pointer;
+}
+.collection-type-blog .entry-content .ss-social-button-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.collection-type-blog .entry-content .ss-social-button-list .ss-social-button-container {
+  display: inline-block;
+  margin: 0 10px;
+}
+.collection-type-blog .entry-content .ss-social-button-list .ss-social-button-container.google {
+  display: none;
+}
+body p a {
+  color: #0085bd;
+}
