@@ -26,7 +26,28 @@
 body p a {
   color: #0085bd;
 }
-a:link,
-a:visited {
+body p a:link,
+body p a:visited {
   color: #0085bd;
+}
+#share {
+  text-align: center;
+}
+#share .jssocials-share {
+  margin-top: 0;
+}
+#share .jssocials-share-link {
+  height: 41px;
+  width: 41px;
+  color: white;
+  border-radius: 100px;
+}
+#share .jssocials-share-label {
+  display: none;
+}
+#share .jssocials-share-print img {
+  width: 24px;
+}
+.post-entry-injection .printfriendly {
+  display: none!important;
 }
