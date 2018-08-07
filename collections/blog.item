@@ -1,15 +1,6 @@
 {.section item}
 
-<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials.min.js"></script>
 
-<link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials.css" />
-
-<link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials-theme-flat.css" />
-<script>
-		$("#share").jsSocials({
-				shares: ["email", "twitter", "facebook", "pinterest"]
-		});
-</script>
   <article class="{@|item-classes}" id="article-{id}" data-item-id="{id}">
 
 	<div class="content-wrapper">
@@ -111,7 +102,16 @@
 
   </div><!-- /content-wrapper -->
   </article>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials.min.js"></script>
 
+<link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials.css" />
+
+<link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials-theme-flat.css" />
+<script>
+		$("#share").jsSocials({
+				shares: ["email", "twitter", "facebook", "pinterest"]
+		});
+</script>
 
 {.end}
 
