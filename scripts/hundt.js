@@ -17,4 +17,5 @@ $(document).ready(function(){
 		socialWrapper.addClass('my-socialWrapper-block');
 		socialWrapper.clone().insertAfter(mainImage).show();
 	}
+	$('#sqs-slash-page-header').addClass('found-popup-header');
 });
