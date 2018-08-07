@@ -31,7 +31,7 @@
 
       {.section body}<div class="body entry-content">{@}</div>{.end}
 <div class="ss-social-list-wrapper" id="yui_3_17_2_1_1533299775531_1111" style="display:none;">
-	<div class="ss-social-button-list">
+<!--	<div class="ss-social-button-list">
 		<div class="ss-social-button-container facebook">
 			<div class="fb_reset" id="fb-root">
 				<div style="position: absolute; top: -10000px; height: 0px; width: 0px;">
@@ -58,7 +58,7 @@
 		<div class="ss-social-button-container pinterest">
 			<a class="pin-it-button" href="//pinterest.com/pin/create/button?url=http%3A%2F%2Fthetrailtohealth.com%2Frecipes%2Fchocolatecoveredstrawberries&amp;media=https%3A%2F%2Fstatic1.squarespace.com%2Fstatic%2F5692edc9df40f361d6f8b0a4%2F5b47a0aa575d1f5997eaa305%2F5b497f9503ce643303e50b93%2F1533072588444%2F_DSC7288.jpg"><img border="0" src="//assets.pinterest.com/images/PinExt.png" title="Pin It"></a>
 		</div>
-	</div>
+	</div>-->
 </div>
     <!--POST FOOTER-->
 
