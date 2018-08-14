@@ -1,7 +1,7 @@
 // JavaScript Document
 $(document).ready(function(){
 	if ($('body').hasClass('collection-type-blog')) {
-		$( "#toggleCommentsLink" ).click(function() {
+		$( "#toggleCommentsLink, .article-meta .comments a" ).click(function() {
 		  $( "#comments-section" ).slideToggle( "slow", function() {
 			if ($("#toggleCommentsLink").html() == 'Open Comments') {
 				$("#toggleCommentsLink").html('Close Comments');
