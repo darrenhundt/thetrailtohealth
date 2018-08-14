@@ -113,7 +113,11 @@
 		});
 	$(document).ready(function(){
 		$('#share .jssocials-share-twitter .jssocials-share-link').html('<img src="/assets/icons/Twitter.png" />');
-		$('.jssocials-share-email').after('<div class="jssocials-share jssocials-share-print" id="yui_3_17_2_1_1533661071681_996"><a href="https://www.printfriendly.com" style="color: blue;text-decoration:none;width: 43px;height: 43px;border-radius: 100px;color: white;background: #3490F3;display: inline-block;line-height: 43px;" class="printfriendly" onclick="window.print();return false;" title="Printer Friendly and PDF" id="yui_3_17_2_1_1533661071681_969"><img src="http://thetrailtohealth.com/assets/icons/iconmonstr-printer-4-white-96.png"/></a><div class="jssocials-share-count-box jssocials-share-no-count"><span class="jssocials-share-count"></span></div></div>');
+		$('#share .jssocials-share-facebook .jssocials-share-link').html('<img src="/assets/icons/Facebook.png" />');
+		$('#share .jssocials-share-pinterest .jssocials-share-link').html('<img src="/assets/icons/Pinterest.png" />');
+		$('#share .jssocials-share-email .jssocials-share-link').html('<img src="/assets/icons/Email.png" />');
+		
+		$('.jssocials-share-email').after('<div class="jssocials-share jssocials-share-print" id="yui_3_17_2_1_1533661071681_996"><a href="https://www.printfriendly.com" style="color: blue;text-decoration:none;width: 43px;height: 43px;border-radius: 100px;color: white;background: #3490F3;display: inline-block;line-height: 43px;" class="printfriendly" onclick="window.print();return false;" title="Printer Friendly and PDF" id="yui_3_17_2_1_1533661071681_969"><img src="http://thetrailtohealth.com/assets/icons/Print.png"/></a><div class="jssocials-share-count-box jssocials-share-no-count"><span class="jssocials-share-count"></span></div></div>');
 	});
 </script>
 
