@@ -21,7 +21,7 @@ $(document).ready(function(){
 	
 	
 	$('.amazon-block .image-container').matchHeight();
-	$('.amazon-block .productDetails').matchHeight();
+	$('.amazon-block .productDetails .product-title').matchHeight();
 	
 	
 });
