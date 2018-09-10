@@ -23,7 +23,7 @@ $(document).ready(function(){
 	$('.amazon-block .image-container').matchHeight();
 	$('.amazon-block .productDetails .product-title').each(function(){
 		var productTitle = $(this).html();
-		var shortTitle = $.trim(productTitle).substring(0, 30).split(" ").slice(0, -1).join(" ") + "...";
+		var shortTitle = $.trim(productTitle).substring(0, 40).split(" ").slice(0, -1).join(" ") + "...";
 		$(this).html(shortTitle);
 	});
 
