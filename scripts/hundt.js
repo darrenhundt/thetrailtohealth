@@ -21,6 +21,9 @@ $(document).ready(function(){
 	
 	
 	$('.amazon-block .image-container').matchHeight();
+	var productTitle = $('.amazon-block .productDetails .product-title').html();
+	var shortTitle = jQuery.trim(productTitle).substring(0, 10).split(" ").slice(0, -1).join(" ") + "...";
+	$('.amazon-block .productDetails .product-title').html(shortTitle);
 	$('.amazon-block .productDetails .product-title').matchHeight();
 	
 	
