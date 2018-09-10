@@ -23,6 +23,10 @@
 .collection-type-blog .entry-content .ss-social-button-list .ss-social-button-container.google {
   display: none;
 }
+.collection-type-blog .jssocials-shares img {
+  height: 35px;
+  width: 35px;
+}
 body p a {
   color: #0085bd;
 }
@@ -45,9 +49,47 @@ body p a:visited {
 #share .jssocials-share-label {
   display: none;
 }
-#share .jssocials-share-print img {
-  width: 24px;
-}
 .post-entry-injection .printfriendly {
   display: none!important;
+  visibility: hidden;
+}
+#sqs-slash-page-header {
+  font-weight: 300!important;
+  font-size: 33px!important;
+  text-align: center;
+}
+#share .jssocials-share-twitter .jssocials-share-link,
+#share .jssocials-share-link {
+  background: transparent;
+  border: none;
+  padding: 0;
+  box-shadow: none;
+}
+.amazon-block .image-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.amazon-block .image-container a {
+  text-align: center;
+}
+.amazon-block .image-container a img {
+  max-height: 200px;
+  width: auto;
+  margin: auto;
+}
+input.sqs-amazon-button.sqs-system-button.sqs-editable-button {
+  font-size: 17px;
+  padding: 15px 20px!important;
+  box-sizing: border-box;
+  line-height: 100%;
+}
+#collection-5b734cc6032be457b8f4b390 hr {
+  border: 1px solid;
 }
