@@ -109,7 +109,7 @@
 <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials-theme-classic.css" />
 <script>
 		$("#share").jsSocials({
-				shares: ["twitter", "facebook", "pinterest", "email"]
+				shares: ["twitter", "facebook", "email", "pinterest"]
 		});
 	$(document).ready(function(){
 		$('#share .jssocials-share-twitter .jssocials-share-link').html('<img src="/assets/icons/Twitter.png" />');
