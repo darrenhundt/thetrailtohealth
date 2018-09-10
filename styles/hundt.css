@@ -23,6 +23,9 @@
 .collection-type-blog .entry-content .ss-social-button-list .ss-social-button-container.google {
   display: none;
 }
+.collection-type-blog .jssocials-shares a {
+  line-height: inherit!important;
+}
 .collection-type-blog .jssocials-shares img {
   height: 35px;
   width: 35px;
