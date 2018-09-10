@@ -87,6 +87,9 @@ body p a:visited {
   width: auto;
   margin: auto;
 }
+.amazon-block .product-author {
+  display: none;
+}
 input.sqs-amazon-button.sqs-system-button.sqs-editable-button {
   font-size: 17px;
   padding: 15px 20px!important;
