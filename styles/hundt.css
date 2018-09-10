@@ -96,6 +96,12 @@ input.sqs-amazon-button.sqs-system-button.sqs-editable-button {
   box-sizing: border-box;
   line-height: 100%;
 }
+@media (max-width: 1110px) {
+  input.sqs-amazon-button.sqs-system-button.sqs-editable-button {
+    font-size: 13px;
+    border: none;
+  }
+}
 #collection-5b734cc6032be457b8f4b390 hr {
   border: 1px solid;
 }
