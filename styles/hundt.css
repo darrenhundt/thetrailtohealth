@@ -72,7 +72,7 @@ body p a:visited {
   /* amazon page  */
 }
 @media (max-width: 980px) and (min-width: 769px) {
-  #collection-56c278e5b6aa607f7a7f8806 #content-wrapper .main-content .sqs-col-3 {
+  #collection-56c278e5b6aa607f7a7f8806 #content-wrapper .main-content .sqs-col-12 .sqs-col-3 {
     width: 50%;
   }
 }
