@@ -21,9 +21,12 @@ $(document).ready(function(){
 	
 	
 	$('.amazon-block .image-container').matchHeight();
-	var productTitle = $('.amazon-block .productDetails .product-title').html();
-	var shortTitle = $.trim(productTitle).substring(0, 30).split(" ").slice(0, -1).join(" ") + "...";
-	$('.amazon-block .productDetails .product-title').html(shortTitle);
+	$('.amazon-block .productDetails .product-title').each(function(){
+		var productTitle = $(this).html();
+		var shortTitle = $.trim(productTitle).substring(0, 30).split(" ").slice(0, -1).join(" ") + "...";
+		$(this).html(shortTitle);
+	});
+
 	$('.amazon-block .productDetails .product-title').matchHeight();
 	
 	
