@@ -29,7 +29,7 @@ $(document).ready(function(){
 	
   $(document).on('click', '.modal-launcher-0', function(e) {
 		e.preventDefault();
-		alert('1');
+		//alert('1');
     new Custombox.modal({
       content: {
         target: '.recipe-modal-0'
