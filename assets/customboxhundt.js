@@ -46,29 +46,36 @@ $(document).ready(function(){
     }).open();
   });
 	
-	var i;
-	for (i = 5; i < categoryCount; i++) { 
-		var myTrigger = '.modal-launcher-' + i;
-		var myTarget = '.recipe-modal-' + i;
-		var myOpacity = i * 0.05;
-		console.log(myTrigger + ' triggers ' + myTarget + ' with opacity of ' + myOpacity);
-			$(document).on('click', myTrigger, function(e) {
-				console.log(i + ' was clicked');
-				e.preventDefault();
-				//alert('1');
-				new Custombox.modal({
-					content: {
-						target: myTarget
-					},
-					overlay: {
-						active: true,
-						opacity: myOpacity
-					}
-				}).open();
-			});
-		
-		}
+//	var i;
+//	for (i = 5; i < categoryCount; i++) {
+//		var myTrigger = '.modal-launcher-' + i;
+//		var myTarget = '.recipe-modal-' + i;
+//		var myOpacity = i * 0.05;
+//		console.log(myTrigger + ' triggers ' + myTarget + ' with opacity of ' + myOpacity);
+//			
+//		  $(document).on('click', myTrigger, function(e) {
+//				console.log(i + ' was clicked');
+//				e.preventDefault();
+//				//alert('1');
+//				new Custombox.modal({
+//					content: {
+//						target: myTarget
+//					},
+//					overlay: {
+//						active: true,
+//						opacity: myOpacity
+//					}
+//				}).open();
+//			});
+//		
+//		}
 
+	for(let i = 1; i < categoryCount; i++) {
+		$('.modal-launcher-' + i).click( function(){
+			alert('you clicked ' + i);
+		});
+	}	
+	
 	
 });
 
