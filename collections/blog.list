@@ -2,6 +2,17 @@
 
   <article class="{@|item-classes}" id="article-{id}" data-item-id="{id}">
     <div class="popup-content">
+			<div class="popup-inner-wrapper">
+				<div class="popup-top"></div>
+				<div class="popup-bottom">
+					<div class="popup-title-wrapper">
+					</div>
+					<div class="popup-content">
+						<img src="/assets/popupCookbookImage.png" />
+						<a href="/shop/">PRE-ORDER NOW</a>
+					</div>
+				</div>
+			</div>
 		</div>
     <div class="content-wrapper">
   	  
