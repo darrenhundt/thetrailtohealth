@@ -34,7 +34,8 @@ $(document).ready(function(){
 		var imgURL = $(this).find('.popup-top img').first().attr('src');
 		$(this).find('.popup-top').css('background-image','url("' + imgURL + '")');
 		
-		  $(document).on('click', $(this), function() {
+		  $(document).on('click', $(this), function(e) {
+				e.preventDefault();
 				//var options = $(this).data('demo');
 				//if (!options.content.target) {
 				//	options.content.target = '#demo-modal';
