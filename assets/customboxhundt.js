@@ -71,7 +71,7 @@ $(document).ready(function(){
 //		}
 
 	for(let i = 1; i < categoryCount; i++) {
-		$('.modal-launcher-' + i).click( function(){
+		$('.modal-launcher-' + i).click( function(e){
 			e.preventDefault();
 			new Custombox.modal({
 				content: {
