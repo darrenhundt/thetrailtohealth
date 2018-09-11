@@ -4,7 +4,8 @@ console.log('hello from customboxhundt.js');
 
 $(document).ready(function(){
 
-
+	
+	var categoryCount = 0;
 	
 	$('.category-cookbook').each(function(i){
 		var currentRecipe = $(this);
@@ -32,7 +33,7 @@ $(document).ready(function(){
 				}).open();
 			});
 		}
-		
+		categoryCount++;
 	});
 	
 //	$(function() {
@@ -60,6 +61,27 @@ $(document).ready(function(){
     }).open();
   });
 	
+	var i;
+	for (i = 1; i < categoryCount; i++) { 
+		var myTrigger = '.modal-launcher-' + i;
+		var myTarget = '.recipe-modal-' + i;
+		console.log(myTrigger + ' triggers ' + myTarget);
+			$(document).on('click', myTrigger, function(e) {
+				e.preventDefault();
+				//alert('1');
+				new Custombox.modal({
+					content: {
+						target: myTarget
+					},
+					overlay: {
+						active: true,
+						opacity: 0.35
+					}
+				}).open();
+			});
+		
+		}
+	}
 	
 });
 
