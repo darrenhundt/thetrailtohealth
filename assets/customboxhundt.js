@@ -7,6 +7,7 @@ $(document).ready(function(){
 
 	
 	$('.category-cookbook').each(function(i){
+		var currentRecipe = $(this);
 		var imgURL = $(this).find('.popup-top img').first().attr('src');
 		$(this).find('.popup-top').css('background-image','url("' + imgURL + '")');
 		var newTriggerClass= 'modal-launcher-' + i;
@@ -17,16 +18,16 @@ $(document).ready(function(){
 		newTarget.addClass(newTargetClass);
 		
 		if(i=1) {
-			$(document).on('click', newTrigger, function(e) {
+			$(document).on('click', '.modal-launcher-1', function(e) {
 				e.preventDefault();
 				//alert('1');
 				new Custombox.modal({
 					content: {
-						target: newTarget
+						target: '.recipe-modal-1'
 					},
 					overlay: {
 						active: true,
-						opacity: 0.65
+						opacity: 0.35
 					}
 				}).open();
 			});
