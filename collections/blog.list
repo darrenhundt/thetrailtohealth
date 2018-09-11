@@ -1,7 +1,8 @@
 {.repeated section items}
 
   <article class="{@|item-classes}" id="article-{id}" data-item-id="{id}">
-    
+    <div class="popup-content">
+		</div>
     <div class="content-wrapper">
   	  
       <div class="post{.passthrough?} link-list-item{.end}">
