@@ -36,7 +36,7 @@ $(document).ready(function(){
       },
       overlay: {
         active: true,
-				opacity: 0.85
+				opacity: 0.65
       }
     }).open();
   });
