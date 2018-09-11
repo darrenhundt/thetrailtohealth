@@ -7,7 +7,7 @@
 				<div class="popup-bottom">
 					<div class="popup-title-wrapper">
 						<h2>{.if title}{title}{.end}</h2>
-						<p>{excerpt}</p>
+						{excerpt}
 					</div>
 					<div class="popup-actions">
 						<img src="/assets/popupCookbookImage.png" />
