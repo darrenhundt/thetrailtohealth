@@ -17,7 +17,7 @@ $(document).ready(function(){
 		newTrigger.addClass(newTriggerClass);
 		newTarget.addClass(newTargetClass);
 		
-		if(i=1) {
+		if(i > 0) {
 			$(document).on('click', newTriggerClass, function(e) {
 				e.preventDefault();
 				//alert('1');
