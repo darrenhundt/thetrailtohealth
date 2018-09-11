@@ -30,21 +30,31 @@ $(document).ready(function(){
 	$('.amazon-block .productDetails .product-title').matchHeight();
 	
 	
-	$('.category-cookbook').each(function(){
+	$('.category-cookbook').each(function(i){
 		var imgURL = $(this).find('.popup-top img').first().attr('src');
 		$(this).find('.popup-top').css('background-image','url("' + imgURL + '")');
-		
-		  $(document).on('click', $(this), function(e) {
-				e.preventDefault();
-				//var options = $(this).data('demo');
-				//if (!options.content.target) {
-				//	options.content.target = '#demo-modal';
-				//}
+		var newTriggerClass= 'modal-launcher-' + i;
+		var newTargetClass = 'recipe-modal-' + i;
+		$(this).find('.content-wrapper').addClass(newTriggerClass);
+		$(this).find('.popup-content').addClass(newTargetClass);
 
-				//new Custombox.modal(options).open();
-				console.log('cookbook recipe clicked');
-			});
-		
 	});
 	
+	$(function() {
+		$('.modal-launcher-0').on('click', function( e ) {
+				Custombox.open({
+						target: '.recipe-modal-0',
+						effect: 'fadein',
+					overlay:false
+				});
+				e.preventDefault();
+		});
+  });
 });
+
+
+
+
+
+
+
