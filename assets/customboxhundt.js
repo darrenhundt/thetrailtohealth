@@ -72,7 +72,16 @@ $(document).ready(function(){
 
 	for(let i = 1; i < categoryCount; i++) {
 		$('.modal-launcher-' + i).click( function(){
-			alert('you clicked ' + i);
+			e.preventDefault();
+			new Custombox.modal({
+				content: {
+					target: '.recipe-modal-' + i
+				},
+				overlay: {
+					active: true,
+					opacity: myOpacity
+				}
+			}).open();
 		});
 	}	
 	
