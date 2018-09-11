@@ -35,7 +35,8 @@ $(document).ready(function(){
         target: '.recipe-modal-0'
       },
       overlay: {
-        active: true
+        active: true,
+				opacity: 0.65
       }
     }).open();
   });
