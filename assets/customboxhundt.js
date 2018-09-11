@@ -16,19 +16,19 @@ $(document).ready(function(){
 		newTrigger.addClass(newTriggerClass);
 		newTarget.addClass(newTargetClass);
 		
-//		$(document).on('click', newTrigger, function(e) {
-//			e.preventDefault();
-//			//alert('1');
-//			new Custombox.modal({
-//				content: {
-//					target: newTarget
-//				},
-//				overlay: {
-//					active: true,
-//					opacity: 0.65
-//				}
-//			}).open();
-//		});
+		$(document).on('click', newTrigger, function(e) {
+			e.preventDefault();
+			//alert('1');
+			new Custombox.modal({
+				content: {
+					target: newTarget
+				},
+				overlay: {
+					active: true,
+					opacity: 0.65
+				}
+			}).open();
+		});
 		
 	});
 	
@@ -43,19 +43,19 @@ $(document).ready(function(){
 //		});
 //  });
 	
-  $(document).on('click', '.modal-launcher-0', function(e) {
-		e.preventDefault();
-		//alert('1');
-    new Custombox.modal({
-      content: {
-        target: '.recipe-modal-0'
-      },
-      overlay: {
-        active: true,
-				opacity: 0.65
-      }
-    }).open();
-  });
+//  $(document).on('click', '.modal-launcher-0', function(e) {
+//		e.preventDefault();
+//		//alert('1');
+//    new Custombox.modal({
+//      content: {
+//        target: '.recipe-modal-0'
+//      },
+//      overlay: {
+//        active: true,
+//				opacity: 0.65
+//      }
+//    }).open();
+//  });
 	
 	
 });
