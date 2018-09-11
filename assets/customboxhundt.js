@@ -11,8 +11,10 @@ $(document).ready(function(){
 		$(this).find('.popup-top').css('background-image','url("' + imgURL + '")');
 		var newTriggerClass= 'modal-launcher-' + i;
 		var newTargetClass = 'recipe-modal-' + i;
-		$(this).find('.content-wrapper').addClass(newTriggerClass);
-		$(this).find('.popup-content').addClass(newTargetClass);
+		var newTrigger = $(this).find('.content-wrapper').first();
+		var newTarget = $(this).find('.popup-content').first();
+		newTrigger.addClass(newTriggerClass);
+		newTarget.addClass(newTargetClass);
 
 	});
 	
