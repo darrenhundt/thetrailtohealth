@@ -2,6 +2,7 @@
 
   <article class="{@|item-classes}" id="article-{id}" data-item-id="{id}">
     <div class="popup-content">
+			<div class="closer">X</div>
 			<div class="popup-inner-wrapper">
 				<div class="popup-top"><img {@|image-meta} /></div>
 				<div class="popup-bottom">
