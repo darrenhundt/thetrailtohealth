@@ -33,7 +33,10 @@
         <div class="excerpt-thumb">
           <div class="intrinsic">
             <div class="content">
-              <a href="{fullUrl}" class="excerpt-image content-fill"><img {@|image-meta} /></a>
+              <a href="{fullUrl}" class="excerpt-image content-fill">
+								<img src="/assets/cb.png" class="cookbook-icon" />
+								<img {@|image-meta} />
+							</a>
             </div>
           </div>
         </div>
