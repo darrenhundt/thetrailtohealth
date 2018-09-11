@@ -42,6 +42,7 @@ $(document).ready(function(){
 	
 	$(function() {
 		$('.modal-launcher-0').on('click', function( e ) {
+				e.preventDefault();
 				Custombox.open({
 						target: '.recipe-modal-0',
 						effect: 'fadein',
