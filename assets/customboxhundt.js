@@ -18,7 +18,7 @@ $(document).ready(function(){
 		newTarget.addClass(newTargetClass);
 		
 		if(i=1) {
-			$(document).on('click', newTrigger, function(e) {
+			$(document).on('click', '.modal-launcher-1', function(e) {
 				e.preventDefault();
 				//alert('1');
 				new Custombox.modal({
