@@ -32,7 +32,7 @@ $(document).ready(function(){
 	
 	$('.category-cookbook').each(function(){
 		var imgURL = $(this).find('.popup-top img').first().attr('src');
-		console.log(imgURL);
+		$(this).find('.popup-top').css('background-image','url("' + imgURL + '")');
 	});
 	
 });
