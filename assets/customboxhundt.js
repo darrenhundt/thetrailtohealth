@@ -18,12 +18,12 @@ $(document).ready(function(){
 		newTarget.addClass(newTargetClass);
 		
 		if(i=1) {
-			$(document).on('click', '.modal-launcher-1', function(e) {
+			$(document).on('click', newTriggerClass, function(e) {
 				e.preventDefault();
 				//alert('1');
 				new Custombox.modal({
 					content: {
-						target: '.recipe-modal-1'
+						target: newTargetClass
 					},
 					overlay: {
 						active: true,
