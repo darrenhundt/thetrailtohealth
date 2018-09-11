@@ -112,3 +112,21 @@ input.sqs-amazon-button.sqs-system-button.sqs-editable-button {
 #collection-5b734cc6032be457b8f4b390 hr {
   border: 1px solid;
 }
+#collection-5b47a0aa575d1f5997eaa305 {
+  min-width: 1px;
+}
+#collection-5b47a0aa575d1f5997eaa305 .main-content {
+  min-width: 1px;
+}
+#collection-5b47a0aa575d1f5997eaa305 .main-content .article {
+  min-width: 1px;
+}
+#collection-5b47a0aa575d1f5997eaa305 .main-content .article .excerpt-image {
+  min-width: 1px;
+  position: relative;
+}
+#collection-5b47a0aa575d1f5997eaa305 .main-content .article .excerpt-image .cookbook-icon {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
