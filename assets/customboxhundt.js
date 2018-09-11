@@ -32,45 +32,23 @@ $(document).ready(function(){
 //		});
 //  });
 	
-  $(document).on('click', '.modal-launcher-0', function(e) {
-		e.preventDefault();
-		//alert('1');
-    new Custombox.modal({
-      content: {
-        target: '.recipe-modal-0'
-      },
-      overlay: {
-        active: true,
-				opacity: 0.65
-      }
-    }).open();
-  });
+//  $(document).on('click', '.modal-launcher-0', function(e) {
+//		e.preventDefault();
+//		//alert('1');
+//    new Custombox.modal({
+//      content: {
+//        target: '.recipe-modal-0'
+//      },
+//      overlay: {
+//        active: true,
+//				opacity: 0.65
+//      }
+//    }).open();
+//  });
 	
-//	var i;
-//	for (i = 5; i < categoryCount; i++) {
-//		var myTrigger = '.modal-launcher-' + i;
-//		var myTarget = '.recipe-modal-' + i;
-//		var myOpacity = i * 0.05;
-//		console.log(myTrigger + ' triggers ' + myTarget + ' with opacity of ' + myOpacity);
-//			
-//		  $(document).on('click', myTrigger, function(e) {
-//				console.log(i + ' was clicked');
-//				e.preventDefault();
-//				//alert('1');
-//				new Custombox.modal({
-//					content: {
-//						target: myTarget
-//					},
-//					overlay: {
-//						active: true,
-//						opacity: myOpacity
-//					}
-//				}).open();
-//			});
-//		
-//		}
 
-	for(let i = 1; i < categoryCount; i++) {
+
+	for(let i = 0; i < categoryCount; i++) {
 		$('.modal-launcher-' + i).click( function(e){
 			e.preventDefault();
 			new Custombox.modal({
