@@ -47,7 +47,7 @@ $(document).ready(function(){
   });
 	
 	var i;
-	for (i = 1; i < categoryCount; i++) { 
+	for (i = 5; i < categoryCount; i++) { 
 		var myTrigger = '.modal-launcher-' + i;
 		var myTarget = '.recipe-modal-' + i;
 		var myOpacity = i * 0.05;
