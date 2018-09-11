@@ -149,7 +149,7 @@ input.sqs-amazon-button.sqs-system-button.sqs-editable-button {
   width: 500px;
   height: 500px;
   z-index: 999;
-  border: 1px solid black;
+  background: white;
 }
 #collection-5b47a0aa575d1f5997eaa305 article.category-cookbook .popup-content .popup-inner-wrapper {
   display: flex;
@@ -173,4 +173,15 @@ input.sqs-amazon-button.sqs-system-button.sqs-editable-button {
 }
 #collection-5b47a0aa575d1f5997eaa305 article.category-cookbook .popup-content .popup-bottom .popup-actions {
   height: 60%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#collection-5b47a0aa575d1f5997eaa305 article.category-cookbook .popup-content .popup-bottom .popup-actions img {
+  width: 200px;
+}
+#collection-5b47a0aa575d1f5997eaa305 article.category-cookbook .popup-content .popup-bottom .popup-actions a {
+  background: black;
+  color: white;
+  padding: 10px;
 }
