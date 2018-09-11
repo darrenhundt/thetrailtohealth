@@ -16,35 +16,29 @@ $(document).ready(function(){
 
 	});
 	
-	$(function() {
-		$('.modal-launcher-0').on('click', function( e ) {
-				e.preventDefault();
-				Custombox.modal({
-						target: '.recipe-modal-0',
-						effect: 'fadein',
-					overlay:false
-				}).open();
-		});
+//	$(function() {
+//		$('.modal-launcher-0').on('click', function( e ) {
+//				e.preventDefault();
+//				Custombox.modal({
+//						target: '.recipe-modal-0',
+//						effect: 'fadein',
+//					overlay:false
+//				}).open();
+//		});
+//  });
+	
+  $(document).on('click', '.modal-launcher-0', function() {
+    new Custombox.modal({
+      content: {
+        target: '.recipe-modal-0'
+      },
+      overlay: {
+        active: true
+      }
+    }).open();
   });
-	
-	
 	
 	
 });
 
 
-//  $(document).on('click', '#open-multiple', function() {
-//    new Custombox.modal({
-//      content: {
-//        effect: effects[Math.floor(Math.random() * effects.length)],
-//        target: '#demo-modal-multiple-1',
-//        animateFrom: animate[Math.floor(Math.random() * animate.length)],
-//        animateTo: animate[Math.floor(Math.random() * animate.length)],
-//        positionX: positionX[Math.floor(Math.random() * positionX.length)],
-//        positionY: positionY[Math.floor(Math.random() * positionY.length)],
-//      },
-//      overlay: {
-//        active: Math.random() < 0.5
-//      }
-//    }).open();
-//  });
