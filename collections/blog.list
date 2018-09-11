@@ -34,7 +34,7 @@
           <div class="intrinsic">
             <div class="content">
               <a href="{fullUrl}" class="excerpt-image content-fill">
-								<img src="/assets/book.png" class="cookbook-icon" />
+								<img src="/assets/bookWhite.png" class="cookbook-icon" />
 								<img {@|image-meta} />
 							</a>
             </div>
