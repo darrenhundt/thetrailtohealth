@@ -18,21 +18,6 @@ $(document).ready(function(){
 		newTrigger.addClass(newTriggerClass);
 		newTarget.addClass(newTargetClass);
 		
-		if(i > 0) {
-			$(document).on('click', newTriggerClass, function(e) {
-				e.preventDefault();
-				//alert('1');
-				new Custombox.modal({
-					content: {
-						target: newTargetClass
-					},
-					overlay: {
-						active: true,
-						opacity: 0.35
-					}
-				}).open();
-			});
-		}
 		categoryCount++;
 	});
 	
