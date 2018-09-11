@@ -53,6 +53,7 @@ $(document).ready(function(){
 		var myOpacity = i * 0.05;
 		console.log(myTrigger + ' triggers ' + myTarget + ' with opacity of ' + myOpacity);
 			$(document).on('click', myTrigger, function(e) {
+				console.log(i + ' was clicked');
 				e.preventDefault();
 				//alert('1');
 				new Custombox.modal({
