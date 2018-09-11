@@ -11,7 +11,7 @@
 					</div>
 					<div class="popup-actions">
 						<a href="/shop/"><img src="/assets/popupCookbookImage.png" /></a>
-						<a href="/shop/">PRE-ORDER NOW</a>
+						<a class="modal-button" href="/shop/">PRE-ORDER NOW</a>
 					</div>
 				</div>
 			</div>
