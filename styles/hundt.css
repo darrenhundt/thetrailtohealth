@@ -129,4 +129,5 @@ input.sqs-amazon-button.sqs-system-button.sqs-editable-button {
   position: absolute;
   bottom: 10px;
   left: 10px;
+  display: none!important;
 }
