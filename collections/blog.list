@@ -10,7 +10,7 @@
 						{excerpt}
 					</div>
 					<div class="popup-actions">
-						<img src="/assets/popupCookbookImage.png" />
+						<a href="/shop/"><img src="/assets/popupCookbookImage.png" /></a>
 						<a href="/shop/">PRE-ORDER NOW</a>
 					</div>
 				</div>
