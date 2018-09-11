@@ -44,8 +44,7 @@ $(document).ready(function(){
     script.onload = ShopifyBuyInit;
   }
 
-})();
-/*]]>*//* end shopify code */
+
 
 
 	for(let i = 0; i < categoryCount; i++) {
@@ -226,6 +225,9 @@ $(document).ready(function(){
 		
 		
 	}	
+	
+	})();
+/*]]>*//* end shopify code */
 	
 	
 });
