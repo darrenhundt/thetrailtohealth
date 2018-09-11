@@ -65,6 +65,7 @@ $(document).ready(function(){
 	for (i = 1; i < categoryCount; i++) { 
 		var myTrigger = '.modal-launcher-' + i;
 		var myTarget = '.recipe-modal-' + i;
+		var myOpacity = i * 0.05;
 		console.log(myTrigger + ' triggers ' + myTarget);
 			$(document).on('click', myTrigger, function(e) {
 				e.preventDefault();
@@ -75,7 +76,7 @@ $(document).ready(function(){
 					},
 					overlay: {
 						active: true,
-						opacity: 0.35
+						opacity: myOpacity
 					}
 				}).open();
 			});
