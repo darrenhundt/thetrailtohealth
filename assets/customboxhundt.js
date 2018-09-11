@@ -23,7 +23,7 @@ $(document).ready(function(){
 				//alert('1');
 				new Custombox.modal({
 					content: {
-						target: '.recipe-modal-1'
+						target: newTarget
 					},
 					overlay: {
 						active: true,
