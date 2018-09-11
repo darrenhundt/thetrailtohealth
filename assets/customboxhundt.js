@@ -9,6 +9,8 @@ $(document).ready(function(){
 	
 	$('.category-cookbook').each(function(i){
 		var currentRecipe = $(this);
+		var newID = 'shopify-modal-launcher' + i;
+		currentRecipe.find('modal-button').attr(id,newID);
 		var imgURL = $(this).find('.popup-top img').first().attr('src');
 		$(this).find('.popup-top').css('background-image','url("' + imgURL + '")');
 		var newTriggerClass= 'modal-launcher-' + i;
