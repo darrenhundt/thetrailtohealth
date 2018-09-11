@@ -33,6 +33,17 @@ $(document).ready(function(){
 	$('.category-cookbook').each(function(){
 		var imgURL = $(this).find('.popup-top img').first().attr('src');
 		$(this).find('.popup-top').css('background-image','url("' + imgURL + '")');
+		
+		  $(document).on('click', $(this), function() {
+				//var options = $(this).data('demo');
+				//if (!options.content.target) {
+				//	options.content.target = '#demo-modal';
+				//}
+
+				//new Custombox.modal(options).open();
+				console.log('cookbook recipe clicked');
+			});
+		
 	});
 	
 });
