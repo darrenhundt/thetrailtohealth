@@ -9,7 +9,7 @@
 						<h2>{.if title}{title}{.end}</h2>
 						<p>{excerpt}</p>
 					</div>
-					<div class="popup-content">
+					<div class="popup-actions">
 						<img src="/assets/popupCookbookImage.png" />
 						<a href="/shop/">PRE-ORDER NOW</a>
 					</div>
