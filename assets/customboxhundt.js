@@ -79,7 +79,7 @@ $(document).ready(function(){
 				},
 				overlay: {
 					active: true,
-					opacity: myOpacity
+					opacity: 0.65
 				}
 			}).open();
 		});
