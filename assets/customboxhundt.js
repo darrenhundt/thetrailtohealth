@@ -66,7 +66,7 @@ $(document).ready(function(){
 		var myTrigger = '.modal-launcher-' + i;
 		var myTarget = '.recipe-modal-' + i;
 		var myOpacity = i * 0.05;
-		console.log(myTrigger + ' triggers ' + myTarget);
+		console.log(myTrigger + ' triggers ' + myTarget + ' with opacity of ' + myOpacity);
 			$(document).on('click', myTrigger, function(e) {
 				e.preventDefault();
 				//alert('1');
