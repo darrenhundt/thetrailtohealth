@@ -30,4 +30,9 @@ $(document).ready(function(){
 	$('.amazon-block .productDetails .product-title').matchHeight();
 	
 	
+	$('.category-cookbook').each(function(){
+		var imgURL = $(this).find('.popup-top img').first().attr('src');
+		console.log(imgURL);
+	});
+	
 });
