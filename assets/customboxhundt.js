@@ -23,8 +23,7 @@ $(document).ready(function(){
 						target: '.recipe-modal-0',
 						effect: 'fadein',
 					overlay:false
-				}).open();;
-				e.preventDefault();
+				}).open();
 		});
   });
 	
