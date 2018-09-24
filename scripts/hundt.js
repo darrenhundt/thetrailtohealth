@@ -29,6 +29,9 @@ $(document).ready(function(){
 
 	$('.amazon-block .productDetails .product-title').matchHeight();
 	
+	$('a[href*="amazon"]').each(function() {
+		$(this).addClass('amazon-link');
+	});
 
 	setTimeout(
 		function() 
