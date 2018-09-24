@@ -31,6 +31,7 @@ $(document).ready(function(){
 	
 	$('a[href*="amazon"]').each(function() {
 		$(this).addClass('amazon-link');
+		$(this).attr('rel','nofollow');
 	});
 
 	setTimeout(
