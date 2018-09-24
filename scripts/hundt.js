@@ -30,6 +30,12 @@ $(document).ready(function(){
 	$('.amazon-block .productDetails .product-title').matchHeight();
 	
 
+	setTimeout(
+		function() 
+		{
+			$('.sqs-popup-overlay h1').addClass('popup-h1-found').prepend('<img class="popup-logo" src="https://static1.squarespace.com/static/5692edc9df40f361d6f8b0a4/t/569b179a76d99c4f39160575/1537736298122/?format=1500w"/>');
+		}, 5000);	
+	
 });
 
 
