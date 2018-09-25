@@ -203,6 +203,14 @@ input.sqs-amazon-button.sqs-system-button.sqs-editable-button {
   font-weight: bold;
   font-size: 20px;
 }
-#page-header .sqs-block-gallery {
+#page-header .sqs-gallery-design-stacked {
   min-height: 50vh;
+}
+#privy-container .privy-button-element {
+  font-weight: 700!important;
+  padding-top: 9px;
+}
+#privy-container .privy-thank-you .privy-button-element {
+  box-shadow: none!important;
+  border: 2px solid black!important;
 }
