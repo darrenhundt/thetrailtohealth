@@ -108,6 +108,9 @@
 
 <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials-theme-classic.css" />
 <script>
+		if($("#share").length == 0) {
+			$('.entry-content .sqs-grid-12 .row .sqs-col-12').prepend('<div class="sqs-block code-block sqs-block-code"><div class="sqs-block-content"><div id="share"></div></div></div>');
+		}
 		$("#share").jsSocials({
 				shares: ["twitter", "facebook", "email", "pinterest"]
 		});
