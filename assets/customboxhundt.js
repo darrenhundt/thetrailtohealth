@@ -1,5 +1,5 @@
 // JavaScript Document
-console.log('hello from customboxhundt.js');
+console.log('hello from /assets/customboxhundt.js');
 
 
 $(document).ready(function(){
@@ -36,7 +36,7 @@ $(document).ready(function(){
 				},
 				overlay: {
 					active: true,
-					opacity: 0.65
+					opacity: 0.80
 				}
 			}).open();
 		});
