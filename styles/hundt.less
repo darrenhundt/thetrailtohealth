@@ -255,7 +255,21 @@ input.sqs-amazon-button.sqs-system-button.sqs-editable-button {
 #page-header {
 	.sqs-gallery-design-stacked {
 		min-height: 50vh;
+		@media screen and (max-width: 768px) {
+			min-height: 30vh;
+		}
 	}
+}
+
+#mobile-navigation ul li .folder-toggle-label:after {
+  content: '\002B';
+  padding-right: .25em;
+}
+#mobile-navigation ul li a {
+  padding-bottom: 3px;
+}
+#mobile-navigation ul li .folder-toggle-label:before {
+  display: none;
 }
 
 #privy-container {
