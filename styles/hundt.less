@@ -256,7 +256,7 @@ input.sqs-amazon-button.sqs-system-button.sqs-editable-button {
 	.sqs-gallery-design-stacked {
 		min-height: 50vh;
 		@media screen and (max-width: 768px) {
-			min-height: 30vh;
+			min-height: 20vh;
 		}
 	}
 }
@@ -290,7 +290,18 @@ input.sqs-amazon-button.sqs-system-button.sqs-editable-button {
 }
 
 
-
+.homepage {
+	#page-header-wrapper {
+		.gallery-block {
+			@media only screen and (max-width: 640px) {
+				max-height: 280px!important;
+				.thumb-image {
+					max-height: 280px!important;
+				}
+			}
+		}
+	}
+}
 
 
 
