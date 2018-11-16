@@ -3,6 +3,9 @@ $(document).ready(function(){
 	
 	$('#collection-5bd9dacf575d1f8cef7be31d .image-slide-title').each(function(){
 		$(this).addClass('press-slide-title');
+		$(this).html(function(index,html){
+			return html.replace('**br**','<br/>');
+		});
 	});
 	
 	if ($('body').hasClass('collection-type-blog')) {
