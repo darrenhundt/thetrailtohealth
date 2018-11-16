@@ -208,7 +208,7 @@ input.sqs-amazon-button.sqs-system-button.sqs-editable-button {
 }
 @media screen and (max-width: 768px) {
   #page-header .sqs-gallery-design-stacked {
-    min-height: 30vh;
+    min-height: 20vh;
   }
 }
 #mobile-navigation ul li .folder-toggle-label:after {
@@ -239,4 +239,43 @@ input.sqs-amazon-button.sqs-system-button.sqs-editable-button {
   .homepage #page-header-wrapper .gallery-block .thumb-image {
     max-height: 280px!important;
   }
+}
+#collection-5bd9dacf575d1f8cef7be31d {
+  /* Press Page */
+}
+#collection-5bd9dacf575d1f8cef7be31d .sqs-gallery-block-grid.sqs-gallery-block-meta-only-title .margin-wrapper .image-slide-title {
+  text-align: left;
+  color: #2a2a2a;
+  font-weight: 400;
+  font-size: 16px;
+}
+#collection-5b8c050fc2241bd6c2cb8ab9 {
+  /* Resources */
+}
+#collection-5b8c050fc2241bd6c2cb8ab9 #banner-area #page-title {
+  text-align: left;
+}
+.view-item.collection-type-blog .sqs-block-code .shopify-buy-frame {
+  max-width: 100%!important;
+}
+#collection-5bcdc084104c7b8195ab4843 {
+  /* Shop Page */
+}
+#collection-5bcdc084104c7b8195ab4843 #banner-area-wrapper {
+  display: none;
+}
+#collection-5bcdc084104c7b8195ab4843 .sqs-col-6 .html-block {
+  padding-top: 0;
+}
+#collection-5bcdc084104c7b8195ab4843 .sqs-col-6 .image-block {
+  padding-bottom: 10px;
+}
+#collection-5bd9dacf575d1f8cef7be31d {
+  /* press page */
+}
+#collection-5bd9dacf575d1f8cef7be31d .sqs-gallery-design-grid-slide {
+  padding-bottom: 30px;
+}
+#collection-5bd9dacf575d1f8cef7be31d .sqs-gallery-design-grid-slide .image-slide-title {
+  margin-top: 15px;
 }
