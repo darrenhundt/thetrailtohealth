@@ -350,7 +350,7 @@ input.sqs-amazon-button.sqs-system-button.sqs-editable-button {
 	.press-slide-title {
 		white-space: normal!important;
 	}
-	@media (min-width: 768px) {
+	@media (min-width: 641px) {
 		.sqs-gallery-design-grid-slide:nth-child(2n+0) {
 			padding-left: 10px;
 			box-sizing: border-box;
@@ -358,6 +358,11 @@ input.sqs-amazon-button.sqs-system-button.sqs-editable-button {
 		.sqs-gallery-design-grid-slide:nth-child(2n+1) {
 			padding-right: 10px;
 			box-sizing: border-box;
+		}
+	}
+	@media (max-width: 640px) {
+		.sqs-gallery-design-grid-slide {
+			width: 100%!important;
 		}
 	}
 }
