@@ -1,7 +1,7 @@
 // JavaScript Document
 $(document).ready(function(){
 	
-	$('#collection-5bd9dacf575d1f8cef7be31 .image-slide-title').each(function(){
+	$('#collection-5bd9dacf575d1f8cef7be31d .image-slide-title').each(function(){
 		$(this).addClass('press-slide-title');
 	});
 	
