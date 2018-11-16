@@ -1,5 +1,10 @@
 // JavaScript Document
 $(document).ready(function(){
+	
+	$('##collection-5bd9dacf575d1f8cef7be31 .image-slide-title').each(function(){
+		$(this).addClass('press-slide-title');
+	});
+	
 	if ($('body').hasClass('collection-type-blog')) {
 		$( "#toggleCommentsLink, .article-meta .comments a" ).click(function() {
 		  $( "#comments-section" ).slideToggle( "slow", function() {
