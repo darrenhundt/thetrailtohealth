@@ -127,14 +127,17 @@
 		$('article a').each(function(){
 			if ( $(this).html() == 'Facebook' ) {
 				$(this).addClass('facebook-link');
+				$(this).attr('href','https://www.facebook.com/thetrailtohealth/');
 			} else if ( $(this).html() == 'Instagram' ) {
 				$(this).addClass('instagram-link');
+				$(this).attr('href','http://instagram.com/thetrailtohealth');
 			}
 		});
 	});
 </script>
 
 {.end}
+
 
 <!--PAGINATION-->
 
