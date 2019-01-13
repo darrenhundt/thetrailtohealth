@@ -6,8 +6,8 @@ $(document).ready(function(){
   $('#collection-5c3b89a84fa51afb62cfa0e3 .main-content .sqs-grid-12 .sqs-block-gallery').first().addClass('subnav-gallery').insertBefore('#banner-area-wrapper');
 	$('.subnav-gallery .sqs-gallery-design-grid-slide').each(function(i){
 		$(this).addClass('subnav-gallery-slide subnav-gallery-slide-' + i);
-		$(this).append('<div class="slide-overlay overlay-half slide-overlay-' + i + ''"></div>');
-		$(this).append('<div class="slide-overlay overlay-full slide-overlay-' + i + ''"></div>');
+		$(this).append('<div class="slide-overlay overlay-half slide-overlay-' + i + '"></div>');
+		$(this).append('<div class="slide-overlay overlay-full slide-overlay-' + i + '"></div>');
 	});
 	
 	
