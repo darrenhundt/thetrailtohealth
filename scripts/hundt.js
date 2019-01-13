@@ -1,6 +1,11 @@
 // JavaScript Document
 $(document).ready(function(){
 	
+	$('#collection-5c3b89a84fa51afb62cfa0e3 #banner-area-wrapper').hide();
+  $('#collection-5c3b89a84fa51afb62cfa0e3 .main-content .sqs-grid-12 .sqs-block-gallery').first().insertBefore('#banner-area-wrapper');
+	
+	
+	
 	$('#collection-5bd9dacf575d1f8cef7be31d .image-slide-title').each(function(){
 		$(this).addClass('press-slide-title');
 		$(this).html(function(index,html){
