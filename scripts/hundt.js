@@ -14,6 +14,24 @@ $(document).ready(function(){
 		titleBlock.appendTo($(this).find('.overlay-title-holder').first());
 		$(this).find('.overlay-title-holder').first().append(subTitleBlock);
 	});
+	$('.slide-subtitle').each(function(i){
+		switch(i) {
+			case 0:
+				$(this).html('Lyme disease, Autoimmune, Stem Cells & Weight Loss');
+				break;
+			case 1:
+				$(this).html('Delicious Gluten-free, Dairy-Free & Paleo');
+				break;
+			case 2:
+				$(this).html('Over 28-days of meals, perfect compliment to the whole 30 day diet.');
+				break;
+			case 3:
+				$(this).html('Read my story about how I was able to finally win my battle against lyme.');
+				break;
+			default:
+				break;
+		}	
+	});
 	
 	
 	
