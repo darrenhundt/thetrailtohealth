@@ -11,7 +11,7 @@ $(document).ready(function(){
 		$(this).append('<div class="slide-overlay overlay-half slide-overlay-' + i + '"></div>');
 		$(this).append('<div class="slide-overlay overlay-full slide-overlay-' + i + '"></div>');
 		$(this).append('<div class="slide-overlay overlay-title-holder"></div>');
-		//subTitleBlock.appendTo($(this).find('.overlay-title-holder').first());
+		$(this).find('.overlay-title-holder').first().append(subTitleBlock);
 		titleBlock.appendTo($(this).find('.overlay-title-holder').first());
 	});
 	
