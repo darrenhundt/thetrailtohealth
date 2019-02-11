@@ -23,10 +23,10 @@ $(document).ready(function(){
 				$(this).html('Delicious Gluten-free, Dairy-Free & Paleo');
 				break;
 			case 2:
-				$(this).html('Over 28-days of meals, perfect compliment to the whole 30 day diet.');
+				$(this).html('Over 28-days of meals, perfect compliment to the whole 30 diet');
 				break;
 			case 3:
-				$(this).html('Read my story about how I was able to finally win my battle against lyme.');
+				$(this).html('Read my story about how I was able to finally win my battle against lyme');
 				break;
 			default:
 				break;
