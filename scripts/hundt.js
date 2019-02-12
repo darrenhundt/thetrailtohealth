@@ -1,6 +1,10 @@
 // JavaScript Document
 $(document).ready(function(){
 	console.log('hello from hundt.js');
+	/* Homepage move gallery to header */
+	$('#collection-5692ee3f1115e0dc633ba4ad #banner-area-wrapper').hide();
+	$('#collection-5692ee3f1115e0dc633ba4ad .main-content .sqs-grid-12 .sqs-block-gallery').first().insertBefore('#banner-area-wrapper');
+	
 	$('#collection-5c3b89a84fa51afb62cfa0e3 #banner-area-wrapper').hide();
   $('#collection-5c3b89a84fa51afb62cfa0e3 .main-content .sqs-grid-12 .sqs-block-gallery').first().insertBefore('#banner-area-wrapper');
   $('#collection-5c3b89a84fa51afb62cfa0e3 .main-content .sqs-grid-12 .sqs-block-gallery').first().addClass('subnav-gallery').insertBefore('#banner-area-wrapper');
