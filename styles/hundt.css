@@ -1,4 +1,89 @@
 /* CSS Document */
+#collection-5c3b89a84fa51afb62cfa0e3 #page-header > .gallery-block {
+  padding-top: 0!important;
+  padding-bottom: 0!important;
+}
+#collection-5c3b89a84fa51afb62cfa0e3 .subnav-gallery-slide {
+  position: relative;
+}
+#collection-5c3b89a84fa51afb62cfa0e3 .subnav-gallery-slide .margin-wrapper > .image-slide-title {
+  display: none;
+}
+#collection-5c3b89a84fa51afb62cfa0e3 .subnav-gallery-slide .overlay-full {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9;
+  opacity: 0.45;
+}
+#collection-5c3b89a84fa51afb62cfa0e3 .subnav-gallery-slide .overlay-full.slide-overlay-0 {
+  background-color: #df9b9b;
+}
+#collection-5c3b89a84fa51afb62cfa0e3 .subnav-gallery-slide .overlay-full.slide-overlay-1 {
+  background-color: #7ab186;
+}
+#collection-5c3b89a84fa51afb62cfa0e3 .subnav-gallery-slide .overlay-full.slide-overlay-2 {
+  background-color: #568fb3;
+}
+#collection-5c3b89a84fa51afb62cfa0e3 .subnav-gallery-slide .overlay-full.slide-overlay-3 {
+  background-color: #a27baf;
+}
+#collection-5c3b89a84fa51afb62cfa0e3 .subnav-gallery-slide .overlay-half {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  opacity: 0.8;
+}
+#collection-5c3b89a84fa51afb62cfa0e3 .subnav-gallery-slide .overlay-half.slide-overlay-0 {
+  background-color: #ea937d;
+}
+#collection-5c3b89a84fa51afb62cfa0e3 .subnav-gallery-slide .overlay-half.slide-overlay-1 {
+  background-color: #8bba98;
+}
+#collection-5c3b89a84fa51afb62cfa0e3 .subnav-gallery-slide .overlay-half.slide-overlay-2 {
+  background-color: #4f81a1;
+}
+#collection-5c3b89a84fa51afb62cfa0e3 .subnav-gallery-slide .overlay-half.slide-overlay-3 {
+  background-color: #d896cb;
+}
+#collection-5c3b89a84fa51afb62cfa0e3 .subnav-gallery-slide .overlay-title-holder {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 11;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 10px;
+}
+#collection-5c3b89a84fa51afb62cfa0e3 .subnav-gallery-slide .overlay-title-holder .image-slide-title {
+  color: white;
+  font-size: 25px;
+  text-align: center;
+}
+#collection-5c3b89a84fa51afb62cfa0e3 .subnav-gallery-slide .overlay-title-holder .slide-subtitle {
+  color: white;
+  text-align: center;
+  margin: 10px 0;
+  line-height: 115%;
+}
 #comments-section {
   display: none;
 }
@@ -240,6 +325,9 @@ input.sqs-amazon-button.sqs-system-button.sqs-editable-button {
     max-height: 280px!important;
   }
 }
+.homepage .home-hero-slideshow .slide .meta {
+  left: 0!important;
+}
 #collection-5bd9dacf575d1f8cef7be31d {
   /* Press Page */
 }
@@ -277,5 +365,43 @@ input.sqs-amazon-button.sqs-system-button.sqs-editable-button {
   padding-bottom: 30px;
 }
 #collection-5bd9dacf575d1f8cef7be31d .sqs-gallery-design-grid-slide .image-slide-title {
-  margin-top: 15px;
+  margin-top: 20px;
+}
+#collection-5bd9dacf575d1f8cef7be31d .press-slide-title {
+  white-space: normal!important;
+}
+@media (min-width: 641px) {
+  #collection-5bd9dacf575d1f8cef7be31d .sqs-gallery-design-grid-slide:nth-child(2n+0) {
+    padding-left: 10px;
+    box-sizing: border-box;
+  }
+  #collection-5bd9dacf575d1f8cef7be31d .sqs-gallery-design-grid-slide:nth-child(2n+1) {
+    padding-right: 10px;
+    box-sizing: border-box;
+  }
+}
+@media (max-width: 640px) {
+  #collection-5bd9dacf575d1f8cef7be31d .sqs-gallery-design-grid-slide {
+    width: 100%!important;
+  }
+}
+#page-header .sqs-gallery-design-stacked-slide:nth-child(2) .meta {
+  left: 40px!important;
+  top: 50%;
+  bottom: auto;
+  transform: translatey(-50%);
+  background: transparent;
+  height: auto!important;
+}
+#page-header .sqs-gallery-design-stacked-slide:nth-child(2) .meta a {
+  padding: 12px 35px;
+  background: #e5e5e5;
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-bottom: none;
+}
+#page-header .sqs-gallery-design-stacked-slide:nth-child(2) .meta .meta-title + .meta-description {
+  margin-top: 1.3em;
 }
