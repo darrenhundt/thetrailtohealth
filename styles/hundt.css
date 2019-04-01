@@ -4,6 +4,7 @@
   padding-bottom: 0!important;
 }
 #collection-5c3b89a84fa51afb62cfa0e3 .subnav-gallery-slide {
+  padding-bottom: 85%;
   position: relative;
 }
 #collection-5c3b89a84fa51afb62cfa0e3 .subnav-gallery-slide .margin-wrapper > .image-slide-title {
@@ -42,7 +43,7 @@
 #collection-5c3b89a84fa51afb62cfa0e3 .subnav-gallery-slide .overlay-half.slide-overlay-0 {
   background-color: #ea937d;
 }
-#collection-5c3b89a84fa51afb62cfa0e3 .subnav-gallery-slide .overlay-half.slide-overlay-1 {
+15px #collection-5c3b89a84fa51afb62cfa0e3 .subnav-gallery-slide .overlay-half.slide-overlay-1 {
   background-color: #8bba98;
 }
 #collection-5c3b89a84fa51afb62cfa0e3 .subnav-gallery-slide .overlay-half.slide-overlay-2 {
@@ -83,6 +84,7 @@
   text-align: center;
   margin: 10px 0;
   line-height: 115%;
+  max-width: 280px;
 }
 #comments-section {
   display: none;
@@ -328,6 +330,19 @@ input.sqs-amazon-button.sqs-system-button.sqs-editable-button {
 .homepage .home-hero-slideshow .slide .meta {
   left: 0!important;
 }
+.homepage .home-hero-slideshow .slide .meta .meta-description {
+  margin-top: 30px;
+}
+.homepage .home-hero-slideshow .slide .meta .meta-description a {
+  padding: 15px;
+  background-color: white;
+  color: #333;
+  text-decoration: none;
+  font-size: 22px;
+}
+.homepage .home-hero-slideshow .slide:first-child .meta {
+  top: 10%;
+}
 #collection-5bd9dacf575d1f8cef7be31d {
   /* Press Page */
 }
@@ -404,4 +419,16 @@ input.sqs-amazon-button.sqs-system-button.sqs-editable-button {
 }
 #page-header .sqs-gallery-design-stacked-slide:nth-child(2) .meta .meta-title + .meta-description {
   margin-top: 1.3em;
+}
+.collection-5692ff0cc03355f6755d9dc2.view-item article p {
+  font-size: 15px;
+}
+#collection-5c9e22c1fa0d605f4af6e486 {
+  /* Travel Blog Index */
+}
+#collection-5c9e22c1fa0d605f4af6e486 #banner-area-wrapper {
+  min-height: 50vw;
+}
+#collection-5c9e22c1fa0d605f4af6e486 #banner-area-wrapper #page-title-wrapper {
+  display: none;
 }
