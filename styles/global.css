@@ -299,6 +299,10 @@
 @siteDescColor: #CFCFCF;
 
 
+/* SUBNAV SQUARES */
+//tweak: { type: 'color', title: 'Square 1 Bottom', target: '.slide-overlay-0', category: 'SUBNAV SQUARES' }
+@bgColorSlide1Half: #ea937d;
+
 /* FOOTER */
 
 //tweak: { type: 'font', title: 'Footer Text', target: '#page-footer', loadAllVariants: true, category: 'Footer' }
