@@ -300,22 +300,22 @@
 
 
 /* SUBNAV SQUARES */
-//tweak: { type: 'color', title: 'Square 1 BG', target: '.overlay-full.slide-overlay-0', category: 'SUBNAV SQUARES' }
+//tweak: { type: 'color', title: 'Square 1 Background', target: '.overlay-full.slide-overlay-0', category: 'SUBNAV SQUARES' }
 @bgColorSlide1Full: #df9b9b;
 //tweak: { type: 'color', title: 'Square 1 Bottom', target: '.overlay-half.slide-overlay-0', category: 'SUBNAV SQUARES' }
 @bgColorSlide1Half: #ea937d;
 
-//tweak: { type: 'color', title: 'Square 2 BG', target: '.overlay-full.slide-overlay-1', category: 'SUBNAV SQUARES' }
+//tweak: { type: 'color', title: 'Square 2 Background', target: '.overlay-full.slide-overlay-1', category: 'SUBNAV SQUARES' }
 @bgColorSlide2Full: #7ab186;
 //tweak: { type: 'color', title: 'Square 2 Bottom', target: '.overlay-half.slide-overlay-1', category: 'SUBNAV SQUARES' }
 @bgColorSlide2Half: #8bba98;
 
-//tweak: { type: 'color', title: 'Square 3 BG', target: '.overlay-full.slide-overlay-2', category: 'SUBNAV SQUARES' }
+//tweak: { type: 'color', title: 'Square 3 Background', target: '.overlay-full.slide-overlay-2', category: 'SUBNAV SQUARES' }
 @bgColorSlide3Full: #568fb3;
 //tweak: { type: 'color', title: 'Square 3 Bottom', target: '.overlay-half.slide-overlay-2', category: 'SUBNAV SQUARES' }
 @bgColorSlide3Half: #4f81a1;
 
-//tweak: { type: 'color', title: 'Square 4 BG', target: '.overlay-full.slide-overlay-3', category: 'SUBNAV SQUARES' }
+//tweak: { type: 'color', title: 'Square 4 Background', target: '.overlay-full.slide-overlay-3', category: 'SUBNAV SQUARES' }
 @bgColorSlide4Full: #a27baf;
 //tweak: { type: 'color', title: 'Square 4 Bottom', target: '.overlay-half.slide-overlay-3', category: 'SUBNAV SQUARES' }
 @bgColorSlide4Half: #d896cb;
