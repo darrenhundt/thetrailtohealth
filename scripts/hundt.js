@@ -88,6 +88,7 @@ $(document).ready(function(){
 			$('.sqs-popup-overlay h1').addClass('popup-h1-found').prepend('<img class="popup-logo" src="https://static1.squarespace.com/static/5692edc9df40f361d6f8b0a4/t/569b179a76d99c4f39160575/1537736298122/?format=1500w"/>');
 		}, 5000);	
 	
+	$('#collection-5c3b89a84fa51afb62cfa0e3 #page-header .sqs-block-gallery:nth-child(2) .slide:first-child').attr('id','eventbrite-widget-modal-trigger-62798603313');
 	$('#collection-5c3b89a84fa51afb62cfa0e3 #page-header .sqs-block-gallery:nth-child(2) .slide:first-child').addClass('first-home-slide');
 	$('.first-home-slide .meta-description a').attr('id','eventbrite-widget-modal-trigger-62798603313');
 	$('.first-home-slide .meta-description a').attr('href','#');
