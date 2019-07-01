@@ -13,7 +13,7 @@ $(document).ready(function(){
 		var subTitleBlock = '<p class="slide-subtitle"></p>';
 		$(this).addClass('subnav-gallery-slide subnav-gallery-slide-' + i);
 		$(this).append('<div class="slide-overlay overlay-half slide-overlay-' + i + '"></div>');
-		$(this).append('<div class="slide-overlay overlay-full slide-overlay-' + i + '"></div>');
+		$(this).append('<a class="slide-overlay overlay-full slide-overlay-' + i + '"></a>');
 		$(this).append('<div class="slide-overlay overlay-title-holder"></div>');
 		titleBlock.appendTo($(this).find('.overlay-title-holder').first());
 		$(this).find('.overlay-title-holder').first().append(subTitleBlock);
