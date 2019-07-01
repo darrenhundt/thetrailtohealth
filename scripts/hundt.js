@@ -36,7 +36,10 @@ $(document).ready(function(){
 				break;
 		}	
 	});
-	
+	$('.slide-overlay-0').attr('href','/coaching');
+	$('.slide-overlay-1').attr('href','/recipes');
+	$('.slide-overlay-2').attr('href','/shop');
+	$('.slide-overlay-3').attr('href','/myjourney');
 	
 	
 	
