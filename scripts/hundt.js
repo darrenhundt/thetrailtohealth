@@ -96,7 +96,7 @@ $(document).ready(function(){
 	$('.first-home-slide .meta-description a').attr('id','eventbrite-widget-modal-trigger-62798603313');
 	$('.first-home-slide .meta-description a').attr('href','#');
 	
-	$('#main-navigation > ul > li').each(function(){
+	$('#main-navigation > ul > li > a').each(function(){
 		console.log($(this).html());
 	});
 });
