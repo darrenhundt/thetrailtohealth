@@ -97,7 +97,7 @@ $(document).ready(function(){
 	$('.first-home-slide .meta-description a').attr('href','#');
 	
 	$('#main-navigation > ul > li').each(function(){
-		console.log($(this).html();)
+		console.log($(this).html());
 	});
 });
 
