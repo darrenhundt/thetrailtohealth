@@ -97,7 +97,11 @@ $(document).ready(function(){
 	$('.first-home-slide .meta-description a').attr('href','#');
 	
 	$('#main-navigation > ul > li > a').each(function(){
-		console.log($(this).html());
+		var linkContent = $(this).html();
+		console.log(linkContent);
+		if (linkContent == 'Blog') {
+			this.attr('href','/blog/');
+		}
 	});
 });
 
