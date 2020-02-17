@@ -101,18 +101,23 @@ $(document).ready(function(){
 		console.log(linkContent);
 		if (linkContent == 'Blog') {
 			$(this).attr('href','/blog/');
+			$(this).attr('onclick','');
 		}
 		if (linkContent == 'Travel') {
 			$(this).attr('href','/travel/');
+			$(this).attr('onclick','');
 		}
 		if (linkContent == 'Recipes') {
 			$(this).attr('href','/recipes/');
+			$(this).attr('onclick','');
 		}
 		if (linkContent == 'Shop') {
 			$(this).attr('href','/shop-page/');
+			$(this).attr('onclick','');
 		}
 		if (linkContent == 'Press') {
 			$(this).attr('href','/press/');
+			$(this).attr('onclick','');
 		}
 	});
 });
