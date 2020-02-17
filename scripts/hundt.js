@@ -95,6 +95,10 @@ $(document).ready(function(){
 	$('#collection-5c3b89a84fa51afb62cfa0e3 #page-header .sqs-block-gallery:nth-child(2) .slide:first-child').addClass('first-home-slide');
 	$('.first-home-slide .meta-description a').attr('id','eventbrite-widget-modal-trigger-62798603313');
 	$('.first-home-slide .meta-description a').attr('href','#');
+	
+	$('#main-navigation > ul > li').each(function(){
+		console.log($(this).html();)
+	});
 });
 
 
