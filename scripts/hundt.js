@@ -102,6 +102,18 @@ $(document).ready(function(){
 		if (linkContent == 'Blog') {
 			$(this).attr('href','/blog/');
 		}
+		if (linkContent == 'Travel') {
+			$(this).attr('href','/travel/');
+		}
+		if (linkContent == 'Recipes') {
+			$(this).attr('href','/recipes/');
+		}
+		if (linkContent == 'Shop') {
+			$(this).attr('href','/shop-page/');
+		}
+		if (linkContent == 'Press') {
+			$(this).attr('href','/press/');
+		}
 	});
 });
 
