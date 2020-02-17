@@ -100,7 +100,7 @@ $(document).ready(function(){
 		var linkContent = $(this).html();
 		console.log(linkContent);
 		if (linkContent == 'Blog') {
-			this.attr('href','/blog/');
+			$(this).attr('href','/blog/');
 		}
 	});
 });
