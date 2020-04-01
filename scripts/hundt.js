@@ -123,7 +123,12 @@ $(document).ready(function(){
 	
 	if ($('#collection-5e84a602cb44b3644a90a8a1').length) {
 		$('.main-content h2').each(function(){
-			console.log($(this).html());
+			var tagLabel = $(this).html();
+			var titleHtmlBlock = $(this).closest('.html-block');
+			var tagSummary = titleHtmlBlock.next('.summary-v2-block');
+			var tagJson = tagSummary.attr('data-block-json');
+			console.log(tagJson);
+			
 		});
 	}
 });
