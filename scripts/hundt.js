@@ -128,7 +128,7 @@ $(document).ready(function(){
 			var tagSummary = titleHtmlBlock.next('.summary-v2-block');
 			var tagJson = tagSummary.attr('data-block-json');
 			var tagJsonParsed = $.parseJSON(tagJson);
-			console.log(tagJson);
+			console.log(tagJsonParsed);
 			
 		});
 	}
