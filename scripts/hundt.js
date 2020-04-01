@@ -128,7 +128,7 @@ $(document).ready(function(){
 		$('.main-content h2').each(function(){
 			var tagLabel = $(this).html();
 			var titleHtmlBlock = $(this).closest('.html-block');
-			var tagSummary = titleHtmlBlock.next('.summary-v2-block');
+			var tagLine = titleHtmlBlock.next('.summary-v2-block');
 			var tagSummary = titleHtmlBlock.next('.summary-v2-block');
 			//var thisSection = tagSummary.prevAll('.horizontalrule-block').andSelf().wrapAll('<div class="tag-section-wrapper"/>');
 			var tagJson = tagSummary.attr('data-block-json');
