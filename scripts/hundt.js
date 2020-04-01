@@ -126,7 +126,7 @@ $(document).ready(function(){
 			var tagLabel = $(this).html();
 			var titleHtmlBlock = $(this).closest('.html-block');
 			var tagSummary = titleHtmlBlock.next('.summary-v2-block');
-			var tagJson = tagSummary.attr('data-block-json');
+			var tagJson = tagSummary.attr('data-block-json').parseJSON();
 			console.log(tagJson);
 			
 		});
