@@ -122,6 +122,8 @@ $(document).ready(function(){
 	});
 	
 	if ($('#collection-5e84a602cb44b3644a90a8a1').length) {
+		var contentHeader = $('#page-body-header');
+		var filterContainer = contentHeader.find('.html-block p');
 		$('.main-content h2').each(function(){
 			var tagLabel = $(this).html();
 			var titleHtmlBlock = $(this).closest('.html-block');
@@ -133,6 +135,7 @@ $(document).ready(function(){
 			var tagId = "#" + tagHandle;
 			console.log(tagHandle);
 			tagSummary.attr('id',tagHandle);
+			filterContainer.append(tagString + ' | ');
 		});
 	}
 });
