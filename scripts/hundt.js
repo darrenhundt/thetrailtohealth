@@ -128,8 +128,8 @@ $(document).ready(function(){
 		$('.main-content h2').each(function(){
 			var tagLabel = $(this).html();
 			var titleHtmlBlock = $(this).closest('.html-block');
-			var thisSection = titleHtmlBlock.nextUntil('.html-block').andSelf().wrapAll('<div class="tag-section-wrapper"/>');
 			var tagSummary = titleHtmlBlock.next('.summary-v2-block');
+			var thisSection = tagSummary.prevUntil('.html-block').andSelf().wrapAll('<div class="tag-section-wrapper"/>');
 			var tagJson = tagSummary.attr('data-block-json');
 			var tagJsonParsed = $.parseJSON(tagJson);
 			var tagString = tagJsonParsed['filter']['tag'];
