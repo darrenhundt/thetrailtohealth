@@ -120,6 +120,12 @@ $(document).ready(function(){
 			$(this).attr('onclick','');
 		}
 	});
+	
+	if ($('#collection-5e84a602cb44b3644a90a8a1').length) {
+		$('.main-content h2').each(function(){
+			console.log($(this));
+		});
+	}
 });
 
 
