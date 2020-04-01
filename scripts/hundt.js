@@ -131,7 +131,8 @@ $(document).ready(function(){
 			var tagLine = titleHtmlBlock.prev('.horizontalrule-block');
 			var tagSummary = titleHtmlBlock.next('.summary-v2-block');
 			var thisSection = tagSummary.prevAll('.html-block').andSelf().wrapAll('<div class="tag-section-wrapper"/>');
-			console.log(tagSummary);
+			var newWrapper = tagSummary.parent();
+			tagLine.prependTo(newWrapper);
 			var tagJson = tagSummary.attr('data-block-json');
 			var tagJsonParsed = $.parseJSON(tagJson);
 			var tagString = tagJsonParsed['filter']['tag'];
