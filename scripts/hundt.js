@@ -126,7 +126,7 @@ $(document).ready(function(){
 		var filterContainer = contentHeader.find('.html-block p');
 		filterContainer.html('');
 		$('.main-content h2').each(function(){
-			var tagLabel.toUpperCase() = $(this).html();
+			var tagLabel = $(this).html().toUpperCase();
 			var titleHtmlBlock = $(this).closest('.html-block');
 			var tagLine = titleHtmlBlock.prev('.horizontalrule-block');
 			var tagSummary = titleHtmlBlock.next('.summary-v2-block');
