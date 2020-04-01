@@ -131,14 +131,14 @@ $(document).ready(function(){
 			var tagLine = titleHtmlBlock.prev('.horizontalrule-block');
 			var tagSummary = titleHtmlBlock.next('.summary-v2-block');
 			var thisSection = tagSummary.prevAll('.html-block').andSelf().wrapAll('<div class="tag-section-wrapper"/>');
-			tagLine.insertBefore(thisSection);
+			console.log(thisSection);
 			var tagJson = tagSummary.attr('data-block-json');
 			var tagJsonParsed = $.parseJSON(tagJson);
 			var tagString = tagJsonParsed['filter']['tag'];
 			var tagHandle = tagString.toLowerCase().replace(/ /g,'-');
 			var tagId = "#" + tagHandle;
 			var tagLink = '<a href="' + tagId + '" class="brand-filter-link">' + tagLabel + '</a>';
-			console.log(tagHandle);
+			//console.log(tagHandle);
 			tagSummary.attr('id',tagHandle);
 			filterContainer.append(tagLink + ' | ');
 		});
