@@ -129,7 +129,7 @@ $(document).ready(function(){
 			var tagLabel = $(this).html();
 			var titleHtmlBlock = $(this).closest('.html-block');
 			var thisSection = titleHtmlBlock.nextUntil('.html-block');
-			tishSection.wrapAll('<div class="tag-section-wrapper"/>');
+			thisSection.wrapAll('<div class="tag-section-wrapper"/>');
 			var tagSummary = titleHtmlBlock.next('.summary-v2-block');
 			var tagJson = tagSummary.attr('data-block-json');
 			var tagJsonParsed = $.parseJSON(tagJson);
