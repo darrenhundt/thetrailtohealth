@@ -143,7 +143,8 @@ $(document).ready(function(){
 			newWrapper.attr('id',tagHandle);
 			filterContainer.append(tagLink + ' | ');
 		});
-		$('.brand-filter-link').on('click',function(){
+		$('.brand-filter-link').on('click',function(e){
+			e.preventDefault();
 			$('.tag-section-wrapper').hide();
 			var targetId = $(this).attr('href');
 			console.log(targetId);
