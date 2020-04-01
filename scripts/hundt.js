@@ -140,7 +140,7 @@ $(document).ready(function(){
 			var tagId = "#" + tagHandle;
 			var tagLink = '<a href="' + tagId + '" class="brand-filter-link">' + tagLabel + '</a>';
 			//console.log(tagHandle);
-			tagSummary.attr('id',tagHandle);
+			newWrapper.attr('id',tagHandle);
 			filterContainer.append(tagLink + ' | ');
 		});
 	}
