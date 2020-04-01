@@ -130,8 +130,9 @@ $(document).ready(function(){
 			var tagJsonParsed = $.parseJSON(tagJson);
 			var tagString = tagJsonParsed['filter']['tag'];
 			var tagHandle = tagString.toLowerCase().replace(/ /g,'-');
+			var tagId = "#" + tagHandle;
 			console.log(tagHandle);
-			
+			tagSummary.attr('id',tagHandle);
 		});
 	}
 });
