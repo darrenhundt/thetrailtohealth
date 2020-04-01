@@ -137,7 +137,7 @@ $(document).ready(function(){
 			var tagLink = '<a href="tagId" class="brand-filter-link">' + tagString + '</a>';
 			console.log(tagHandle);
 			tagSummary.attr('id',tagHandle);
-			filterContainer.append(tagString + ' | ');
+			filterContainer.append(tagLink + ' | ');
 		});
 	}
 });
