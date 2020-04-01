@@ -98,7 +98,7 @@ $(document).ready(function(){
 	
 	$('#main-navigation > ul > li > a').each(function(){
 		var linkContent = $(this).html();
-		console.log(linkContent);
+		//console.log(linkContent);
 		if (linkContent == 'Blog') {
 			$(this).attr('href','/blog/');
 			$(this).attr('onclick','');
