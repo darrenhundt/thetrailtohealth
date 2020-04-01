@@ -134,7 +134,7 @@ $(document).ready(function(){
 			var tagString = tagJsonParsed['filter']['tag'];
 			var tagHandle = tagString.toLowerCase().replace(/ /g,'-');
 			var tagId = "#" + tagHandle;
-			var tagLink = '<a href="' + tagId + '" class="brand-filter-link">' + tagString + '</a>';
+			var tagLink = '<a href="' + tagId + '" class="brand-filter-link">' + tagLabel + '</a>';
 			console.log(tagHandle);
 			tagSummary.attr('id',tagHandle);
 			filterContainer.append(tagLink + ' | ');
