@@ -124,9 +124,9 @@ $(document).ready(function(){
 	if ($('#collection-5e84a602cb44b3644a90a8a1').length) {
 		var contentHeader = $('#page-body-header');
 		var filterContainer = contentHeader.find('.html-block p');
-		filterContainer.html('');
+		filterContainer.html('<a href="#all" class="brand-filter-link brand-filter-link-all">All</a>');
 		$('.main-content h2').each(function(){
-			var tagLabel = $(this).html().toUpperCase();
+			var tagLabel = $(this).html().toLowerCase();
 			var titleHtmlBlock = $(this).closest('.html-block');
 			var tagLine = titleHtmlBlock.prev('.horizontalrule-block');
 			var tagSummary = titleHtmlBlock.next('.summary-v2-block');
@@ -145,11 +145,15 @@ $(document).ready(function(){
 		});
 		$('.brand-filter-link').on('click',function(e){
 			e.preventDefault();
-			$('.tag-section-wrapper').hide();
-			var targetId = $(this).attr('href');
-			console.log(targetId);
-			var targetSection = $(targetId);
-			targetSection.fadeIn();
+			if ( $(this).hasClass() ) {
+				$('.tag-section-wrapper').fadeIn();
+			} else {
+				$('.tag-section-wrapper').hide();
+				var targetId = $(this).attr('href');
+				console.log(targetId);
+				var targetSection = $(targetId);
+				targetSection.fadeIn();
+			}
 		});
 	}
 });
