@@ -145,7 +145,7 @@ $(document).ready(function(){
 		});
 		$('.brand-filter-link').on('click',function(e){
 			e.preventDefault();
-			if ( $(this).hasClass() ) {
+			if ( $(this).hasClass('brand-filter-link-all') ) {
 				$('.tag-section-wrapper').fadeIn();
 			} else {
 				$('.tag-section-wrapper').hide();
