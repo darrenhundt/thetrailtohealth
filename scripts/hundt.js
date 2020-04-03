@@ -124,7 +124,7 @@ $(document).ready(function(){
 	if ($('#collection-5e84a602cb44b3644a90a8a1').length) {
 		var contentHeader = $('#page-body-header');
 		var filterContainer = contentHeader.find('.html-block p');
-		filterContainer.html('<a href="#all" class="brand-filter-link brand-filter-link-all">All</a>');
+		filterContainer.html('<a href="#all" class="brand-filter-link brand-filter-link-all">All</a>&nbsp;|&nbsp;');
 		$('.main-content h2').each(function(){
 			var tagLabel = $(this).html().toLowerCase();
 			var titleHtmlBlock = $(this).closest('.html-block');
