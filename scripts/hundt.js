@@ -53,7 +53,7 @@ $(document).ready(function(){
 	
 	$('#collection-5e8fac64d61b45104195397f .summary-title-link').each(function(){
 		$(this).addClass('press-slide-title');
-		var existingHtml = $(this.html);
+		var existingHtml = $(this.html();
 		var processedHtml = existingHtml.replace('**br**','<br/>');
 		$(this).html(processedHtml);
 	});
