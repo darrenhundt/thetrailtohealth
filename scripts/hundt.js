@@ -44,7 +44,7 @@ $(document).ready(function(){
 	
 	
 	
-	$('#collection-5bd9dacf575d1f8cef7be31d .image-slide-title, #collection-5c6211cc7817f7af6e7d62c3 .image-slide-title').each(function(){
+	$('#collection-5bd9dacf575d1f8cef7be31d .image-slide-title, #collection-5c6211cc7817f7af6e7d62c3 .image-slide-title, #collection-5e8fac64d61b45104195397f .summary-title-link').each(function(){
 		$(this).addClass('press-slide-title');
 		$(this).html(function(index,html){
 			return html.replace('**br**','<br/>');
