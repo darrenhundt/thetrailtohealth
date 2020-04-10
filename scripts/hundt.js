@@ -134,7 +134,7 @@ $(document).ready(function(){
 		var filterContainer = contentHeader.find('.html-block h3');
 		filterContainer.html('<a href="#all" class="brand-filter-link brand-filter-link-all">All</a>&nbsp;|&nbsp;');
 		$('.main-content h2').each(function(){
-			var tagLabel = $(this).html().toLowerCase();
+			var tagLabel = $(this).html().toLowerCase().replace('La F','LA F');
 			var titleHtmlBlock = $(this).closest('.html-block');
 			var tagLine = titleHtmlBlock.prev('.horizontalrule-block');
 			var tagSummary = titleHtmlBlock.next('.summary-v2-block');
