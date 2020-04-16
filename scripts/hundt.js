@@ -154,7 +154,7 @@ $(document).ready(function(){
 			$('#page-body-header .sqs-block-content h2').append(filterString);
 		});
 		var allFiltersString = $('#page-body-header .sqs-block-content h2').html();
-		allFiltersString = allFiltersString.substring(0, allFiltersString.length - 1);
+		allFiltersString = allFiltersString.substring(0, allFiltersString.length - 2);
 		$('#page-body-header .sqs-block-content h2').html(allFiltersString);
 	}
 	if ($('#collection-5e84a602cb44b3644a90a8a1').length) {
