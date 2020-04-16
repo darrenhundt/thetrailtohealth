@@ -131,8 +131,9 @@ $(document).ready(function(){
 	
 	if ($('#collection-5e8fac64d61b45104195397f').length) {
 		console.log('filtered press page');
-		$('.main-content .html-block h1').each(function(){
-			console.log($(this).html());
+		$('.main-content .html-block').each(function(){
+			var titleText = $(this).find('h1');
+			console.log(titleText.html());
 			console.log($(this).nextUntil('.spacer-block'));
 			$(this).nextUntil('.spacer-block').wrapAll('<div class="category-wrapper" />');
 		});
