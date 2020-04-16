@@ -131,6 +131,9 @@ $(document).ready(function(){
 	
 	if ($('#collection-5e8fac64d61b45104195397f').length) {
 		console.log('filtered press page');
+		$('.main-content .html-block h1').each(function(){
+			console.log($(this).html());
+		});
 	}
 	if ($('#collection-5e84a602cb44b3644a90a8a1').length) {
 		var contentHeader = $('#page-body-header');
