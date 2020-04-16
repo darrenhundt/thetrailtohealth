@@ -141,7 +141,11 @@ $(document).ready(function(){
 			
 			var categoryName = summaryJson.filter.category;
 			console.log(categoryName);
-			var categoryHandle = categoryName.toLowerCase().replace(/ /g,'-');
+			if (categoryName) {
+				var categoryHandle = categoryName.toLowerCase().replace(/ /g,'-');
+			} else {
+				var categoryHandle = 'all';
+			}
 			console.log(categoryHandle);
 			thisEl.add(nextEl).add(nextNextEl).wrapAll('<div class="category-wrapper" />');
 		});
