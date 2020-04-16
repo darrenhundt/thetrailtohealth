@@ -134,7 +134,7 @@ $(document).ready(function(){
 		$('.main-content .html-block').each(function(){
 			var titleText = $(this).find('h1');
 			var inclusiveNextUntilCount = $(this).nextUntil( '.spacer-block' ).length;
-			var inclusiveNextUntil = $(this).nextAll().addSelf().slice( 0 , inclusiveNextUntilCount + 2 );
+			var inclusiveNextUntil = $(this).nextAll().slice( 0 , inclusiveNextUntilCount + 2 ).addSelf();
 			inclusiveNextUntil.wrapAll('<div class="category-wrapper" />');
 		});
 	}
