@@ -133,6 +133,7 @@ $(document).ready(function(){
 		console.log('filtered press page');
 		$('.main-content .html-block h1').each(function(){
 			console.log($(this).html());
+			$(this).nextUntil('.spacer-block').wrapAll('<div class="category-wrapper" />');
 		});
 	}
 	if ($('#collection-5e84a602cb44b3644a90a8a1').length) {
