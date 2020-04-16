@@ -139,10 +139,10 @@ $(document).ready(function(){
 			var summaryJsonString = nextEl.attr('data-block-json');
 			var summaryJson = jQuery.parseJSON(summaryJsonString);
 			
-			var categoryHandle = summaryJson.filter.category;
+			var categoryName = summaryJson.filter.category;
+			console.log(categoryName);
+			var categoryHandle = categoryName.toLowerCase().replace(/ /g,'-');
 			console.log(categoryHandle);
-			//categoryHandle = categoryHandle.toLowerCase().replace(/ /g,'-');
-			//console.log(categoryHandle);
 			thisEl.add(nextEl).add(nextNextEl).wrapAll('<div class="category-wrapper" />');
 		});
 	}
