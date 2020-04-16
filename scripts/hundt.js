@@ -134,7 +134,6 @@ $(document).ready(function(){
 		$('.main-content .html-block').each(function(){
 			var titleText = $(this).find('h1');
 			console.log(titleText.html());
-			console.log($(this).nextUntil('.spacer-block'));
 			$(this).nextUntil('.spacer-block').wrapAll('<div class="category-wrapper" />');
 		});
 	}
