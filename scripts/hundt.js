@@ -133,7 +133,7 @@ $(document).ready(function(){
 		console.log('filtered press page');
 		$('.main-content .html-block').each(function(){
 			var titleText = $(this).find('h1');
-			var inclusiveNextUntilCount = $(this).nextUntil( '.spacer-block' ).length;
+			var inclusiveNextUntilCount = $(this).nextUntil( '.spacer-block' ).addSelf().length;
 			var inclusiveNextUntil = $(this).nextAll().slice( 0 , inclusiveNextUntilCount + 1 );
 			inclusiveNextUntil.wrapAll('<div class="category-wrapper" />');
 		});
