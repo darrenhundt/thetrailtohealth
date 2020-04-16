@@ -140,8 +140,9 @@ $(document).ready(function(){
 			var summaryJson = jQuery.parseJSON(summaryJsonString);
 			
 			var categoryHandle = summaryJson.filter.category;
-			categoryHandle = categoryHandle.toLowerCase().replace(/ /g,'-');
 			console.log(categoryHandle);
+			//categoryHandle = categoryHandle.toLowerCase().replace(/ /g,'-');
+			//console.log(categoryHandle);
 			thisEl.add(nextEl).add(nextNextEl).wrapAll('<div class="category-wrapper" />');
 		});
 	}
