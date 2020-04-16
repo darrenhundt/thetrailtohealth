@@ -131,7 +131,7 @@ $(document).ready(function(){
 	
 	if ($('#collection-5e8fac64d61b45104195397f').length) {
 		console.log('filtered press page');
-		$('#page-body-header .sqs-block-content').html('');
+		$('#page-body-header .sqs-block-content h2').html('');
 		$('.main-content .html-block').each(function(){
 			var titleText = $(this).find('h1');
 			var nextEl = $(this).next();
@@ -150,8 +150,8 @@ $(document).ready(function(){
 			}
 			console.log(categoryHandle);
 			thisEl.add(nextEl).add(nextNextEl).wrapAll('<div id="' + categoryHandle + '" class="category-wrapper" />');
-			var filterString = '<h2><a href="#' + categoryHandle + '" class="filter-link">' + categoryName + '</a></h2> | ';
-			$('#page-body-header .sqs-block-content').append(filterString);
+			var filterString = '<a href="#' + categoryHandle + '" class="filter-link">' + categoryName + '</a> | ';
+			$('#page-body-header .sqs-block-content h2').append(filterString);
 		});
 	}
 	if ($('#collection-5e84a602cb44b3644a90a8a1').length) {
