@@ -138,7 +138,10 @@ $(document).ready(function(){
 			var thisEl = $(this);
 			var summaryJsonString = nextEl.attr('data-block-json');
 			var summaryJson = jQuery.parseJSON(summaryJsonString);
-			console.log(summaryJson.filter.category);
+			
+			var categoryHandle = summaryJson.filter.category;
+			categoryHandle = categoryHandle.toLowerCase().replace(/ /g,'-');
+			console.log(categoryHandle);
 			thisEl.add(nextEl).add(nextNextEl).wrapAll('<div class="category-wrapper" />');
 		});
 	}
