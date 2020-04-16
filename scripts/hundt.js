@@ -133,6 +133,7 @@ $(document).ready(function(){
 		console.log('filtered press page');
 		$('.main-content .html-block h1').each(function(){
 			console.log($(this).html());
+			console.log($(this).nextUntil('.spacer-block'));
 			$(this).nextUntil('.spacer-block').wrapAll('<div class="category-wrapper" />');
 		});
 	}
