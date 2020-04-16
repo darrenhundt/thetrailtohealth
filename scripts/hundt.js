@@ -150,13 +150,24 @@ $(document).ready(function(){
 			}
 			console.log(categoryHandle);
 			thisEl.add(nextEl).add(nextNextEl).wrapAll('<div id="' + categoryHandle + '" class="category-wrapper" />');
-			var filterString = '<a href="#' + categoryHandle + '" class="filter-link">' + categoryName + '</a> | ';
+			var filterString = '<a href="#' + categoryHandle + '" class="press-filter-link">' + categoryName + '</a> | ';
 			$('#page-body-header .sqs-block-content h2').append(filterString);
 		});
 		var allFiltersString = $('#page-body-header .sqs-block-content h2').html();
 		allFiltersString = allFiltersString.substring(0, allFiltersString.length - 2);
 		$('#page-body-header .sqs-block-content h2').html(allFiltersString);
+		
+		$('.press-filter-link').on('click',function(e){
+			e.preventDefault();
+			$('.category-wrapper').hide();
+			var targetId = $(this).attr('href');
+			console.log(targetId);
+			var targetSection = $(targetId);
+			targetSection.fadeIn();
+		});
+		
 	}
+	
 	if ($('#collection-5e84a602cb44b3644a90a8a1').length) {
 		var contentHeader = $('#page-body-header');
 		var filterContainer = contentHeader.find('.html-block h3');
