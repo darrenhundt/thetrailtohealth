@@ -143,7 +143,7 @@ $(document).ready(function(){
 			var categoryName = summaryJson.filter.category;
 			console.log(categoryName);
 			if (categoryName) {
-				var categoryHandle = categoryName.toLowerCase().replace(/ /g,'-');
+				var categoryHandle = categoryName.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/-$/, '').replace(/^-/, '');
 			} else {
 				var categoryHandle = 'all';
 				categoryName = "All";
