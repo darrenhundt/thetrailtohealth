@@ -136,6 +136,9 @@ $(document).ready(function(){
 			var nextEl = $(this).next();
 			var nextNextEl = nextEl.next();
 			var thisEl = $(this);
+			var summaryJsonString = nextEl.attr('data-block-json');
+			var summaryJson = jQuery.parseJSON(summaryJsonString);
+			console.log(summaryJson);
 			thisEl.add(nextEl).add(nextNextEl).wrapAll('<div class="category-wrapper" />');
 		});
 	}
