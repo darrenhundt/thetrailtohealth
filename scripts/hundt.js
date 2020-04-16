@@ -133,9 +133,10 @@ $(document).ready(function(){
 		console.log('filtered press page');
 		$('.main-content .html-block').each(function(){
 			var titleText = $(this).find('h1');
-			var inclusiveNextUntilCount = $(this).nextUntil( '.spacer-block' ).length;
-			var inclusiveNextUntil = $(this).nextAll().slice( 0 , inclusiveNextUntilCount + 2 ).addSelf();
-			inclusiveNextUntil.wrapAll('<div class="category-wrapper" />');
+			var nextEl = $(this).next();
+			var nextNextEl = nextEl.next();
+			var thisEl = $(this);
+			thisEl.add(nextEl).add(nextNextEl).wrapAll('<div class="category-wrapper" />');
 		});
 	}
 	if ($('#collection-5e84a602cb44b3644a90a8a1').length) {
