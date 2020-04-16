@@ -147,7 +147,7 @@ $(document).ready(function(){
 				var categoryHandle = 'all';
 			}
 			console.log(categoryHandle);
-			thisEl.add(nextEl).add(nextNextEl).wrapAll('<div class="category-wrapper" />');
+			thisEl.add(nextEl).add(nextNextEl).wrapAll('<div id="' + categoryHandle + '" class="category-wrapper" />');
 		});
 	}
 	if ($('#collection-5e84a602cb44b3644a90a8a1').length) {
