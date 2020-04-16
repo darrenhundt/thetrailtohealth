@@ -134,7 +134,7 @@ $(document).ready(function(){
 		$('.main-content .html-block').each(function(){
 			var titleText = $(this).find('h1');
 			console.log(titleText.html());
-			$(this).nextUntil('.spacer-block').wrapAll('<div class="category-wrapper" />');
+			$(this).nextUntil('.spacer-block').andSelf().wrapAll('<div class="category-wrapper" />');
 		});
 	}
 	if ($('#collection-5e84a602cb44b3644a90a8a1').length) {
