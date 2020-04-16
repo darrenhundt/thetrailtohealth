@@ -145,6 +145,7 @@ $(document).ready(function(){
 				var categoryHandle = categoryName.toLowerCase().replace(/ /g,'-');
 			} else {
 				var categoryHandle = 'all';
+				categoryName = "All";
 			}
 			console.log(categoryHandle);
 			thisEl.add(nextEl).add(nextNextEl).wrapAll('<div id="' + categoryHandle + '" class="category-wrapper" />');
