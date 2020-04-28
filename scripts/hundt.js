@@ -165,6 +165,7 @@ $(document).ready(function(){
 			var targetSection = $(targetId);
 			targetSection.fadeIn();
 			var targetWidth = targetSection.width();
+			console.log(targetWidth);
 			targetSection.width(targetWidth);
 		});
 		
