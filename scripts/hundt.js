@@ -164,6 +164,8 @@ $(document).ready(function(){
 			console.log(targetId);
 			var targetSection = $(targetId);
 			targetSection.fadeIn();
+			var targetWidth = targetSection.width();
+			targetSection.width(targetWidth);
 		});
 		
 	}
