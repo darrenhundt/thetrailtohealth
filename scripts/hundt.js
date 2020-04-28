@@ -51,6 +51,13 @@ $(document).ready(function(){
 		});
 	});
 	
+	$('#collection-5ea79fd74959967123a5e4d8 .summary-title-link').each(function(){
+		$(this).addClass('press-slide-title');
+		var existingHtml = $(this).html();
+		//var processedHtml = existingHtml.replace('**br**','<br/>');
+		var processedHtml = existingHtml.split('**br**').join('<br/>');
+		$(this).html(processedHtml);
+	});
 	$('#collection-5e8fac64d61b45104195397f .summary-title-link').each(function(){
 		$(this).addClass('press-slide-title');
 		var existingHtml = $(this).html();
@@ -164,7 +171,7 @@ $(document).ready(function(){
 			console.log(targetId);
 			var targetSection = $(targetId);
 			targetSection.fadeIn();
-			var targetWidth = targetSection.width();
+			var targetWidth = targetSection.width() - 1;
 			console.log(targetWidth);
 			targetSection.width(targetWidth);
 		});
