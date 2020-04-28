@@ -79,7 +79,7 @@ $(document).ready(function(){
 	});
 	
 	/* Speaking Engagements & Events  Press */
-	$('#collection-5ea79fd74959967123a5e4d8 .summary-title-link').each(function(){
+	$('#collection-5ea7a1ab66448b66c7270b4a .summary-title-link').each(function(){
 		$(this).addClass('press-slide-title');
 		var existingHtml = $(this).html();
 		//var processedHtml = existingHtml.replace('**br**','<br/>');
