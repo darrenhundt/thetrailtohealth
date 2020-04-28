@@ -70,7 +70,7 @@ $(document).ready(function(){
 	});
 	
 	/* Podcast & Radio  Press */
-	$('#collection-5ea79fd74959967123a5e4d8 .summary-title-link').each(function(){
+	$('#collection-5ea7a176c7557d34639c056e .summary-title-link').each(function(){
 		$(this).addClass('press-slide-title');
 		var existingHtml = $(this).html();
 		//var processedHtml = existingHtml.replace('**br**','<br/>');
