@@ -51,6 +51,7 @@ $(document).ready(function(){
 		});
 	});
 	
+	/* All Press */
 	$('#collection-5ea79fd74959967123a5e4d8 .summary-title-link').each(function(){
 		$(this).addClass('press-slide-title');
 		var existingHtml = $(this).html();
@@ -58,6 +59,43 @@ $(document).ready(function(){
 		var processedHtml = existingHtml.split('**br**').join('<br/>');
 		$(this).html(processedHtml);
 	});
+	
+	/* TV  Press */
+	$('#collection-5ea7a13afe781a27da3db550 .summary-title-link').each(function(){
+		$(this).addClass('press-slide-title');
+		var existingHtml = $(this).html();
+		//var processedHtml = existingHtml.replace('**br**','<br/>');
+		var processedHtml = existingHtml.split('**br**').join('<br/>');
+		$(this).html(processedHtml);
+	});
+	
+	/* Podcast & Radio  Press */
+	$('#collection-5ea79fd74959967123a5e4d8 .summary-title-link').each(function(){
+		$(this).addClass('press-slide-title');
+		var existingHtml = $(this).html();
+		//var processedHtml = existingHtml.replace('**br**','<br/>');
+		var processedHtml = existingHtml.split('**br**').join('<br/>');
+		$(this).html(processedHtml);
+	});
+	
+	/* Speaking Engagements & Events  Press */
+	$('#collection-5ea79fd74959967123a5e4d8 .summary-title-link').each(function(){
+		$(this).addClass('press-slide-title');
+		var existingHtml = $(this).html();
+		//var processedHtml = existingHtml.replace('**br**','<br/>');
+		var processedHtml = existingHtml.split('**br**').join('<br/>');
+		$(this).html(processedHtml);
+	});
+	
+	/* Publications  Press */
+	$('#collection-5ea79fd74959967123a5e4d8 .summary-title-link').each(function(){
+		$(this).addClass('press-slide-title');
+		var existingHtml = $(this).html();
+		//var processedHtml = existingHtml.replace('**br**','<br/>');
+		var processedHtml = existingHtml.split('**br**').join('<br/>');
+		$(this).html(processedHtml);
+	});
+	
 	
 	$('#collection-5e8fac64d61b45104195397f .summary-title-link').each(function(){
 		$(this).addClass('press-slide-title');
