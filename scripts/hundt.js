@@ -88,7 +88,7 @@ $(document).ready(function(){
 	});
 	
 	/* Publications  Press */
-	$('#collection-5ea79fd74959967123a5e4d8 .summary-title-link').each(function(){
+	$('#collection-5ea7a1de86dbba7a8f47b826 .summary-title-link').each(function(){
 		$(this).addClass('press-slide-title');
 		var existingHtml = $(this).html();
 		//var processedHtml = existingHtml.replace('**br**','<br/>');
