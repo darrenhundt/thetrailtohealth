@@ -41,7 +41,9 @@ $(document).ready(function(){
 	$('.slide-overlay-2').attr('href','/shop');
 	$('.slide-overlay-3').attr('href','/myjourney');
 	
-	
+	$('.summary-v2-block .summary-thumbnail-outer-container > .summary-thumbnail-container').each(function(){
+		$(this).attr('target','_blank');
+	});
 	
 	
 	$('#collection-5bd9dacf575d1f8cef7be31d .image-slide-title, #collection-5c6211cc7817f7af6e7d62c3 .image-slide-title').each(function(){
