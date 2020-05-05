@@ -257,7 +257,6 @@ $(document).ready(function(){
 	$('.folder-collection .subnav a').each(function(){
 		var theText = $(this).html();
 		if ( theText.includes('All ') ) {
-			console.log(theText);
 			$(this).addClass('all-posts-link');
 		}
 	});
