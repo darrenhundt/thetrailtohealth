@@ -256,7 +256,9 @@ $(document).ready(function(){
 	}
 	$('.folder-collection .subnav a').each(function(){
 		var theText = $(this).html();
-		console.log(theText);
+		if ( theText includes 'All ' ) {
+			console.log(theText);
+		}
 	});
 });
 
