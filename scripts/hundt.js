@@ -60,7 +60,6 @@ $(document).ready(function(){
 		//var processedHtml = existingHtml.replace('**br**','<br/>');
 		var processedHtml = existingHtml.split('**br**').join('<br/>');
 		$(this).html(processedHtml);
-		$(this).attr('href','');
 	});
 	
 	/* TV  Press */
@@ -70,7 +69,6 @@ $(document).ready(function(){
 		//var processedHtml = existingHtml.replace('**br**','<br/>');
 		var processedHtml = existingHtml.split('**br**').join('<br/>');
 		$(this).html(processedHtml);
-		$(this).attr('href','');
 	});
 	
 	/* Podcast & Radio  Press */
@@ -80,7 +78,6 @@ $(document).ready(function(){
 		//var processedHtml = existingHtml.replace('**br**','<br/>');
 		var processedHtml = existingHtml.split('**br**').join('<br/>');
 		$(this).html(processedHtml);
-		$(this).attr('href','');
 	});
 	
 	/* Speaking Engagements & Events  Press */
@@ -90,7 +87,6 @@ $(document).ready(function(){
 		//var processedHtml = existingHtml.replace('**br**','<br/>');
 		var processedHtml = existingHtml.split('**br**').join('<br/>');
 		$(this).html(processedHtml);
-		$(this).attr('href','');
 	});
 	
 	/* Publications  Press */
@@ -100,7 +96,6 @@ $(document).ready(function(){
 		//var processedHtml = existingHtml.replace('**br**','<br/>');
 		var processedHtml = existingHtml.split('**br**').join('<br/>');
 		$(this).html(processedHtml);
-		$(this).attr('href','');
 	});
 	
 	
