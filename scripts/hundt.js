@@ -57,16 +57,16 @@ $(document).ready(function(){
 	$('#collection-5ea79fd74959967123a5e4d8 .summary-title-link').each(function(){
 		$(this).addClass('press-slide-title');
 		var existingHtml = $(this).html();
-		//var processedHtml = existingHtml.replace('**br**','<br/>');
 		var processedHtml = existingHtml.split('**br**').join('<br/>');
 		$(this).html(processedHtml);
+		var parentItem = $(this).closest('.summary-item');
+		console.log(parentItem);
 	});
 	
 	/* TV  Press */
 	$('#collection-5ea7a13afe781a27da3db550 .summary-title-link').each(function(){
 		$(this).addClass('press-slide-title');
 		var existingHtml = $(this).html();
-		//var processedHtml = existingHtml.replace('**br**','<br/>');
 		var processedHtml = existingHtml.split('**br**').join('<br/>');
 		$(this).html(processedHtml);
 	});
@@ -75,7 +75,6 @@ $(document).ready(function(){
 	$('#collection-5ea7a176c7557d34639c056e .summary-title-link').each(function(){
 		$(this).addClass('press-slide-title');
 		var existingHtml = $(this).html();
-		//var processedHtml = existingHtml.replace('**br**','<br/>');
 		var processedHtml = existingHtml.split('**br**').join('<br/>');
 		$(this).html(processedHtml);
 	});
@@ -84,7 +83,6 @@ $(document).ready(function(){
 	$('#collection-5ea7a1ab66448b66c7270b4a .summary-title-link').each(function(){
 		$(this).addClass('press-slide-title');
 		var existingHtml = $(this).html();
-		//var processedHtml = existingHtml.replace('**br**','<br/>');
 		var processedHtml = existingHtml.split('**br**').join('<br/>');
 		$(this).html(processedHtml);
 	});
@@ -93,7 +91,6 @@ $(document).ready(function(){
 	$('#collection-5ea7a1de86dbba7a8f47b826 .summary-title-link').each(function(){
 		$(this).addClass('press-slide-title');
 		var existingHtml = $(this).html();
-		//var processedHtml = existingHtml.replace('**br**','<br/>');
 		var processedHtml = existingHtml.split('**br**').join('<br/>');
 		$(this).html(processedHtml);
 	});
