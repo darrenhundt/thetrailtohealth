@@ -111,6 +111,7 @@ $(document).ready(function(){
 		e.preventDefault();
 		var parentItem = $(this).closest('.summary-item');
 		var icon = parentItem.find('.sqs-video-icon');
+		icon.addClass('found-play-icon');
 		icon.click();
 	});
 	
