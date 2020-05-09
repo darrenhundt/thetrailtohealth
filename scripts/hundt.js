@@ -60,7 +60,7 @@ $(document).ready(function(){
 		var processedHtml = existingHtml.split('**br**').join('<br/>');
 		$(this).html(processedHtml);
 		var parentItem = $(this).closest('.summary-item');
-		console.log(parentItem);
+		console.log(parentItem.attr('data-type'));
 	});
 	
 	/* TV  Press */
