@@ -59,8 +59,8 @@ $(document).ready(function(){
 		var existingHtml = $(this).html();
 		var processedHtml = existingHtml.split('**br**').join('<br/>');
 		$(this).html(processedHtml);
-		var parentItem = $(this).closest('.summary-item');
-		console.log(parentItem.attr('data-type'));
+		var parentItemType = $(this).closest('.summary-item').attr('data-type');
+		console.log(parentItemType);
 	});
 	
 	/* TV  Press */
