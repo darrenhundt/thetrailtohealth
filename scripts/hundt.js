@@ -109,6 +109,9 @@ $(document).ready(function(){
 	
 	$('.video-slide-title').on('click',function(e){
 		e.preventDefault();
+		var parentItem = $(this).closest('.summary-item');
+		var icon = parentItem.find('.sqs-video-icon');
+		icon.click();
 	});
 	
 	if ($('body').hasClass('collection-type-blog')) {
