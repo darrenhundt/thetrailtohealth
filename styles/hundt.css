@@ -1,4 +1,10 @@
 /* CSS Document */
+#main-navigation .all-posts-link {
+  display: none;
+}
+.view-list #page-body-footer {
+  display: none;
+}
 #collection-5c3b89a84fa51afb62cfa0e3 {
   min-height: 2px;
 }
@@ -540,4 +546,16 @@ input.sqs-amazon-button.sqs-system-button.sqs-editable-button {
 }
 .brand-filter-link {
   text-transform: capitalize;
+}
+#collection-5e8fac64d61b45104195397f #page-body-header {
+  margin-bottom: 30px;
+}
+#collection-5e8fac64d61b45104195397f #page-body-header h2 {
+  text-align: center;
+}
+#collection-5e8fac64d61b45104195397f .category-wrapper {
+  display: none;
+}
+#collection-5e8fac64d61b45104195397f .category-wrapper#all {
+  display: block;
 }
