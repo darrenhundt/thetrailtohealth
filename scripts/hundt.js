@@ -61,6 +61,9 @@ $(document).ready(function(){
 		$(this).html(processedHtml);
 		var parentItemType = $(this).closest('.summary-item').attr('data-type');
 		console.log(parentItemType);
+		if (parentItemType == 'video') {
+			$(this).addClass('video-slide-title');
+		}
 	});
 	
 	/* TV  Press */
@@ -102,6 +105,10 @@ $(document).ready(function(){
 		//var processedHtml = existingHtml.replace('**br**','<br/>');
 		var processedHtml = existingHtml.split('**br**').join('<br/>');
 		$(this).html(processedHtml);
+	});
+	
+	$('.video-slide-title').on('click',function(e){
+		e.preventDefault();
 	});
 	
 	if ($('body').hasClass('collection-type-blog')) {
