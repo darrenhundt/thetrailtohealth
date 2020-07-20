@@ -10,6 +10,7 @@ $(document).ready(function(){
 		linkedRecipe.addClass('linked-recipe');
 		var launcher = linkedRecipe.find('.linked-modal-launcher');
 		launcher.addClass('found-launcher');
+		launcher.click();
 	}
 	
 	
