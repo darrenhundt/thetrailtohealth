@@ -7,6 +7,7 @@ $(document).ready(function(){
     var recipeHandle = window.location.hash.substr(1);
 		console.log(recipeHandle);
 		var linkedRecipe = $('[data-article-handle="' + recipeHandle + '"]');
+		linkedRecipe.addClass('linked-recipe');
 	}
 	
 	
