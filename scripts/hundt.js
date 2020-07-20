@@ -8,7 +8,7 @@ $(document).ready(function(){
 		console.log(recipeHandle);
 		var linkedRecipe = $('[data-article-handle="' + recipeHandle + '"]');
 		linkedRecipe.addClass('linked-recipe');
-		var launcher = linkedRecipe.find('linked-modal-launcher');
+		var launcher = linkedRecipe.find('.linked-modal-launcher');
 		launcher.addClass('found-launcher');
 	}
 	
