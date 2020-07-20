@@ -1,6 +1,6 @@
 {.repeated section items}
 
-  <article class="{@|item-classes}" id="article-{id}" data-item-id="{id}">
+  <article class="{@|item-classes}" id="article-{id}" data-item-id="{id}" data-article-handle="{urlId}">
     <div class="popup-content">
 			<div class="closer">X</div>
 			<div class="popup-inner-wrapper">
