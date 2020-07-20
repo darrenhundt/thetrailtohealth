@@ -13,7 +13,7 @@ $(document).ready(function(){
 		currentRecipe.find('.modal-button').attr('id',newID);
 		var imgURL = $(this).find('.popup-top img').first().attr('src');
 		$(this).find('.popup-top').css('background-image','url("' + imgURL + '")');
-		var newTriggerClass= 'modal-launcher-' + i;
+		var newTriggerClass= 'linked-modal-launcher modal-launcher-' + i;
 		var newTargetClass = 'recipe-modal-' + i;
 		var newTrigger = $(this).find('.content-wrapper').first();
 		var newTarget = $(this).find('.popup-content').first();
