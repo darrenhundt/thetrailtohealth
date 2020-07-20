@@ -7,9 +7,9 @@ $(document).ready(function(){
     var recipeHandle = window.location.hash.substr(1);
 		console.log(recipeHandle);
 		var linkedRecipe = $('[data-article-handle="' + recipeHandle + '"]');
+		linkedRecipe.addClass('linked-recipe');
 		var launcher = $(this).find('linked-modal-launcher');
 		launcher.addClass('found-launcher');
-		linkedRecipe.addClass('linked-recipe');
 	}
 	
 	
