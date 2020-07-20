@@ -6,6 +6,7 @@ $(document).ready(function(){
 	if (location.href.indexOf("#") != -1 && location.href.indexOf("recipes") != -1 ) {
     var recipeHandle = window.location.hash.substr(1);
 		console.log(recipeHandle);
+		var linkedRecipe = $('[data-article-handle="' + recipeHandle + '"]');
 	}
 	
 	
