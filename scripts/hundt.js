@@ -2,6 +2,13 @@
 $(document).ready(function(){
 	console.log('hello from hundt.js');
 	/* Homepage move gallery to header */
+	
+	if (location.href.indexOf("#") != -1) {
+    var recipeHandle = window.location.hash.substr(1);
+		console.log(recipeHandle);
+	}
+	
+	
 	$('#collection-5692ee3f1115e0dc633ba4ad #banner-area-wrapper').hide();
 	$('#collection-5692ee3f1115e0dc633ba4ad .main-content .sqs-grid-12 .sqs-block-gallery').first().addClass('home-hero-slideshow').insertBefore('#banner-area-wrapper');
 	
