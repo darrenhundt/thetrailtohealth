@@ -3,7 +3,7 @@ $(document).ready(function(){
 	console.log('hello from hundt.js');
 	/* Homepage move gallery to header */
 	
-	if (location.href.indexOf("#") != -1) {
+	if (location.href.indexOf("#") != -1 && location.href.indexOf("recipes") != -1 ) {
     var recipeHandle = window.location.hash.substr(1);
 		console.log(recipeHandle);
 	}
