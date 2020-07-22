@@ -5,3 +5,10 @@
 #collection-5f1824702dfe8a5bde67d18d #page-title {
   display: none;
 }
+#collection-5f1824702dfe8a5bde67d18d .main-content .sqs-block-button-element--medium {
+  font-weight: 100;
+  font-size: 18px;
+  letter-spacing: 0;
+  padding: 10px 20px;
+  width: 200px;
+}
