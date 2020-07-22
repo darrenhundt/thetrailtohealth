@@ -11,15 +11,8 @@
 										<squarespace:query collection="recipes" category="Video Recipe" limit="30">
 												{.repeated section items}
 													<div class="video-recipe-item">
-														<div class="thumbnail">
-															<img src="{assetUrl}?format=500w" />
-														</div>
-														<div class="content-fit">
-															<img src="{assetUrl}?format=500w" />
-														</div>
-
-														<div class="content-fill">
-															<img src="{assetUrl}?format=500w" />
+														<div class="thumbnail content-fill">
+  														<img {@|image-meta} />
 														</div>
 														<a href="{fullUrl}">{title}</a>
 													</div>
