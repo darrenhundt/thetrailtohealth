@@ -14,6 +14,13 @@
 														<div class="thumbnail">
 															<img src="{assetUrl}?format=500w" />
 														</div>
+														<div class="content-fit">
+															<img src="{assetUrl}?format=500w" />
+														</div>
+
+														<div class="content-fill">
+															<img src="{assetUrl}?format=500w" />
+														</div>
 														<a href="{fullUrl}">{title}</a>
 													</div>
 												{.end}
