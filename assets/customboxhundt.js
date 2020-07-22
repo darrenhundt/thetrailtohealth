@@ -45,6 +45,7 @@ $(document).ready(function(){
 	
 	if ( $('.category-cookbook').length ) {
 		console.log('cookbook recipe page');
+		/*
 		new Custombox.modal({
 			content: {
 				target: '#recipePagePopupContent'
@@ -54,6 +55,7 @@ $(document).ready(function(){
 				opacity: 0.80
 			}
 		}).open();
+		*/
 	}
 	
 });
