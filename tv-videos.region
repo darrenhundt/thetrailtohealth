@@ -20,10 +20,10 @@
 														</a>
 														<h2><a href="{fullUrl}">{title}</a></h2>
 														<div class="sqs-block-button">
-															<a class="video-recipe-button sqs-block-button-element--medium sqs-block-button-element" href="{customContent.videoLink}">Download Video</a>
+															<a target="_blank" class="video-recipe-button sqs-block-button-element--medium sqs-block-button-element" href="{customContent.videoLink}">Download Video</a>
 														</div>
 														<div class="sqs-block-button">
-															<a class="video-recipe-button sqs-block-button-element--medium sqs-block-button-element" href="{customContent.photosLink}">Download Photos</a>
+															<a target="_blank" class="video-recipe-button sqs-block-button-element--medium sqs-block-button-element" href="{customContent.photosLink}">Download Photos</a>
 														</div>
 													</div>
 												</div>
