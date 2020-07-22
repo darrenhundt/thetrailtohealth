@@ -44,6 +44,7 @@ $(document).ready(function(){
 	}	
 	
 	if ( $('.category-cookbook').length ) {
+		$('body').addClass('body-cookbook-recipe');
 		console.log('cookbook recipe page');
 		
 		new Custombox.modal({
