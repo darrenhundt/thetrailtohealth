@@ -15,7 +15,7 @@
 														<div class="thumbnail content-fill">
 															<img {@|image-meta} />
 														</div>
-														<a href="{fullUrl}">{title}</a>
+														<h2><a href="{fullUrl}">{title}</a></h2>
 														<a href="{customContent.videoLink}">{Download Video}</a>
 													</div>
 												</div>
