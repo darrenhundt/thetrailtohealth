@@ -9,11 +9,11 @@
 						    <div class="main-content" data-content-field="main-content" data-collection-id="{collection.id}" data-edit-main-image="Page Banner">
 									<div class="tv-recipes-wrapper">
 										<squarespace:query collection="recipes" category="Video Recipe" limit="30">
-											<ol>
 												{.repeated section items}
-													<li><a href="{fullUrl}">{title}</a></li>
+													<div class="video-recipe-item">
+														<a href="{fullUrl}">{title}</a>
+													</div>
 												{.end}
-											</ol>
 										</squarespace:query>
 									</div>
 									{squarespace.main-content}
