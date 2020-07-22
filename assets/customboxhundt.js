@@ -46,6 +46,8 @@ $(document).ready(function(){
 	if ( $('.category-video-recipe').length ) {
 		$('body').addClass('body-cookbook-video-recipe');
 		console.log('video cookbook recipe page');
+		var imgURL = $('#recipePagePopupContent').find('.popup-top img').first().attr('src');
+		$('#recipePagePopupContent').find('.popup-top').css('background-image','url("' + imgURL + '")');
 		
 		new Custombox.modal({
 			content: {
