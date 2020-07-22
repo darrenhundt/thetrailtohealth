@@ -13,7 +13,7 @@
 												<div class="video-recipe-item">
 													<div class="video-recipe-item-inner">
 														<div class="thumbnail content-fill">
-															<img {@|image-meta} />
+															<a href="{fullUrl}"><img {@|image-meta} /></a>
 														</div>
 														<h2><a href="{fullUrl}">{title}</a></h2>
 														<div class="sqs-block-button">
