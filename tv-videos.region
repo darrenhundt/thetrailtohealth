@@ -12,9 +12,11 @@
 											{.repeated section items}
 												<div class="video-recipe-item">
 													<div class="video-recipe-item-inner">
-														<div class="thumbnail content-fill">
-															<a href="{fullUrl}"><img {@|image-meta} /></a>
-														</div>
+														<a href="{fullUrl}">
+															<div class="thumbnail content-fill">
+																<img {@|image-meta} />
+															</div>
+														</a>
 														<h2><a href="{fullUrl}">{title}</a></h2>
 														<div class="sqs-block-button">
 															<a class="video-recipe-button sqs-block-button-element--medium sqs-block-button-element" href="{customContent.videoLink}">Download Video</a>
