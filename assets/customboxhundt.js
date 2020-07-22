@@ -43,9 +43,9 @@ $(document).ready(function(){
 		
 	}	
 	
-	if ( $('.category-cookbook').length ) {
-		$('body').addClass('body-cookbook-recipe');
-		console.log('cookbook recipe page');
+	if ( $('.category-video-recipe').length ) {
+		$('body').addClass('body-cookbook-video-recipe');
+		console.log('video cookbook recipe page');
 		
 		new Custombox.modal({
 			content: {
