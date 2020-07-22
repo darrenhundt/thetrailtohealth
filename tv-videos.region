@@ -8,7 +8,7 @@
 
 						    <div class="main-content" data-content-field="main-content" data-collection-id="{collection.id}" data-edit-main-image="Page Banner">
 									<div class="tv-recipes-wrapper">
-										<squarespace:query collection="recipes" category="category-video-recipe" limit="10">
+										<squarespace:query collection="recipes" limit="10">
 											<ol>
 												{.repeated section items}
 													<li><a href="{fullUrl}">{title}</a></li>
