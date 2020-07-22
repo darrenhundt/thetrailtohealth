@@ -16,8 +16,8 @@
 															<img {@|image-meta} />
 														</div>
 														<h2><a href="{fullUrl}">{title}</a></h2>
-														<a class="video-recipe-button" href="{customContent.videoLink}">Download Video</a>
-														<a class="video-recipe-button" href="{customContent.photosLink}">Download Photos</a>
+														<a class="video-recipe-button sqs-block-button-element--medium sqs-block-button-element" href="{customContent.videoLink}">Download Video</a>
+														<a class="video-recipe-button sqs-block-button-element--medium sqs-block-button-element" href="{customContent.photosLink}">Download Photos</a>
 													</div>
 												</div>
 											{.end}
