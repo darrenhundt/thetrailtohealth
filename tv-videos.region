@@ -6,23 +6,6 @@
 						<div id="content-wrapper">
 							<div id="content">
 
-						    <!-- // CATEGORY NAV -->
-						    {.section collection}{.equal? typeName "products"}{.section categories}
-						    <div id="categoryNav" role="navigation">
-						      <input type="checkbox" name="category-nav-toggle" id="categoryNavToggle" class="category-nav-toggle hidden" />
-						      <label for="categoryNavToggle" class="category-nav-toggle-label" onclick></label>
-						      <nav class="category-nav">
-						        <ul class="nav category-nav-links">
-						          <li class="filter"><a>Filter{.if categoryFilter}: {categoryFilter}{.end}</a></li>
-						          <li{.if categoryFilter}{.or} class="active-link all"{.end}><a href="{fullUrl}">All</a><span class="delimiter">/</span></li>
-						        {.repeated section @}
-						          <li{.equal? categoryFilter @} class="active-link"{.end}><a href="{fullUrl}?category={@|url-encode}">{@}</a><span class="delimiter">/</span></li>
-						        {.end}
-						        </ul>
-						      </nav>
-						    </div>
-						    {.end}{.end}{.end}
-
 						    <div class="main-content" data-content-field="main-content" data-collection-id="{collection.id}" data-edit-main-image="Page Banner">
 									{squarespace.main-content}
 								</div>
