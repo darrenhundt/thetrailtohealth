@@ -23,3 +23,75 @@
 #recipePagePopupContent {
 	display: none;
 }
+
+.collection-type-blog.view-item {
+	
+	.custombox-content {
+		.closer {
+			position: absolute;
+			right: -20px;
+			top: -21px;
+			color: white;
+			font-size: 22px;
+			cursor: pointer;
+			pointer-events: none;
+		}
+		.popup-content {
+//			position: fixed;
+//			top: 50%;
+//			left: 50%;
+//			transform: translate(-50%, -50%);
+			position: relative;
+			width: 560px;
+			height: 630px;
+			z-index: 999;
+			background: white;
+			.popup-inner-wrapper {
+				display: flex;
+				flex-direction: column;
+				width: 100%;
+				height: 100%;
+			}
+			.popup-top {
+				height: 45%;
+				background-size: cover;
+    		background-position: center center;
+				img {
+					display: none;
+				}
+			}
+			.popup-bottom {
+				height: 55%;
+				display: flex;
+				flex-direction: column;
+				    padding: 20px 30px;
+				.popup-title-wrapper {
+					height: 40%;
+					h2 {
+						font-size: 30px;
+    margin-bottom: 0;
+					}
+					p {
+						margin-top: 15px;
+					}
+				}
+				.popup-actions {
+					height: 60%;
+					display: flex;
+					justify-content: space-between;
+					align-items: center;
+					img {
+						width: 200px;
+					}
+					.modal-button {
+						background: black;
+						color: white;
+						padding: 15px 30px;
+						font-weight: bold;
+						font-size: 20px;
+					}
+				}
+			}
+		}
+	}
+}
