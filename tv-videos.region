@@ -7,6 +7,15 @@
 							<div id="content">
 
 						    <div class="main-content" data-content-field="main-content" data-collection-id="{collection.id}" data-edit-main-image="Page Banner">
+									<div class="tv-recipes-wrapper">
+										<squarespace:query collection="new-blog" limit="10">
+											<ol>
+												{.repeated section items}
+													<li><a href="{fullUrl}">{title}</a></li>
+												{.end}
+											</ol>
+										</squarespace:query>
+									</div>
 									{squarespace.main-content}
 								</div>
 
