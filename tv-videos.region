@@ -9,6 +9,7 @@
 						    <div class="main-content" data-content-field="main-content" data-collection-id="{collection.id}" data-edit-main-image="Page Banner">
 									<div class="tv-recipes-wrapper">
 										<squarespace:query collection="recipes" category="Video Recipe" limit="30">
+											<div class="tv-recipes-wrapper-inner">
 												{.repeated section items}
 													<div class="video-recipe-item">
 														<div class="thumbnail content-fill">
@@ -17,6 +18,7 @@
 														<a href="{fullUrl}">{title}</a>
 													</div>
 												{.end}
+											</div>
 										</squarespace:query>
 									</div>
 									{squarespace.main-content}
