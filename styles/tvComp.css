@@ -5,9 +5,11 @@
 }
 .tv-recipes-wrapper .video-recipe-item {
   width: 47%;
+  padding: 10px;
 }
 .tv-recipes-wrapper .thumbnail {
   width: 100%;
+  height: 200px;
 }
 .tv-recipes-wrapper .thumbnail img {
   width: 100%;
