@@ -16,7 +16,7 @@
 															<img {@|image-meta} />
 														</div>
 														<h2><a href="{fullUrl}">{title}</a></h2>
-														<a href="{customContent.videoLink}">{Download Video}</a>
+														{.customContent.videoLink?}<a href="{customContent.videoLink}">{Download Video}</a>{.end}
 													</div>
 												</div>
 											{.end}
