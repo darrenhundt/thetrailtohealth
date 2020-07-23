@@ -48,7 +48,6 @@ $(document).ready(function(){
 		console.log('video cookbook recipe page');
 		var imgURL = $('#recipePagePopupContent').find('.popup-top img').first().attr('src');
 		$('#recipePagePopupContent').find('.popup-top').css('background-image','url("' + imgURL + '")');
-		
 		/*
 		new Custombox.modal({
 			content: {
@@ -60,6 +59,23 @@ $(document).ready(function(){
 			}
 		}).open();
 		*/
+	}
+	
+	if ( $('.category-cookbook.individual-post').length ) {
+		$('body').addClass('body-cookbook-recipe');
+		console.log('cookbook recipe page');
+		var imgURL = $('#recipePagePopupContent').find('.popup-top img').first().attr('src');
+		$('#recipePagePopupContent').find('.popup-top').css('background-image','url("' + imgURL + '")');
+		
+		new Custombox.modal({
+			content: {
+				target: '#recipePagePopupContent'
+			},
+			overlay: {
+				active: true,
+				opacity: 0.80
+			}
+		}).open();
 		
 	}
 	
