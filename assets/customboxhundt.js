@@ -66,7 +66,6 @@ $(document).ready(function(){
 		console.log('cookbook recipe page');
 		var imgURL = $('#recipePagePopupContent').find('.popup-top img').first().attr('src');
 		$('#recipePagePopupContent').find('.popup-top').css('background-image','url("' + imgURL + '")');
-		
 		new Custombox.modal({
 			content: {
 				target: '#recipePagePopupContent'
@@ -76,7 +75,6 @@ $(document).ready(function(){
 				opacity: 0.80
 			}
 		}).open();
-		
 	}
 	
 });
