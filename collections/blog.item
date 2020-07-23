@@ -1,7 +1,7 @@
 {.section item}
 
 
-  <article class="{@|item-classes}" id="article-{id}" data-item-id="{id}">
+  <article class="{@|item-classes} individual-post" id="article-{id}" data-item-id="{id}">
 
 	<div id="recipePagePopupContent" class="popup-content">
 		<div class="closer">X</div>
