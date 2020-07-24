@@ -5,7 +5,7 @@
 }
 .tv-recipes-wrapper .video-recipe-item {
   width: 50%;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 @media (max-width: 900px) {
   .tv-recipes-wrapper .video-recipe-item {
@@ -20,6 +20,11 @@
 }
 .tv-recipes-wrapper .video-recipe-item-inner h2 {
   margin-bottom: 0;
+}
+.tv-recipes-wrapper .segment-length {
+  margin-top: 0;
+  font-style: italic;
+  font-size: 12px;
 }
 .tv-recipes-wrapper .thumbnail {
   width: 100%;
