@@ -28,7 +28,8 @@
 }
 .tv-recipes-wrapper .thumbnail {
   width: 100%;
-  height: 16.5vw;
+  height: 18.5vw;
+  max-height: 300px;
 }
 @media (max-width: 900px) {
   .tv-recipes-wrapper .thumbnail {
@@ -51,9 +52,6 @@
 }
 #collection-5f1824702dfe8a5bde67d18d {
   min-height: 1px;
-}
-#collection-5f1824702dfe8a5bde67d18d #page-title {
-  display: none;
 }
 #collection-5f1824702dfe8a5bde67d18d .main-content .sqs-block-button-element--medium {
   font-weight: 100;
