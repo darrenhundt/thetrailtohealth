@@ -559,3 +559,33 @@ input.sqs-amazon-button.sqs-system-button.sqs-editable-button {
 #collection-5e8fac64d61b45104195397f .category-wrapper#all {
   display: block;
 }
+#testimonialRotator .slick-prev:before,
+#testimonialRotator .slick-next:before {
+  color: black;
+}
+#testimonialRotator .slick-prev,
+#testimonialRotator .slick-next {
+  top: 0;
+}
+#testimonialRotator .testimonial-body {
+  position: relative;
+  padding: 40px 50px;
+}
+#testimonialRotator .testimonial-body:before,
+#testimonialRotator .testimonial-body:after {
+  content: "\201C";
+  position: absolute;
+  font-size: 80px;
+  padding: 10px;
+  line-height: 1;
+  color: #000;
+}
+#testimonialRotator .testimonial-body:before {
+  top: 0;
+  left: 0px;
+}
+#testimonialRotator .testimonial-body:after {
+  content: "\201D";
+  right: 0px;
+  bottom: -0.5em;
+}
