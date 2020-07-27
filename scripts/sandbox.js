@@ -76,6 +76,7 @@ $(document).ready(function(){
 					obj["body"] = val.body;
 					obj["categories"] = val.categories;
 					obj["customContent"] = val.customContent;
+					obj["excerpt"] = val.excerpt;
 					obj["fullUrl"] = val.fullUrl;
 					obj["tags"] = val.tags;
 					obj["title"] = val.title;
