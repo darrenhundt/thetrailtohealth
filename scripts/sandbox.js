@@ -6,8 +6,6 @@ $(document).ready(function(){
 	var currentRecipeUrl = firstRecipeUrl;
 	var fetchMore = true;
 	
-	console.log(currentRecipeUrl);
-	
 	fetchUrlData(currentRecipeUrl);
 	
 	if (fetchMore) {
