@@ -59,12 +59,19 @@ $(document).ready(function(){
 	if (fetchMore) {
 		fetchUrlData(currentRecipeUrl);
 	}
-	console.log(allTitles);
 	
+	var myContent = '<div class="recipes-wrapper">';
+	
+	allTitles.forEach((recipe, index) => {
+		myContent += "<h2>" + recipe.title + "</h2>";
+		console.log(color, idx, sourceArr)
+	});
+	
+	myContent += "</div>";
 
+	$('#contentContainer').html(myContent);
 	
 	function fetchUrlData(theUrl) {
-		//console.log(theUrl);
 		$.ajax({
 			url: theUrl,
 			dataType: 'json',
