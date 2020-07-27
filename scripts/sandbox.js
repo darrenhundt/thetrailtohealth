@@ -65,7 +65,7 @@ $(document).ready(function(){
 	allTitles.forEach((recipe, index) => {
 		var theTags = recipe.tags;
 		console.log(theTags);
-		var tagClasses = ""
+		var tagClasses = "";
 		/*
 		theTags.forEach((tag,index) => {
 			tagClasses += " " + tag;
