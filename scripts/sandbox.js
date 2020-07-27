@@ -64,17 +64,16 @@ $(document).ready(function(){
 	
 	allTitles.forEach((recipe, index) => {
 		console.log(recipe.tags.length);
-		/*
-		var theTags = recipe.tags;
-		console.log(theTags);
-		*/
+		var tagClasses = " ";
+		if ( recipe.tags.length > 0 ) {
+			recipe.tags.forEach((tag,index) => {
+				tagClasses += " " + tag;
+			});
+		}
+		
 		var tagClasses = "";
-		/*
-		theTags.forEach((tag,index) => {
-			tagClasses += " " + tag;
-		});
-		*/
-		myContent += '<h2 class="tagClasses">' + recipe.title + '</h2>';
+		
+		myContent += '<h2 class="' + tagClasses + '">' + recipe.title + '</h2>';
 	});
 	
 	myContent += '</div>';
