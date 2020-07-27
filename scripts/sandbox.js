@@ -64,7 +64,7 @@ $(document).ready(function(){
 
 	
 	function fetchUrlData(theUrl) {
-		console.log(theUrl);
+		//console.log(theUrl);
 		$.ajax({
 			url: theUrl,
 			dataType: 'json',
