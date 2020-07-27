@@ -64,7 +64,7 @@ $(document).ready(function(){
 	
 	allTitles.forEach((recipe, index) => {
 		var tagClasses = " ";
-		if ( recipe.tags.length > 0 ) {
+		if ( recipe.tags ) {
 			recipe.tags.forEach((tag,index) => {
 				tagClasses += " " + tag;
 			});
