@@ -15,7 +15,7 @@ $(document).ready(function(){
 		success: function(data) {
 			$.each( data.items, function( key, val ) {
 				//console.log(val.title);
-				allTitles.push(val.title);
+				allTitles.push(val);
 			});
 			fetchMore = data.pagination.nextPage;
 			currentRecipeUrl = data.pagination.nextPageUrl + "&format=json";
@@ -86,7 +86,7 @@ $(document).ready(function(){
 			success: function(data) {
 				$.each( data.items, function( key, val ) {
 					//console.log(val.title);
-					allTitles.push(val.title);
+					allTitles.push(val);
 				});
 				fetchMore = data.pagination.nextPage;
 				currentRecipeUrl = data.pagination.nextPageUrl + "&format=json";
