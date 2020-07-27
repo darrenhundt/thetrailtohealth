@@ -79,7 +79,7 @@ $(document).ready(function(){
 		}
 		
 		
-		myContent += '<h2 class="' + tagClasses + '">' + recipe.title + '</h2>';
+		myContent += '<h2 class="recipe-item-isotope ' + tagClasses + '">' + recipe.title + '</h2>';
 	});
 	
 	myContent += '</div>';
