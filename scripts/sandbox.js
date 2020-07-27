@@ -87,6 +87,7 @@ $(document).ready(function(){
 	$('#contentContainer').html(myContent);
 	
 	$container = $('#recipesWrapper');
+  $container.isotope();
 	
 	function fetchUrlData(theUrl) {
 		$.ajax({
