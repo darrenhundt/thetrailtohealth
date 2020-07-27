@@ -5,9 +5,8 @@ $(document).ready(function(){
 	
 	$.getJSON( "/recipes?format=json", function( data ) {
 		if (data.pagination.nextPage) {
-				console.log(data.pagination.nextPageUrl);
-				}
-		console.log(data.pagination);
+			console.log(data.pagination.nextPageUrl);
+		}
 		$.each( data.items, function( key, val ) {
 			console.log(val.addedOn);
 			/* items.push( "<li id='" + key + "'>" + val + "</li>" ); */
