@@ -6,6 +6,7 @@ $(document).ready(function(){
 	var currentRecipeUrl = firstRecipeUrl;
 	var fetchMore = true;
 	
+	console.log(currentRecipeUrl);
 	$.ajax({
 		url: currentRecipeUrl,
 		dataType: 'json',
@@ -20,6 +21,7 @@ $(document).ready(function(){
 		}
 	});
 	
+	console.log(currentRecipeUrl);
 	$.ajax({
 		url: currentRecipeUrl,
 		dataType: 'json',
