@@ -2,7 +2,7 @@
 $(document).ready(function(){
 	console.log('hello from sandbox');
 	
-	var firstRecipeUrl = "/recipes?format=json";
+	var firstRecipeUrl = "/recipes?offset=1594319017594";
 	var currentRecipeUrl = firstRecipeUrl;
 	var fetchMore = true;
 	
@@ -22,6 +22,7 @@ $(document).ready(function(){
 	});
 	
 	console.log(currentRecipeUrl);
+	
 	$.ajax({
 		url: currentRecipeUrl,
 		dataType: 'json',
