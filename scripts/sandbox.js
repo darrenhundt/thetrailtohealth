@@ -63,10 +63,15 @@ $(document).ready(function(){
 	var myContent = '<div class="recipes-wrapper">';
 	
 	allTitles.forEach((recipe, index) => {
-		myContent += "<h2>" + recipe.title + "</h2>";
+		var theTags = recipe.tags;
+		var tagClasses = ""
+		theTags.forEach((tag,index) => {
+			tagClasses += " " + tag;
+		});
+		myContent += '<h2 class="tagClasses">'' + recipe.title + '</h2>';
 	});
 	
-	myContent += "</div>";
+	myContent += '</div>';
 
 	$('#contentContainer').html(myContent);
 	
