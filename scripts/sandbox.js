@@ -63,7 +63,6 @@ $(document).ready(function(){
 	var myContent = '<div class="recipes-wrapper">';
 	
 	allTitles.forEach((recipe, index) => {
-		console.log(recipe.tags.length);
 		var tagClasses = " ";
 		if ( recipe.tags.length > 0 ) {
 			recipe.tags.forEach((tag,index) => {
