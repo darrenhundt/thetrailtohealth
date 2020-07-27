@@ -2,6 +2,7 @@
 $(document).ready(function(){
 	console.log('hello from sandbox');
 	
+	var allTitles = [];
 	var firstRecipeUrl = "/recipes?format=json";
 	var currentRecipeUrl = firstRecipeUrl;
 	var fetchMore = true;
@@ -51,13 +52,15 @@ $(document).ready(function(){
 
 	
 	function fetchUrlData(theUrl) {
+		console.log(theUrl);
 		$.ajax({
 			url: theUrl,
 			dataType: 'json',
 			async: false,
 			success: function(data) {
 				$.each( data.items, function( key, val ) {
-					console.log(val.title);
+					//console.log(val.title);
+					allTitles.push(val.title);
 				});
 				fetchMore = data.pagination.nextPage;
 				currentRecipeUrl = data.pagination.nextPageUrl + "&format=json";
