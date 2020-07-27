@@ -48,6 +48,30 @@ $(document).ready(function(){
 	if (fetchMore) {
 		fetchUrlData(currentRecipeUrl);
 	}
+	if (fetchMore) {
+		fetchUrlData(currentRecipeUrl);
+	}
+	if (fetchMore) {
+		fetchUrlData(currentRecipeUrl);
+	}
+	if (fetchMore) {
+		fetchUrlData(currentRecipeUrl);
+	}
+	if (fetchMore) {
+		fetchUrlData(currentRecipeUrl);
+	}
+	if (fetchMore) {
+		fetchUrlData(currentRecipeUrl);
+	}
+	if (fetchMore) {
+		fetchUrlData(currentRecipeUrl);
+	}
+	if (fetchMore) {
+		fetchUrlData(currentRecipeUrl);
+	}
+	if (fetchMore) {
+		fetchUrlData(currentRecipeUrl);
+	}
 	console.log(allTitles);
 	
 
