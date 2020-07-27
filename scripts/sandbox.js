@@ -67,6 +67,7 @@ $(document).ready(function(){
     <input type="checkbox" value=".cookbook" id="cookbook" /><label for="cookbook">cookbook</label>
     <input type="checkbox" value=".clean-eating" id="clean-eating" /><label for="clean-eating">clean-eating</label>
     <input type="checkbox" value=".sushi" id="sushi" /><label for="sushi">sushi</label>
+    <input type="checkbox" value=".salmon" id="salmon" /><label for="salmon">salmon</label>
   </div></div>`;
 	myContent += '<div id="recipesWrapper">';
 	
