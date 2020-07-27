@@ -12,30 +12,33 @@ $(document).ready(function(){
 		dataType: 'json',
 		async: false,
 		success: function(data) {
-			//console.log(data.items);
 			$.each( data.items, function( key, val ) {
 				console.log(val.title);
-				/* items.push( "<li id='" + key + "'>" + val + "</li>" ); */
 			});
 			fetchMore = data.pagination.nextPage;
 			currentRecipeUrl = data.pagination.nextPageUrl + "&format=json";
 		}
 	});
 	
+	if (fetchMore) {
+		fetchUrlData(currentRecipeUrl);
+	}
 	
-	$.ajax({
-		url: currentRecipeUrl,
-		dataType: 'json',
-		async: false,
-		success: function(data) {
-			//console.log(data.items);
-			$.each( data.items, function( key, val ) {
-				console.log(val.title);
-				/* items.push( "<li id='" + key + "'>" + val + "</li>" ); */
-			});
-		}
-	});
+
 	
-	
+	function fetchUrlData(theUrl) {
+		$.ajax({
+			url: currentRecipeUrl,
+			dataType: 'json',
+			async: false,
+			success: function(data) {
+				$.each( data.items, function( key, val ) {
+					console.log(val.title);
+				});
+				fetchMore = data.pagination.nextPage;
+				currentRecipeUrl = data.pagination.nextPageUrl + "&format=json";
+			}
+		});
+	}
 	
 });
