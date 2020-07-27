@@ -64,10 +64,13 @@ $(document).ready(function(){
 	
 	allTitles.forEach((recipe, index) => {
 		var theTags = recipe.tags;
+		console.log(theTags);
 		var tagClasses = ""
+		/*
 		theTags.forEach((tag,index) => {
 			tagClasses += " " + tag;
 		});
+		*/
 		myContent += '<h2 class="tagClasses">' + recipe.title + '</h2>';
 	});
 	
