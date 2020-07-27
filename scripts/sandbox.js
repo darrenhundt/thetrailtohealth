@@ -64,7 +64,6 @@ $(document).ready(function(){
 	
 	allTitles.forEach((recipe, index) => {
 		myContent += "<h2>" + recipe.title + "</h2>";
-		console.log(color, idx, sourceArr)
 	});
 	
 	myContent += "</div>";
