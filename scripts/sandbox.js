@@ -88,6 +88,16 @@ $(document).ready(function(){
 	
 	$container = $('#recipesWrapper');
   $container.isotope();
+  $('#options').on( 'change', function( jQEvent ) {
+    var $checkbox = $( jQEvent.target );
+    manageCheckbox( $checkbox );
+
+    var comboFilter = getComboFilter( filters );
+
+    $container.isotope({ filter: comboFilter });
+
+    //$filterDisplay.text( comboFilter );
+  });
 	
 	function fetchUrlData(theUrl) {
 		$.ajax({
