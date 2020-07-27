@@ -62,7 +62,7 @@ $(document).ready(function(){
 	
 	var myContent = `<div id="options">
   <div class="option-set" data-group="brand">
-    <input type="checkbox" value=""        id="brand-all" class="all" checked /><label for="brand-all">all brands</label>
+    <input type="checkbox" value=""        id="brand-all" class="all" checked /><label for="brand-all">clear all</label>
     <input type="checkbox" value=".gluten-free" id="gluten-free" /><label for="gluten-free">gluten-free</label>
     <input type="checkbox" value=".cookbook" id="cookbook" /><label for="cookbook">cookbook</label>
     <input type="checkbox" value=".clean-eating" id="clean-eating" /><label for="clean-eating">clean-eating</label>
