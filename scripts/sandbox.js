@@ -48,6 +48,7 @@ $(document).ready(function(){
 	if (fetchMore) {
 		fetchUrlData(currentRecipeUrl);
 	}
+	console.log(allTitles);
 	
 
 	
