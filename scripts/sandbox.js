@@ -2,7 +2,7 @@
 $(document).ready(function(){
 	console.log('hello from sandbox');
 	
-	var firstRecipeUrl = "/recipes?offset=1594319017594";
+	var firstRecipeUrl = "/recipes?format=json";
 	var currentRecipeUrl = firstRecipeUrl;
 	var fetchMore = true;
 	
@@ -17,7 +17,7 @@ $(document).ready(function(){
 				console.log(val.title);
 				/* items.push( "<li id='" + key + "'>" + val + "</li>" ); */
 			});
-			currentRecipeUrl = data.pagination.nextPageUrl;
+			currentRecipeUrl = data.pagination.nextPageUrl + "&format=json";
 		}
 	});
 	
