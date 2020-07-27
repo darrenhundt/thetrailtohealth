@@ -1,6 +1,5 @@
 // JavaScript Document
 $(document).ready(function(){
-	console.log('hello from sandbox');
 	
 	var allTitles = [];
 	var firstRecipeUrl = "/recipes?format=json";
