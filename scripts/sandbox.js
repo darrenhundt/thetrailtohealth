@@ -87,8 +87,11 @@ $(document).ready(function(){
 	$('#contentContainer').html(myContent);
 	
 	$container = $('#recipesWrapper');
+	
+	var filters = {};
   $container.isotope();
-  $('#options').on( 'change', function( jQEvent ) {
+  
+	$('#options').on( 'change', function( jQEvent ) {
     var $checkbox = $( jQEvent.target );
     manageCheckbox( $checkbox );
 
