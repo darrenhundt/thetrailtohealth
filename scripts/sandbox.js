@@ -4,7 +4,7 @@ $(document).ready(function(){
 	
 	$.getJSON( "/recipes?format=json", function( data ) {
 		$.each( data.items, function( key, val ) {
-			console.log(val)
+			console.log(val.addedOn)
 			/* items.push( "<li id='" + key + "'>" + val + "</li>" ); */
 		});
 	});
