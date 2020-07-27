@@ -17,7 +17,7 @@ $(document).ready(function(){
 	
 	$.getJSON( newUrl, function( data ) {
 		$.each( data.items, function( key, val ) {
-			console.log(val.addedOn)
+			console.log(val.addedOn);
 			offsetDynamic = val.addedOn;
 			/* items.push( "<li id='" + key + "'>" + val + "</li>" ); */
 		});
