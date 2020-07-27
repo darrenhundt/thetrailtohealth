@@ -87,6 +87,7 @@ $(document).ready(function(){
 			success: function(data) {
 				$.each( data.items, function( key, val ) {
 					var obj = {};
+					console.log(val.tags);
 					obj["assetUrl"] = val.assetUrl;
 					obj["body"] = val.body;
 					obj["categories"] = val.categories;
