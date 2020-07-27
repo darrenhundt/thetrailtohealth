@@ -4,6 +4,9 @@ $(document).ready(function(){
 	var offsetDynamic;
 	
 	$.getJSON( "/recipes?format=json", function( data ) {
+		if (data.pagination.nextPage) {
+				console.log(data.pagination.nextPageUrl);
+				}
 		console.log(data.pagination);
 		$.each( data.items, function( key, val ) {
 			console.log(val.addedOn);
