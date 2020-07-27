@@ -68,7 +68,7 @@ $(document).ready(function(){
     <input type="checkbox" value=".clean-eating" id="clean-eating" /><label for="clean-eating">clean-eating</label>
     <input type="checkbox" value=".sushi" id="sushi" /><label for="sushi">sushi</label>
     <input type="checkbox" value=".salmon" id="salmon" /><label for="salmon">salmon</label>
-  </div></div>`;
+  </div></div><br/><br/><br/>`;
 	myContent += '<div id="recipesWrapper">';
 	
 	allTitles.forEach((recipe, index) => {
