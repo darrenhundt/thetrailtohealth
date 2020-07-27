@@ -28,7 +28,7 @@ $(document).ready(function(){
 	
 	function fetchUrlData(theUrl) {
 		$.ajax({
-			url: currentRecipeUrl,
+			url: theUrl,
 			dataType: 'json',
 			async: false,
 			success: function(data) {
