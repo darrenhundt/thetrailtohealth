@@ -7,6 +7,7 @@ $(document).ready(function(){
 		$.each( data.items, function( key, val ) {
 			console.log(val.addedOn);
 			offsetDynamic = val.addedOn;
+			console.log(offsetDynamic);
 			/* items.push( "<li id='" + key + "'>" + val + "</li>" ); */
 		});
 	});
@@ -18,7 +19,6 @@ $(document).ready(function(){
 	$.getJSON( newUrl, function( data ) {
 		$.each( data.items, function( key, val ) {
 			console.log(val.addedOn);
-			offsetDynamic = val.addedOn;
 			/* items.push( "<li id='" + key + "'>" + val + "</li>" ); */
 		});
 	});
