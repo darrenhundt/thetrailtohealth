@@ -14,7 +14,8 @@ $(document).ready(function(){
 		async: false,
 		success: function(data) {
 			$.each( data.items, function( key, val ) {
-				console.log(val.title);
+				//console.log(val.title);
+				allTitles.push(val.title);
 			});
 			fetchMore = data.pagination.nextPage;
 			currentRecipeUrl = data.pagination.nextPageUrl + "&format=json";
