@@ -17,11 +17,11 @@ $(document).ready(function(){
 				console.log(val.title);
 				/* items.push( "<li id='" + key + "'>" + val + "</li>" ); */
 			});
+			fetchMore = data.pagination.nextPage;
 			currentRecipeUrl = data.pagination.nextPageUrl + "&format=json";
 		}
 	});
 	
-	console.log(currentRecipeUrl);
 	
 	$.ajax({
 		url: currentRecipeUrl,
@@ -36,16 +36,6 @@ $(document).ready(function(){
 		}
 	});
 	
-	/*
-	$.getJSON( firstRecipeUrl, function( data ) {
-		if (data.pagination.nextPage) {
-			console.log(data.pagination.nextPageUrl);
-		}
-		$.each( data.items, function( key, val ) {
-			console.log(val.addedOn);
-		});
-	});
-	*/
 	
 	
 });
