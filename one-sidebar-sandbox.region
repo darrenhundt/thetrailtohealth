@@ -1,3 +1,4 @@
+<squarespace:script src="https://npmcdn.com/isotope-layout@3/dist/isotope.pkgd.js" combo="false" />
 <squarespace:script src="sandbox.js" combo="false" />
 
 				<div id="page-body-wrapper" class="one-sidebar">
