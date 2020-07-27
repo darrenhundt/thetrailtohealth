@@ -67,7 +67,7 @@ $(document).ready(function(){
     <input type="checkbox" value=".cookbook" id="cookbook" /><label for="cookbook">cookbook</label>
     <input type="checkbox" value=".clean-eating" id="clean-eating" /><label for="clean-eating">clean-eating</label>
   </div></div>`;
-	myContent += '<div id="recipes-wrapper">';
+	myContent += '<div id="recipesWrapper">';
 	
 	allTitles.forEach((recipe, index) => {
 		var tagClasses = " ";
@@ -86,7 +86,7 @@ $(document).ready(function(){
 
 	$('#contentContainer').html(myContent);
 	
-	
+	$container = $('#recipesWrapper');
 	
 	function fetchUrlData(theUrl) {
 		$.ajax({
