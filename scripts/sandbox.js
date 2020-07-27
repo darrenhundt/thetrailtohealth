@@ -114,4 +114,46 @@ $(document).ready(function(){
 		});
 	}
 	
+	function manageCheckbox( $checkbox ) {
+		var checkbox = $checkbox[0];
+
+		var group = $checkbox.parents('.option-set').attr('data-group');
+		// create array for filter group, if not there yet
+		var filterGroup = filters[ group ];
+		if ( !filterGroup ) {
+			filterGroup = filters[ group ] = [];
+		}
+
+		var isAll = $checkbox.hasClass('all');
+		// reset filter group if the all box was checked
+		if ( isAll ) {
+			delete filters[ group ];
+			if ( !checkbox.checked ) {
+				checkbox.checked = 'checked';
+			}
+		}
+		// index of
+		var index = $.inArray( checkbox.value, filterGroup );
+
+		if ( checkbox.checked ) {
+			var selector = isAll ? 'input' : 'input.all';
+			$checkbox.siblings( selector ).removeAttr('checked');
+
+
+			if ( !isAll && index === -1 ) {
+				// add filter to group
+				filters[ group ].push( checkbox.value );
+			}
+
+		} else if ( !isAll ) {
+			// remove filter from group
+			filters[ group ].splice( index, 1 );
+			// if unchecked the last box, check the all
+			if ( !$checkbox.siblings('[checked]').length ) {
+				$checkbox.siblings('input.all').attr('checked', 'checked');
+			}
+		}
+
+	}
+	
 });
