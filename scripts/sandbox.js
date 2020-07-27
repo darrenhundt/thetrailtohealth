@@ -68,7 +68,7 @@ $(document).ready(function(){
 		theTags.forEach((tag,index) => {
 			tagClasses += " " + tag;
 		});
-		myContent += '<h2 class="tagClasses">'' + recipe.title + '</h2>';
+		myContent += '<h2 class="tagClasses">' + recipe.title + '</h2>';
 	});
 	
 	myContent += '</div>';
