@@ -63,8 +63,11 @@ $(document).ready(function(){
 	var myContent = '<div class="recipes-wrapper">';
 	
 	allTitles.forEach((recipe, index) => {
+		console.log(recipe.tags.length);
+		/*
 		var theTags = recipe.tags;
 		console.log(theTags);
+		*/
 		var tagClasses = "";
 		/*
 		theTags.forEach((tag,index) => {
