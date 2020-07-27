@@ -4,23 +4,21 @@ $(document).ready(function(){
 	var offsetDynamic;
 	
 	$.getJSON( "/recipes?format=json", function( data ) {
+		console.log(data.pagination);
 		$.each( data.items, function( key, val ) {
 			console.log(val.addedOn);
-			offsetDynamic = val.addedOn;
-			console.log(offsetDynamic);
 			/* items.push( "<li id='" + key + "'>" + val + "</li>" ); */
 		});
 	});
 	
-	var newUrl = "/recipes?format=json&offset=" + offsetDynamic;
+	//var newUrl = "/recipes?format=json&offset=" + offsetDynamic;
 	
-	console.log(newUrl);
-	
+	//console.log(newUrl);
+	/*
 	$.getJSON( newUrl, function( data ) {
 		$.each( data.items, function( key, val ) {
 			console.log(val.addedOn);
-			/* items.push( "<li id='" + key + "'>" + val + "</li>" ); */
 		});
 	});
-	
+	*/
 });
