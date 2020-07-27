@@ -559,6 +559,9 @@ input.sqs-amazon-button.sqs-system-button.sqs-editable-button {
 #collection-5e8fac64d61b45104195397f .category-wrapper#all {
   display: block;
 }
+#testimonialRotator {
+  padding: 0 20px;
+}
 #testimonialRotator .slick-prev:before,
 #testimonialRotator .slick-next:before {
   color: black;
@@ -571,11 +574,16 @@ input.sqs-amazon-button.sqs-system-button.sqs-editable-button {
   position: relative;
   padding: 40px 50px;
 }
+#testimonialRotator cite {
+  display: block;
+  width: 100%;
+  text-align: right;
+}
 #testimonialRotator .testimonial-body:before,
 #testimonialRotator .testimonial-body:after {
   content: "\201C";
   position: absolute;
-  font-size: 80px;
+  font-size: 100px;
   padding: 10px;
   line-height: 1;
   color: #000;
@@ -585,7 +593,23 @@ input.sqs-amazon-button.sqs-system-button.sqs-editable-button {
   left: 0px;
 }
 #testimonialRotator .testimonial-body:after {
+  display: none;
   content: "\201D";
   right: 0px;
   bottom: -0.5em;
+}
+#testimonialRotator .slick-prev {
+  left: 0;
+}
+#testimonialRotator .slick-next {
+  right: 0;
+}
+#page-body-header .search-block {
+  padding-top: 0;
+}
+.view-item #page-body-header .search-block {
+  display: none;
+}
+.recipe-item-isotope {
+  background-color: lightblue;
 }
