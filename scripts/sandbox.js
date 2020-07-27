@@ -13,6 +13,8 @@ $(document).ready(function(){
 	
 	var newUrl = "/recipes?format=json&offset=" + offsetDynamic;
 	
+	console.log(newUrl);
+	
 	$.getJSON( newUrl, function( data ) {
 		$.each( data.items, function( key, val ) {
 			console.log(val.addedOn)
