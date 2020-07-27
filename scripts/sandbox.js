@@ -66,7 +66,8 @@ $(document).ready(function(){
 		var tagClasses = " ";
 		if ( Array.isArray(recipe.tags) && recipe.tags.length ) {
 			recipe.tags.forEach((tag,index) => {
-				tagClasses += " " + tag;
+				var tagHandle = tag.replace(/\s/g , "-");
+				tagClasses += " " + tagHandle;
 			});
 		}
 		
