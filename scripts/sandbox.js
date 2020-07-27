@@ -61,7 +61,7 @@ $(document).ready(function(){
 	}
 	
 	var myContent = `<div id="options">
-  <div class="option-set" data-group="brand">
+  <div class="option-set" data-group="tag">
     <input type="checkbox" value=""        id="brand-all" class="all" checked /><label for="brand-all">clear all</label>
     <input type="checkbox" value=".gluten-free" id="gluten-free" /><label for="gluten-free">gluten-free</label>
     <input type="checkbox" value=".cookbook" id="cookbook" /><label for="cookbook">cookbook</label>
@@ -112,6 +112,42 @@ $(document).ready(function(){
 				currentRecipeUrl = data.pagination.nextPageUrl + "&format=json";
 			}
 		});
+	}
+	
+	function getComboFilter( filters ) {
+		var i = 0;
+		var comboFilters = [];
+		var message = [];
+
+		for ( var prop in filters ) {
+			message.push( filters[ prop ].join(' ') );
+			var filterGroup = filters[ prop ];
+			// skip to next filter group if it doesn't have any values
+			if ( !filterGroup.length ) {
+				continue;
+			}
+			if ( i === 0 ) {
+				// copy to new array
+				comboFilters = filterGroup.slice(0);
+			} else {
+				var filterSelectors = [];
+				// copy to fresh array
+				var groupCombo = comboFilters.slice(0); // [ A, B ]
+				// merge filter Groups
+				for (var k=0, len3 = filterGroup.length; k < len3; k++) {
+					for (var j=0, len2 = groupCombo.length; j < len2; j++) {
+						filterSelectors.push( groupCombo[j] + filterGroup[k] ); // [ 1, 2 ]
+					}
+
+				}
+				// apply filter selectors to combo filters for next group
+				comboFilters = filterSelectors;
+			}
+			i++;
+		}
+
+		var comboFilter = comboFilters.join(', ');
+		return comboFilter;
 	}
 	
 	function manageCheckbox( $checkbox ) {
