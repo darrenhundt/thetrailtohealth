@@ -8,19 +8,8 @@ $(document).ready(function(){
 	var fetchMore = true;
 	
 	console.log(currentRecipeUrl);
-	$.ajax({
-		url: currentRecipeUrl,
-		dataType: 'json',
-		async: false,
-		success: function(data) {
-			$.each( data.items, function( key, val ) {
-				//console.log(val.title);
-				allTitles.push(val);
-			});
-			fetchMore = data.pagination.nextPage;
-			currentRecipeUrl = data.pagination.nextPageUrl + "&format=json";
-		}
-	});
+	
+	fetchUrlData(currentRecipeUrl);
 	
 	if (fetchMore) {
 		fetchUrlData(currentRecipeUrl);
