@@ -8,6 +8,12 @@
 
 						    <div class="main-content" data-content-field="main-content" data-collection-id="{collection.id}" data-edit-main-image="Page Banner">
 									
+
+								<div id="page-body-header" class="extra-wrapper">
+									<squarespace:block-field id="page-header-{collection.id}" description="Page Header" columns="12" label="{collection.title} Header Content" />
+								</div>
+									
+									
 									<div class="tv-recipes-wrapper">
 										<squarespace:query collection="recipes" category="Video Recipe" limit="30">
 											{.repeated section items}
