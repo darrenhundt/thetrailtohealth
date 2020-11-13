@@ -1,4 +1,15 @@
 /* CSS Document */
+.collection-layout-tv-recipes #banner-area {
+  height: auto;
+  padding-top: 360px;
+  padding-bottom: 20px;
+}
+.collection-layout-tv-recipes #page-body-wrapper {
+  padding-top: 40px;
+}
+.tv-videos-page #page-body-header {
+  padding: 0 10px;
+}
 .tv-recipes-wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -50,15 +61,23 @@
 .tv-recipes-wrapper h2 {
   margin-top: 8px;
 }
+.recipe-title-length-wrapper {
+  margin-bottom: 15px;
+}
+#collection-5faee9279a1aef48f657714a,
 #collection-5f1824702dfe8a5bde67d18d {
   min-height: 1px;
 }
+#collection-5faee9279a1aef48f657714a .main-content .sqs-block-button-element--medium,
 #collection-5f1824702dfe8a5bde67d18d .main-content .sqs-block-button-element--medium {
   font-weight: 100;
   font-size: 16px;
   letter-spacing: 0;
   padding: 8px 20px;
   width: 190px;
+}
+#collection-5faee9279a1aef48f657714a .main-content p {
+  margin-top: 0;
 }
 .category-cookbook .article-meta {
   display: none;
