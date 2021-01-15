@@ -17,6 +17,12 @@
   -ms-flex-align: center;
   align-items: center;
 }
+.layout-2021 h1 {
+  font-family: Roboto!important;
+  font-weight: 500;
+  line-height: 125%;
+  letter-spacing: 0.03em;
+}
 .layout-2021 #main-navigation {
   margin-left: 0;
   margin-right: 0;
@@ -56,4 +62,8 @@
 .layout-2021 .banner-slide {
   display: flex;
   justify-content: space-between;
+}
+.layout-2021 .banner-slide h1 {
+  font-size: 38px;
+  color: black;
 }
