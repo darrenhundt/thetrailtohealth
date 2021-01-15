@@ -52,6 +52,20 @@
 .layout-2021 #bannerCarousel .banner-slide {
   width: 100%;
 }
+.layout-2021 #bannerCarousel button.flickity-button.flickity-prev-next-button {
+  position: absolute;
+  top: 50%;
+  transform: translatey(-50%);
+}
+.layout-2021 #bannerCarousel button.flickity-button.flickity-prev-next-button.previous {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translatey(-50%);
+}
+.layout-2021 #bannerCarousel button.flickity-button.flickity-prev-next-button.next {
+  right: 0;
+}
 .layout-2021 #main-navigation {
   margin-left: 0;
   margin-right: 0;
