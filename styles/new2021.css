@@ -48,6 +48,7 @@
 }
 .layout-2021 #bannerCarousel {
   width: 100%;
+  position: relative;
 }
 .layout-2021 #bannerCarousel .banner-slide {
   width: 100%;
