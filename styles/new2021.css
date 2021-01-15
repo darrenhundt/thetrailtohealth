@@ -38,6 +38,10 @@
   background: white;
   border: 1px solid black;
 }
+.layout-2021 .container {
+  max-width: 1240px;
+  margin: auto;
+}
 .layout-2021 #main-navigation {
   margin-left: 0;
   margin-right: 0;
