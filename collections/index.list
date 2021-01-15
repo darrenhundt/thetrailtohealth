@@ -75,7 +75,7 @@
 
     {.or}
 
-{.equal? typeName "headerBanner"}
+{.equal? typeName "banner"}
 	<section id="{urlId}" class="custom-veggie-section no-padding-top-section">
 		<div id="portfolioIndexSectionPageContent" class="Index-page-content {.section mainImage} sqs-alternate-block-style-container{.or}{.background-source-video?} sqs-alternate-block-style-container{.end}{.end}">
 			<div id="serviceGrid">
