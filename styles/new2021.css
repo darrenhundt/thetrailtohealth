@@ -22,6 +22,9 @@
   margin-right: 0;
   padding-right: 0;
 }
+.layout-2021 #main-navigation ul li {
+  margin-left: 20px;
+}
 .layout-2021 #main-navigation ul li a {
   font-family: Roboto;
   font-size: 14px;
