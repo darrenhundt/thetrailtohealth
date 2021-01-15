@@ -2,6 +2,10 @@
 .layout-2021 {
   font-family: Roboto!important;
 }
+.layout-2021 *:focus,
+.layout-2021 * {
+  outline: none;
+}
 .layout-2021 .element-is-flex {
   display: -webkit-box;
   display: -ms-flexbox;
