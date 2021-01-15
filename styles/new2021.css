@@ -45,6 +45,12 @@
   width: 50%;
   padding-top: 150px;
   padding-bottom: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.layout-2021 .banner-right .sqs-layout {
+  max-width: 450px;
 }
 .layout-2021 .banner-slide {
   display: flex;
