@@ -64,6 +64,9 @@
   border-radius: 0;
   background: rgba(0, 0, 0, 0.16);
 }
+.layout-2021 #bannerCarousel button.flickity-button.flickity-prev-next-button svg {
+  fill: white;
+}
 .layout-2021 #bannerCarousel button.flickity-button.flickity-prev-next-button.previous {
   left: 0;
 }
