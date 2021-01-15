@@ -42,6 +42,12 @@
   max-width: 1240px;
   margin: auto;
 }
+.layout-2021 #bannerCarousel {
+  width: 100%;
+}
+.layout-2021 #bannerCarousel .banner-slide {
+  width: 100%;
+}
 .layout-2021 #main-navigation {
   margin-left: 0;
   margin-right: 0;
