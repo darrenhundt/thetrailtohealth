@@ -74,6 +74,9 @@
 .layout-2021 .banner-right .sqs-layout {
   max-width: 450px;
 }
+.layout-2021 .banner-right .sqs-layout .button-block {
+  margin-top: 20px;
+}
 .layout-2021 .banner-slide {
   display: flex;
   justify-content: space-between;
