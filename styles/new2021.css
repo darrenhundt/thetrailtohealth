@@ -20,6 +20,7 @@
 .layout-2021 #main-navigation {
   margin-left: 0;
   margin-right: 0;
+  padding-right: 0;
 }
 .layout-2021 #main-navigation ul li a {
   font-family: Roboto;
