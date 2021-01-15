@@ -46,7 +46,7 @@
               <Div id="bannerCarousel">
                 {.repeated section items}
                 <div class="banner-slide">
-                  <div class="banner-left" style="background-image: url(''{assetUrl}?format=1000w')">
+                  <div class="banner-left" style="background-image: url('{assetUrl}?format=1000w')">
                     {.main-image?}<img {@|image-meta} />{.end}
                   </div>
                   <div class="banner-right">{body}</div>
