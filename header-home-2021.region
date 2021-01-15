@@ -43,11 +43,14 @@
 
             <squarespace:query collection="new-header-slides" limit="10">
 
-              <ol>
+              <Div id="bannerCarousel">
                 {.repeated section items}
-                  <li><a href="{fullUrl}">{title}</a></li>
+                <div class="featured-post">
+                  {.main-image?}<img {@|image-meta} />{.end}
+                  <h2>{title}</h2>
+                </div>
                 {.end}
-              </ol>
+                </div>
 
             </squarespace:query>
 
