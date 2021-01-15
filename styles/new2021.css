@@ -23,6 +23,21 @@
   line-height: 125%;
   letter-spacing: 0.03em;
 }
+.layout-2021 p {
+  font-family: Roboto!important;
+  font-weight: 300;
+  line-height: 125%;
+  letter-spacing: 0.03em;
+}
+.layout-2021 .sqs-block-button .sqs-block-button-element--medium {
+  font-family: Roboto!important;
+  font-weight: 700;
+  line-height: 125%;
+  letter-spacing: 0.135em;
+  color: black;
+  background: white;
+  border: 1px solid black;
+}
 .layout-2021 #main-navigation {
   margin-left: 0;
   margin-right: 0;
@@ -65,5 +80,9 @@
 }
 .layout-2021 .banner-slide h1 {
   font-size: 38px;
+  color: black;
+}
+.layout-2021 .banner-slide p {
+  font-size: 24px;
   color: black;
 }
