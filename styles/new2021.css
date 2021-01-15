@@ -49,6 +49,7 @@
 .layout-2021 #bannerCarousel {
   width: 100%;
   position: relative;
+  overflow: hidden;
 }
 .layout-2021 #bannerCarousel .banner-slide {
   width: 100%;
