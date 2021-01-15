@@ -43,21 +43,20 @@
 				    	</div>
 				    </div><!-- navigation-top -->
 
-            <squarespace:query collection="new-header-slides" limit="10">
+            <div class="container">
+              <squarespace:query collection="new-header-slides" limit="10">
+                <div id="bannerCarousel">
+                  {.repeated section items}
+                  <div class="banner-slide">
+                    <div class="banner-left" style="background-image: url('{assetUrl}?format=1000w')">
 
-              <Div id="bannerCarousel">
-                {.repeated section items}
-                <div class="banner-slide">
-                  <div class="banner-left" style="background-image: url('{assetUrl}?format=1000w')">
-                    
+                    </div>
+                    <div class="banner-right">{body}</div>
                   </div>
-                  <div class="banner-right">{body}</div>
+                  {.end}
                 </div>
-                {.end}
-                </div>
-
-            </squarespace:query>
-
+              </squarespace:query>
+            </div>
 				    <div id="navigation-bottom">
 				    	<div class="horizontal-navigation-bar clear{.section website}{.if logoImageUrl} with-logo{.or} with-title{.end}{.end}">
 
