@@ -74,6 +74,9 @@
 .layout-2021 .banner-right .sqs-layout {
   max-width: 450px;
 }
+.layout-2021 .banner-right .sqs-layout .html-block a {
+  color: #3a9ed7;
+}
 .layout-2021 .banner-right .sqs-layout .button-block {
   margin-top: 20px;
 }
