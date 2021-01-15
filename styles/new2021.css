@@ -85,8 +85,9 @@
   justify-content: space-between;
 }
 .layout-2021 .banner-slide h1 {
-  font-size: 38px;
-  color: black;
+  font-size: 38px!important;
+  color: #000;
+  font-weight: bold!important;
 }
 .layout-2021 .banner-slide p {
   font-size: 24px;
