@@ -36,3 +36,13 @@
 .layout-2021 #main-navigation ul li a.active-link {
   color: #000;
 }
+.layout-2021 .banner-left {
+  width: 50%;
+}
+.layout-2021 .banner-right {
+  width: 50%;
+}
+.layout-2021 .banner-slide {
+  display: flex;
+  justify-content: space-between;
+}
