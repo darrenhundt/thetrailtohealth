@@ -75,7 +75,7 @@
 
     {.or}
 
-{.equal? typeName "service"}
+{.equal? typeName "headerBanner"}
 	<section id="{urlId}" class="custom-veggie-section no-padding-top-section">
 		<div id="portfolioIndexSectionPageContent" class="Index-page-content {.section mainImage} sqs-alternate-block-style-container{.or}{.background-source-video?} sqs-alternate-block-style-container{.end}{.end}">
 			<div id="serviceGrid">
@@ -105,19 +105,7 @@
 					{.end}
 				</div> <!-- partnerGridInner -->
 			</div> <!-- partnerGrid -->
-			
-			<div id="serviceInfoGrid">
-				<div id="serviceInfoClose"><img src="/assets/closeX.png" /></div>
-				<div id="serviceInfoGridInner">
-					{.repeated section items}
-						<div data-service-target="{id}" class="service-info-item">
-							<div class="service-info-item-wrapper">
-								{body}
-							</div> <!-- partner-info-item-wrapper -->
-						</div> <!-- partner-info-item -->
-					{.end}
-				</div> <!-- partnerGridInner -->
-			</div> <!-- partnerGrid -->
+			!-- partnerGrid -->
 		</div> <!-- Index-page-content -->
 	</section>
 {.or}
