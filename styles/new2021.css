@@ -60,10 +60,7 @@
   transform: translatey(-50%);
 }
 .layout-2021 #bannerCarousel button.flickity-button.flickity-prev-next-button.previous {
-  position: absolute;
-  top: 50%;
   left: 0;
-  transform: translatey(-50%);
 }
 .layout-2021 #bannerCarousel button.flickity-button.flickity-prev-next-button.next {
   right: 0;
