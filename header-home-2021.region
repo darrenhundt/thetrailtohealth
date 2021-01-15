@@ -45,9 +45,11 @@
 
               <Div id="bannerCarousel">
                 {.repeated section items}
-                <div class="featured-post">
-                  {.main-image?}<img {@|image-meta} />{.end}
-                  <h2>{title}</h2>
+                <div class="banner-slide">
+                  <div class="banner-left">
+                    {.main-image?}<img {@|image-meta} />{.end}
+                  </div>
+                  <div class="banner-right">{body}</div>
                 </div>
                 {.end}
                 </div>
