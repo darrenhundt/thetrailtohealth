@@ -38,9 +38,13 @@
 }
 .layout-2021 .banner-left {
   width: 50%;
+  background-size: cover;
+  background-position: center center;
 }
 .layout-2021 .banner-right {
   width: 50%;
+  padding-top: 150px;
+  padding-bottom: 150px;
 }
 .layout-2021 .banner-slide {
   display: flex;
