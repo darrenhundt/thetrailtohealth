@@ -13,7 +13,7 @@
   <body class="{squarespace.page-classes}{.section website}{.if logoImageUrl} has-logo-image{.or} no-logo-image{.end}{.end}{.section collection}{.background-source-video?} has-page-thumbnail{.or}{.section mainImage} has-page-thumbnail{.end}{.end}{.end}" id="{squarespace.page-id}" ontouchstart="">
 
 		{.if template.mobileStylesEnabled}
-		<squarespace:navigation navigationId="mainNav" template="mobile-navigation" />
+		<squarespace:navigation navigationId="mainNav2021" template="mobile-navigation" />
 		{.end}
 
 	  <div id="canvas-wrapper">
@@ -38,7 +38,7 @@
 									</div>
 					        {.end}
 
-					    		<squarespace:navigation navigationId="mainNav" template="main-navigation" />
+					    		<squarespace:navigation navigationId="mainNav2021" template="main-navigation" />
 				          {.if socialAccounts}
 			            <div id="sqs-social" class="social-links sqs-svg-icon--list" data-content-field="connected-accounts">
         						{@|apply sqs-social-links}
@@ -112,7 +112,7 @@
 					        </div>
 					        {.end}
 
-									<squarespace:navigation navigationId="mainNav" template="main-navigation" />
+									<squarespace:navigation navigationId="mainNav2021" template="main-navigation" />
 
 				          {.if socialAccounts}
                   <div id="sqs-social" class="social-links sqs-svg-icon--list" data-content-field="connected-accounts">
