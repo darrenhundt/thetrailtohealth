@@ -44,6 +44,7 @@
 }
 .layout-2021 #page-header-wrapper {
   background: none;
+  background-color: transparent;
 }
 .layout-2021 #bannerCarousel {
   width: 100%;
