@@ -1,5 +1,5 @@
 {.if items || websiteSettings.userAccountsSettings.loginAllowed}
-<nav id="main-navigation" class="main-nav" data-content-field="navigation">
+<nav id="main-navigation" class="main-nav footer-nav" data-content-field="navigation">
   <ul>
   {.repeated section items}
 
