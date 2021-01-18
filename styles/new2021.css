@@ -203,3 +203,9 @@
   flex: 1 1 22px;
   margin-left: 0;
 }
+@media (max-width: 768px) {
+  .layout-2021 #main-navigation.footer-nav .flex-nav .folder-collection.index-2 ul {
+    flex-wrap: nowrap;
+    height: auto;
+  }
+}
