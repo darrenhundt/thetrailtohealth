@@ -144,17 +144,17 @@
   font-size: 24px;
   color: black;
 }
-.layout-2021 #main-navigation.footer-nav .footer-top-row {
+.layout-2021 .footer-wrapper-2021 .footer-top-row {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-top: 20px;
   padding-bottom: 20px;
 }
-.layout-2021 #main-navigation.footer-nav .footer-top-row img#banner {
+.layout-2021 .footer-wrapper-2021 .footer-top-row img#banner {
   width: 180px;
 }
-.layout-2021 #main-navigation.footer-nav .footer-top-row #sqs-social {
+.layout-2021 .footer-wrapper-2021 .footer-top-row #sqs-social {
   margin: 0;
 }
 .layout-2021 #main-navigation.footer-nav .folder-collection > a {
