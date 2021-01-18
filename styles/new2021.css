@@ -148,6 +148,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.layout-2021 #main-navigation.footer-nav .footer-top-row img#banner {
+  width: 180px;
 }
 .layout-2021 #main-navigation.footer-nav .footer-top-row #sqs-social {
   margin: 0;
