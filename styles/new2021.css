@@ -161,6 +161,7 @@
   padding-left: 10px;
   padding-right: 10px;
   box-sizing: border-box;
+  margin-bottom: 25px;
 }
 .layout-2021 #main-navigation.footer-nav .flex-nav .folder-collection li {
   flex: 1 1 22px;
