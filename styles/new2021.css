@@ -144,6 +144,14 @@
   font-size: 24px;
   color: black;
 }
+.layout-2021 #main-navigation.footer-nav .footer-top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.layout-2021 #main-navigation.footer-nav .footer-top-row #sqs-social {
+  margin: 0;
+}
 .layout-2021 #main-navigation.footer-nav .folder-collection > a {
   color: black!important;
   display: block;
