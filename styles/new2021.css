@@ -148,6 +148,8 @@
   color: black;
   display: block;
   border-bottom: 1px solid black;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
 }
 .layout-2021 #main-navigation.footer-nav .flex-nav {
   display: flex;
@@ -171,4 +173,5 @@
 }
 .layout-2021 #main-navigation.footer-nav .flex-nav .folder-collection.index-2 ul li {
   flex: 1 1 22px;
+  margin-left: 0;
 }
