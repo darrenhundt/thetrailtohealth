@@ -176,12 +176,22 @@
   box-sizing: border-box;
   margin-bottom: 25px;
 }
+@media (max-width: 768px) {
+  .layout-2021 #main-navigation.footer-nav .flex-nav .folder-collection {
+    width: 100%;
+  }
+}
 .layout-2021 #main-navigation.footer-nav .flex-nav .folder-collection li {
   flex: 1 1 22px;
   margin-left: 0;
 }
 .layout-2021 #main-navigation.footer-nav .flex-nav .folder-collection.index-2 {
   width: 50%;
+}
+@media (max-width: 768px) {
+  .layout-2021 #main-navigation.footer-nav .flex-nav .folder-collection.index-2 {
+    width: 100%;
+  }
 }
 .layout-2021 #main-navigation.footer-nav .flex-nav .folder-collection.index-2 ul {
   display: flex;
