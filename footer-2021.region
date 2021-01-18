@@ -1,4 +1,4 @@
-		    <div id="page-footer-wrapper">
+		    <div id="page-footer-wrapper" class="footer-wrapper-2021">
 		      <div id="page-footer">
             <div class="footer-top-row">
               {.section website}
