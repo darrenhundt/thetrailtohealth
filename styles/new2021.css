@@ -155,7 +155,7 @@
   width: 180px;
 }
 .layout-2021 .footer-wrapper-2021 .footer-top-row #sqs-social {
-  margin: 0;
+  margin: 0!important;
 }
 .layout-2021 #main-navigation.footer-nav .folder-collection > a {
   color: black!important;
