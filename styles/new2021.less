@@ -202,12 +202,18 @@
         padding-right: 40px;
         box-sizing: border-box;
         margin-bottom: 25px;
+        @media (max-width: 768px) {
+          width: 100%;
+        }
         li {
           flex: 1 1 22px;
           margin-left: 0;
         }
         &.index-2 {
           width: 50%;
+          @media (max-width: 768px) {
+            width: 100%;
+          }
           ul {
             display: flex;
             flex-direction: column;
