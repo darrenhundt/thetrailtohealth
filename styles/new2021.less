@@ -171,12 +171,20 @@
   
   
   #main-navigation.footer-nav {
+    .folder-collection > a {
+      color: black; 
+      display: block;
+      border-bottom: 1px solid black;
+    }
     .flex-nav {
       display: flex;
       flex-wrap: wrap;
       .folder-collection {
         width: 25%;
         margin-left: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+        box-sizing: border-box;
         &.index-2 {
           width: 50%;
           ul {
