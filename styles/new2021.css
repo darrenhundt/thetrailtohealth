@@ -94,6 +94,11 @@
     flex-direction: column;
   }
 }
+@media (max-width: 640px) {
+  .layout-2021 #navigation-top .horizontal-navigation-bar {
+    display: none;
+  }
+}
 .layout-2021 #main-navigation {
   margin-left: 0;
   margin-right: 0;
