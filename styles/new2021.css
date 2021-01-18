@@ -152,6 +152,17 @@
   font-size: 24px;
   color: black;
 }
+@media (max-width: 768px) {
+  .layout-2021 .banner-slide {
+    flex-direction: column;
+  }
+  .layout-2021 .banner-slide .banner-left {
+    width: 100%;
+  }
+  .layout-2021 .banner-slide .banner-right {
+    width: 100%;
+  }
+}
 .layout-2021 .footer-wrapper-2021 .footer-top-row {
   display: flex;
   justify-content: space-between;
