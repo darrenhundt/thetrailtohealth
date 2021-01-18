@@ -122,6 +122,12 @@
   align-items: center;
   background: white;
 }
+@media (max-width: 1080px) {
+  .layout-2021 .banner-right {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
 .layout-2021 .banner-right .sqs-layout {
   max-width: 450px;
 }
