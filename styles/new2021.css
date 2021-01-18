@@ -173,7 +173,8 @@
   }
   .layout-2021 .banner-slide .banner-left {
     width: 100%;
-    height: 80vw;
+    height: 60vw;
+    background-position: 50% 0%;
   }
   .layout-2021 .banner-slide .banner-right {
     width: 100%;
