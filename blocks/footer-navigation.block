@@ -1,6 +1,6 @@
 {.if items || websiteSettings.userAccountsSettings.loginAllowed}
 <nav id="main-navigation" class="main-nav footer-nav" data-content-field="navigation">
-  <ul>
+  <ul class="flex-nav">
   {.repeated section items}
 
     {# this is condensed for a reason - it removed whitespace between links and allows better centering of delimiters }
