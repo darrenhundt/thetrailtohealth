@@ -123,6 +123,9 @@
 .layout-2021 #main-navigation ul li a.active-link {
   color: #000;
 }
+.layout-2021 #page-body-wrapper {
+  padding-bottom: 20px;
+}
 .layout-2021 .banner-left {
   width: 50%;
   background-size: cover;
