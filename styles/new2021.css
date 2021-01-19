@@ -181,6 +181,14 @@
     height: auto;
   }
 }
+@media (max-width: 1000px) {
+  .layout-2021 .Home-page-body-header .sqs-grid-12 .row .sqs-col-12 {
+    display: flex;
+  }
+  .layout-2021 .Home-page-body-header .sqs-grid-12 .row .sqs-col-12 > .col {
+    width: 100%;
+  }
+}
 .layout-2021 .footer-wrapper-2021 .footer-top-row {
   display: flex;
   justify-content: space-between;
