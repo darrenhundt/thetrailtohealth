@@ -279,7 +279,7 @@
   .layout-2021 #main-navigation.footer-nav .flex-nav .subnav {
     display: none;
   }
-  .layout-2021 #main-navigation.footer-nav .flex-nav .subnav .mobile-only {
+  .layout-2021 #main-navigation.footer-nav .flex-nav .mobile-only {
     display: inline-block;
   }
 }
