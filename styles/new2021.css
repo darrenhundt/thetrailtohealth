@@ -191,7 +191,7 @@
   .layout-2021 .Home-page-body-header .sqs-grid-12 .row .sqs-col-12 {
     display: flex;
   }
-  .layout-2021 .Home-page-body-header .sqs-grid-12 .row .sqs-col-12 > .col {
+  .layout-2021 .Home-page-body-header .sqs-grid-12 .row .sqs-col-12 > .row > .col {
     width: 100%;
   }
 }
