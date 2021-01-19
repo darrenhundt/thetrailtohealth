@@ -272,8 +272,14 @@
     height: auto;
   }
 }
+.layout-2021 #main-navigation.footer-nav .flex-nav .mobile-only {
+  display: none;
+}
 @media (max-width: 768px) {
   .layout-2021 #main-navigation.footer-nav .flex-nav .subnav {
     display: none;
+  }
+  .layout-2021 #main-navigation.footer-nav .flex-nav .subnav .mobile-only {
+    display: inline-block;
   }
 }
