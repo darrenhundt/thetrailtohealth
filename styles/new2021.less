@@ -199,12 +199,12 @@
   }
   
   .Home-page-body-header {
+    @media (max-width: 1000px) {
     .sqs-grid-12 .row .sqs-col-12 {
-      @media (max-width: 1000px) {
         display: flex;
-        &> .col {
-          width: 100%;
-        }
+      }
+    .sqs-grid-12 .row .sqs-col-12 > .col {
+        width: 100%;
       }
     }
   }
