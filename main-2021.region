@@ -6,7 +6,7 @@
 					<div id="content-wrapper">
 						<div id="content">
 
-							<div id="page-body-header" class="extra-wrapper">
+							<div id="page-body-header" class="extra-wrapper {collection.title}-page-body-header">
 								<squarespace:block-field id="page-header-{collection.id}" description="Page Header" columns="12" label="{collection.title} Header Content" />
 							</div>
 
@@ -42,5 +42,6 @@
 
 	      </div>
 	    </div> <!-- page-body-wrapper -->
+
 
 
