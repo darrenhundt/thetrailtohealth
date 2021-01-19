@@ -194,6 +194,9 @@
   .layout-2021 .Home-page-body-header .sqs-grid-12 .row .sqs-col-12 > .row > .col {
     width: 100%;
   }
+  .layout-2021 .Home-page-body-header .sqs-grid-12 .row .sqs-col-12 > .row > .col .col {
+    width: 25%!important;
+  }
 }
 .layout-2021 .footer-wrapper-2021 .footer-top-row {
   display: flex;
