@@ -196,6 +196,12 @@
   }
   .layout-2021 .Home-page-body-header .sqs-grid-12 .row .sqs-col-12 > .row > .col .sqs-col-2 {
     width: 25%!important;
+    float: left!important;
+  }
+}
+@media (max-width: 1000px) and (max-width: 510px) {
+  .layout-2021 .Home-page-body-header .sqs-grid-12 .row .sqs-col-12 > .row > .col .sqs-col-2 {
+    width: 50%!important;
   }
 }
 .layout-2021 .footer-wrapper-2021 .footer-top-row {
