@@ -274,6 +274,7 @@
 }
 .layout-2021 #main-navigation.footer-nav .flex-nav .mobile-only {
   display: none;
+  padding-left: 6px;
 }
 @media (max-width: 768px) {
   .layout-2021 #main-navigation.footer-nav .flex-nav .subnav {
