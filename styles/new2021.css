@@ -138,14 +138,16 @@
     flex-direction: column;
   }
 }
-.layout-2021 #page-body-wrapper #homeMainColumns #homeMainBodyNew {
+.layout-2021 #page-body-wrapper #homeMainColumns #homeMainBodyNew,
+.layout-2021 #page-body-wrapper #homeMainColumns #coachingMainBodyNew {
   display: inline-block;
   width: 75%;
   min-height: 10px;
   padding-right: 10px;
 }
 @media (max-width: 640px) {
-  .layout-2021 #page-body-wrapper #homeMainColumns #homeMainBodyNew {
+  .layout-2021 #page-body-wrapper #homeMainColumns #homeMainBodyNew,
+  .layout-2021 #page-body-wrapper #homeMainColumns #coachingMainBodyNew {
     width: 100%;
     padding-right: 0px;
   }
