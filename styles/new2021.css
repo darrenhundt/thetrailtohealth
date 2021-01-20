@@ -193,6 +193,7 @@
 }
 .layout-2021 .Home-page-body-header {
   min-height: 1px;
+  border-bottom: 1px solid #e7e5e5;
 }
 @media (max-width: 1000px) {
   .layout-2021 .Home-page-body-header {
