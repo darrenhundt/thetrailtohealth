@@ -133,11 +133,22 @@
   max-width: 1200px;
   margin: 40px auto 20px;
 }
+@media (max-width: 640px) {
+  .layout-2021 #page-body-wrapper #homeMainColumns {
+    flex-direction: column;
+  }
+}
 .layout-2021 #page-body-wrapper #homeMainColumns #homeMainBodyNew {
   display: inline-block;
   width: 75%;
   min-height: 10px;
   padding-right: 10px;
+}
+@media (max-width: 640px) {
+  .layout-2021 #page-body-wrapper #homeMainColumns #homeMainBodyNew {
+    width: 100%;
+    padding-right: 0px;
+  }
 }
 .layout-2021 #page-body-wrapper #homeMainColumns #sidebar2021New {
   display: inline-block;
@@ -145,6 +156,12 @@
   min-height: 10px;
   padding-left: 20px;
   padding-top: 20px;
+}
+@media (max-width: 640px) {
+  .layout-2021 #page-body-wrapper #homeMainColumns #sidebar2021New {
+    width: 100%;
+    padding-left: 0px;
+  }
 }
 .layout-2021 #page-body-wrapper .main-content h2 a {
   color: #3a9ed7;
@@ -203,6 +220,11 @@
   color: #000;
   font-weight: bold!important;
 }
+@media (max-width: 520px) {
+  .layout-2021 .banner-slide h1 {
+    font-size: 28px!important;
+  }
+}
 .layout-2021 .banner-slide p {
   font-size: 24px;
   color: black;
@@ -219,6 +241,9 @@
   .layout-2021 .banner-slide .banner-right {
     width: 100%;
     height: auto;
+  }
+  .layout-2021 .banner-slide .sqs-block-button-container--left {
+    text-align: center;
   }
 }
 .layout-2021 .Home-page-body-header {
