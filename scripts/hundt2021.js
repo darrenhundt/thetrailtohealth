@@ -11,8 +11,17 @@ $(document).ready(function(){
     wrapAround: true
   });
   $('#page-footer .mobile-only').on('click',function(){
+    
     var myParent = $(this).closest('li');
     var mySubnav = myParent.find('.subnav');
-    mySubnav.slideDown();
+    if ($(this).hasClass('open-footer-nav')) {
+      $(this).removeClass('open-footer-nav');
+      mySubnav.slideUp();
+      $(this).html('+');
+    } else {
+      $(this).addClass('open-footer-nav');
+      mySubnav.slideDown();
+      $(this).html('-');
+    }
   });
 });
