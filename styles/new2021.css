@@ -236,6 +236,9 @@
   padding-left: 20px;
   padding-top: 20px;
 }
+.layout-2021 .main-content h2 a {
+  color: #3a9ed7;
+}
 .layout-2021 .footer-wrapper-2021 .footer-top-row {
   display: flex;
   justify-content: space-between;
