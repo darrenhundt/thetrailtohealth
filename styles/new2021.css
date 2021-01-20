@@ -149,6 +149,12 @@
 .layout-2021 #page-body-wrapper .main-content h2 a {
   color: #3a9ed7;
 }
+.layout-2021 #page-body-wrapper .newsletter-form-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .layout-2021 #page-body {
   max-width: none;
 }
