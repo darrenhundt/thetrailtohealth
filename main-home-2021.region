@@ -28,8 +28,8 @@
 					    {.end}{.end}{.end}
               
               <div id="homeMainColumns">
-                <squarespace:block-field id="homeMainBody" description="Home Main Body" columns="12" label="Home Main 2021 Content" />
-                <squarespace:block-field id="sidebar2021" description="Sidebar 2021" columns="12" label="Sidebar 2021" />
+                <squarespace:block-field id="homeMainBody" description="New Home Main Body" columns="12" label="New Home Main 2021 Content" />
+                <squarespace:block-field id="sidebar2021" description="New Sidebar 2021" columns="12" label="New Sidebar 2021" />
               </div>
 
 					    <div class="main-content" data-content-field="main-content" data-collection-id="{collection.id}" data-edit-main-image="Page Banner">
