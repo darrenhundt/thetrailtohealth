@@ -207,6 +207,17 @@
     width: 50%!important;
   }
 }
+.layout-2021 #homeMainColumns {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.layout-2021 #homeMainColumns #homeMainBody {
+  flex: 3;
+}
+.layout-2021 #homeMainColumns #sidebar2021 {
+  flex: 1;
+}
 .layout-2021 .footer-wrapper-2021 .footer-top-row {
   display: flex;
   justify-content: space-between;
