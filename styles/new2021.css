@@ -126,6 +126,13 @@
 .layout-2021 #page-body-wrapper {
   padding-bottom: 20px;
 }
+.layout-2021 #page-body {
+  max-width: none;
+}
+.layout-2021 #page-body .sqs-layout {
+  max-width: 1200px;
+  margin: auto;
+}
 .layout-2021 .banner-left {
   width: 50%;
   background-size: cover;
