@@ -131,7 +131,8 @@
 }
 .layout-2021 #page-body .sqs-layout {
   max-width: 1200px;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 .layout-2021 .banner-left {
   width: 50%;
@@ -220,13 +221,20 @@
   justify-content: space-between;
   align-items: flex-start;
   max-width: 1200px;
-  margin: auto;
+  margin: 40px auto 20px;
 }
-.layout-2021 #homeMainColumns #homeMainBody {
-  flex: 3;
+.layout-2021 #homeMainColumns #homeMainBodyNew {
+  display: inline-block;
+  width: 75%;
+  min-height: 10px;
+  padding-right: 10px;
 }
-.layout-2021 #homeMainColumns #sidebar2021 {
-  flex: 1;
+.layout-2021 #homeMainColumns #sidebar2021New {
+  display: inline-block;
+  width: 25%;
+  min-height: 10px;
+  padding-left: 20px;
+  padding-top: 20px;
 }
 .layout-2021 .footer-wrapper-2021 .footer-top-row {
   display: flex;
