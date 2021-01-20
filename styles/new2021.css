@@ -219,6 +219,8 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  max-width: 1200px;
+  margin: auto;
 }
 .layout-2021 #homeMainColumns #homeMainBody {
   flex: 3;
