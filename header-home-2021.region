@@ -51,7 +51,7 @@
                     <div class="banner-left" style="background-image: url('{assetUrl}?format=1000w')">
 
                     </div>
-                    <div class="banner-right banner-right-smaller">{body}</div>
+                    <div class="banner-right ">{body}</div>
                   </div>
                   {.end}
                 </div>
