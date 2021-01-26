@@ -370,6 +370,9 @@
 .one-sidebar-new-blog #blogNav {
   display: block;
 }
+#page-body-wrapper.one-sidebar-flush-top {
+  padding-top: 0;
+}
 ul.custom-nav-list {
   list-style: none;
   display: flex;
