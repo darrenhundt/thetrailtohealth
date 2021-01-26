@@ -360,4 +360,29 @@
 }
 #blogNav {
   display: none;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 30px;
+}
+ul.custom-nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: #ccc;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+li.custom-nav-item {
+  display: inline-block;
+}
+a.custom-nav-link {
+  border: 1px solid #999;
+  border-radius: 100px;
+  padding: 5px 10px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
