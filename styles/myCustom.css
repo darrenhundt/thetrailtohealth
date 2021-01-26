@@ -49,7 +49,6 @@ article header span {
 @media screen and (min-width: 1100px) {
   article p {
     font-size: 14px;
-    display: inline-block;
     margin-top: 0rem;
   }
 }
@@ -138,16 +137,19 @@ article header span {
   }
 }
 @media (min-width: 641px) {
+  #collection-60107661840b340b596beedd article .excerpt-thumb,
   #collection-5692ff0cc03355f6755d9dc2 article .excerpt-thumb,
   #collection-5b47a0aa575d1f5997eaa305 article .excerpt-thumb,
   #collection-5c9e22c1fa0d605f4af6e486 article .excerpt-thumb {
     float: none;
   }
+  #collection-60107661840b340b596beedd article .excerpt-thumb .intrinsic,
   #collection-5692ff0cc03355f6755d9dc2 article .excerpt-thumb .intrinsic,
   #collection-5b47a0aa575d1f5997eaa305 article .excerpt-thumb .intrinsic,
   #collection-5c9e22c1fa0d605f4af6e486 article .excerpt-thumb .intrinsic {
     padding-bottom: 55%;
   }
+  #collection-60107661840b340b596beedd .excerpt-image,
   #collection-5692ff0cc03355f6755d9dc2 .excerpt-image,
   #collection-5b47a0aa575d1f5997eaa305 .excerpt-image,
   #collection-5c9e22c1fa0d605f4af6e486 .excerpt-image {
@@ -155,12 +157,14 @@ article header span {
     width: 100% !important;
     height: 200px !important;
   }
+  #collection-60107661840b340b596beedd .excerpt-image img,
   #collection-5692ff0cc03355f6755d9dc2 .excerpt-image img,
   #collection-5b47a0aa575d1f5997eaa305 .excerpt-image img,
   #collection-5c9e22c1fa0d605f4af6e486 .excerpt-image img {
     display: inline-block;
     width: 100% !important;
   }
+  #collection-60107661840b340b596beedd .excerpt-thumb,
   #collection-5692ff0cc03355f6755d9dc2 .excerpt-thumb,
   #collection-5b47a0aa575d1f5997eaa305 .excerpt-thumb,
   #collection-5c9e22c1fa0d605f4af6e486 .excerpt-thumb {
@@ -170,17 +174,20 @@ article header span {
   }
 }
 @media (max-width: 640px) {
+  #collection-60107661840b340b596beedd article .excerpt-thumb,
   #collection-5692ff0cc03355f6755d9dc2 article .excerpt-thumb,
   #collection-5b47a0aa575d1f5997eaa305 article .excerpt-thumb,
   #collection-5c9e22c1fa0d605f4af6e486 article .excerpt-thumb {
     max-width: none;
   }
+  #collection-60107661840b340b596beedd article .excerpt-thumb .intrinsic,
   #collection-5692ff0cc03355f6755d9dc2 article .excerpt-thumb .intrinsic,
   #collection-5b47a0aa575d1f5997eaa305 article .excerpt-thumb .intrinsic,
   #collection-5c9e22c1fa0d605f4af6e486 article .excerpt-thumb .intrinsic {
     padding-bottom: 55%;
   }
 }
+#collection-60107661840b340b596beedd .entry-title,
 #collection-5692ff0cc03355f6755d9dc2 .entry-title,
 #collection-5b47a0aa575d1f5997eaa305 .entry-title,
 #collection-5c9e22c1fa0d605f4af6e486 .entry-title {
@@ -189,22 +196,26 @@ article header span {
   font-weight: 300!important;
   margin-bottom: 8px;
 }
+#collection-60107661840b340b596beedd .article-dateline,
 #collection-5692ff0cc03355f6755d9dc2 .article-dateline,
 #collection-5b47a0aa575d1f5997eaa305 .article-dateline,
 #collection-5c9e22c1fa0d605f4af6e486 .article-dateline {
   display: none;
 }
+#collection-60107661840b340b596beedd .entry-content p,
 #collection-5692ff0cc03355f6755d9dc2 .entry-content p,
 #collection-5b47a0aa575d1f5997eaa305 .entry-content p,
 #collection-5c9e22c1fa0d605f4af6e486 .entry-content p {
   margin-bottom: 10px;
 }
+#collection-60107661840b340b596beedd .article-meta,
 #collection-5692ff0cc03355f6755d9dc2 .article-meta,
 #collection-5b47a0aa575d1f5997eaa305 .article-meta,
 #collection-5c9e22c1fa0d605f4af6e486 .article-meta {
   display: none;
 }
 @media screen and (min-width: 769px) {
+  #collection-60107661840b340b596beedd article,
   #collection-5692ff0cc03355f6755d9dc2 article,
   #collection-5b47a0aa575d1f5997eaa305 article,
   #collection-5c9e22c1fa0d605f4af6e486 article {
@@ -214,15 +225,18 @@ article header span {
     vertical-align: top;
     margin-top: 35px;
   }
+  #collection-60107661840b340b596beedd article:nth-child(1),
   #collection-5692ff0cc03355f6755d9dc2 article:nth-child(1),
   #collection-5b47a0aa575d1f5997eaa305 article:nth-child(1),
   #collection-5c9e22c1fa0d605f4af6e486 article:nth-child(1),
+  #collection-60107661840b340b596beedd article:nth-child(2),
   #collection-5692ff0cc03355f6755d9dc2 article:nth-child(2),
   #collection-5b47a0aa575d1f5997eaa305 article:nth-child(2),
   #collection-5c9e22c1fa0d605f4af6e486 article:nth-child(2) {
     margin-top: 10px;
   }
 }
+#collection-60107661840b340b596beedd header,
 #collection-5692ff0cc03355f6755d9dc2 header,
 #collection-5b47a0aa575d1f5997eaa305 header,
 #collection-5c9e22c1fa0d605f4af6e486 header {
@@ -245,18 +259,24 @@ article header span {
   padding-bottom: 0;
   height: 10px;
 }
+#collection-5e7262b30e0b0e4abbd8700d,
 #collection-5c9e46e8e79c700547ee4e6f,
-#collection-5b3e8f8688251b15cddb3c34 {
+#collection-5b3e8f8688251b15cddb3c34,
+#collection-5e84a602cb44b3644a90a8a1 {
   /* Brands I Trust */
 }
+#collection-5e7262b30e0b0e4abbd8700d .summary-read-more-link,
 #collection-5c9e46e8e79c700547ee4e6f .summary-read-more-link,
-#collection-5b3e8f8688251b15cddb3c34 .summary-read-more-link {
+#collection-5b3e8f8688251b15cddb3c34 .summary-read-more-link,
+#collection-5e84a602cb44b3644a90a8a1 .summary-read-more-link {
   border: 2px solid black;
   padding: 10px 25px;
   display: inline-block;
 }
+#collection-5e7262b30e0b0e4abbd8700d .summary-excerpt,
 #collection-5c9e46e8e79c700547ee4e6f .summary-excerpt,
-#collection-5b3e8f8688251b15cddb3c34 .summary-excerpt {
+#collection-5b3e8f8688251b15cddb3c34 .summary-excerpt,
+#collection-5e84a602cb44b3644a90a8a1 .summary-excerpt {
   min-height: 45px;
 }
 #collection-5692ee3f1115e0dc633ba4ad {
