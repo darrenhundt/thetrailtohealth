@@ -367,6 +367,9 @@
   border-bottom: 1px solid #ccc;
   margin-bottom: 30px;
 }
+.one-sidebar-new-blog#blogNav {
+  display: block;
+}
 ul.custom-nav-list {
   list-style: none;
   display: flex;
