@@ -1,3 +1,4 @@
+<h2 class="hidden-heading">All Posts</h2>
 {.repeated section items}
 
   <article class="{@|item-classes}" id="article-{id}" data-item-id="{id}" data-article-handle="{urlId}">
