@@ -1,0 +1,12 @@
+<div id="blogNav">
+  <ul class="custom-nav-list">
+    <li class="custom-nav-item"><a class="custom-nav-link" href="">All posts</a></li>
+    <li class="custom-nav-item"><a class="custom-nav-link" href="">Health Tips</a></li>
+    <li class="custom-nav-item"><a class="custom-nav-link" href="">Lifestyle</a></li>
+    <li class="custom-nav-item"><a class="custom-nav-link" href="">Lyme Disease</a></li>
+    <li class="custom-nav-item"><a class="custom-nav-link" href="">Stem Cells</a></li>
+    <li class="custom-nav-item"><a class="custom-nav-link" href="">Thyroid</a></li>
+    <li class="custom-nav-item"><a class="custom-nav-link" href="">Gluten</a></li>
+    <li class="custom-nav-item"><a class="custom-nav-link" href="">Blogging</a></li>
+  </ul>
+</div>
