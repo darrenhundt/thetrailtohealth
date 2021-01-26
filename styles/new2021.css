@@ -376,16 +376,19 @@
 ul.custom-nav-list {
   list-style: none;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  flex-wrap: wrap;
   max-width: 1200px;
   margin: 20px auto;
   padding-left: 20px;
   padding-right: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 li.custom-nav-item {
   display: inline-block;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 a.custom-nav-link {
   border: 1px solid #999;
