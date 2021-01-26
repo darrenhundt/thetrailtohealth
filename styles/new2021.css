@@ -367,6 +367,12 @@
 .hidden-heading {
   display: none;
 }
+.one-sidebar-new-blog .hidden-heading {
+  display: block;
+  margin-bottom: 0;
+  font-size: 26px;
+  font-weight: 700;
+}
 #blogNav {
   display: none;
   border-bottom: 1px solid #ccc;
