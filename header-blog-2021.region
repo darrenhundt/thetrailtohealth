@@ -47,7 +47,7 @@
               
                 <div id="bannerCarousel">
                   <div class="banner-slide banner-slide-1 is-selected" style="position: absolute; left: 0%;">
-                    <div class="banner-left" style="background-image: url('https://static1.squarespace.com/static/5692edc9df40f361d6f8b0a4/6008afba7f467b1e3fe84d28/6008afd9f2f64a14a2955e1f/1611182243563/?format=1000w')">
+                    <div class="banner-left" style="background-image: url('/assets/blogHeader.jpg')">
                     </div>
                     <div class="banner-right banner-right-smaller"><div class="sqs-layout sqs-grid-12 columns-12" data-layout-label="Post Body" data-type="item" data-updated-on="1611182056412" id="item-6008afd9f2f64a14a2955e1f">
                       <div class="row sqs-row">
