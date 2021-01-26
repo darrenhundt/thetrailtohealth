@@ -1,7 +1,7 @@
 
 
 				<div id="page-body-wrapper" class="one-sidebar">
-          <!-- last chance for full bleed content -->
+          <!-- last chance for full bleed content new blog-->
           {@|apply blog-custom-nav.block}
 					<div id="page-body">
 <!-- last chance for full width content  -->
