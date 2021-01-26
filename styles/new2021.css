@@ -395,3 +395,7 @@ a.custom-nav-link {
   margin-right: 5px;
   text-transform: uppercase;
 }
+a.custom-nav-link:hover {
+  color: white;
+  background: #333;
+}
