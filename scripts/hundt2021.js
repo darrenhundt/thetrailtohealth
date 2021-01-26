@@ -10,6 +10,7 @@ $(document).ready(function(){
     pageDots: false,
     wrapAround: true
   });
+  
   $('#page-footer .mobile-only').on('click',function(){
     
     var myParent = $(this).closest('li');
