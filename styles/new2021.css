@@ -364,6 +364,9 @@
 .layout-2021 .one-sidebar-new-blog h2 {
   font-size: 26px;
 }
+.hidden-heading {
+  display: none;
+}
 #blogNav {
   display: none;
   border-bottom: 1px solid #ccc;
