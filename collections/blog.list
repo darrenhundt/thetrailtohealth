@@ -119,10 +119,17 @@
 <nav class="page pagination">
   <div class="content-wrapper">
     <ul>
-      {.if pagination.prevPage}<li class="prev"><a href="{prevPageUrl}" id="prevLink"><i class="icon-chevron-left"></i>Previous</a></li>
-      {.or}<li class="no-prev"><!-- <a href="{collection.fullUrl}"><i class="icon-list"></i>{collection.title}</a> --></li>{.end}
-      {.if pagination.nextPage}<li class="next"><a href="{nextPageUrl}" id="nextLink">Next<i class="icon-chevron-right"></i></a></li>
-      {.or}<li class="no-next"><a href="{collection.fullUrl}"><i class="icon-list"></i>{collection.title}</a></li>{.end}
+      {.if pagination.prevPage}
+        <li class="prev custom-pagination"><a href="{prevPageUrl}" id="prevLink"><i class="icon-chevron-left"></i>Previous</a></li>
+      {.or}
+        <li class="no-prev custom-pagination"><!-- <a href="{collection.fullUrl}"><i class="icon-list"></i>{collection.title}</a> --></li>
+      {.end}
+      
+      {.if pagination.nextPage}
+        <li class="next custom-pagination"><a href="{nextPageUrl}" id="nextLink">Next<i class="icon-chevron-right"></i></a></li>
+      {.or}
+        <li class="no-next custom-pagination"><a href="{collection.fullUrl}"><i class="icon-list"></i>{collection.title}</a></li>
+      {.end}
     </ul>
   </div>
 </nav>
