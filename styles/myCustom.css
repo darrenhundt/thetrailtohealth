@@ -385,10 +385,12 @@ article .post .article-meta .shareLoveButtons {
   bottom: 0;
   opacity: 0;
 }
+#collection-60107661840b340b596beedd .popup-content,
 #collection-5c9e22c1fa0d605f4af6e486 .popup-content,
 #collection-5692ff0cc03355f6755d9dc2 .popup-content {
   display: none;
 }
+#collection-60107661840b340b596beedd .cookbook-icon,
 #collection-5c9e22c1fa0d605f4af6e486 .cookbook-icon,
 #collection-5692ff0cc03355f6755d9dc2 .cookbook-icon {
   display: none!important;
