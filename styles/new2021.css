@@ -430,6 +430,7 @@ a.custom-nav-link:hover {
   background-position: center;
   height: 0;
   padding-top: 56%;
+  position: relative;
 }
 #newGallery .new-gallery-grid-item a {
   width: 100%;
@@ -437,6 +438,15 @@ a.custom-nav-link:hover {
 #newGallery .new-gallery-grid-item img {
   width: 100%;
   visibility: hidden;
+}
+#newGallery .new-gallery-grid-item .play-icon {
+  width: 40px;
+  height: auto;
+  visibility: visible;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 #newGallery .new-gallery-grid-item h4 {
   font-family: proxima-nova;
