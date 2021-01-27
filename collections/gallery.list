@@ -3,6 +3,7 @@
   <div class="slides">
     <div class="grid-wrapper">
       {.repeated section items}
+      <!-- 
       <hr/>
           {title}
           <br/>
@@ -12,8 +13,17 @@
           <br/>
           {oembed.width}
       <br/>
+-->
       <a href="{oembed.url}" data-lity>{title}</a>
       <hr/>
+      <div class="grid-item" style="width: 50%;">
+        <a href="{oembed.url}" data-lity>
+          <img src="{assetUrl}" />
+          <h4>{title}</h4>
+
+        </a>
+      
+      </div>
           
       {.end}
     </div>
