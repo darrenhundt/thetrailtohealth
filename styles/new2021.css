@@ -423,6 +423,7 @@ a.custom-nav-link:hover {
   width: 45%;
   display: inline-block;
   margin-right: 2%;
+  margin-bottom: 30px;
 }
 #newGallery .new-gallery-grid-item .background-formatter {
   background-size: cover;
