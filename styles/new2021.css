@@ -448,6 +448,6 @@ a.custom-nav-link:hover {
 #newGallery .new-gallery-grid-item p {
   font-family: 'proxima-nova';
   font-size: 16px;
-  font-style: italic italic;
+  font-style: italic;
   font-weight: 300;
 }
