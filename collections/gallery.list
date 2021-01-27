@@ -38,6 +38,8 @@
         </div>
         <div class="lightbox-video-wrapper">
           {assetUrl}
+          <br/>
+          {oembed.width}
         {.video?}
           {@|video}
         {.end}
