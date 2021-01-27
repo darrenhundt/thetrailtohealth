@@ -4,7 +4,7 @@
     <div class="grid-wrapper">
       {.repeated section items}
 
-      <div class="new-gallery-grid-item" style="width: 50%;">
+      <div class="new-gallery-grid-item"> 
         <a href="{oembed.url}" data-lity>
           <img src="{assetUrl}" />
           <h4>{title}</h4>
