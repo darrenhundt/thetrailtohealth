@@ -3,6 +3,13 @@
   <div class="slides">
     <div class="grid-wrapper">
       {.repeated section items}
+          {title}
+          <br/>
+          {body}
+          <br/>
+          {assetUrl}
+          <br/>
+          {oembed.width}
       
       
       <div class="grid-item-wrapper grid-hidden" data-slide-id="{id}" data-controller="GalleryVideoHandler">
