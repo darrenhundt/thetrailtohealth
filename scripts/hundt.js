@@ -93,6 +93,14 @@ $(document).ready(function(){
 		var processedHtml = existingHtml.split('**br**').join('<br/>');
 		$(this).html(processedHtml);
 	});
+  
+	/* New Gallery */
+	$('.new-gallery-grid-item h4').each(function(){
+		$(this).addClass('press-slide-title');
+		var existingHtml = $(this).html();
+		var processedHtml = existingHtml.split('**br**').join('<br/>');
+		$(this).html(processedHtml);
+	});
 	
 	/* Speaking Engagements & Events  Press */
 	$('#collection-5ea7a1ab66448b66c7270b4a .summary-title-link').each(function(){
