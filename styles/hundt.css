@@ -615,3 +615,7 @@ input.sqs-amazon-button.sqs-system-button.sqs-editable-button {
   background-color: lightblue;
   margin-right: 20px;
 }
+#newGallery .new-gallery-grid-item {
+  width: 45%;
+  display: inline-block;
+}
