@@ -4,19 +4,28 @@
     <div class="grid-wrapper">
       {.repeated section items}
 
-      <div class="new-gallery-grid-item"> 
-        <a href="{oembed.url}" data-lity>
-          <div class="background-formatter" style="background-image: url({assetUrl});"> 
-            <img src="{assetUrl}" />
-            {.video?}
-              <img class="play-icon" src="https://assets.squarespace.com/universal/images-v6/damask/play-button@2x.png" />
-            {.end}
+        {.video?}
+          <div class="new-gallery-grid-item"> 
+            <a href="{oembed.url}" data-lity>
+              <div class="background-formatter" style="background-image: url({assetUrl});"> 
+                <img src="{assetUrl}" />
+                  <img class="play-icon" src="https://assets.squarespace.com/universal/images-v6/damask/play-button@2x.png" />
+              </div>
+              <h4>{title}</h4>
+              {body}
+            </a>
           </div>
-          <h4>{title}</h4>
-          {body}
-        </a>
-      
-      </div>
+        {.or}
+          <div class="new-gallery-grid-item"> 
+            <a href="{clickthroughUrl}" data-lity>
+              <div class="background-formatter" style="background-image: url({assetUrl});"> 
+                <img src="{assetUrl}" />
+              </div>
+              <h4>{title}</h4>
+              {body}
+            </a>
+          </div>
+        {.end}
           
       {.end}
     </div>
