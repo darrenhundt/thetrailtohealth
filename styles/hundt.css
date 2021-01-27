@@ -622,6 +622,7 @@ input.sqs-amazon-button.sqs-system-button.sqs-editable-button {
 #newGallery .new-gallery-grid-item {
   width: 45%;
   display: inline-block;
+  margin-right: 2%;
 }
 #newGallery .new-gallery-grid-item a {
   width: 100%;
