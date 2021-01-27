@@ -10,7 +10,7 @@
             <img src="{assetUrl}" />
           </div>
           <h4>{title}</h4>
-
+          <p>{body}</p>
         </a>
       
       </div>
