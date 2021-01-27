@@ -11,6 +11,8 @@
           {assetUrl}
           <br/>
           {oembed.width}
+      <br/>
+      <a href="{oembed.url}" data-lity>{title}</a>
       <hr/>
           
       {.end}
