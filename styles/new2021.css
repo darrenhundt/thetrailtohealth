@@ -415,3 +415,24 @@ a.custom-nav-link:hover {
   color: white;
   background: #333;
 }
+#newGallery .grid-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+#newGallery .new-gallery-grid-item {
+  width: 45%;
+  display: inline-block;
+  margin-right: 2%;
+}
+#newGallery .new-gallery-grid-item .background-formatter {
+  background-size: cover;
+  background-position: center;
+  height: 0;
+  padding-top: 56%;
+}
+#newGallery .new-gallery-grid-item a {
+  width: 100%;
+}
+#newGallery .new-gallery-grid-item img {
+  width: 100%;
+}
