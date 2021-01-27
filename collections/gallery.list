@@ -3,6 +3,7 @@
   <div class="slides">
     <div class="grid-wrapper">
       {.repeated section items}
+      <hr/>
           {title}
           <br/>
           {body}
@@ -10,7 +11,7 @@
           {assetUrl}
           <br/>
           {oembed.width}
-      
+      <hr/>
       
       <div class="grid-item-wrapper grid-hidden" data-slide-id="{id}" data-controller="GalleryVideoHandler">
         <div class="grid-image-wrapper{.video?} video{.end}" data-slide-id="{id}">
