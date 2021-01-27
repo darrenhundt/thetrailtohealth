@@ -3,6 +3,8 @@
   <div class="slides">
     <div class="grid-wrapper">
       {.repeated section items}
+      
+      
       <div class="grid-item-wrapper grid-hidden" data-slide-id="{id}" data-controller="GalleryVideoHandler">
         <div class="grid-image-wrapper{.video?} video{.end}" data-slide-id="{id}">
           <img {@|image-meta} data-load="false" data-grid-image />
@@ -35,11 +37,14 @@
           {.end}
         </div>
         <div class="lightbox-video-wrapper">
+          {assetUrl}
         {.video?}
           {@|video}
         {.end}
         </div>
       </div>
+          
+          
       {.end}
     </div>
   </div>
