@@ -13,44 +13,24 @@
           {oembed.width}
       <hr/>
       
-      <div class="grid-item-wrapper grid-hidden" data-slide-id="{id}" data-controller="GalleryVideoHandler">
-        <div class="grid-image-wrapper{.video?} video{.end}" data-slide-id="{id}">
-          <img {@|image-meta} data-load="false" data-grid-image />
-          {.if title || body}
-          <div class="image-title-desc" data-slide-id="{id}">
-            {.section title}<div class="image-title">
-              <span>{title}<span>
-            </div>{.end}
-            {.section body}<div class="image-desc">{@}</div>{.end}
+      <div id="container">
+        <center>
+          <button id="playme" onclick="revealVideo('video','youtube')"><img src="{oembed.thumbnailUrl}"/></button>
+        </center>
+      </div>
+
+      <div id="video" class="lightbox" onclick="hideVideo('video','youtube')">
+        <div class="lightbox-container">  
+          <div class="lightbox-content">
+
+            <button onclick="hideVideo('video','youtube')" class="lightbox-close">
+              Close | ✕
+            </button>
+            <div class="video-container">
+              <iframe id="youtube" width="960" height="540" src="https://www.youtube.com/embed/WsptdUFthWI?showinfo=0" frameborder="0" allowfullscreen></iframe>
+            </div>      
+
           </div>
-          <div class="info-button" data-slide-id="{id}">
-            <div class="info-button-inner">
-            </div>
-          </div>
-          {.end}
-          <div class="overlay blended-overlay image-overlay" data-slide-id="{id}">
-            {.image?}{.section clickthroughUrl}<a href="{@}" class="clickthrough"></a>{.end}{.end}
-          </div>
-          {.video?}
-          <div class="video-play-icon">
-            <svg width="100" height="100" viewBox="0 0 100 100">
-              <g id="Layer_1">
-                <circle id="XMLID_14_" class="st0" cx="50" cy="50" r="48"/>
-              </g>
-              <g id="Layer_3">
-                <path id="XMLID_16_" d="M32 28v44l46-22z"/>
-              </g>
-            </svg>
-          </div>
-          {.end}
-        </div>
-        <div class="lightbox-video-wrapper">
-          {assetUrl}
-          <br/>
-          {oembed.width}
-        {.video?}
-          {@|video}
-        {.end}
         </div>
       </div>
           
