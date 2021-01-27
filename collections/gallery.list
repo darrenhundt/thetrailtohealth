@@ -4,9 +4,11 @@
     <div class="grid-wrapper">
       {.repeated section items}
 
-      <div class="new-gallery-grid-item" style="background-image: url({assetUrl});"> 
+      <div class="new-gallery-grid-item"> 
         <a href="{oembed.url}" data-lity>
-          <img src="{assetUrl}" />
+          <div class="background-formatter" style="background-image: url({assetUrl});"> 
+            <img src="{assetUrl}" />
+          </div>
           <h4>{title}</h4>
 
         </a>
