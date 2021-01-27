@@ -8,7 +8,9 @@
         <a href="{oembed.url}" data-lity>
           <div class="background-formatter" style="background-image: url({assetUrl});"> 
             <img src="{assetUrl}" />
-            <img class="play-icon" src="https://assets.squarespace.com/universal/images-v6/damask/play-button@2x.png" />
+            {.video?}
+              <img class="play-icon" src="https://assets.squarespace.com/universal/images-v6/damask/play-button@2x.png" />
+            {.end}
           </div>
           <h4>{title}</h4>
           {body}
