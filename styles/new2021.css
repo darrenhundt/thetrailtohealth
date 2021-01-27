@@ -422,6 +422,7 @@ a.custom-nav-link:hover {
   margin-left: 5px;
   margin-right: 5px;
   text-transform: uppercase;
+  color: #000;
 }
 #newGallery .grid-wrapper {
   display: flex;
