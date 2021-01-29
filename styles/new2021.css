@@ -76,7 +76,7 @@
 @media (max-width: 798px) {
   .layout-2021 #bannerCarousel button.flickity-button.flickity-prev-next-button {
     top: auto;
-    bototm: 25%;
+    bottom: 2%;
   }
 }
 .layout-2021 #bannerCarousel button.flickity-button.flickity-prev-next-button.previous {
