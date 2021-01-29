@@ -67,6 +67,10 @@
       svg {
         fill: white;
       }
+      @media (max-width: 798px) {
+        top: auto;
+        bototm: 25%;
+      }
     }
     button.flickity-button.flickity-prev-next-button.previous { 
       left: 0;
@@ -411,6 +415,9 @@
 }
 .one-sidebar-new-blog #blogNav {
   display: block;
+  .custom-nav-link {
+    display: inline-block;
+  }
 }
 #page-body-wrapper.one-sidebar-flush-top {
   padding-top: 0;
@@ -462,12 +469,12 @@ a.custom-nav-link {
   #page-body-header {
     margin-bottom: 30px;
     a {
-          border: 1px solid #999;
-    border-radius: 100px;
-    padding: 9px 15px;
-    margin-left: 5px;
-    margin-right: 5px;
-    text-transform: uppercase;
+      border: 1px solid #999;
+      border-radius: 100px;
+      padding: 9px 15px;
+      margin-left: 5px;
+      margin-right: 5px;
+      text-transform: uppercase;
       color: #000;
     }
   }
