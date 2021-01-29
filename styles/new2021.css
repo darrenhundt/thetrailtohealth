@@ -73,6 +73,12 @@
 .layout-2021 #bannerCarousel button.flickity-button.flickity-prev-next-button svg {
   fill: white;
 }
+@media (max-width: 798px) {
+  .layout-2021 #bannerCarousel button.flickity-button.flickity-prev-next-button {
+    top: auto;
+    bototm: 25%;
+  }
+}
 .layout-2021 #bannerCarousel button.flickity-button.flickity-prev-next-button.previous {
   left: 0;
 }
@@ -380,6 +386,9 @@
 }
 .one-sidebar-new-blog #blogNav {
   display: block;
+}
+.one-sidebar-new-blog #blogNav .custom-nav-link {
+  display: inline-block;
 }
 #page-body-wrapper.one-sidebar-flush-top {
   padding-top: 0;
