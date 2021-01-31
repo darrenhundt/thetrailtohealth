@@ -528,3 +528,14 @@ a.custom-nav-link:hover {
   height: 18px;
   background: #6476A4;
 }
+#testimonialsWrapper .testimonial-quote {
+  position: absolute;
+}
+#testimonialsWrapper .testimonial-quote-open {
+  top: 0;
+  left: 0;
+}
+#testimonialsWrapper .testimonial-quote-close {
+  bottom: 0;
+  right: 0;
+}
