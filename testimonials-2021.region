@@ -8,7 +8,7 @@
                   {.repeated section items}
                     <div class="testimonial-slide testimonial-slide-{@index}">
                       <div class="testimonial-author ">{body}</div>
-                      <div class="testimonial-author ">{title}</div>
+                      <h2 class="testimonial-author ">{title}</h2>
                     </div>
                   {.end}
                   
