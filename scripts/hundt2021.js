@@ -14,7 +14,9 @@ $(document).ready(function(){
   $('#testimonialCarousel').flickity({
     pageDots: true,
     prevNextButtons: false,
-    wrapAround: true
+    wrapAround: true,
+    autoPlay: 4000,
+    pauseAutoPlayOnHover: true
   });
   
   $('#page-footer .mobile-only').on('click',function(){
