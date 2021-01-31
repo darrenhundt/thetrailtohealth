@@ -12,7 +12,6 @@ $(document).ready(function(){
   });
   
   $('#testimonialCarousel').flickity({
-    // options
     pageDots: true,
     wrapAround: true
   });
