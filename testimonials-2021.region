@@ -9,7 +9,7 @@
                     <div class="testimonial-slide testimonial-slide-{@index}">
                       <img class="testimonial-quote testimonial-quote-open" src="/assets/openQuote.png" />
                       <div class="testimonial-body">{body}</div>
-                      <h2 class="testimonial-author ">{title}</h2>
+                      <h2 class="testimonial-author ">&nbsp;-&nbsp;{title}</h2>
                       <img class="testimonial-quote testimonial-quote-close" src="/assets/closeQuote.png" />
                     </div>
                   {.end}
