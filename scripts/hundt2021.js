@@ -13,8 +13,6 @@ $(document).ready(function(){
   
   $('#testimonialCarousel').flickity({
     // options
-    cellAlign: 'left',
-    contain: true,
     pageDots: true,
     wrapAround: true
   });
