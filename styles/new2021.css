@@ -507,6 +507,9 @@ a.custom-nav-link:hover {
   justify-content: center;
   align-items: center;
 }
+#testimonialsWrapper #testimonialCarousel .testimonial-slide .testimonial-body {
+  padding: 40px;
+}
 #testimonialsWrapper #testimonialCarousel .testimonial-slide .testimonial-body p {
   color: white;
 }
