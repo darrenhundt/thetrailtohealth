@@ -1,5 +1,5 @@
 <div id="testimonialsWrapper">
-  testimonials
+                <squarespace:block-field id="testimonialPre" description="Testimonial Content" columns="12" label="Before Testimonials Content" />
   
                 <squarespace:query collection="2021-testimonials" limit="10">
                 <div id="testimonialCarousel">
