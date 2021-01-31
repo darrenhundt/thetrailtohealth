@@ -486,6 +486,7 @@ a.custom-nav-link:hover {
 #testimonialsWrapper {
   padding-left: 40px;
   padding-right: 40px;
+  padding-bottom: 120px;
 }
 #testimonialsWrapper #testimonialCarousel {
   max-width: 1200px;
