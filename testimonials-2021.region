@@ -1,5 +1,16 @@
 <div id="testimonialsWrapper">
   testimonials
+  
+                <squarespace:query collection="2021-testimonials" limit="10">
+                <div id="testimonialCarousel">
+                  {.repeated section items}
+                  <div class="testimonial-slide testimonial-slide-{@index}">
+                    <div class="testimonial-content ">{body}</div>
+                    <div class="testimonial-author ">{title}</div>
+                  </div>
+                  {.end}
+                </div>
+              </squarespace:query>
 </div>
 
 
