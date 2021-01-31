@@ -530,12 +530,13 @@ a.custom-nav-link:hover {
 }
 #testimonialsWrapper .testimonial-quote {
   position: absolute;
+  width: 60px;
 }
 #testimonialsWrapper .testimonial-quote-open {
   top: 0;
-  left: 0;
+  left: 30px;
 }
 #testimonialsWrapper .testimonial-quote-close {
   bottom: 0;
-  right: 0;
+  right: 30px;
 }
