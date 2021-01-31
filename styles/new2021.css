@@ -483,3 +483,11 @@ a.custom-nav-link:hover {
   font-style: italic;
   font-weight: 300;
 }
+#testimonialsWrapper {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+#testimonialsWrapper #testimonialCarousel {
+  max-width: 1200px;
+  margin: auto;
+}
