@@ -495,6 +495,11 @@ a.custom-nav-link:hover {
   background: #6F7FB5;
   border-radius: 2px;
 }
+#testimonialsWrapper #testimonialCarousel .flickity-slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 #testimonialsWrapper #testimonialCarousel .testimonial-slide {
   width: 100%;
   display: flex;
