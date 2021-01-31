@@ -512,8 +512,9 @@ a.custom-nav-link:hover {
 }
 #testimonialsWrapper #testimonialCarousel .testimonial-slide .testimonial-body p {
   color: white;
+  font-size: 18px;
 }
 #testimonialsWrapper #testimonialCarousel .testimonial-slide .testimonial-author {
   color: white;
-  font-weight: bold;
+  font-size: 18px;
 }
