@@ -11,6 +11,14 @@ $(document).ready(function(){
     wrapAround: true
   });
   
+  $('#testimonialCarousel').flickity({
+    // options
+    cellAlign: 'left',
+    contain: true,
+    pageDots: true,
+    wrapAround: true
+  });
+  
   $('#page-footer .mobile-only').on('click',function(){
     
     var myParent = $(this).closest('li');
