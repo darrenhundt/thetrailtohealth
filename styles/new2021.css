@@ -520,6 +520,9 @@ a.custom-nav-link:hover {
   color: white;
   font-size: 18px;
 }
+#testimonialsWrapper .flickity-page-dots {
+  bottom: -55px;
+}
 #testimonialsWrapper .flickity-page-dots .dot {
   width: 18px;
   height: 18px;
