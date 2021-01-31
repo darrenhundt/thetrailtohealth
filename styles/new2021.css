@@ -494,6 +494,8 @@ a.custom-nav-link:hover {
   box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.1);
   background: #6F7FB5;
   border-radius: 2px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 #testimonialsWrapper #testimonialCarousel .flickity-slider {
   display: flex;
