@@ -491,3 +491,6 @@ a.custom-nav-link:hover {
   max-width: 1200px;
   margin: auto;
 }
+#testimonialsWrapper #testimonialCarousel .testimonial-slide {
+  width: 100%;
+}
