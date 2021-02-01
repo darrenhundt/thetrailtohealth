@@ -225,14 +225,14 @@ article header span {
     vertical-align: top;
     margin-top: 35px;
   }
-  #collection-60107661840b340b596beedd article:nth-child(1),
-  #collection-5692ff0cc03355f6755d9dc2 article:nth-child(1),
-  #collection-5b47a0aa575d1f5997eaa305 article:nth-child(1),
-  #collection-5c9e22c1fa0d605f4af6e486 article:nth-child(1),
   #collection-60107661840b340b596beedd article:nth-child(2),
   #collection-5692ff0cc03355f6755d9dc2 article:nth-child(2),
   #collection-5b47a0aa575d1f5997eaa305 article:nth-child(2),
-  #collection-5c9e22c1fa0d605f4af6e486 article:nth-child(2) {
+  #collection-5c9e22c1fa0d605f4af6e486 article:nth-child(2),
+  #collection-60107661840b340b596beedd article:nth-child(3),
+  #collection-5692ff0cc03355f6755d9dc2 article:nth-child(3),
+  #collection-5b47a0aa575d1f5997eaa305 article:nth-child(3),
+  #collection-5c9e22c1fa0d605f4af6e486 article:nth-child(3) {
     margin-top: 10px;
   }
 }
