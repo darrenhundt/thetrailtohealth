@@ -3,6 +3,7 @@
   <head>
 	  {.if template.mobileStylesEnabled}
 	  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="p:domain_verify" content="13df77703a96655a5c067011aa215475"/>
 	  {.end}
     {squarespace-headers}
     <squarespace:script src="site-bundle.js" combo="false" />
