@@ -21,6 +21,7 @@ $(document).ready(function(){
   $('.custom-nav-list').flickity({
     pageDots: false,
     prevNextButtons: true,
+    contain: true,
     wrapAround: true,
     autoPlay: 4000,
     pauseAutoPlayOnHover: true
