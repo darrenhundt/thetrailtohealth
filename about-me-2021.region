@@ -4,7 +4,7 @@
   <div id="page-body">
     <div id="content-wrapper">
       <div id="content">
-        <div id="page-about-me" class="extra-wrapper {collection.title}-page-body-header">
+        <div id="page-about-me" class="extra-wrapper">
           <squarespace:block-field id="aboutMeFooter" description="About Me Prefooter" columns="12" label="About Me Prefooter" />
         </div>
       </div>
