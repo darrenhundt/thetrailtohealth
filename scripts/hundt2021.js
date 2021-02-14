@@ -20,7 +20,7 @@ $(document).ready(function(){
   });
   $('.custom-nav-list').flickity({
     pageDots: false,
-    prevNextButtons: false,
+    prevNextButtons: true,
     wrapAround: true,
     autoPlay: 4000,
     pauseAutoPlayOnHover: true
