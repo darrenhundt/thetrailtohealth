@@ -18,8 +18,8 @@ $(document).ready(function(){
     autoPlay: 4000,
     pauseAutoPlayOnHover: true
   });
-  $('#blogNav .custom-nav-list').flickity({
-    pageDots: true,
+  $('.custom-nav-list').flickity({
+    pageDots: false,
     prevNextButtons: false,
     wrapAround: true,
     autoPlay: 4000,
