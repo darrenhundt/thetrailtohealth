@@ -394,10 +394,12 @@
   padding-top: 0;
 }
 ul.custom-nav-list {
+  /*
   list-style: none;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  */
   max-width: 1200px;
   margin: 20px auto;
   padding-left: 20px;
@@ -532,7 +534,7 @@ a.custom-nav-link:hover {
 }
 #testimonialsWrapper .testimonial-quote {
   position: absolute;
-  width: 60px;
+  width: 45px;
 }
 #testimonialsWrapper .testimonial-quote-open {
   top: 0;
