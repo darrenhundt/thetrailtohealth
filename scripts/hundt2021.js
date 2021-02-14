@@ -18,6 +18,13 @@ $(document).ready(function(){
     autoPlay: 4000,
     pauseAutoPlayOnHover: true
   });
+  $('#blogNav .custom-nav-list').flickity({
+    pageDots: true,
+    prevNextButtons: false,
+    wrapAround: true,
+    autoPlay: 4000,
+    pauseAutoPlayOnHover: true
+  });
   
   $('#page-footer .mobile-only').on('click',function(){
     
