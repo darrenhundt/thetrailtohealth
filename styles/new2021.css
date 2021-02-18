@@ -295,6 +295,9 @@
     width: 50%!important;
   }
 }
+.layout-2021 .footer-wrapper-2021 {
+  background: #f9f9f9;
+}
 .layout-2021 .footer-wrapper-2021 .footer-top-row {
   display: flex;
   justify-content: space-between;
