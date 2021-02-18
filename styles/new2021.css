@@ -567,4 +567,9 @@ a.custom-nav-link:hover {
 }
 #page-newsletter h2 {
   font-weight: 500;
+  font-size: 32px;
+}
+#page-about-me h2 {
+  font-eight: 500;
+  font-size: 32px;
 }
