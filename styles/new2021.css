@@ -1,6 +1,7 @@
 /* CSS Document */
 .layout-2021 {
   font-family: Roboto!important;
+  /***************Header and Nav stuff ******************/
 }
 .layout-2021 *:focus,
 .layout-2021 * {
@@ -32,6 +33,12 @@
   font-weight: 300;
   line-height: 125%;
   letter-spacing: 0.03em;
+}
+.layout-2021 .folder-collection:after {
+  content: '';
+  width: 10px;
+  height: 10px;
+  background: red;
 }
 .layout-2021 .sqs-block-button .sqs-block-button-element--medium {
   font-family: Roboto!important;
