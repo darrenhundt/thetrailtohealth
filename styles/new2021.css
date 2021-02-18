@@ -581,3 +581,8 @@ a.custom-nav-link:hover {
   font-weight: 500;
   font-size: 20px;
 }
+#page-featured-on h2 a {
+  font-weight: 400;
+  font-size: 24px;
+  color: #3A9ED7;
+}
