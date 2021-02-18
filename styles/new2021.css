@@ -34,6 +34,14 @@
   line-height: 125%;
   letter-spacing: 0.03em;
 }
+.layout-2021 h1,
+.layout-2021 h2,
+.layout-2021 h3,
+.layout-2021 h4,
+.layout-2021 h5,
+.layout-2021 h6 {
+  font-family: Roboto!important;
+}
 .layout-2021 .folder-collection:after {
   content: '';
   display: inline-block;
