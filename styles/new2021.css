@@ -573,3 +573,7 @@ a.custom-nav-link:hover {
   font-weight: 500;
   font-size: 32px;
 }
+#page-about-me h3 {
+  font-size: 28px;
+  font-weight: 400;
+}
