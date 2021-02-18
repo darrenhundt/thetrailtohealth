@@ -36,9 +36,10 @@
 }
 .layout-2021 .folder-collection:after {
   content: '';
-  width: 10px;
-  height: 10px;
-  background: red;
+  display: inline-block;
+  width: 16px;
+  height: 11px;
+  background: url('/assets/caret.png');
 }
 .layout-2021 .sqs-block-button .sqs-block-button-element--medium {
   font-family: Roboto!important;
