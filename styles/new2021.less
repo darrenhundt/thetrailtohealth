@@ -33,13 +33,15 @@
   }
   
   /***************Header and Nav stuff ******************/
-  .folder-collection {
-    &:after {
-      content: '';
-      display: inline-block;
-      width: 16px;
-      height: 11px;
-      background: url('/assets/caret.png');
+  #navigation-top {
+    .folder-collection {
+      &:after {
+        content: '';
+        display: inline-block;
+        width: 16px;
+        height: 11px;
+        background: url('/assets/caret.png');
+      }
     }
   }
   
@@ -637,6 +639,9 @@ a.custom-nav-link {
       font-weight: 400;
       font-size: 24px;
       color: #3A9ED7!important;
+      &:after {
+        
+      }
     }
   }
   
