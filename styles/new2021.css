@@ -638,3 +638,8 @@ a.custom-nav-link:hover {
   font-size: 24px;
   color: #3A9ED7!important;
 }
+/*********************** Homepage ************************/
+#homeMainColumns h1 {
+  font-size: 32px;
+  font-weight: 500;
+}
