@@ -219,6 +219,9 @@
   margin-left: auto;
   margin-right: auto;
 }
+.layout-2021 #page-body-header h1 {
+  font-weight: 500;
+}
 .layout-2021 .banner-left {
   width: 50%;
   background-size: cover;
