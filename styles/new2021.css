@@ -2,6 +2,9 @@
 .dropdown-caret {
   display: none;
 }
+.layout-2021 > .shopify-buy-frame {
+  display: none;
+}
 .layout-2021 {
   font-family: Roboto!important;
   /***************Header and Nav stuff ******************/
