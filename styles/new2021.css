@@ -582,6 +582,7 @@ a.custom-nav-link:hover {
   font-weight: 500;
   font-size: 32px;
   color: #000000;
+  text-align: center;
 }
 #testimonialsWrapper #testimonialCarousel {
   max-width: 1200px;
