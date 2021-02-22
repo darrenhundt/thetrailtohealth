@@ -220,7 +220,7 @@
   margin-right: auto;
 }
 .layout-2021 #page-body-header h1 {
-  font-weight: 500;
+  font-weight: 500!important;
 }
 .layout-2021 .banner-left {
   width: 50%;
