@@ -343,6 +343,9 @@
   .layout-2021 #page-footer-wrapper {
     padding-top: 10px!important;
   }
+  .layout-2021 #page-footer-wrapper .footer-top-row {
+    padding-bottom: 40px;
+  }
 }
 .layout-2021 #main-navigation.footer-nav .folder-collection > a {
   color: black!important;
