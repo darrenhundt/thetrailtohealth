@@ -13,7 +13,7 @@ $(document).ready(function(){
   
   $('#testimonialCarousel').flickity({
     pageDots: true,
-    prevNextButtons: false,
+    prevNextButtons: true,
     wrapAround: true,
     autoPlay: 4000,
     pauseAutoPlayOnHover: true
