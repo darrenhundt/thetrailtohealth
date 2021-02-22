@@ -363,6 +363,18 @@
 .layout-2021 .footer-wrapper-2021 .footer-top-row #sqs-social {
   margin: 0!important;
 }
+.layout-2021 .footer-wrapper-2021 #main-navigation ul li a {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+}
+.layout-2021 .footer-wrapper-2021 #main-navigation ul li a ul li a {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  color: #7d7d7d;
+}
 @media (max-width: 640px) {
   .layout-2021 #page-footer-wrapper {
     padding-top: 10px!important;
