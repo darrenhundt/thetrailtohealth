@@ -579,8 +579,8 @@ a.custom-nav-link:hover {
   background: #f8f8f8;
 }
 #testimonialsWrapper #testimonialsTitle {
-  font-weight: 500;
-  font-size: 32px;
+  font-weight: 500!important;
+  font-size: 32px!important;
   color: #000000;
   text-align: center;
 }
