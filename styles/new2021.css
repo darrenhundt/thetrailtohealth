@@ -125,6 +125,9 @@
   text-align: left;
   margin-left: 13px;
 }
+.layout-2021 #mobile-navigation ul li .folder-toggle-label {
+  text-indent: 0;
+}
 .layout-2021 #main-navigation {
   margin-left: 0;
   margin-right: 0;
