@@ -330,7 +330,7 @@
     padding-top: 0;
   }
   .layout-2021 .footer-wrapper-2021 .footer-top-row #banner-wrapper {
-    margin-right: 0;
+    margin-right: 0!important;
   }
 }
 .layout-2021 .footer-wrapper-2021 .footer-top-row img#banner {
