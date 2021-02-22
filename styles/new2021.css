@@ -361,6 +361,7 @@
 @media (max-width: 768px) {
   .layout-2021 #main-navigation.footer-nav .flex-nav .folder-collection {
     width: 100%;
+    padding-right: 0px;
   }
 }
 .layout-2021 #main-navigation.footer-nav .flex-nav .folder-collection li {
