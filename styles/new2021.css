@@ -634,6 +634,10 @@ a.custom-nav-link:hover {
   font-size: 17px;
   line-height: 170%;
 }
+/******************** featured on section ************************/
+#page-body-wrapper.featured-on-body-wrapper {
+  padding-top: 20px;
+}
 #page-featured-on h2 {
   font-weight: 500;
   font-size: 20px;
@@ -642,6 +646,9 @@ a.custom-nav-link:hover {
   font-weight: 400;
   font-size: 24px;
   color: #3A9ED7!important;
+}
+#page-featured-on .sqs-col-12 > .sqs-block:last-child {
+  padding-top: 0;
 }
 /*********************** Homepage ************************/
 #canvas-wrapper #homeMainColumns h1 {
