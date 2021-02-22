@@ -639,7 +639,7 @@ a.custom-nav-link:hover {
   color: #3A9ED7!important;
 }
 /*********************** Homepage ************************/
-#homeMainColumns h1 {
+#canvas-wrapper #homeMainColumns h1 {
   font-size: 32px;
   font-weight: 500;
 }
