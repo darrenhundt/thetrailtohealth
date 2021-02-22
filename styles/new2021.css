@@ -42,7 +42,7 @@
 .layout-2021 h6 {
   font-family: Roboto!important;
 }
-.layout-2021 .folder-collection:after {
+.layout-2021 #navigation-top .folder-collection:after {
   content: '';
   display: inline-block;
   width: 16px;
@@ -120,6 +120,12 @@
   .layout-2021 #navigation-top .horizontal-navigation-bar {
     display: none;
   }
+}
+.layout-2021 #mobile-navigation ul {
+  text-align: center;
+}
+.layout-2021 #mobile-navigation ul li {
+  margin-left: 13px;
 }
 .layout-2021 #main-navigation {
   margin-left: 0;
@@ -238,6 +244,10 @@
 }
 .layout-2021 .banner-right .sqs-layout .button-block {
   margin-top: 20px;
+}
+.layout-2021 .banner-right .sqs-layout > .sqs-row {
+  margin-left: 0;
+  margin-right: 0;
 }
 .layout-2021 .banner-slide {
   display: flex;
@@ -510,6 +520,8 @@ a.custom-nav-link:hover {
   padding-left: 40px;
   padding-right: 40px;
   padding-bottom: 120px;
+  padding-top: 60px;
+  background: #f8f8f8;
 }
 #testimonialsWrapper #testimonialCarousel {
   max-width: 1200px;
