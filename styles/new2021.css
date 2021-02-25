@@ -179,6 +179,7 @@
   }
 }
 .layout-2021 #page-body-wrapper #homeMainColumns #homeMainBodyNew,
+.layout-2021 #page-body-wrapper #homeMainColumns #shopMainBodyNew,
 .layout-2021 #page-body-wrapper #homeMainColumns #coachingMainBodyNew {
   display: inline-block;
   width: 75%;
@@ -187,6 +188,7 @@
 }
 @media (max-width: 640px) {
   .layout-2021 #page-body-wrapper #homeMainColumns #homeMainBodyNew,
+  .layout-2021 #page-body-wrapper #homeMainColumns #shopMainBodyNew,
   .layout-2021 #page-body-wrapper #homeMainColumns #coachingMainBodyNew {
     width: 100%;
     padding-right: 0px;
@@ -364,13 +366,11 @@
   margin: 0!important;
 }
 .layout-2021 .footer-wrapper-2021 #main-navigation ul li a {
-  font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
   color: #000000;
 }
-.layout-2021 .footer-wrapper-2021 #main-navigation ul li a ul li a {
-  font-family: Roboto;
+.layout-2021 .footer-wrapper-2021 #main-navigation ul li ul li a {
   font-weight: 400;
   font-size: 16px;
   color: #7d7d7d;
