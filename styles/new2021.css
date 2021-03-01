@@ -8,6 +8,7 @@
 .layout-2021 {
   font-family: Roboto!important;
   /***************Header and Nav stuff ******************/
+  /***************Blog layouts ******************/
 }
 .layout-2021 *:focus,
 .layout-2021 * {
@@ -449,6 +450,9 @@
   }
 }
 .layout-2021#collection-60107661840b340b596beedd #page-body {
+  max-width: 1200px;
+}
+.layout-2021.collection-type-blog.view-list #page-body {
   max-width: 1200px;
 }
 .layout-2021 .one-sidebar-new-blog h2 {
