@@ -481,12 +481,6 @@
 .one-sidebar-new-blog #blogNav .custom-nav-link {
   display: inline-block;
 }
-.one-sidebar-new-blog {
-  padding-left: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 #page-body-wrapper.one-sidebar-flush-top {
   padding-top: 0;
 }
