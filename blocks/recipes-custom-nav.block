@@ -1,0 +1,26 @@
+<div class="recipes-nav" id="blogNav">
+  <ul class="custom-nav-list-main">
+    <li class="custom-nav-item"><a class="custom-nav-link" href="">All Recipes</a></li>
+    <li class="custom-nav-item"><a class="custom-nav-link" href="">Book Recipes</a></li>
+    <li class="custom-nav-item"><a class="custom-nav-link" href="">Blog Recipes</a></li>
+    <li class="custom-nav-item"><a class="custom-nav-link" href="">Recipe Round Ups</a></li>
+    <li class="custom-nav-item"><a class="custom-nav-link" href="">Quarantine Recipes</a></li>
+  </ul>
+  <ul class="custom-nav-list">
+    <li class="custom-nav-item"><a class="custom-nav-link" href="">Appetizers</a></li>
+    <li class="custom-nav-item"><a class="custom-nav-link" href="">Bakery & Dessert</a></li>
+    <li class="custom-nav-item"><a class="custom-nav-link" href="">Beverages</a></li>
+    <li class="custom-nav-item"><a class="custom-nav-link" href="">Bowls & Wraps</a></li>
+    <li class="custom-nav-item"><a class="custom-nav-link" href="">Breakfast</a></li>
+    <li class="custom-nav-item"><a class="custom-nav-link" href="">Dressings</a></li>
+    <li class="custom-nav-item"><a class="custom-nav-link" href="">Instant Pot</a></li>
+    <li class="custom-nav-item"><a class="custom-nav-link" href="">Mains</a></li>
+    <li class="custom-nav-item"><a class="custom-nav-link" href="">Noodles & Rice</a></li>
+    <li class="custom-nav-item"><a class="custom-nav-link" href="">Salads</a></li>
+    <li class="custom-nav-item"><a class="custom-nav-link" href="">Sauces</a></li>
+    <li class="custom-nav-item"><a class="custom-nav-link" href="">Sides</a></li>
+    <li class="custom-nav-item"><a class="custom-nav-link" href="">Soups & Stews</a></li>
+    <li class="custom-nav-item"><a class="custom-nav-link" href="">Vitamix</a></li>
+    <li class="custom-nav-item"><a class="custom-nav-link" href="">Pet Food</a></li>
+  </ul>
+</div>
