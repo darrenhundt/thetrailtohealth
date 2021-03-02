@@ -137,18 +137,21 @@ article header span {
   }
 }
 @media (min-width: 641px) {
+  .collection-layout-newblog-2021 article .excerpt-thumb,
   #collection-60107661840b340b596beedd article .excerpt-thumb,
   #collection-5692ff0cc03355f6755d9dc2 article .excerpt-thumb,
   #collection-5b47a0aa575d1f5997eaa305 article .excerpt-thumb,
   #collection-5c9e22c1fa0d605f4af6e486 article .excerpt-thumb {
     float: none;
   }
+  .collection-layout-newblog-2021 article .excerpt-thumb .intrinsic,
   #collection-60107661840b340b596beedd article .excerpt-thumb .intrinsic,
   #collection-5692ff0cc03355f6755d9dc2 article .excerpt-thumb .intrinsic,
   #collection-5b47a0aa575d1f5997eaa305 article .excerpt-thumb .intrinsic,
   #collection-5c9e22c1fa0d605f4af6e486 article .excerpt-thumb .intrinsic {
     padding-bottom: 55%;
   }
+  .collection-layout-newblog-2021 .excerpt-image,
   #collection-60107661840b340b596beedd .excerpt-image,
   #collection-5692ff0cc03355f6755d9dc2 .excerpt-image,
   #collection-5b47a0aa575d1f5997eaa305 .excerpt-image,
@@ -157,6 +160,7 @@ article header span {
     width: 100% !important;
     height: 200px !important;
   }
+  .collection-layout-newblog-2021 .excerpt-image img,
   #collection-60107661840b340b596beedd .excerpt-image img,
   #collection-5692ff0cc03355f6755d9dc2 .excerpt-image img,
   #collection-5b47a0aa575d1f5997eaa305 .excerpt-image img,
@@ -164,6 +168,7 @@ article header span {
     display: inline-block;
     width: 100% !important;
   }
+  .collection-layout-newblog-2021 .excerpt-thumb,
   #collection-60107661840b340b596beedd .excerpt-thumb,
   #collection-5692ff0cc03355f6755d9dc2 .excerpt-thumb,
   #collection-5b47a0aa575d1f5997eaa305 .excerpt-thumb,
@@ -174,12 +179,14 @@ article header span {
   }
 }
 @media (max-width: 640px) {
+  .collection-layout-newblog-2021 article .excerpt-thumb,
   #collection-60107661840b340b596beedd article .excerpt-thumb,
   #collection-5692ff0cc03355f6755d9dc2 article .excerpt-thumb,
   #collection-5b47a0aa575d1f5997eaa305 article .excerpt-thumb,
   #collection-5c9e22c1fa0d605f4af6e486 article .excerpt-thumb {
     max-width: none;
   }
+  .collection-layout-newblog-2021 article .excerpt-thumb .intrinsic,
   #collection-60107661840b340b596beedd article .excerpt-thumb .intrinsic,
   #collection-5692ff0cc03355f6755d9dc2 article .excerpt-thumb .intrinsic,
   #collection-5b47a0aa575d1f5997eaa305 article .excerpt-thumb .intrinsic,
@@ -187,6 +194,7 @@ article header span {
     padding-bottom: 55%;
   }
 }
+.collection-layout-newblog-2021 .entry-title,
 #collection-60107661840b340b596beedd .entry-title,
 #collection-5692ff0cc03355f6755d9dc2 .entry-title,
 #collection-5b47a0aa575d1f5997eaa305 .entry-title,
@@ -196,18 +204,21 @@ article header span {
   font-weight: 300!important;
   margin-bottom: 8px;
 }
+.collection-layout-newblog-2021 .article-dateline,
 #collection-60107661840b340b596beedd .article-dateline,
 #collection-5692ff0cc03355f6755d9dc2 .article-dateline,
 #collection-5b47a0aa575d1f5997eaa305 .article-dateline,
 #collection-5c9e22c1fa0d605f4af6e486 .article-dateline {
   display: none;
 }
+.collection-layout-newblog-2021 .entry-content p,
 #collection-60107661840b340b596beedd .entry-content p,
 #collection-5692ff0cc03355f6755d9dc2 .entry-content p,
 #collection-5b47a0aa575d1f5997eaa305 .entry-content p,
 #collection-5c9e22c1fa0d605f4af6e486 .entry-content p {
   margin-bottom: 10px;
 }
+.collection-layout-newblog-2021 .article-meta,
 #collection-60107661840b340b596beedd .article-meta,
 #collection-5692ff0cc03355f6755d9dc2 .article-meta,
 #collection-5b47a0aa575d1f5997eaa305 .article-meta,
@@ -215,6 +226,7 @@ article header span {
   display: none;
 }
 @media screen and (min-width: 769px) {
+  .collection-layout-newblog-2021 article,
   #collection-60107661840b340b596beedd article,
   #collection-5692ff0cc03355f6755d9dc2 article,
   #collection-5b47a0aa575d1f5997eaa305 article,
@@ -225,10 +237,12 @@ article header span {
     vertical-align: top;
     margin-top: 35px;
   }
+  .collection-layout-newblog-2021 article:nth-child(2),
   #collection-60107661840b340b596beedd article:nth-child(2),
   #collection-5692ff0cc03355f6755d9dc2 article:nth-child(2),
   #collection-5b47a0aa575d1f5997eaa305 article:nth-child(2),
   #collection-5c9e22c1fa0d605f4af6e486 article:nth-child(2),
+  .collection-layout-newblog-2021 article:nth-child(3),
   #collection-60107661840b340b596beedd article:nth-child(3),
   #collection-5692ff0cc03355f6755d9dc2 article:nth-child(3),
   #collection-5b47a0aa575d1f5997eaa305 article:nth-child(3),
@@ -236,6 +250,7 @@ article header span {
     margin-top: 10px;
   }
 }
+.collection-layout-newblog-2021 header,
 #collection-60107661840b340b596beedd header,
 #collection-5692ff0cc03355f6755d9dc2 header,
 #collection-5b47a0aa575d1f5997eaa305 header,
