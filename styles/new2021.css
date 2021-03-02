@@ -455,6 +455,9 @@
 .layout-2021.collection-type-blog.view-list #page-body {
   max-width: 1200px;
 }
+.layout-2021.collection-type-blog.view-list #page-body {
+  max-width: 1200px;
+}
 .layout-2021 .one-sidebar-new-blog h2 {
   font-size: 26px;
 }
@@ -477,6 +480,12 @@
 }
 .one-sidebar-new-blog #blogNav .custom-nav-link {
   display: inline-block;
+}
+.one-sidebar-new-blog {
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #page-body-wrapper.one-sidebar-flush-top {
   padding-top: 0;
