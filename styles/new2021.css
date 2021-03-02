@@ -483,6 +483,7 @@
 }
 .one-sidebar-new-blog {
   padding-left: 0;
+  display: flex;
 }
 #page-body-wrapper.one-sidebar-flush-top {
   padding-top: 0;
