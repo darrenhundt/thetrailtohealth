@@ -6,7 +6,7 @@
   display: none;
 }
 .layout-2021 {
-  font-family: Roboto!important;
+  font-family: proxima-nova !important;
   /***************Header and Nav stuff ******************/
   /***************Blog layouts ******************/
 }
@@ -48,7 +48,7 @@
 .layout-2021 h4,
 .layout-2021 h5,
 .layout-2021 h6 {
-  font-family: Roboto!important;
+  font-family: proxima-nova !important;
 }
 .layout-2021 #navigation-top .folder-collection:after {
   content: '';
@@ -62,7 +62,7 @@
   margin-bottom: 2px;
 }
 .layout-2021 .sqs-block-button .sqs-block-button-element--medium {
-  font-family: Roboto!important;
+  font-family: proxima-nova !important;
   font-weight: 700;
   font-size: 16px;
   line-height: 125%;
@@ -115,7 +115,7 @@
   right: 0;
 }
 .layout-2021 .image-caption p {
-  font-family: Roboto!important;
+  font-family: proxima-nova !important;
   font-style: normal;
   font-weight: 400!important;
   font-size: 14px!important;
