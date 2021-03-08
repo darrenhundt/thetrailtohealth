@@ -8,6 +8,7 @@ $(document).ready(function(){
     cellAlign: 'left',
     contain: true,
     pageDots: false,
+    adaptiveHeight: false,
     wrapAround: true
   });
   
