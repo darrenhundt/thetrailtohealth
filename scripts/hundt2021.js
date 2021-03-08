@@ -31,14 +31,25 @@ $(document).ready(function(){
     
     var myParent = $(this).closest('li');
     var mySubnav = myParent.find('.subnav');
+    var clickedElement = $(this);
+    
     if ($(this).hasClass('open-footer-nav')) {
       $(this).removeClass('open-footer-nav');
       mySubnav.slideUp();
       $(this).html('+');
     } else {
-      $(this).addClass('open-footer-nav');
-      mySubnav.slideDown();
-      $(this).html('-');
+      if ( myParent.hasClass('.index-2') ) {
+        var nextFolder = myParent.next();
+        var bonusSubnav = nextFolder.find('.subnav');
+        mySubnav.slideDown();
+        bonusSubnav.slideDown();
+        clickedElement.html('-');
+        //
+      } else {
+        $(this).addClass('open-footer-nav');
+        mySubnav.slideDown();
+        $(this).html('-');
+      }
     }
   });
 });
