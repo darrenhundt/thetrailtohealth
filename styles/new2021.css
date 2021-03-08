@@ -180,6 +180,11 @@
     flex-direction: column;
   }
 }
+@media (min-width: 641px) {
+  .layout-2021 #page-body-wrapper #homeMainColumns #homeMainBodyNew .sqs-block-summary-v2 {
+    margin-top: -45px;
+  }
+}
 .layout-2021 #page-body-wrapper #homeMainColumns #homeMainBodyNew,
 .layout-2021 #page-body-wrapper #homeMainColumns #shopMainBodyNew,
 .layout-2021 #page-body-wrapper #homeMainColumns #coachingMainBodyNew {
