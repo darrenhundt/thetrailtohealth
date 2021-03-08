@@ -421,7 +421,7 @@
   flex: 1 1 22px;
   margin-left: 0;
 }
-.layout-2021 #main-navigation.footer-nav .flex-nav .folder-collection.index-3 .parent-link {
+.layout-2021 #main-navigation.footer-nav .flex-nav .folder-collection.index-3 .parent-link .footer-folder-title-text {
   visibility: hidden;
 }
 .layout-2021 #main-navigation.footer-nav .flex-nav .folder-collection.index-2x {
