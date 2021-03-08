@@ -282,9 +282,7 @@
   justify-content: space-between;
 }
 .layout-2021 .banner-slide h1 {
-  font-size: 38px!important;
   color: #000;
-  font-weight: 500!important;
 }
 @media (max-width: 520px) {
   .layout-2021 .banner-slide h1 {
