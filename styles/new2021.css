@@ -668,17 +668,14 @@ a.custom-nav-link:hover {
   font-weight: 500;
   font-size: 32px;
 }
-#page-about-me h2 {
-  font-weight: 500;
-  font-size: 32px;
-}
 #page-about-me h3 {
-  font-size: 28px;
-  color: black;
+  font-size: 21px;
   font-weight: 300;
+  color: black;
 }
 #page-about-me p {
-  font-size: 17px;
+  font-size: 15px;
+  font-weight: 300;
   line-height: 170%;
 }
 /******************** featured on section ************************/
