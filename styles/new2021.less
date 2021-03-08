@@ -452,7 +452,7 @@
           flex: 1 1 22px;
           margin-left: 0;
         }
-        &.index-2 {
+        &.index-2x {
           width: 50%;
           @media (max-width: 768px) {
             width: 100%;
@@ -465,6 +465,9 @@
             li {
               flex: 1 1 22px;
               margin-left: 0;
+              @media (min-width: 400px) {
+                width: 300px;
+              }
             }
             @media (max-width: 400px) {
               flex-wrap: nowrap;
