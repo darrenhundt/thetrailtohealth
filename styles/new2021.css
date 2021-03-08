@@ -169,6 +169,7 @@
   display: none;
 }
 .layout-2021 #page-body-wrapper {
+  padding-top: 20px;
   padding-bottom: 20px;
 }
 .layout-2021 #page-body-wrapper #homeMainColumns {
