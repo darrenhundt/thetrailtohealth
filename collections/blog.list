@@ -29,7 +29,6 @@
             <span class="date"><a href="{fullUrl}"><time class="published" datetime="{addedOn|date %F}">{addedOn|date %B %d, %Y}</time></a></span>
           </span>
 
-  				{.if title}<h1 class="entry-title" data-content-field="title">{.passthrough?}<a href="{sourceUrl}" target="_blank">{title}<span class="passthrough">&rarr;</span></a>{.or}<a href="{fullUrl}">{title}</a>{.end}</h1>{.end}
 
           <span class="article-dateline">
             <span class="date"><a href="{fullUrl}"><time class="published" datetime="{addedOn|date %F}">{addedOn|date %B %d, %Y}</time></a><span class="delimiter">/</span></span>
@@ -57,6 +56,8 @@
           </div>
         </div>
         {.end}
+        
+  			{.if title}<h1 class="entry-title" data-content-field="title">{.passthrough?}<a href="{sourceUrl}" target="_blank">{title}<span class="passthrough">&rarr;</span></a>{.or}<a href="{fullUrl}">{title}</a>{.end}</h1>{.end}
 
         <div class="body entry-content excerpt-content">{excerpt}<span class="inline-action"><a class="inline-read-more" href="{fullUrl}">Read More</a></span></div>
         
