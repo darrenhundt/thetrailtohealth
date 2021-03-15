@@ -47,7 +47,7 @@
 
             <div class="full-width">
               <squarespace:query collection="new-coaching-banner-slides" limit="1">
-                <div id="bannerCarousel">
+                <div class="coaching-carousel" id="bannerCarousel">
                   {.repeated section items}
                   <div class="banner-slide banner-slide-{@index}">
                     <div class="banner-left" style="background-image: url('{assetUrl}?format=1000w')">
