@@ -114,6 +114,7 @@
   font-weight: 700!important;
   line-height: 22px!important;
   letter-spacing: 0.135em!important;
+  padding: 16px 22px!important;
 }
 .layout-2021 #bannerCarousel button.flickity-button.flickity-prev-next-button {
   position: absolute;
@@ -361,6 +362,7 @@
 .layout-2021 .Home-page-body-header {
   min-height: 1px;
   border-bottom: 1px solid #e7e5e5;
+  padding-top: 24px;
 }
 @media (max-width: 1000px) {
   .layout-2021 .Home-page-body-header {
