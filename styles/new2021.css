@@ -56,7 +56,6 @@
   display: inline-block;
   width: 16px;
   height: 11px;
-  background-image: url('data:image/svg+xml,<svg width="8" height="6" viewBox="0 0 8 6" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 1L4 4L7 1" stroke="#808080" stroke-width="2"/></svg>');
 }
 .layout-2021 #navigation-top .dropdown-caret {
   display: inline;
@@ -187,7 +186,7 @@
   font-size: 14px;
   letter-spacing: 0.135em;
   line-height: 135%;
-  font-weight: 700;
+  font-weight: 600;
   color: #808080;
 }
 .layout-2021 #main-navigation ul li a.active-link {
