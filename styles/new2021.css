@@ -179,6 +179,9 @@
 .layout-2021 #main-navigation ul li {
   margin-left: 14px;
 }
+.layout-2021 #main-navigation ul li:first-child {
+  margin-right: 8px;
+}
 @media (max-width: 768px) {
   .layout-2021 #main-navigation ul li {
     margin-left: 10px;
