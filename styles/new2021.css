@@ -385,6 +385,12 @@
     width: 50%!important;
   }
 }
+.layout-2021 .Home-page-body-header .sqs-col-12 > .row > .sqs-col-4 {
+  width: 25%;
+}
+.layout-2021 .Home-page-body-header .sqs-col-12 > .row > .sqs-col-8 {
+  width: 75%;
+}
 .layout-2021 .footer-wrapper-2021 {
   background: #f9f9f9;
 }
