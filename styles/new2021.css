@@ -94,6 +94,11 @@
   width: 100%;
   height: 100%;
 }
+.layout-2021 #bannerCarousel .banner-slide h1 {
+  font-weight: 500!important;
+  font-size: 38px!important;
+  line-height: 126%!important;
+}
 .layout-2021 #bannerCarousel button.flickity-button.flickity-prev-next-button {
   position: absolute;
   top: 50%;
