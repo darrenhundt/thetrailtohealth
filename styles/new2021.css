@@ -151,6 +151,9 @@
   text-align: center;
   color: #000;
 }
+.layout-2021 #navigation-top .horizontal-navigation-bar {
+  max-width: 1305px;
+}
 @media (max-width: 1040px) {
   .layout-2021 #navigation-top .horizontal-navigation-bar {
     flex-direction: column;
