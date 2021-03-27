@@ -737,6 +737,9 @@ a.custom-nav-link:hover {
   font-weight: 400!important;
 }
 /**************************************** BLOGS ***************************/
+.layout-2021.collection-type-blog #sidebar2021New.blog-sidebar {
+  width: 100%;
+}
 .layout-2021.collection-type-blog #bannerCarousel {
   height: 301px;
 }
