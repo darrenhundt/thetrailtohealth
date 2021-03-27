@@ -316,7 +316,8 @@
 }
 @media (max-width: 768px) {
   .layout-2021 .banner-slide {
-    flex-direction: column;
+    display: block;
+    text-align: center;
   }
   .layout-2021 .banner-slide .banner-left {
     width: 100%;
