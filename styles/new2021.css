@@ -774,3 +774,13 @@ a.custom-nav-link:hover {
   font-style: normal;
   letter-spacing: .1em;
 }
+/********************** 2021 Sidebar**********/
+.layout-2021 #sidebar-shopify-button iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  height: 100%!important;
+}
