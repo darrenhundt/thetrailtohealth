@@ -10,7 +10,7 @@
     <li class="custom-nav-item"><a data-category="Stem-Cells" class="custom-nav-link" href="">Stem Cells</a></li>
     <li class="custom-nav-item"><a data-category="Thyroid" class="custom-nav-link" href="">Thyroid</a></li>
     <li class="custom-nav-item"><a data-category="Weight-Loss" class="custom-nav-link" href="">Weight Loss</a></li>
-    <li class="custom-nav-item"><a data-category="Bloggin-Biz" class="custom-nav-link" href="">Blogging & Entrepreneurship</a></li>
+    <li class="custom-nav-item"><a data-category="Blogging-Biz" class="custom-nav-link" href="">Blogging & Entrepreneurship</a></li>
   </ul>
 </div>
 
