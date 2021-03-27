@@ -732,6 +732,7 @@ a.custom-nav-link:hover {
   border-top: 1px solid #e7e5e5;
   border-bottom: 1px solid #e7e5e5;
   margin-bottom: 30px;
+  visibility: hidden;
 }
 .layout-2021.collection-type-blog .one-sidebar-new-blog #blogNav ul {
   margin-top: 0;
