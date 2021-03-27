@@ -56,7 +56,7 @@ $(document).ready(function(){
   $('.custom-nav-list').flickity({
     pageDots: false,
     prevNextButtons: true,
-    groupCells: 2,
+    groupCells: 1,
     contain: true,
     wrapAround: false,
     autoPlay: false,
