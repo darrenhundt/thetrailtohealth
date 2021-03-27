@@ -415,6 +415,14 @@ article .post .article-meta .shareLoveButtons {
   bottom: 0;
   opacity: 0;
 }
+.new-layout-blogs-general-2021 #bannerCarousel,
+.collection-layout-newblog-2021 #bannerCarousel,
+#collection-60107661840b340b596beedd #bannerCarousel,
+#collection-5c9e22c1fa0d605f4af6e486 #bannerCarousel,
+#collection-5692ff0cc03355f6755d9dc2 #bannerCarousel {
+  max-width: 1305px;
+  margin: auto;
+}
 .new-layout-blogs-general-2021 .popup-content,
 .collection-layout-newblog-2021 .popup-content,
 #collection-60107661840b340b596beedd .popup-content,
@@ -484,4 +492,14 @@ article .post .article-meta .shareLoveButtons {
   .homepage .sqs-block-summary-v2 {
     margin-top: -10px;
   }
+}
+#page-header-600117467c106d5c31df53a2 #block-yui_3_17_2_1_1611076893327_29738 {
+  margin-top: 10px;
+}
+#page-header-600117467c106d5c31df53a2 #block-yui_3_17_2_1_1611076893327_29738 h1 {
+  font-size: 20px;
+}
+#page-header-600117467c106d5c31df53a2 #block-yui_3_17_2_1_1611076893327_29738 a:hover {
+  background: #000;
+  color: #fff;
 }
