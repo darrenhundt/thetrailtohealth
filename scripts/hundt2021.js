@@ -63,7 +63,6 @@ $(document).ready(function(){
     pauseAutoPlayOnHover: true
   });
   $('.custom-nav-list').slick({
-    setting-name: setting-value
   });
   $("#blogNav").addClass("carousel-loaded");
   
