@@ -749,7 +749,7 @@
   width: auto;
   text-align: center;
 }
-@media (max-width: 100%) {
+@media (max-width: 640px) {
   .layout-2021 li.custom-nav-item {
     width: 100%;
   }
