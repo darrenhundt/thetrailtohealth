@@ -715,8 +715,10 @@ a.custom-nav-link:hover {
 .layout-2021.collection-type-blog #sidebar2021New.blog-sidebar {
   width: 100%;
 }
-.layout-2021.collection-type-blog #bannerCarousel {
-  height: 301px;
+@media screen and (min-width: 769px) {
+  .layout-2021.collection-type-blog #bannerCarousel {
+    height: 301px;
+  }
 }
 .layout-2021.collection-type-blog .one-sidebar-new-blog h2 {
   font-size: 26px;
