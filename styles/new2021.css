@@ -596,6 +596,7 @@ a.custom-nav-link {
 a.custom-nav-link.active-nav-link {
   border-width: 3px;
   border-color: #000;
+  font-weight: bold;
 }
 a.custom-nav-link:hover {
   color: white;
