@@ -19,7 +19,7 @@ $(document).ready(function(){
     autoPlay: 4000,
     pauseAutoPlayOnHover: true
   });
-  $('.custom-nav-listx').flickity({
+  $('.custom-nav-list').flickity({
     pageDots: false,
     prevNextButtons: true,
     contain: true,
