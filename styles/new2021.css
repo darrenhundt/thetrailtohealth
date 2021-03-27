@@ -583,7 +583,7 @@ li.custom-nav-item {
 }
 a.custom-nav-link {
   display: inline-block;
-  border: 1px solid #999;
+  border: 1px solid #808080;
   border-radius: 100px;
   padding: 9px 15px;
   margin-left: 5px;
@@ -592,7 +592,7 @@ a.custom-nav-link {
   white-space: nowrap;
 }
 a.custom-nav-link.active-nav-link {
-  border-width: 3px;
+  border-width: 2px;
   border-color: #000;
   font-weight: bold;
 }
