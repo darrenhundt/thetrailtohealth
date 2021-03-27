@@ -582,7 +582,6 @@ li.custom-nav-item {
   margin-left: 10px;
   margin-right: 10px;
   width: auto;
-  min-width: 150px;
   text-align: center;
 }
 a.custom-nav-link {
@@ -592,6 +591,11 @@ a.custom-nav-link {
   margin-left: 5px;
   margin-right: 5px;
   text-transform: uppercase;
+  white-space: nowrap;
+}
+a.custom-nav-link.active-nav-link {
+  border-width: 3px;
+  border-color: #000;
 }
 a.custom-nav-link:hover {
   color: white;
