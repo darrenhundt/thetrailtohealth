@@ -22,6 +22,7 @@ $(document).ready(function(){
   $('.custom-nav-list').flickity({
     pageDots: false,
     prevNextButtons: true,
+    groupCells: 2,
     contain: true,
     wrapAround: false,
     autoPlay: false,
