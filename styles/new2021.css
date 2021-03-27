@@ -294,6 +294,11 @@
 .layout-2021 .banner-right .sqs-layout .button-block {
   margin-top: 20px;
 }
+@media (max-width: 768px) {
+  .layout-2021 .banner-right .sqs-layout .button-block {
+    margin-top: 0;
+  }
+}
 .layout-2021 .banner-right .sqs-layout > .sqs-row {
   margin-left: 0;
   margin-right: 0;
@@ -715,6 +720,9 @@ a.custom-nav-link:hover {
 /**************************************** BLOGS ***************************/
 .layout-2021.collection-type-blog #sidebar2021New.blog-sidebar {
   width: 100%;
+}
+.layout-2021.collection-type-blog #bannerCarousel {
+  height: auto;
 }
 @media screen and (min-width: 769px) {
   .layout-2021.collection-type-blog #bannerCarousel {
