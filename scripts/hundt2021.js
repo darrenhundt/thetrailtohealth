@@ -60,6 +60,7 @@ $(document).ready(function(){
     contain: true,
     wrapAround: false,
     autoPlay: false,
+    cellAlign: 'center',
     pauseAutoPlayOnHover: true
   });
   /*
