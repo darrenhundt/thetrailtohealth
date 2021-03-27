@@ -24,7 +24,7 @@ $(document).ready(function(){
     prevNextButtons: true,
     contain: true,
     wrapAround: true,
-    autoPlay: 4000,
+    autoPlay: false,
     pauseAutoPlayOnHover: true
   });
   
