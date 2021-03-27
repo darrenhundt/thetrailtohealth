@@ -37,7 +37,7 @@ $(document).ready(function(){
     }
   }
   
-  $('#bannerCarousel').flickity({
+  $('#bannerCarousel.actual-carousel').flickity({
     // options
     cellAlign: 'left',
     contain: true,
