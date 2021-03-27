@@ -502,10 +502,6 @@
 .hidden-heading {
   display: none;
 }
-#blogNav {
-  display: none;
-  border-bottom: 1px solid #ccc;
-}
 #page-body-wrapper.one-sidebar-flush-top {
   padding-top: 0;
 }
