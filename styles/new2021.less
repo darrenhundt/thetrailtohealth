@@ -840,7 +840,11 @@ a.custom-nav-link {
       border-top: 1px solid #e7e5e5;
       border-bottom: 1px solid #e7e5e5;
       margin-bottom: 30px;
-      visibility: hidden;
+      opacity: 0;
+      transition: all 0.3 ease-in-out;
+      &.carousel-loaded {
+        opacity: 1;
+      }
       ul {
         margin-top: 0;
         margin-bottom: 0;
