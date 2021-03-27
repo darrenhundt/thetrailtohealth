@@ -249,26 +249,6 @@
           padding-right: 0px;
         }
       }
-      #sidebar2021New {
-        display: inline-block;
-        width: 25%;
-        //flex: 1;
-        min-height: 10px;
-        padding-left: 20px;
-        padding-top: 20px;
-        @media (max-width: 640px) {
-          width: 100%;
-          padding-left: 0px;
-        }
-        #sidebar-shopify-button iframe {
-          position: absolute;
-          top: auto;
-          left: 10px;
-          right: 0;
-          bottom: 10px;
-          opacity: 1;
-        }
-      }
     }
     .main-content {
       h2 {
@@ -886,13 +866,25 @@ a.custom-nav-link {
 
 /********************** 2021 Sidebar**********/
 .layout-2021 {
-  #sidebar-shopify-button iframe {
-    position: absolute;
-    top: auto;
-    left: 40px!important;
-    right: 0;
-    bottom: 37px!important;
-    opacity: 0;
+  #sidebar2021New {
+    display: inline-block;
+    width: 25%;
+    //flex: 1;
+    min-height: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+    @media (max-width: 640px) {
+      width: 100%;
+      padding-left: 0px;
+    }
+    #sidebar-shopify-button iframe {
+      position: absolute;
+      top: auto;
+      left: 40px!important;
+      right: 0;
+      bottom: 37px!important;
+      opacity: 0;
+    }
   }
 }
 
