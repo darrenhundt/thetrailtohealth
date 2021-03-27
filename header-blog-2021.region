@@ -49,7 +49,7 @@
               
                 <div id="bannerCarousel">
                   <div class="banner-slide banner-slide-1 is-selected" style="position: absolute; left: 0%;">
-                    <div class="banner-left" style="background-image: url('/assets/blogHeader.jpg')">
+                    <div class="banner-left" style="background-image: url('/assets/newBlogHeader2021.jpg')">
                     </div>
                     <div class="banner-right banner-right-smaller"><div class="sqs-layout sqs-grid-12 columns-12" data-layout-label="Post Body" data-type="item" data-updated-on="1611182056412" id="item-6008afd9f2f64a14a2955e1f">
                       <div class="row sqs-row">
