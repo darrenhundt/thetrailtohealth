@@ -9,6 +9,10 @@ $(document).ready(function(){
   console.log({blogCategory});
   console.log({windowURL});
   
+  if ( windowURL.includes("blog") && windowURL.includes(""/category") ) {
+    console.log('blog category page');
+  }
+  
   $('#bannerCarousel').flickity({
     // options
     cellAlign: 'left',
