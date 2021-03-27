@@ -3,9 +3,11 @@
 $(document).ready(function(){
   console.log('hfh2021');
   const queryString = window.location.search;
+  const windowURL = window.location.href;
   const urlParams = new URLSearchParams(queryString);
   const blogCategory = urlParams.get('category');
   console.log({blogCategory});
+  console.log({windowURL});
   
   $('#bannerCarousel').flickity({
     // options
