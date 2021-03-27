@@ -23,7 +23,7 @@ $(document).ready(function(){
     pageDots: false,
     prevNextButtons: true,
     contain: true,
-    wrapAround: true,
+    wrapAround: false,
     autoPlay: false,
     pauseAutoPlayOnHover: true
   });
