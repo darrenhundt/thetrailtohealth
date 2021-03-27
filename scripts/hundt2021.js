@@ -62,6 +62,7 @@ $(document).ready(function(){
     autoPlay: false,
     pauseAutoPlayOnHover: true
   });
+  $("#blogNav").addClass("carousel-loaded");
   
   $('#page-footer .mobile-only').on('click',function(){
     
