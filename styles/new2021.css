@@ -761,11 +761,11 @@ a.custom-nav-link:hover {
   font-weight: 400!important;
 }
 /********************** EXTRA SECTION ABOVE BLOCS (FEATURED POSTS USUALLY**********/
-#page-body-header .summary-title a.summary-title-link {
+.layout-2021 #page-body-header .summary-title a.summary-title-link {
   font-size: 20px;
   font-weight: 300;
 }
-#page-body-header .summary-read-more-link {
+.layout-2021 #page-body-header .summary-read-more-link {
   font-size: 12px;
   font-weight: 500;
   font-style: normal;
