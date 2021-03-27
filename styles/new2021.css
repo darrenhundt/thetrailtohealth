@@ -80,8 +80,6 @@
   width: 100%;
   position: relative;
   overflow: hidden;
-  border-top: 1px solid #e7e5e5;
-  border-bottom: 1px solid #e7e5e5;
   height: 465px;
 }
 .layout-2021 #bannerCarousel .flickity-viewport {
@@ -501,35 +499,12 @@
 .layout-2021.collection-type-blog.view-list #page-body {
   max-width: 1200px;
 }
-.layout-2021 .one-sidebar-new-blog h2 {
-  font-size: 26px;
-}
-.layout-2021 .one-sidebar-new-blog .hidden-heading {
-  display: block;
-  margin-bottom: 0;
-  font-size: 26px;
-  font-weight: 700;
-}
-.layout-2021 .one-sidebar-new-blog #blogNav {
-  display: block;
-}
-.layout-2021 .one-sidebar-new-blog #blogNav ul {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-.layout-2021 .one-sidebar-new-blog .custom-nav-list-main {
-  padding-left: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 .hidden-heading {
   display: none;
 }
 #blogNav {
   display: none;
   border-bottom: 1px solid #ccc;
-  margin-bottom: 30px;
 }
 #page-body-wrapper.one-sidebar-flush-top {
   padding-top: 0;
@@ -736,12 +711,41 @@ a.custom-nav-link:hover {
   font-size: 32px!important;
   font-weight: 400!important;
 }
+/**************************************** HEADER ***************************/
+.layout-2021 #navigation-top {
+  border-bottom: 1px solid #e7e5e5;
+}
 /**************************************** BLOGS ***************************/
 .layout-2021.collection-type-blog #sidebar2021New.blog-sidebar {
   width: 100%;
 }
 .layout-2021.collection-type-blog #bannerCarousel {
   height: 301px;
+}
+.layout-2021.collection-type-blog .one-sidebar-new-blog h2 {
+  font-size: 26px;
+}
+.layout-2021.collection-type-blog .one-sidebar-new-blog .hidden-heading {
+  display: block;
+  margin-bottom: 0;
+  font-size: 26px;
+  font-weight: 700;
+}
+.layout-2021.collection-type-blog .one-sidebar-new-blog #blogNav {
+  display: block;
+  border-top: 1px solid #e7e5e5;
+  border-bottom: 1px solid #e7e5e5;
+  margin-bottom: 30px;
+}
+.layout-2021.collection-type-blog .one-sidebar-new-blog #blogNav ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.layout-2021.collection-type-blog .one-sidebar-new-blog .custom-nav-list-main {
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /********************** EXTRA SECTION ABOVE BLOGS (FEATURED POSTS USUALLY**********/
 .layout-2021 #page-body-header .summary-block-header {
