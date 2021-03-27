@@ -749,6 +749,11 @@
   width: auto;
   text-align: center;
 }
+@media (max-width: 100%) {
+  .layout-2021 li.custom-nav-item {
+    width: 100%;
+  }
+}
 .layout-2021 a.custom-nav-link {
   display: inline-block;
   border: 1px solid #808080;
