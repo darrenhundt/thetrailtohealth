@@ -53,7 +53,7 @@ $(document).ready(function(){
     autoPlay: 4000,
     pauseAutoPlayOnHover: true
   });
-  $('.custom-nav-listx').flickity({
+  $('.custom-nav-list').flickity({
     pageDots: false,
     prevNextButtons: true,
     groupCells: 2,
@@ -62,8 +62,10 @@ $(document).ready(function(){
     autoPlay: false,
     pauseAutoPlayOnHover: true
   });
+  /*
   $('.custom-nav-list').slick({
   });
+  */
   $("#blogNav").addClass("carousel-loaded");
   
   $('#page-footer .mobile-only').on('click',function(){
