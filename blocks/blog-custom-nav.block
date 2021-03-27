@@ -13,3 +13,7 @@
     <li class="custom-nav-item"><a class="custom-nav-link" href="">Blogging & Entrepreneurship</a></li>
   </ul>
 </div>
+<script>
+  const queryString = window.location.search;
+  console.log({queryString});
+</script>
