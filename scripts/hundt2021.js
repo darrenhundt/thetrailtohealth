@@ -53,7 +53,7 @@ $(document).ready(function(){
     autoPlay: 4000,
     pauseAutoPlayOnHover: true
   });
-  $('.custom-nav-list').flickity({
+  $('.custom-nav-listx').flickity({
     pageDots: false,
     prevNextButtons: true,
     groupCells: 2,
@@ -61,6 +61,9 @@ $(document).ready(function(){
     wrapAround: false,
     autoPlay: false,
     pauseAutoPlayOnHover: true
+  });
+  $('.custom-nav-list').slick({
+    setting-name: setting-value
   });
   $("#blogNav").addClass("carousel-loaded");
   
