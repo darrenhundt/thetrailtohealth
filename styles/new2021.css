@@ -528,32 +528,32 @@
 .layout-2021 .one-sidebar-new-blog h2 {
   font-size: 26px;
 }
-.hidden-heading {
-  display: none;
-}
-.one-sidebar-new-blog .hidden-heading {
+.layout-2021 .one-sidebar-new-blog .hidden-heading {
   display: block;
   margin-bottom: 0;
   font-size: 26px;
   font-weight: 700;
 }
-#blogNav {
-  display: none;
-  border-bottom: 1px solid #ccc;
-  margin-bottom: 30px;
-}
-.one-sidebar-new-blog #blogNav {
+.layout-2021 .one-sidebar-new-blog #blogNav {
   display: block;
 }
-.one-sidebar-new-blog #blogNav ul {
+.layout-2021 .one-sidebar-new-blog #blogNav ul {
   margin-top: 0;
   margin-bottom: 0;
 }
-.one-sidebar-new-blog .custom-nav-list-main {
+.layout-2021 .one-sidebar-new-blog .custom-nav-list-main {
   padding-left: 0;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.hidden-heading {
+  display: none;
+}
+#blogNav {
+  display: none;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 30px;
 }
 #page-body-wrapper.one-sidebar-flush-top {
   padding-top: 0;
@@ -594,7 +594,6 @@ a.custom-nav-link {
 a.custom-nav-link.active-nav-link {
   border-width: 2px;
   border-color: #000;
-  font-weight: bold;
 }
 a.custom-nav-link:hover {
   color: white;
