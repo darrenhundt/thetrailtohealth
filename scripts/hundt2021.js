@@ -2,6 +2,8 @@
 
 $(document).ready(function(){
   console.log('hfh2021');
+  const queryString = window.location.search;
+  console.log({queryString});
   
   $('#bannerCarousel').flickity({
     // options
