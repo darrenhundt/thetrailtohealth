@@ -3,7 +3,9 @@
 $(document).ready(function(){
   console.log('hfh2021');
   const queryString = window.location.search;
-  console.log({queryString});
+  const urlParams = new URLSearchParams(queryString);
+  const blogCategory = urlParams.get('category');
+  console.log({blogCategory});
   
   $('#bannerCarousel').flickity({
     // options
