@@ -8,9 +8,14 @@ $(document).ready(function(){
   const blogCategory = urlParams.get('category');
   console.log({blogCategory});
   console.log({windowURL});
-  
+  var urlCategory;
   if ( windowURL.includes("blog") && windowURL.includes("/category") ) {
     console.log('blog category page');
+    if ( windowURL.includes('category/Gluten') ) {
+      
+    } else if () {
+
+    }
   }
   
   $('#bannerCarousel').flickity({
