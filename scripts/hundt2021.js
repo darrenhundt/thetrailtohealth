@@ -33,7 +33,7 @@ $(document).ready(function(){
     } else if ( windowURL.includes('category/Blogging%20&%20Biz') ) {
       $( ".custom-nav-link[data-category='Blogging-Biz']" ).addClass('active-nav-link');
     } else {
-      
+      $( ".custom-nav-link[data-category='All']" ).addClass('active-nav-link');
     }
   }
   
