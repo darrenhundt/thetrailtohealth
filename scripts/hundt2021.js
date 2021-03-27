@@ -58,7 +58,7 @@ $(document).ready(function(){
     prevNextButtons: true,
     groupCells: 1,
     contain: true,
-    wrapAround: false,
+    wrapAround: true,
     autoPlay: false,
     cellAlign: 'center',
     pauseAutoPlayOnHover: true
