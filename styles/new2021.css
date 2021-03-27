@@ -800,3 +800,8 @@
   bottom: 37px!important;
   opacity: 0;
 }
+@media (max-width: 768px) {
+  .layout-2021 #sidebar2021New #sidebar-shopify-button {
+    max-width: none!important;
+  }
+}
