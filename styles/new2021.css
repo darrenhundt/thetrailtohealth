@@ -766,7 +766,7 @@ a.custom-nav-link:hover {
   font-weight: 300;
 }
 .layout-2021 #page-body-header .summary-read-more-link {
-  font-size: 12px;
+  font-size: 12px!important;
   font-weight: 500;
   font-style: normal;
   letter-spacing: .1em;
