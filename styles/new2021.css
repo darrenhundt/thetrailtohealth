@@ -3,6 +3,7 @@
   display: none;
 }
 .layout-2021 {
+  overflow-x: hidden;
   font-family: 'proxima-nova' !important;
   /***************Header and Nav stuff x ******************/
   /***************Blog layouts ******************/
