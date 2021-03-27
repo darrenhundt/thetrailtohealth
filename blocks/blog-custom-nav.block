@@ -4,7 +4,7 @@
     <li class="custom-nav-item"><a data-category="Food-Diet" class="custom-nav-link" href="">Food & Diet</a></li>
     <li class="custom-nav-item"><a data-category="Gluten" class="custom-nav-link" href="">Gluten</a></li>
     <li class="custom-nav-item"><a data-category="Healthy-Home" class="custom-nav-link" href="">Healthy Home & Tools</a></li>
-    <li class="custom-nav-item"><a data-category="Health-Tips" class="custom-nav-link active-nav-link" href="">Health Tips</a></li>
+    <li class="custom-nav-item"><a data-category="Health-Tips" class="custom-nav-link" href="">Health Tips</a></li>
     <li class="custom-nav-item"><a data-category="Lifestyle" class="custom-nav-link" href="">Lifestyle</a></li>
     <li class="custom-nav-item"><a data-category="Lyme-Disease" class="custom-nav-link" href="">Lyme Disease</a></li>
     <li class="custom-nav-item"><a data-category="Stem-Cells" class="custom-nav-link" href="">Stem Cells</a></li>
