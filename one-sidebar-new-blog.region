@@ -41,10 +41,18 @@
 							</div>
 						</div> <!-- content-wrapper -->
 
-
-
+						<div id="sidebar-one-wrapper" class="vertical-navigation-bar-wrapper">
+							<div id="sidebar-one" class="vertical-navigation-bar">
+								<squarespace:navigation navigationId="mainNav" template="main-navigation" />
+								{.section website}
+								<div class="site-info">
+									{.if siteTitle}<h3 class="site-title">{siteTitle}</h3>{.end}
+							    {.if siteDescription}<div class="site-description">{siteDescription}</div>{.end}
+							  </div>
+							  {.end}
                 <squarespace:block-field id="sidebar2021New" description="New Sidebar 2021" columns="12" label="New Sidebar 2021" />
-
+							</div>
+						</div><!-- sidebar-one-wrapper -->
 
 					<div class="clearer" id="body-clearer"></div>
 
