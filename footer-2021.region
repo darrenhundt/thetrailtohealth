@@ -18,7 +18,7 @@
                 {.end}
               {.end}
             </div>
-            <!-- <squarespace:navigation navigationId="footerNav2021" template="footer-navigation" /> -->
+            <squarespace:navigation navigationId="footerNav2021" template="footer-navigation" />
 		        <squarespace:block-field id="footer-blocks" columns="12" label="Footer Content" />
 		      </div>
 		    </div><!-- page-footer-wrapper -->
