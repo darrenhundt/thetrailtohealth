@@ -30,10 +30,7 @@
 						    </div>
 						    {.end}{.end}{.end}
 
-			  fi<div id="homeMainColumns">
-                <squarespace:block-field id="homeMainBodyNew" description="New Home Main Body" columns="12" label="New Home Main 2021 Content" />
-                <squarespace:block-field id="sidebar2021New" description="New Sidebar 2021" columns="12" label="New Sidebar 2021" />
-              </div>
+			  
 
 						    <div class="main-content" data-content-field="main-content" data-collection-id="{collection.id}" data-edit-main-image="Page Banner">
 									{squarespace.main-content}
@@ -48,14 +45,14 @@
 
 						<div id="sidebar-one-wrapper" class="vertical-navigation-bar-wrapper">
 							<div id="sidebar-one" class="vertical-navigation-bar">
-								<squarespace:navigation navigationId="mainNav" template="main-navigation" />
+								<squarespace:block-field id="homeMainBodyNew" description="New Home Main Body" columns="12" label="New Home Main 2021 Content" />
 								{.section website}
 								<div class="site-info">
 									{.if siteTitle}<h3 class="site-title">{siteTitle}</h3>{.end}
 							    {.if siteDescription}<div class="site-description">{siteDescription}</div>{.end}
 							  </div>
 							  {.end}
-								<squarespace:block-field id="sidebar-one-blocks" label="Sidebar One Content" />
+								<squarespace:block-field id="sidebar2021New" description="New Sidebar 2021" columns="12" label="New Sidebar 2021" />
 							</div>
 						</div><!-- sidebar-one-wrapper -->
 
