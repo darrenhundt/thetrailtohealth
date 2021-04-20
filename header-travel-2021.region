@@ -50,7 +50,7 @@
 
             <div class="full-width">
               
-                <!-- <div id="bannerCarousel">
+                <div id="bannerCarousel">
                   <div class="banner-slide banner-slide-1 is-selected">
                     <div class="banner-left" style="background-image: url('/assets/newTravelHeader2021.png')">
                     </div>
@@ -78,8 +78,8 @@
                     </div>
                   </div>
                   
-              </div> -->
-              <squarespace:query collection="new-travel-banner-slide" limit="1">
+              </div>
+              <!-- <squarespace:query collection="new-travel-banner-slide" limit="1">
                 <div id="bannerCarousel">
                   {.repeated section items}
                   <div class="banner-slide banner-slide-{@index}">
@@ -90,7 +90,7 @@
                   </div>
                   {.end}
                 </div>
-              </squarespace:query>
+              </squarespace:query> -->
               
             </div>
 				    <div id="navigation-bottom">
