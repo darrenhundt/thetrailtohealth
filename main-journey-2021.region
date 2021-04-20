@@ -28,7 +28,7 @@
 					    {.end}{.end}{.end}
               
               
-              <div id="journeyMainColumns">
+              <div id="homeMainColumns">
                 <squarespace:block-field id="coachingMainBodyNew" description="New Home Main Body" columns="12" label="New Journey Main 2021 Content" />
                 <squarespace:block-field id="sidebar2021New" description="New Sidebar 2021" columns="12" label="New Sidebar 2021" />
               </div>
