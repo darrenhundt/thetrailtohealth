@@ -46,7 +46,7 @@
 				    </div><!-- navigation-top -->
 
             <div class="full-width">
-              <squarespace:query collection="new-coaching-banner-slides" limit="1">
+              <squarespace:query collection="new-coaching-banner-slide" limit="1">
                 <div class="coaching-carousel" id="bannerCarousel">
                   {.repeated section items}
                   <div class="banner-slide banner-slide-{@index}">
