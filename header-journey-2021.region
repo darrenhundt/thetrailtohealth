@@ -46,18 +46,6 @@
 				    </div><!-- navigation-top -->
 
             <div class="full-width">
-              <squarespace:query collection="new-journey-banner-slides" limit="1">
-                <div class="coaching-carousel" id="bannerCarousel">
-                  {.repeated section items}
-                  <div class="banner-slide banner-slide-{@index}">
-                    <div class="banner-left" style="background-image: url('{assetUrl}?format=1000w')">
-
-                    </div>
-                    <div class="banner-right banner-right-smaller">{body}</div>
-                  </div>
-                  {.end}
-                </div>
-              </squarespace:query>
             </div>
 				    <div id="navigation-bottom">
 				    	<div class="horizontal-navigation-bar clear{.section website}{.if logoImageUrl} with-logo{.or} with-title{.end}{.end}">
