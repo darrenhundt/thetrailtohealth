@@ -1,26 +1,26 @@
 <div class="recipes-nav" id="blogNav">
   <ul class="custom-nav-list-main">
-    <li class="custom-nav-item"><a class="custom-nav-link" href="">All Recipes</a></li>
-    <li class="custom-nav-item"><a class="custom-nav-link" href="">Book Recipes</a></li>
-    <li class="custom-nav-item"><a class="custom-nav-link" href="">Blog Recipes</a></li>
-    <li class="custom-nav-item"><a class="custom-nav-link" href="">Recipe Round Ups</a></li>
-    <li class="custom-nav-item"><a class="custom-nav-link" href="">Quarantine Recipes</a></li>
+    <li class="custom-nav-item"><a class="custom-nav-link" href="https://thetrailtohealth.com/recipes">All Recipes</a></li>
+    <li class="custom-nav-item"><a class="custom-nav-link" href="https://thetrailtohealth.com/recipes?category=Cookbook">Book Recipes</a></li>
+    <li class="custom-nav-item"><a class="custom-nav-link" href="https://thetrailtohealth.com/recipes?category=Blog%20Recipes">Blog Recipes</a></li>
+    <li class="custom-nav-item"><a class="custom-nav-link" href="https://thetrailtohealth.com/recipes?category=Round%20Up">Recipe Round Ups</a></li>
+    <li class="custom-nav-item"><a class="custom-nav-link" href="https://thetrailtohealth.com/recipes?category=Quarantine%20Recipes">Quarantine Recipes</a></li>
   </ul>
   <ul class="custom-nav-list">
-    <li class="custom-nav-item"><a class="custom-nav-link" href="">Appetizers</a></li>
-    <li class="custom-nav-item"><a class="custom-nav-link" href="">Bakery & Dessert</a></li>
-    <li class="custom-nav-item"><a class="custom-nav-link" href="">Beverages</a></li>
-    <li class="custom-nav-item"><a class="custom-nav-link" href="">Bowls & Wraps</a></li>
-    <li class="custom-nav-item"><a class="custom-nav-link" href="">Breakfast</a></li>
-    <li class="custom-nav-item"><a class="custom-nav-link" href="">Dressings</a></li>
-    <li class="custom-nav-item"><a class="custom-nav-link" href="">Instant Pot</a></li>
-    <li class="custom-nav-item"><a class="custom-nav-link" href="">Mains</a></li>
+    <li class="custom-nav-item"><a class="custom-nav-link" href="https://thetrailtohealth.com/recipes?category=Appetizers">Appetizers</a></li>
+    <li class="custom-nav-item"><a class="custom-nav-link" href="https://thetrailtohealth.com/recipes?category=Desserts%2CBaked">Bakery & Dessert</a></li>
+    <li class="custom-nav-item"><a class="custom-nav-link" href="https://thetrailtohealth.com/recipes?category=Beverages">Beverages</a></li>
+    <li class="custom-nav-item"><a class="custom-nav-link" href="https://thetrailtohealth.com/recipes/category/Bowls%20&%20Wraps">Bowls & Wraps</a></li>
+    <li class="custom-nav-item"><a class="custom-nav-link" href="https://thetrailtohealth.com/recipes?category=Breakfast">Breakfast</a></li>
+    <li class="custom-nav-item"><a class="custom-nav-link" href="https://thetrailtohealth.com/recipes?category=Dressings">Dressings</a></li>
+    <li class="custom-nav-item"><a class="custom-nav-link" href="https://thetrailtohealth.com/recipes?category=Instant%20Pot">Instant Pot</a></li>
+    <li class="custom-nav-item"><a class="custom-nav-link" href="https://thetrailtohealth.com/recipes?category=Mains">Mains</a></li>
     <li class="custom-nav-item"><a class="custom-nav-link" href="/recipes/category/Noodles%20&%20Rice">Noodles & Rice</a></li>
-    <li class="custom-nav-item"><a class="custom-nav-link" href="">Salads</a></li>
-    <li class="custom-nav-item"><a class="custom-nav-link" href="">Sauces</a></li>
-    <li class="custom-nav-item"><a class="custom-nav-link" href="">Sides</a></li>
-    <li class="custom-nav-item"><a class="custom-nav-link" href="">Soups & Stews</a></li>
-    <li class="custom-nav-item"><a class="custom-nav-link" href="">Vitamix</a></li>
-    <li class="custom-nav-item"><a class="custom-nav-link" href="">Pet Food</a></li>
+    <li class="custom-nav-item"><a class="custom-nav-link" href="https://thetrailtohealth.com/recipes?category=Salads">Salads</a></li>
+    <li class="custom-nav-item"><a class="custom-nav-link" href="https://thetrailtohealth.com/recipes?category=Sauces">Sauces</a></li>
+    <li class="custom-nav-item"><a class="custom-nav-link" href="https://thetrailtohealth.com/recipes?category=Sides">Sides</a></li>
+    <li class="custom-nav-item"><a class="custom-nav-link" href="https://thetrailtohealth.com/recipes?category=Soups">Soups & Stews</a></li>
+    <li class="custom-nav-item"><a class="custom-nav-link" href="https://thetrailtohealth.com/recipes?category=Vitamix">Vitamix</a></li>
+    <li class="custom-nav-item"><a class="custom-nav-link" href="https://thetrailtohealth.com/recipes/category/Pet%20Food">Pet Food</a></li>
   </ul>
 </div>
