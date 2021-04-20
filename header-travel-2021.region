@@ -79,7 +79,7 @@
                   </div>
                   
               </div> -->
-              <!-- <squarespace:query collection="new-travel-banner-slide" limit="1">
+              <squarespace:query collection="new-travel-banner-slide" limit="1">
                 <div id="bannerCarousel">
                   {.repeated section items}
                   <div class="banner-slide banner-slide-{@index}">
@@ -90,7 +90,7 @@
                   </div>
                   {.end}
                 </div>
-              </squarespace:query> -->
+              </squarespace:query>
               
             </div>
 				    <div id="navigation-bottom">
