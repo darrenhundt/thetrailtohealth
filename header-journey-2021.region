@@ -46,6 +46,33 @@
 				    </div><!-- navigation-top -->
 
             <div class="full-width">
+              <div id="bannerCarousel">
+                  <div class="banner-slide banner-slide-1 is-selected">
+                    <div class="banner-left" style="background-image: url('/assets/newJourneyHeader2021.png')">
+                    </div>
+                    <div class="banner-right banner-right-smaller"><div class="sqs-layout sqs-grid-12 columns-12" data-layout-label="Post Body" data-type="item" data-updated-on="1611182056412" id="item-6008afd9f2f64a14a2955e1f">
+                      <div class="row sqs-row">
+                        <div class="col sqs-col-12 span-12">
+                          <div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-7fc3a53e97b048abf36b">
+                            <div class="sqs-block-content">
+                              <h1 style="white-space:pre-wrap;">Cookbook Author, Health Lifestyle &amp; Food Blogger.</h1>
+                              <!-- <p class="" style="white-space:pre-wrap;">Lorem ipsum loremexplore ways to navigate living your full potential through healthy diet and lifestyle.</p> -->
+                            </div>
+                          </div>
+                          <div class="sqs-block button-block sqs-block-button" data-block-type="53" id="block-e5edc03a23f53e6f728a">
+                            <div class="sqs-block-content" id="yui_3_17_2_1_1611692500706_359">
+                              <div class="sqs-block-button-container--left" data-animation-role="button" data-alignment="left" data-button-size="small" id="yui_3_17_2_1_1611692500706_358">
+                                <a href="" class="sqs-block-button-element--small sqs-block-button-element" data-initialized="true">ORDER MY COOKBOOK</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+              </div>
             </div>
 				    <div id="navigation-bottom">
 				    	<div class="horizontal-navigation-bar clear{.section website}{.if logoImageUrl} with-logo{.or} with-title{.end}{.end}">
