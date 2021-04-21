@@ -10,7 +10,7 @@
 								<squarespace:block-field id="page-header-{collection.id}" description="Page Header" columns="12" label="{collection.title} Header Content" />
 							</div>
 
-					    
+					     
               
               
               <div id="homeMainColumns">
