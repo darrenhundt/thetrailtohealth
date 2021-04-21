@@ -1,0 +1,11 @@
+<div id="blogNav">
+  <ul class="custom-nav-list">
+    <li class="custom-nav-item"><a data-category="All" class="custom-nav-link active-nav-link" href="https://thetrailtohealth.com/travel">All Posts</a></li>
+    <li class="custom-nav-item"><a data-category="City-Guides" class="custom-nav-link" href="https://thetrailtohealth.com/travel?category=City%20Guide">City Guides</a></li>
+    <li class="custom-nav-item"><a data-category="Experiences" class="custom-nav-link" href="https://thetrailtohealth.com/travel?category=Experiences">Experiences</a></li>
+    <li class="custom-nav-item"><a data-category="Restaurants" class="custom-nav-link" href="https://thetrailtohealth.com/travel?category=Restaurants">Gluten Free Dining Guides</a></li>
+    <li class="custom-nav-item"><a data-category="Travel-Tips" class="custom-nav-link" href="https://thetrailtohealth.com/travel?category=Travel%20Tips">Travel Tips</a></li>
+  </ul>
+</div>
+
+
