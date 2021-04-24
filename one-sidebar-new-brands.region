@@ -15,7 +15,7 @@
               
               
               <div id="homeMainColumns">
-                <squarespace:block-field id="brandsMainBodyNew" description="New Cookbook Main Body" columns="12" label="New Cookbook Main 2021 Content" />
+                <squarespace:block-field id="brandsMainBodyNew" description="New Brands Main Body" columns="12" label="New Brands Main 2021 Content" />
                 <squarespace:block-field id="sidebar2021New" description="New Sidebar 2021" columns="12" label="New Sidebar 2021" />
               </div>
 
