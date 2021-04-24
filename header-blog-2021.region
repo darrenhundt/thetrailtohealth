@@ -130,7 +130,7 @@
       },
       "button": {
         "background-color": "#fff",
-        "color":"#fff",
+        "color":"#000",
         "padding-left": "0px",
         "padding-right": "0px",
         "border":"1px solid #000",
