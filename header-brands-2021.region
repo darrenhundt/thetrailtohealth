@@ -46,18 +46,27 @@
 				    </div><!-- navigation-top -->
 
             <div class="full-width">
-              <squarespace:query collection="new-brands-banner-slide" limit="1">
-                <div id="bannerCarousel">
-                  {.repeated section items}
-                  <div class="banner-slide banner-slide-{@index}">
-                    <div class="banner-left" style="background-image: url('{assetUrl}?format=1000w')">
-
-                    </div>
-                    <div class="banner-right banner-right-smaller">{body}</div>
-                  </div>
-                  {.end}
-                </div>
-              </squarespace:query>
+              <div id="bannerCarousel">
+	                <div class="banner-slide banner-slide-1 is-selected">
+	                  <div class="banner-left" style="background-image: url('/assets/newCookbookHeader2021.png')">
+	                  </div>
+	                  <div class="banner-right banner-right-smaller"><div class="sqs-layout sqs-grid-12 columns-12" data-layout-label="Post Body" data-type="item" data-updated-on="1611182056412" id="item-6008afd9f2f64a14a2955e1f">
+	                    <div class="row sqs-row">
+	                      <div class="col sqs-col-12 span-12">
+	                        <div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-7fc3a53e97b048abf36b">
+	                          <div class="sqs-block-content">
+	                            <h1 style="white-space:pre-wrap;">Shop My Favorite Brands!</h1>
+	                            <p>These are products and tools I use everyday in my personal life and love them enough to share with you and of course some discounts on them too!</p>
+	                            <p class="affliate">I earn a small affilaite commission with your purchase with the links that keep me creating content for my blog. There is no extra charge to you. Read my <a href="">full disclosure</a>.</p>
+	                          </div>
+	                        </div>
+	                      </div>
+	                    </div>
+	                    </div>
+	                  </div>
+	                </div>
+	                  
+	            </div>
             </div>
 				    <div id="navigation-bottom">
 				    	<div class="horizontal-navigation-bar clear{.section website}{.if logoImageUrl} with-logo{.or} with-title{.end}{.end}">
