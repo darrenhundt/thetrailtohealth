@@ -50,18 +50,198 @@
 
             <div class="full-width">
               
-                <squarespace:query collection="new-blog-banner-slide" limit="1">
                 <div id="bannerCarousel">
-                  {.repeated section items}
-                  <div class="banner-slide banner-slide-{@index}">
-                    <div class="banner-left" style="background-image: url('{assetUrl}?format=1000w')">
-
+                  <div class="banner-slide banner-slide-1 is-selected">
+                    <div class="banner-left" style="background-image: url('/assets/newBlogHeader2021.jpg')">
                     </div>
-                    <div class="banner-right banner-right-smaller">{body}</div>
+                    <div class="banner-right banner-right-smaller"><div class="sqs-layout sqs-grid-12 columns-12" data-layout-label="Post Body" data-type="item" data-updated-on="1611182056412" id="item-6008afd9f2f64a14a2955e1f">
+                      <div class="row sqs-row">
+                        <div class="col sqs-col-12 span-12">
+                          <div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-7fc3a53e97b048abf36b">
+                            <div class="sqs-block-content">
+                              <h1 style="white-space:pre-wrap;">From Healthy Living To Healing From Lyme.</h1>
+                              <!-- <p class="" style="white-space:pre-wrap;">Lorem ipsum loremexplore ways to navigate living your full potential through healthy diet and lifestyle.</p> -->
+                            </div>
+                          </div>
+                          <div class="sqs-block button-block sqs-block-button" data-block-type="53" id="block-e5edc03a23f53e6f728a">
+                            <div class="sqs-block-content" id="yui_3_17_2_1_1611692500706_359">
+                              <div class="sqs-block-button-container--left" data-animation-role="button" data-alignment="left" data-button-size="small" id="yui_3_17_2_1_1611692500706_358">
+                                <div id='product-component-a14dec964d2-2'></div>
+<script type="text/javascript">
+/*<![CDATA[*/
+
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'the-trail-to-health.myshopify.com',
+      apiKey: '54c4cc8de04d9d83a97dbab092662aa9',
+      appId: '6',
+    });
+
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('product', {
+        id: [1319374094424],
+        node: document.getElementById('product-component-a14dec964d2-2'),
+        moneyFormat: '%24%7B%7Bamount%7D%7D',
+        options: {
+  "product": {
+    "variantId": "all",
+    "width": "240px",
+    "contents": {
+      "img": false,
+      "imgWithCarousel": false,
+      "title": false,
+      "variantTitle": false,
+      "price": false,
+      "description": false,
+      "buttonWithQuantity": false,
+      "quantity": false
+    },
+    "text": {
+      "button": "BUY NOW"
+    },
+    "styles": {
+      "product": {
+        "text-align": "left",
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0",
+          "margin-bottom": "50px"
+        }
+      },
+      "button": {
+        "background-color": "#000000",
+        "padding-left": "px",
+        "padding-right": "px",
+        ":hover": {
+          "background-color": "#000000"
+        },
+        "border-radius": "0px",
+        ":focus": {
+          "background-color": "#000000"
+        }
+      },
+      "title": {
+        "font-size": "26px"
+      },
+      "price": {
+        "font-size": "18px"
+      },
+      "compareAt": {
+        "font-size": "15px"
+      }
+    }
+  },
+  "cart": {
+    "contents": {
+      "button": true
+    },
+    "styles": {
+      "button": {
+        "background-color": "#000000",
+        ":hover": {
+          "background-color": "#000000"
+        },
+        "border-radius": "0px",
+        ":focus": {
+          "background-color": "#000000"
+        }
+      },
+      "footer": {
+        "background-color": "#ffffff"
+      }
+    }
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "variantTitle": false,
+      "buttonWithQuantity": true,
+      "button": false,
+      "quantity": false
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      "button": {
+        "background-color": "#000000",
+        "padding-left": "px",
+        "padding-right": "px",
+        ":hover": {
+          "background-color": "#000000"
+        },
+        "border-radius": "0px",
+        ":focus": {
+          "background-color": "#000000"
+        }
+      }
+    }
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "background-color": "#000000",
+        ":hover": {
+          "background-color": "#000000"
+        },
+        ":focus": {
+          "background-color": "#000000"
+        }
+      }
+    }
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-20px"
+        }
+      }
+    }
+  }
+}
+      });
+    });
+  }
+})();
+/*]]>*/
+</script>
+
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      </div>
+                    </div>
                   </div>
-                  {.end}
-                </div>
-              </squarespace:query>
+                  
+              </div>
               
             </div>
 				    <div id="navigation-bottom">
