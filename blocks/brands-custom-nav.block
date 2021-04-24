@@ -1,7 +1,7 @@
 <div id="blogNav">
   <ul class="custom-nav-list">
-    <li class="custom-nav-item"><a data-category="All" class="custom-nav-link active-nav-link" href="https://thetrailtohealth.com/shopping/category/all">All Brands</a></li>
-    <li class="custom-nav-item"><a data-category="Kitchen" class="custom-nav-link" href="https://thetrailtohealth.com/shopping?category=kitchen">Kitchen</a></li>
+    <li class="custom-nav-item"><a data-category="All" class="custom-nav-link active-nav-link" href="https://thetrailtohealth.com/brands-2021/category/all">All Brands</a></li>
+    <li class="custom-nav-item"><a data-category="Kitchen" class="custom-nav-link" href="https://thetrailtohealth.com/brands-2021?category=kitchen">Kitchen</a></li>
     <li class="custom-nav-item"><a data-category="Grocery Delivery" class="custom-nav-link" href="/shopping?category=grocery-delivery">Grocery Delivery</a></li>
     <li class="custom-nav-item"><a data-category="Foods" class="custom-nav-link" href="https://thetrailtohealth.com/shopping#food">Foods</a></li>
     <li class="custom-nav-item"><a data-category="Favorite Snacks" class="custom-nav-link" href="https://thetrailtohealth.com/shopping#favorite-snacks">Favorite Snacks</a></li>
