@@ -1,9 +1,9 @@
 
 
-				<div id="page-body-wrapper" class="one-sidebar one-sidebar-new-travel one-sidebar-flush-top">
+				<div id="page-body-wrapper" class="one-sidebar one-sidebar-new-blog one-sidebar-flush-top">
           <!-- last chance for full bleed content new blog-->
           
-          {@|apply brands-custom-nav.block}
+          {@|apply blog-custom-nav.block}
 					<div id="page-body">
 <!-- last chance for full width content  -->
 						<div id="content-wrapper">
@@ -50,7 +50,7 @@
 							    {.if siteDescription}<div class="site-description">{siteDescription}</div>{.end}
 							  </div>
 							  {.end}
-								<squarespace:block-field id="sidebar2021New" class="blog-sidebar" description="New Sidebar 2021" columns="12" label="New Sidebar 2021" />
+                <squarespace:block-field id="sidebar2021New" class="blog-sidebar" description="New Sidebar 2021" columns="12" label="New Sidebar 2021" />
 							</div>
 						</div><!-- sidebar-one-wrapper -->
 
