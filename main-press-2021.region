@@ -15,7 +15,7 @@
               
               
               <div id="homeMainColumns">
-                <squarespace:block-field id="pressMainBodyNew" description="New Amazon Main Body" columns="12" label="New Amazon Main 2021 Content" />
+                <squarespace:block-field id="pressMainBodyNew" description="New Press Main Body" columns="12" label="New Press Main 2021 Content" />
                 <squarespace:block-field id="sidebar2021New" description="New Sidebar 2021" columns="12" label="New Sidebar 2021" />
               </div>
 
