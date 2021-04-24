@@ -1,0 +1,11 @@
+<div id="blogNav">
+  <ul class="custom-nav-list">
+    <li class="custom-nav-item"><a data-category="All" class="custom-nav-link active-nav-link" href="https://thetrailtohealth.com/amazon-2021">All Brands</a></li>
+    <li class="custom-nav-item"><a data-category="kitchen" class="custom-nav-link" href="">Kitchen</a></li>
+    <li class="custom-nav-item"><a data-category="foods" class="custom-nav-link" href="">Foods</a></li>
+    <li class="custom-nav-item"><a data-category="travel" class="custom-nav-link" href="">Travel</a></li>
+    <li class="custom-nav-item"><a data-category="books" class="custom-nav-link" href="">Books</a></li>
+  </ul>
+</div>
+
+
