@@ -105,7 +105,7 @@
         options: {
   "product": {
     "variantId": "all",
-    "width": "240px",
+    "width": "350px",
     "contents": {
       "img": false,
       "imgWithCarousel": false,
@@ -129,9 +129,10 @@
         }
       },
       "button": {
-        "background-color": "#000000",
-        "padding-left": "px",
-        "padding-right": "px",
+        "background-color": "#fff",
+        "padding-left": "0px",
+        "padding-right": "0px",
+        "border":"1px solid #000"
         ":hover": {
           "background-color": "#000000"
         },
