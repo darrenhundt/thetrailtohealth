@@ -1,7 +1,7 @@
 <div id="blogNav">
   <ul class="custom-nav-list">
     <li class="custom-nav-item"><a data-category="All" class="custom-nav-link active-nav-link" href="/2021-blog-preview/">All posts</a></li>
-    <li class="custom-nav-item"><a data-category="Food-Diet" class="custom-nav-link" href="https://thetrailtohealth.com/blog-2021/category/Food%20&%20Diet">Food & Diet</a></li>
+    <li class="custom-nav-item"><a data-category="Food-Diet" class="custom-nav-link" href="https://thetrailtohealth.com/blog-2021?category=Food%20&%20Diet">Food & Diet</a></li>
     <li class="custom-nav-item"><a data-category="Gluten" class="custom-nav-link" href="https://thetrailtohealth.com/blog-2021?category=Gluten">Gluten</a></li>
     <li class="custom-nav-item"><a data-category="Healthy-Home" class="custom-nav-link" href="https://thetrailtohealth.com/blog/category/Healthy%20Home">Healthy Home & Tools</a></li>
     <li class="custom-nav-item"><a data-category="Health-Tips" class="custom-nav-link" href="https://thetrailtohealth.com/blog/category/Health%20Tips">Health Tips</a></li>
