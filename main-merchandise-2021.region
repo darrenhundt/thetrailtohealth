@@ -13,7 +13,7 @@
 					     
               
               
-              <div id="homeMainColumns">
+              <div id="">
                 <squarespace:block-field id="merchandiseMainBodyNew" description="New Merchandise Main Body" columns="12" label="New Merchandise Main 2021 Content" />
                 <squarespace:block-field id="sidebar2021New" description="New Sidebar 2021" columns="12" label="New Sidebar 2021" />
               </div>
