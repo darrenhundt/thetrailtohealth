@@ -912,6 +912,10 @@
     min-height: 10px;
     padding-left: 20px;
     padding-top: 20px;
+    @media (max-width: 1024px) {
+      width: 60%;
+      padding-left: 0px;
+    }
     @media (max-width: 640px) {
       width: 100%;
       padding-left: 0px;
@@ -932,7 +936,8 @@
     }
     #sidebar-shopify-button {
       @media (max-width: 768px) {
-        max-width: none!important;
+        width: 300px;
+        margin: 0 auto 50px;
       }
     }
   }
