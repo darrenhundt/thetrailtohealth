@@ -2,23 +2,23 @@
   <ul class="custom-nav-list">
     <li class="custom-nav-item"><a data-category="All" class="custom-nav-link active-nav-link" href="https://thetrailtohealth.com/brands-2021/">All Brands</a></li>
     <li class="custom-nav-item"><a data-category="Kitchen" class="custom-nav-link" href="#kitchen">Kitchen</a></li>
-    <li class="custom-nav-item"><a data-category="Grocery Delivery" class="custom-nav-link" href="/brands-2021?category=grocery-delivery">Grocery Delivery</a></li>
+    <li class="custom-nav-item"><a data-category="Grocery Delivery" class="custom-nav-link" href="#grocery">Grocery Delivery</a></li>
     <li class="custom-nav-item"><a data-category="Foods" class="custom-nav-link" href="#food">Foods</a></li>
-    <li class="custom-nav-item"><a data-category="Favorite Snacks" class="custom-nav-link" href="https://thetrailtohealth.com/shopping#favorite-snacks">Favorite Snacks</a></li>
-    <li class="custom-nav-item"><a data-category="Meal Delivery" class="custom-nav-link" href="https://thetrailtohealth.com/shopping#meal-delivery">Meal Delivery</a></li>
-    <li class="custom-nav-item"><a data-category="Subscriptions" class="custom-nav-link" href="https://thetrailtohealth.com/shopping#subscription">Subscriptions</a></li>
-    <li class="custom-nav-item"><a data-category="At Home Diagnostics" class="custom-nav-link" href="https://thetrailtohealth.com/shopping#at-home-diagnostics">At Home Diagnostics</a></li>
-    <li class="custom-nav-item"><a data-category="Better Sleep" class="custom-nav-link" href="https://thetrailtohealth.com/shopping#better-sleep">Better Sleep</a></li>
-    <li class="custom-nav-item"><a data-category="Health Tech" class="custom-nav-link" href="https://thetrailtohealth.com/shopping#health-tech">Health Tech</a></li>
-    <li class="custom-nav-item"><a data-category="Healthly Home" class="custom-nav-link" href="https://thetrailtohealth.com/shopping#healthy-home">Healthly Home</a></li>
-    <li class="custom-nav-item"><a data-category="Beauty" class="custom-nav-link" href="https://thetrailtohealth.com/shopping#beauty">Beauty</a></li>
-    <li class="custom-nav-item"><a data-category="Home Furnishings &amp; Decor" class="custom-nav-link" href="https://thetrailtohealth.com/shopping#home-furnishings">Home Furnishings &amp; Decor</a></li>
-    <li class="custom-nav-item"><a data-category="Style" class="custom-nav-link" href="https://thetrailtohealth.com/shopping#style">Style</a></li>
-    <li class="custom-nav-item"><a data-category="Services" class="custom-nav-link" href="https://thetrailtohealth.com/shopping#services">Services</a></li>
-    <li class="custom-nav-item"><a data-category="Travel" class="custom-nav-link" href="https://thetrailtohealth.com/shopping#travel">Travel</a></li>
-    <li class="custom-nav-item"><a data-category="Fitness" class="custom-nav-link" href="https://thetrailtohealth.com/shopping#fitness">Fitness</a></li>
-    <li class="custom-nav-item"><a data-category="LA Fitness" class="custom-nav-link" href="https://thetrailtohealth.com/shopping#la-favorites">LA Favorites</a></li>
-    <li class="custom-nav-item"><a data-category="Education &amp; Blogging" class="custom-nav-link" href="https://thetrailtohealth.com/shopping#education-blogging">Education &amp; Blogging</a></li>
+    <li class="custom-nav-item"><a data-category="Favorite Snacks" class="custom-nav-link" href="#snacks">Favorite Snacks</a></li>
+    <li class="custom-nav-item"><a data-category="Meal Delivery" class="custom-nav-link" href="#meals">Meal Delivery</a></li>
+    <li class="custom-nav-item"><a data-category="Subscriptions" class="custom-nav-link" href="#subscription">Subscriptions</a></li>
+    <li class="custom-nav-item"><a data-category="At Home Diagnostics" class="custom-nav-link" href="#diagnostics">At Home Diagnostics</a></li>
+    <li class="custom-nav-item"><a data-category="Better Sleep" class="custom-nav-link" href="#sleep">Better Sleep</a></li>
+    <li class="custom-nav-item"><a data-category="Health Tech" class="custom-nav-link" href="#tech">Health Tech</a></li>
+    <li class="custom-nav-item"><a data-category="Healthly Home" class="custom-nav-link" href="#home">Healthly Home</a></li>
+    <li class="custom-nav-item"><a data-category="Beauty" class="custom-nav-link" href="#beauty">Beauty</a></li>
+    <li class="custom-nav-item"><a data-category="Home Furnishings &amp; Decor" class="custom-nav-link" href="#furnishings">Home Furnishings &amp; Decor</a></li>
+    <li class="custom-nav-item"><a data-category="Style" class="custom-nav-link" href="#style">Style</a></li>
+    <li class="custom-nav-item"><a data-category="Services" class="custom-nav-link" href="#services">Services</a></li>
+    <li class="custom-nav-item"><a data-category="Travel" class="custom-nav-link" href="#travel">Travel</a></li>
+    <li class="custom-nav-item"><a data-category="Fitness" class="custom-nav-link" href="#fitness">Fitness</a></li>
+    <li class="custom-nav-item"><a data-category="LA Fitness" class="custom-nav-link" href="#favorites">LA Favorites</a></li>
+    <li class="custom-nav-item"><a data-category="Education &amp; Blogging" class="custom-nav-link" href="#education">Education &amp; Blogging</a></li>
   </ul>
 </div>
 
