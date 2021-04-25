@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+  <head>
+	  {.if template.mobileStylesEnabled}
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  {.end}
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,900;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    {squarespace-headers}
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <squarespace:script src="site-bundle.js" combo="false" />
+    <squarespace:script src="jquery.matchHeight-min.js" combo="false" />
+    <squarespace:script src="flickity.js" combo="false" />
+    <squarespace:script src="hundt.js" combo="false" />
+    <squarespace:script src="hundt2021.js" combo="false" />
+    <style>html {overflow-x: hidden;}</style>
+  </head>
+  {.if template.mobileStylesEnabled}{.or}<!-- Mobile Styles Are Disabled -->{.end}
+  <body class="{squarespace.page-classes}{.section website}{.if logoImageUrl} has-logo-image{.or} no-logo-image{.end}{.end}{.section collection}{.background-source-video?} has-page-thumbnail{.or}{.section mainImage} has-page-thumbnail{.end}{.end}{.end} layout-2021 new-layout-blogs-general-2021" id="{squarespace.page-id}" ontouchstart="">
+
+		{.if template.mobileStylesEnabled}
+		<squarespace:navigation navigationId="mainNav2021" template="mobile-navigation" />
+		{.end}
+
+	  <div id="canvas-wrapper">
+	  	<div id="canvas">
+
+
+				<div id="page-header-wrapper">
+					<div id="page-header">
+
+				    <div id="navigation-top">
+				    	<div class="horizontal-navigation-bar {.section website}{.if logoImageUrl} with-logo{.or} with-title{.end}{.end} element-is-flex element-is-space-between element-is-align-center">
+				    		<!-- // logo or site title markup in nav area -->
+					      {.section website}
+					      	{.if logoImageUrl}
+						      <div id="banner-wrapper" data-content-field="site-title">
+						        <a href="/"><img id="banner" src="{logoImageUrl}?format=1500w" alt="{siteTitle}" /></a>
+						      </div>
+					        {.or}
+									<div id="site-title-wrapper" data-content-field="site-title">
+										<h1 id="site-title" class="page-title"><a href="/" rel="bookmark">{siteTitle}</a></h1>
+									</div>
+					        {.end}
+					    		<squarespace:navigation navigationId="mainNav2021" template="main-navigation" />
+					      {.end}
+				    	</div>
+				    </div><!-- navigation-top -->
+
+            <div class="full-width">
+              
+              <div id="bannerCarousel">
+                <div class="banner-slide banner-slide-1 is-selected">
+                  <div class="banner-left" style="background-image: url('/assets/newContactHeader2021.png')">
+                  </div>
+                  <div class="banner-right banner-right-smaller"><div class="sqs-layout sqs-grid-12 columns-12" data-layout-label="Post Body" data-type="item" data-updated-on="1611182056412" id="item-6008afd9f2f64a14a2955e1f">
+                    <div class="row sqs-row">
+                      <div class="col sqs-col-12 span-12">
+                        <div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-7fc3a53e97b048abf36b">
+                          <div class="sqs-block-content">
+                            <div class="yahoo-logo">
+                            	<img src="/assets/yahoo-logo.png" class="img-responsive">
+                            </div>
+                            <h1 style="white-space:pre-wrap;">Get In Touch.</h1>
+                            <p>Let’s connect and see how I can be a part of your trail to health.</p>
+                          </div>
+                        </div>
+                        <div class="sqs-block button-block sqs-block-button" data-block-type="53" id="block-e5edc03a23f53e6f728a">
+                          <div class="sqs-block-content" id="yui_3_17_2_1_1611692500706_359">
+                            <div class="sqs-block-button-container--left" data-animation-role="button" data-alignment="left" data-button-size="small" id="yui_3_17_2_1_1611692500706_358">
+                              <a href="" class="sqs-block-button-element--small sqs-block-button-element" data-initialized="true">Book A Discovery Call</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+                  
+              </div>
+              <!-- <squarespace:query collection="new-travel-banner-slide" limit="1">
+                <div id="bannerCarousel">
+                  {.repeated section items}
+                  <div class="banner-slide banner-slide-{@index}">
+                    <div class="banner-left" style="background-image: url('{assetUrl}?format=1000w')">
+
+                    </div>
+                    <div class="banner-right banner-right-smaller">{body}</div>
+                  </div>
+                  {.end}
+                </div>
+              </squarespace:query> -->
+              
+            </div>
+				    <div id="navigation-bottom">
+				    	<div class="horizontal-navigation-bar clear{.section website}{.if logoImageUrl} with-logo{.or} with-title{.end}{.end}">
+
+				    		<!-- // logo or site title markup in nav area -->
+					      {.section website}
+					      	{.if logoImageUrl}
+						      <div id="banner-wrapper" data-content-field="site-title">
+						        <a href="/"><img id="banner" src="{logoImageUrl}?format=1500w" alt="{siteTitle}" /></a>
+						      </div>
+					        {.or}
+						      <div id="site-title-wrapper" data-content-field="site-title">
+					          <h1 id="site-title" class="page-title"><a href="/" rel="bookmark">{siteTitle}</a></h1>
+					        </div>
+					        {.end}
+
+									<squarespace:navigation navigationId="mainNav2021" template="main-navigation" />
+
+				          {.if socialAccounts}
+                  <div id="sqs-social" class="social-links sqs-svg-icon--list" data-content-field="connected-accounts">
+        						{@|apply sqs-social-links}
+			            </div>
+				          {.end}
+					      {.end}
+
+				    	</div>
+				    </div><!-- navigation-bottom -->
+
+				  </div>
+				</div><!-- page-header-wrapper -->
