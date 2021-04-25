@@ -7,17 +7,17 @@
 					<div id="content-wrapper">
 						<div id="content">
 
-							<div id="page-body-header" class="extra-wrapper {collection.title}-page-body-header">
+							<!-- <div id="page-body-header" class="extra-wrapper {collection.title}-page-body-header">
 								<squarespace:block-field id="page-header-{collection.id}" description="Page Header" columns="12" label="{collection.title} Header Content" />
 							</div>
-
+ -->
 					     
               
               
               <div id="homeMainColumns">
-                 <div class="main-content" data-content-field="main-content" data-collection-id="{collection.id}" data-edit-main-image="Page Banner">
-									{squarespace.main-content}
-								</div>
+                <div class="main-content" data-content-field="main-content" data-collection-id="{collection.id}" data-edit-main-image="Page Banner">
+					{squarespace.main-content}
+				</div>
                 <squarespace:block-field id="sidebar2021New" description="New Sidebar 2021" columns="12" label="New Sidebar 2021" />
               </div>
 
