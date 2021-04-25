@@ -1,9 +1,9 @@
 <div id="blogNav">
   <ul class="custom-nav-list">
-    <li class="custom-nav-item"><a data-category="All" class="custom-nav-link active-nav-link" href="https://thetrailtohealth.com/brands-2021?tag=all">All Brands</a></li>
-    <li class="custom-nav-item"><a data-category="Kitchen" class="custom-nav-link" href="hhttps://thetrailtohealth.squarespace.com/brands-2021/tag/kitchen">Kitchen</a></li>
+    <li class="custom-nav-item"><a data-category="All" class="custom-nav-link active-nav-link" href="https://thetrailtohealth.com/brands-2021/">All Brands</a></li>
+    <li class="custom-nav-item"><a data-category="Kitchen" class="custom-nav-link" href="#kitchen">Kitchen</a></li>
     <li class="custom-nav-item"><a data-category="Grocery Delivery" class="custom-nav-link" href="/brands-2021?category=grocery-delivery">Grocery Delivery</a></li>
-    <li class="custom-nav-item"><a data-category="Foods" class="custom-nav-link" href="https://thetrailtohealth.com/shopping#food">Foods</a></li>
+    <li class="custom-nav-item"><a data-category="Foods" class="custom-nav-link" href="#food">Foods</a></li>
     <li class="custom-nav-item"><a data-category="Favorite Snacks" class="custom-nav-link" href="https://thetrailtohealth.com/shopping#favorite-snacks">Favorite Snacks</a></li>
     <li class="custom-nav-item"><a data-category="Meal Delivery" class="custom-nav-link" href="https://thetrailtohealth.com/shopping#meal-delivery">Meal Delivery</a></li>
     <li class="custom-nav-item"><a data-category="Subscriptions" class="custom-nav-link" href="https://thetrailtohealth.com/shopping#subscription">Subscriptions</a></li>
