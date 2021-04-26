@@ -28,6 +28,8 @@
 	body.canvas-setting-full-width #page-footer {text-align: left!important; margin-left:100px!important;margin-right:100px!important;}
 	li.folder-collection.folder.index-2 span.mobile-only { position: relative; left: 40px; }
 	.newsletter-form-wrapper{margin:15px 0!important;}
+	/*featured on*/
+	div#block-b18a9190d1cf8a13b72a {margin-top:0;}
 }
 
 @media screen and (max-width:640px){
