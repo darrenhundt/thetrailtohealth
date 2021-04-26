@@ -76,6 +76,9 @@
 	.layout-2021 #bannerCarousel .flickity-viewport, .layout-2021 #bannerCarousel .banner-slide {height: 650px!important;}
 	.layout-2021 #bannerCarousel .flickity-viewport, .layout-2021 #bannerCarousel .banner-slide.non-banner-slide {height: 550px!important;}
 
+	.layout-2021 #bannerCarousel .banner-slide h1 {font-size: 28px!important;}
+	.layout-2021 #bannerCarousel .banner-slide p {font-size: 16px!important;}
+
 	.layout-2021 .sqs-block-summary-v2 .summary-block-setting-text-size-medium .summary-title {font-size:16px;}
 	.layout-2021 .sqs-block-summary-v2 .summary-excerpt {max-height: 206px!important; overflow: hidden;}
 
