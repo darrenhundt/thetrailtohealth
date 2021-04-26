@@ -79,6 +79,8 @@
 	.layout-2021 #bannerCarousel .banner-slide h1 {font-size: 28px!important;}
 	.layout-2021 #bannerCarousel .banner-slide p {font-size: 16px!important;}
 
+	.layout-2021 #bannerCarousel .banner-slide .sqs-block-button-element { font-size: 13px !important; margin-bottom: 10px!important; }
+
 	.layout-2021 .sqs-block-summary-v2 .summary-block-setting-text-size-medium .summary-title {font-size:16px;}
 	.layout-2021 .sqs-block-summary-v2 .summary-excerpt {max-height: 206px!important; overflow: hidden;}
 
