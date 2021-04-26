@@ -29,6 +29,7 @@
 @media screen and (max-width:768px){
 	html, body{overflow-x: hidden;}
 	#block-5d708d35a95784f0cb37 {display: none;}
+
 	.layout-2021 #page-body-wrapper #homeMainColumns #homeMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #shopMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #coachingMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #journeyMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #cookbookMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #merchandiseMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #brandsMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #amazonMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #pressMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #contactMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns .main-content {
 		width:100%;
 	}
@@ -74,6 +75,8 @@
 }
 
 @media screen and (max-width:640px){
+	p[data-rte-preserve-empty="true"] {display: none;}
+
 	#block-yui_3_17_2_1_1618689508729_8049 .img{ margin:0 auto; width:80%; background-position: -13px 0;}
 	body.canvas-setting-full-width #page-footer {margin-left:15px!important;margin-right:15px!important; padding-bottom:0;}
 	#page-footer-wrapper {padding-bottom:20px!important;}
