@@ -43,7 +43,7 @@
 	#bannerCarousel div#yui_3_17_2_1_1619463899774_70 {display: none!important;}
 
 	/*home services section*/
-	.layout-2021 #page-body-header .sqs-col-4 p {width: 100%;}
+	.layout-2021 #page-body-header .sqs-col-4 p {max-width: 100%!important;}
 }
 
 @media screen and (max-width:640px){
