@@ -34,7 +34,8 @@
 	.layout-2021 .flickity-slider .banner-slide .banner-left {height: 50vw;}
 	.layout-2021 #bannerCarousel .flickity-viewport, .layout-2021 #bannerCarousel .banner-slide {height:700px!important;}
 	.layout-2021 .banner-right {padding-top:15px!important;}
-	.layout-2021 #bannerCarousel .banner-slide h1 {font-size: 32px;}
+	.layout-2021 #bannerCarousel .banner-slide h1 {font-size: 32px!important;}
+	.layout-2021 #bannerCarousel .banner-slide p {font-size: 20px!important;}
 }
 
 @media screen and (max-width:640px){
