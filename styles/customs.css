@@ -36,6 +36,8 @@
 	.layout-2021 .banner-right {padding-top:15px!important;}
 	.layout-2021 #bannerCarousel .banner-slide h1 {font-size: 32px!important;}
 	.layout-2021 #bannerCarousel .banner-slide p {font-size: 20px!important;}
+	/*yahoo image home header slide 4*/
+	#yui_3_17_2_1_1619463689022_70 {display: none;}
 }
 
 @media screen and (max-width:640px){
