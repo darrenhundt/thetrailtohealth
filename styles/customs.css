@@ -46,7 +46,7 @@
 	div#block-b18a9190d1cf8a13b72a {margin-top:0!important;}
 
 	.layout-2021 .flickity-slider .banner-slide .banner-left {height: 50vw;}
-	.layout-2021 #bannerCarousel .flickity-viewport, .layout-2021 #bannerCarousel .banner-slide {height:700px!important;}
+	.layout-2021 #bannerCarousel .flickity-viewport, .layout-2021 #bannerCarousel .banner-slide {max-height:700px!important;}
 	.layout-2021 .banner-right {padding-top:15px!important;}
 	.layout-2021 #bannerCarousel .banner-slide h1 {font-size: 32px!important;}
 	.layout-2021 #bannerCarousel .banner-slide p {font-size: 20px!important;}
@@ -73,8 +73,8 @@
 	.layout-2021 #bannerCarousel button.flickity-button.flickity-prev-next-button {bottom: 30%;}
 	.layout-2021 .flickity-slider .banner-slide .banner-left {height: 60vw;}
 	.layout-2021 .flickity-slider .banner-right {padding-top:0;}
-	.layout-2021 #bannerCarousel .flickity-viewport, .layout-2021 #bannerCarousel .banner-slide {height: 650px!important;}
-	.layout-2021 #bannerCarousel .flickity-viewport, .layout-2021 #bannerCarousel .banner-slide.non-banner-slide {height: 550px!important;}
+	.layout-2021 #bannerCarousel .flickity-viewport, .layout-2021 #bannerCarousel .banner-slide {max-height: 650px!important;}
+	.layout-2021 #bannerCarousel .flickity-viewport, .layout-2021 #bannerCarousel .banner-slide.non-banner-slide {max-height: 550px!important;}
 
 	.layout-2021 #bannerCarousel .banner-slide h1 {font-size: 28px!important;}
 	.layout-2021 #bannerCarousel .banner-slide p {font-size: 16px!important;}
