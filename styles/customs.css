@@ -15,6 +15,8 @@
 
 
 @media screen and (max-width:1024px) {
+	.layout-2021 #sidebar2021New {
+    width: 30%;}
 	.layout-2021 #page-body-wrapper .main-content h2 a {
     color: #222;
 }
@@ -27,7 +29,7 @@
 
 	/*sidebar order cookbook*/
 	#block-yui_3_17_2_1_1618689508729_8049 .img {margin:0 auto; width:71%; background-position: 0 0;}
-	.sidebar-fix-home #block-yui_3_17_2_1_1618689508729_8049 .img {margin:0 auto; width:100%; background-position: 40% 0;}
+	.sidebar-fix-home #block-yui_3_17_2_1_1618689508729_8049 .img {margin:0 auto; width:100%; background-position: 43% 0;}
 }
 
 @media screen and (max-width:768px){
@@ -42,7 +44,7 @@
 	#block-yui_3_17_2_1_1618689508729_8049 .img{
 	  margin:0 auto; 
 	  width:100%;
-	  background-position: 40% 0;
+	  background-position: 43% 0;
 	}
 
 	.layout-2021 #main-navigation.footer-nav .folder-collection>a {
