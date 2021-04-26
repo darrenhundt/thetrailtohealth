@@ -61,6 +61,7 @@
 
 	#canvas-wrapper #homeMainColumns .summary-title a.summary-title-link {margin-bottom:0!important;}
 	body.canvas-setting-full-width .horizontal-navigation-bar { padding-left: 0!important; padding-right: 0!important;}
+	.layout-2021 #main-navigation.header-nav ul li {margin:0;}
 }
 
 @media screen and (max-width:640px){
