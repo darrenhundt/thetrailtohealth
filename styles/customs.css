@@ -23,8 +23,8 @@
 	.layout-2021 #main-navigation.footer-nav .flex-nav .folder-collection.index-3 .parent-link .footer-folder-title-text {
 		visibility: visible;
 	}
-	#page-footer { text-align: left!important; }
-	li.folder-collection.folder.index-2 span.mobile-only { position: relative; left: 50px; }
+	body.canvas-setting-full-width #page-footer {text-align: left; margin-left:100px!important;margin-right:100px!important;}
+	li.folder-collection.folder.index-2 span.mobile-only { position: relative; left: 40px; }
 }
 
 @media screen and (max-width:400px){
