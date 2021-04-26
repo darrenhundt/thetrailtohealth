@@ -2,6 +2,8 @@
 	.layout-2021 #page-body-wrapper #homeMainColumns #homeMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #shopMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #coachingMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #journeyMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #cookbookMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #merchandiseMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #brandsMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #amazonMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #pressMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #contactMainBodyNew {
 		width:70%;
 	}
+	/*footer block*/
+	#block-yui_3_17_2_1_1532375454856_5768 {display: none;}
 }
 
 @media screen and (max-width:768px){
