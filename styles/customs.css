@@ -14,8 +14,8 @@
 	  background-position: 43% 0;
 	}
 
-	.layout-2021 #main-navigation.footer-nav .footer-collection>a {
-		border-bottom: 0;
+	.layout-2021 #main-navigation.footer-nav .folder-collection>a {
+		border-bottom: none;	
 	}
 }
 
