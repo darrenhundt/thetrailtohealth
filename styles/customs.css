@@ -59,7 +59,7 @@
 	/*home services section*/
 	.layout-2021 #page-body-header .sqs-col-4 p {max-width: 100%!important;}
 
-	#canvas-wrapper .layout-2021 .summary-title a.summary-title-link {margin-bottom:0!important;}
+	#canvas-wrapper #homeMainColumns .summary-title a.summary-title-link {margin-bottom:0!important;}
 }
 
 @media screen and (max-width:640px){
