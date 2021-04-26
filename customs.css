@@ -1,0 +1,75 @@
+
+@media screen and (min-width:1025px) {
+	.layout-2021 #navigation-top .horizontal-navigation-bar {padding: 0 25px;}
+	.layout-2021 #main-navigation.header-nav {margin-right:100px!important;}
+
+	/*index - blog & travel section*/
+	.layout-2021 .Home-page-body-header {margin-bottom:20px!important;}
+	div#block-yui_3_17_2_1_1611179926529_30606, #block-yui_3_17_2_1_1611179926529_36843 {padding-top:15px!important;}
+	#aboutMeFooter {padding-top:25px!important;}
+}
+
+
+
+@media screen and (max-width:1024px) {
+	.layout-2021 #page-body-wrapper #homeMainColumns #homeMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #shopMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #coachingMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #journeyMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #cookbookMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #merchandiseMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #brandsMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #amazonMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #pressMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #contactMainBodyNew {
+		width:70%;
+	}
+	/*footer block*/
+	#block-yui_3_17_2_1_1532375454856_5768 {display: none;}
+}
+
+@media screen and (max-width:768px){
+	html, body{overflow-x: hidden;}
+	.layout-2021 #page-body-wrapper #homeMainColumns #homeMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #shopMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #coachingMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #journeyMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #cookbookMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #merchandiseMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #brandsMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #amazonMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #pressMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #contactMainBodyNew {
+		width:60%;
+	}
+	#block-yui_3_17_2_1_1618689508729_8049 .img{
+	  margin:0 auto; 
+	  width:97%;
+	  background-position: 43% 0;
+	}
+
+	.layout-2021 #main-navigation.footer-nav .folder-collection>a {
+		border-bottom: none;	
+		display: inline-block;
+	}
+	.layout-2021 #main-navigation.footer-nav .flex-nav .folder-collection.index-3 .parent-link .footer-folder-title-text {
+		visibility: visible;
+	}
+
+	body.canvas-setting-full-width #page-footer {text-align: left!important; margin-left:100px!important;margin-right:100px!important;}
+	li.folder-collection.folder.index-2 span.mobile-only { position: relative; left: 40px; }
+	.newsletter-form-wrapper{margin:15px 0!important;}
+	/*featured on*/
+	div#block-b18a9190d1cf8a13b72a {margin-top:0!important;}
+
+	.layout-2021 .flickity-slider .banner-slide .banner-left {height: 50vw;}
+	.layout-2021 #bannerCarousel .flickity-viewport, .layout-2021 #bannerCarousel .banner-slide {height:700px!important;}
+	.layout-2021 .banner-right {padding-top:15px!important;}
+	.layout-2021 #bannerCarousel .banner-slide h1 {font-size: 32px!important;}
+	.layout-2021 #bannerCarousel .banner-slide p {font-size: 20px!important;}
+	.layout-2021 #bannerCarousel button.flickity-button.flickity-prev-next-button {bottom: 40%;}
+
+
+	/*yahoo image home header slide 4*/
+	#bannerCarousel div#block-yui_3_17_2_1_1615230707963_180731.sqs-block.image-block.sqs-block-image.sqs-text-ready  {display: none!important;}
+
+	/*home services section*/
+	.layout-2021 #page-body-header .sqs-col-4 p {max-width: 100%!important;}
+}
+
+@media screen and (max-width:640px){
+	#block-yui_3_17_2_1_1618689508729_8049 .img{ margin:0 auto; width:80%; background-position: -13px 0;}
+	body.canvas-setting-full-width #page-footer {margin-left:15px!important;margin-right:15px!important; padding-bottom:0;}
+	#page-footer-wrapper {padding-bottom:20px!important;}
+	.newsletter-form-wrapper{margin:0!important;}
+	.sqs-block-newsletter {padding: 0!important;}
+	.layout-2021 #bannerCarousel button.flickity-button.flickity-prev-next-button {bottom: 30%;}
+	.layout-2021 .flickity-slider .banner-slide .banner-left {height: 60vw;}
+	.layout-2021 .flickity-slider .banner-right {padding-top:0;}
+	.layout-2021 #bannerCarousel .flickity-viewport, .layout-2021 #bannerCarousel .banner-slide {height: 650px!important;}
+
+}
+
+
