@@ -68,18 +68,7 @@
                 </div>
                   
               </div>
-              <!-- <squarespace:query collection="new-travel-banner-slide" limit="1">
-                <div id="bannerCarousel">
-                  {.repeated section items}
-                  <div class="banner-slide banner-slide-{@index}">
-                    <div class="banner-left" style="background-image: url('{assetUrl}?format=1000w')">
-
-                    </div>
-                    <div class="banner-right banner-right-smaller">{body}</div>
-                  </div>
-                  {.end}
-                </div>
-              </squarespace:query> -->
+              
               
             </div>
 				    <div id="navigation-bottom">
