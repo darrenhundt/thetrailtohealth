@@ -79,6 +79,8 @@
 	.layout-2021 .sqs-block-summary-v2 .summary-block-setting-text-size-medium .summary-title {font-size:16px;}
 	.layout-2021 .sqs-block-summary-v2 .summary-excerpt {max-height: 206px!important; overflow: hidden;}
 
+	.layout-2021 #page-body-wrapper #homeMainColumns {margin: 0 auto;}
+
 }
 
 
