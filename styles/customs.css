@@ -29,7 +29,7 @@
 
 @media screen and (max-width:640px){
 	#block-yui_3_17_2_1_1618689508729_8049 .img{ margin:0 auto; width:80%; background-position: -13px 0;}
-	body.canvas-setting-full-width #page-footer {margin-left:15px!important;margin-right:15px!important;}
+	body.canvas-setting-full-width #page-footer {margin-left:15px!important;margin-right:15px!important; padding-bottom:0;}
 }
 
 
