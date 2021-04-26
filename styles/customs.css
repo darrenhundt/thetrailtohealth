@@ -22,6 +22,7 @@
 		visibility: visible;
 	}
 	#page-footer { text-align: left!important; }
+	.footer-index-2 span.mobile-only { position: relative; left: 50px; }
 }
 
 @media screen and (max-width:400px){
