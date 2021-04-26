@@ -23,7 +23,7 @@
 	.layout-2021 #main-navigation.footer-nav .flex-nav .folder-collection.index-3 .parent-link .footer-folder-title-text {
 		visibility: visible;
 	}
-	#page-footer { text-align: left!important; margin:0 100px!important;}
+	#page-footer { text-align: left!important; }
 	.folder-index-2 span.mobile-only { position: relative; left: 50px; }
 }
 
