@@ -1,10 +1,11 @@
 <div id="blogNav">
   <ul class="custom-nav-list">
-    <li class="custom-nav-item"><a data-category="All" class="custom-nav-link active-nav-link" href="press">All PRESS</a></li>
-    <li class="custom-nav-item"><a data-category="kitchen" class="custom-nav-link" href="press-tv">TV APPEARANCES</a></li>
-    <li class="custom-nav-item"><a data-category="foods" class="custom-nav-link" href="press-podcast-radio">PODCAST &AMP; RADIO</a></li>
-    <li class="custom-nav-item"><a data-category="travel" class="custom-nav-link" href="press-speaking-engagements-events">SPEAKING ENGAGEMENTS & EVENTS</a></li>
-    <li class="custom-nav-item"><a data-category="books" class="custom-nav-link" href="press-publications">PUBLICATIONS</a></li>
+    <li class="custom-nav-item"><a data-category="All" class="custom-nav-link active-nav-link" href="/press">All PRESS</a></li>
+    <li class="custom-nav-item"><a data-category="tv" class="custom-nav-link" href="/press-tv">TV APPEARANCES</a></li>
+    <li class="custom-nav-item"><a data-category="podcast" class="custom-nav-link" href="/press-podcast-radio">PODCAST &AMP; RADIO</a></li>
+    <li class="custom-nav-item"><a data-category="engagements" class="custom-nav-link" href="/press-speaking-engagements-events">SPEAKING ENGAGEMENTS & EVENTS</a></li>
+    <li class="custom-nav-item"><a data-category="publications" class="custom-nav-link" href="/press-publications">PUBLICATIONS</a></li>
+    <li class="custom-nav-item"><a data-category="media-reel" class="custom-nav-link" href="/media-reel">DEMO REEL</a></li>
   </ul>
 </div>
 
