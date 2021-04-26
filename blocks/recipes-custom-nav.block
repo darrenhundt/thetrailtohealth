@@ -1,6 +1,6 @@
 <div class="recipes-nav" id="blogNav">
-  <ul class="custom-nav-list-main">
-    <li class="custom-nav-item"><a class="custom-nav-link" href="https://thetrailtohealth.com/recipes">All Recipes</a></li>
+  <ul class="custom-nav-list">
+    <li class="custom-nav-item"><a class="custom-nav-link active-nav-link" href="https://thetrailtohealth.com/recipes">All Recipes</a></li>
     <li class="custom-nav-item"><a class="custom-nav-link" href="https://thetrailtohealth.com/recipes?category=Cookbook">Book Recipes</a></li>
     <li class="custom-nav-item"><a class="custom-nav-link" href="https://thetrailtohealth.com/recipes?category=Blog%20Recipes">Blog Recipes</a></li>
     <li class="custom-nav-item"><a class="custom-nav-link" href="https://thetrailtohealth.com/recipes?category=Round%20Up">Recipe Round Ups</a></li>
