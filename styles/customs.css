@@ -3,6 +3,12 @@
 @media screen and (max-width:768px){
 	#block-yui_3_17_2_1_1618689508729_8049 .img{
 	  margin:0 auto; 
+	  width:65%;
+	}
+}
+@media screen and (max-width:400px){
+	#block-yui_3_17_2_1_1618689508729_8049 .img{
+	  margin:0 auto; 
 	  width:87%;
 	}
 }
