@@ -38,8 +38,12 @@
 	.layout-2021 #bannerCarousel .banner-slide p {font-size: 20px!important;}
 	.layout-2021 #bannerCarousel button.flickity-button.flickity-prev-next-button {bottom: 40%;}
 
+
 	/*yahoo image home header slide 4*/
 	#bannerCarousel div#yui_3_17_2_1_1619463899774_70 {display: none!important;}
+
+	/*home services section*/
+	.layout-2021 #page-body-header .sqs-col-4 p {width: 100%;}
 }
 
 @media screen and (max-width:640px){
