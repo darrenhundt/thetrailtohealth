@@ -1,16 +1,16 @@
 <div id="blogNav">
   <ul class="custom-nav-list">
     <li class="custom-nav-item"><a data-category="All" class="custom-nav-link active-nav-link" href="/blog">All posts</a></li>
-    <li class="custom-nav-item"><a data-category="Food-Diet" class="custom-nav-link" href="https://thetrailtohealth.com/blog/category/Food%20&%20Diet">Food & Diet</a></li>
-    <li class="custom-nav-item"><a data-category="Gluten" class="custom-nav-link" href="https://thetrailtohealth.com/blog/category/Gluten">Gluten</a></li>
-    <li class="custom-nav-item"><a data-category="Healthy-Home" class="custom-nav-link" href="https://thetrailtohealth.com/blog/category/Healthy%20Home">Healthy Home & Tools</a></li>
-    <li class="custom-nav-item"><a data-category="Health-Tips" class="custom-nav-link" href="https://thetrailtohealth.com/blog/category/Health%20Tips">Health Tips</a></li>
-    <li class="custom-nav-item"><a data-category="Lifestyle" class="custom-nav-link" href="https://thetrailtohealth.com/blog/category/Lifestyle">Lifestyle</a></li>
-    <li class="custom-nav-item"><a data-category="Lyme-Disease" class="custom-nav-link" href="https://thetrailtohealth.com/blog/category/Lyme%20Disease">Lyme Disease</a></li>
-    <li class="custom-nav-item"><a data-category="Stem-Cells" class="custom-nav-link" href="https://thetrailtohealth.com/blog/category/Stem%20Cells">Stem Cells</a></li>
-    <li class="custom-nav-item"><a data-category="Thyroid" class="custom-nav-link" href="https://thetrailtohealth.com/blog/category/Thyroid">Thyroid</a></li>
-    <li class="custom-nav-item"><a data-category="Weight-Loss" class="custom-nav-link" href="https://thetrailtohealth.com/blog/category/Weight%20Loss">Weight Loss</a></li>
-    <li class="custom-nav-item"><a data-category="Blogging-Biz" class="custom-nav-link" href="https://thetrailtohealth.com/blog/category/Blogging%20&%20Biz">Blogging & Entrepreneurship</a></li>
+    <li class="custom-nav-item"><a data-category="Food-Diet" class="custom-nav-link" href="blog/category/Food%20&%20Diet">Food & Diet</a></li>
+    <li class="custom-nav-item"><a data-category="Gluten" class="custom-nav-link" href="/blog/category/Gluten">Gluten</a></li>
+    <li class="custom-nav-item"><a data-category="Healthy-Home" class="custom-nav-link" href="/blog/category/Healthy%20Home">Healthy Home & Tools</a></li>
+    <li class="custom-nav-item"><a data-category="Health-Tips" class="custom-nav-link" href="/blog/category/Health%20Tips">Health Tips</a></li>
+    <li class="custom-nav-item"><a data-category="Lifestyle" class="custom-nav-link" href="/blog/category/Lifestyle">Lifestyle</a></li>
+    <li class="custom-nav-item"><a data-category="Lyme-Disease" class="custom-nav-link" href="/blog/category/Lyme%20Disease">Lyme Disease</a></li>
+    <li class="custom-nav-item"><a data-category="Stem-Cells" class="custom-nav-link" href="/blog/category/Stem%20Cells">Stem Cells</a></li>
+    <li class="custom-nav-item"><a data-category="Thyroid" class="custom-nav-link" href="/blog/category/Thyroid">Thyroid</a></li>
+    <li class="custom-nav-item"><a data-category="Weight-Loss" class="custom-nav-link" href="/blog/category/Weight%20Loss">Weight Loss</a></li>
+    <li class="custom-nav-item"><a data-category="Blogging-Biz" class="custom-nav-link" href="/blog/category/Blogging%20&%20Biz">Blogging & Entrepreneurship</a></li>
   </ul>
 </div>
 
