@@ -75,6 +75,8 @@
 	.layout-2021 .flickity-slider .banner-right {padding-top:0;}
 	.layout-2021 #bannerCarousel .flickity-viewport, .layout-2021 #bannerCarousel .banner-slide {height: 650px!important;}
 
+	.layout-2021 .sqs-block-summary-v2 .summary-excerpt {height: 206px!important; overflow: hidden;}
+
 }
 
 
