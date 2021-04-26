@@ -1,4 +1,8 @@
-
+@media screen and (max-width:1024px) {
+	.layout-2021 #page-body-wrapper #homeMainColumns #homeMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #shopMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #coachingMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #journeyMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #cookbookMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #merchandiseMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #brandsMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #amazonMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #pressMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #contactMainBodyNew {
+		width:70%;
+	}
+}
 
 @media screen and (max-width:768px){
 	#block-yui_3_17_2_1_1618689508729_8049 .img{
@@ -6,9 +10,12 @@
 	  width:65%;
 	}
 }
+
 @media screen and (max-width:400px){
 	#block-yui_3_17_2_1_1618689508729_8049 .img{
 	  margin:0 auto; 
 	  width:87%;
 	}
 }
+
+
