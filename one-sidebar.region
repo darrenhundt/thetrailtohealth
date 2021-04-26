@@ -49,7 +49,7 @@
 							    {.if siteDescription}<div class="site-description">{siteDescription}</div>{.end}
 							  </div>
 							  {.end}
-								<squarespace:block-field id="sidebar-one-blocks" label="Sidebar One Content" />
+								<squarespace:block-field id="sidebar2021New" label="Sidebar One Content" />
 								
 							</div>
 						</div><!-- sidebar-one-wrapper -->
