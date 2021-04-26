@@ -24,7 +24,7 @@
 	  	<div id="canvas">
 
 
-				<div id="page-header-wrapper">
+				<div id="page-header-wrapper" class="sidebar-fix-1">
 					<div id="page-header">
 
 				    <div id="navigation-top">
@@ -45,7 +45,7 @@
 				    	</div>
 				    </div><!-- navigation-top -->
 
-            <div class="full-width">
+            <div class="full-width journey">
               <squarespace:query collection="new-journey-banner-slide" limit="1">
                 <div class="journey-carousel" id="bannerCarousel">
                   {.repeated section items}
