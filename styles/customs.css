@@ -7,11 +7,17 @@
 	.layout-2021 .Home-page-body-header {margin-bottom:20px!important;}
 	div#block-yui_3_17_2_1_1611179926529_30606, #block-yui_3_17_2_1_1611179926529_36843 {padding-top:15px!important;padding-bottom:15px!important;}
 	#aboutMeFooter {padding-top:25px!important;}
+	.layout-2021 #page-body-wrapper .main-content h2 a {
+    color: #222;
+}
 }
 
 
 
 @media screen and (max-width:1024px) {
+	.layout-2021 #page-body-wrapper .main-content h2 a {
+    color: #222;
+}
 	.layout-2021 #page-body-wrapper #homeMainColumns #homeMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #shopMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #coachingMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #journeyMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #cookbookMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #merchandiseMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #brandsMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #amazonMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #pressMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #contactMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns .main-content {
 		width:70%;
 	}
