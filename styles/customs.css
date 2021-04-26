@@ -4,7 +4,8 @@
 	.layout-2021 #main-navigation.header-nav {margin-right:100px!important;}
 
 	/*index - blog & travel section*/
-	div#block-yui_3_17_2_1_1611179926529_30606, #block-yui_3_17_2_1_1611179926529_36843 {padding-top:25px!important;}
+	.layout-2021 .Home-page-body-header {margin-bottom:20px!important;}
+	div#block-yui_3_17_2_1_1611179926529_30606, #block-yui_3_17_2_1_1611179926529_36843 {padding-top:15px!important;}
 	#aboutMeFooter {padding-top:25px!important;}
 }
 
