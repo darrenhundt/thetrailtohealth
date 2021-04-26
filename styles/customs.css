@@ -16,6 +16,10 @@
 
 	.layout-2021 #main-navigation.footer-nav .folder-collection>a {
 		border-bottom: none;	
+		display: inline-block;
+	}
+	.layout-2021 #main-navigation.footer-nav .flex-nav .folder-collection.index-3 .parent-link .footer-folder-title-text {
+		visibility: visible;
 	}
 }
 
