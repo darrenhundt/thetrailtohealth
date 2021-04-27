@@ -115,6 +115,8 @@
 	.layout-2021 #page-body-wrapper #homeMainColumns #homeMainBodyNew {
 		width:100%;
 	}
+	.sidebar-fix-home #block-yui_3_17_2_1_1618689508729_8049 .img {
+    margin: 0 auto; width: 87%; background-position: -25% 0;}
 
 }
 
