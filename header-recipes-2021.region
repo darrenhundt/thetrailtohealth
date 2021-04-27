@@ -23,7 +23,7 @@
 		<squarespace:navigation navigationId="mainNav2021" template="mobile-navigation" />
 		{.end}
 
-	  <div id="canvas-wrapper">
+	  <div id="canvas-wrapper" class="recipe-content">
 	  	<div id="canvas">
 
 
