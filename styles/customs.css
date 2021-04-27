@@ -8,19 +8,22 @@
 	.layout-2021 .shop-content .img,
 	.layout-2021 .cookbook-content .img,
 	.layout-2021 .merchandise-content .img,
-	.layout-2021 .brands-content .img {background-position: -7px 0;}
+	.layout-2021 .brands-content .img,
+	.layout-2021 .amazon-content .img {background-position: -7px 0;}
 
 	/*main content*/
 	.layout-2021 .shop-content #page-body-wrapper #homeMainColumns #shopMainBodyNew,
 	.layout-2021 .cookbook-content #page-body-wrapper #homeMainColumns #cookbookMainBodyNew,
 	.layout-2021 .merchandise-content #page-body-wrapper #homeMainColumns #merchandiseMainBodyNew,
-	.layout-2021 .brands-content #page-body-wrapper #homeMainColumns #brandsMainBodyNew {width:100%!important;}
+	.layout-2021 .brands-content #page-body-wrapper #homeMainColumns #brandsMainBodyNew,
+	.layout-2021 .amazon-content #page-body-wrapper #homeMainColumns #amazonMainBodyNew {width:100%!important;}
 
 	/*sidebar*/
 	.layout-2021 .shop-content #page-body-wrapper #homeMainColumns #sidebar2021New,
 	.layout-2021 .cookbook-content #page-body-wrapper #homeMainColumns #sidebar2021New,
 	.layout-2021 .merchandise-content #page-body-wrapper #homeMainColumns #sidebar2021New,
-	.layout-2021 .brands-content #page-body-wrapper #homeMainColumns #sidebar2021New {width:30%!important;}
+	.layout-2021 .brands-content #page-body-wrapper #homeMainColumns #sidebar2021New,
+	.layout-2021 .amazon-content #page-body-wrapper #homeMainColumns #sidebar2021New {width:30%!important;}
 
 
 
@@ -54,7 +57,8 @@
 	.layout-2021 #canvas-wrapper.shop-content #block-yui_3_17_2_1_1618689508729_8049 .img,
 	.layout-2021 #canvas-wrapper.cookbook-content #block-yui_3_17_2_1_1618689508729_8049 .img,
 	.layout-2021 #canvas-wrapper.merchandise-content #block-yui_3_17_2_1_1618689508729_8049 .img,
-	.layout-2021 #canvas-wrapper.brands-content #block-yui_3_17_2_1_1618689508729_8049 .img {width: 100%;}
+	.layout-2021 #canvas-wrapper.brands-content #block-yui_3_17_2_1_1618689508729_8049 .img,
+	.layout-2021 #canvas-wrapper.amazon-content #block-yui_3_17_2_1_1618689508729_8049 .img {width: 100%;}
 
 	/*blog*/
 	.recipe-content .main-content article, .blog-content .main-content article.individual-post {width:100%;}
@@ -63,7 +67,8 @@
 	.layout-2021 .shop-content #sidebar2021New,
 	.layout-2021 .cookbook-content #sidebar2021New,
 	.layout-2021 .merchandise-content #sidebar2021New,
-	.layout-2021 .brands-content #sidebar2021New {width: 30%;}
+	.layout-2021 .brands-content,
+	.layout-2021 .amazon-content #sidebar2021New #sidebar2021New {width: 30%;}
 
 	/*footer block*/
 	#block-yui_3_17_2_1_1532375454856_5768 {display: none;}
@@ -85,7 +90,8 @@
 	.layout-2021 #page-body-wrapper #homeMainColumns #cookbookMainBodyNew,
 	.layout-2021 #page-body-wrapper #homeMainColumns #shopMainBodyNew,
 	.layout-2021 #page-body-wrapper #homeMainColumns #merchandiseMainBodyNew,
-	.layout-2021 #page-body-wrapper #homeMainColumns #brandsMainBodyNew {width:70%;}
+	.layout-2021 #page-body-wrapper #homeMainColumns #brandsMainBodyNew,
+	.layout-2021 #page-body-wrapper #homeMainColumns #amazonMainBodyNew {width:70%;}
 
 	/*blog*/
 	.layout-2021 #page-body-wrapper.one-sidebar .main-content {width: 65%; float: left; margin-right: 25px;}
@@ -186,12 +192,14 @@
 	.layout-2021 #page-body-wrapper #homeMainColumns #shopMainBodyNew,
 	.layout-2021 #page-body-wrapper #homeMainColumns #cookbookMainBodyNew,
 	.layout-2021 #page-body-wrapper #homeMainColumns #merchandiseMainBodyNew,
-	.layout-2021 #page-body-wrapper #homeMainColumns #brandsMainBodyNew {width:100%;}
+	.layout-2021 #page-body-wrapper #homeMainColumns #brandsMainBodyNew,
+	.layout-2021 #page-body-wrapper #homeMainColumns #amazonMainBodyNew, {width:100%;}
 
 	.layout-2021 .shop-content #sidebar2021New,
 	.layout-2021 .cookbook-content #sidebar2021New,
 	.layout-2021 .merchandise-content #sidebar2021New,
 	.layout-2021 .brands-content #sidebar2021New,
+	.layout-2021 .amazon-content #sidebar2021New,
 	.layout-2021 .main-contact #sidebar2021New {width: 100%;}
 
 
@@ -200,13 +208,17 @@
 	.layout-2021 #canvas-wrapper.cookbook-content #block-yui_3_17_2_1_1618689508729_8049 .img,
 	.layout-2021 #canvas-wrapper.shop-content #block-yui_3_17_2_1_1618689508729_8049 .img,
 	.layout-2021 #canvas-wrapper.merchandise-content #block-yui_3_17_2_1_1618689508729_8049 .img,
-	.layout-2021 #canvas-wrapper.brands-content #block-yui_3_17_2_1_1618689508729_8049 .img {width:90%; padding-bottom:0; background-position: 3px 0;}
+	.layout-2021 #canvas-wrapper.brands-content #block-yui_3_17_2_1_1618689508729_8049 .img,
+	.layout-2021 #canvas-wrapper.amazon-content #block-yui_3_17_2_1_1618689508729_8049 .img {width:90%; padding-bottom:0; background-position: 3px 0;}
 
 
 	.layout-2021 #canvas-wrapper.blog-content #product-component-a14dec964d2-2,
 	.layout-2021 #canvas-wrapper.recipe-content #product-component-a14dec964d2-2,
 	.layout-2021 #canvas-wrapper.cookbook-content #product-component-a14dec964d2-2,
-	.layout-2021 #canvas-wrapper.shop-content #product-component-a14dec964d2-2 {margin: 0 0 0 19%;}
+	.layout-2021 #canvas-wrapper.shop-content #product-component-a14dec964d2-2,
+	.layout-2021 #canvas-wrapper.merchandise-content #product-component-a14dec964d2-2,
+	.layout-2021 #canvas-wrapper.brands-content #product-component-a14dec964d2-2,
+ 	.layout-2021 #canvas-wrapper.amazon-content #product-component-a14dec964d2-2 {margin: 0 0 0 19%;}
 
 
 	/*contact*/
