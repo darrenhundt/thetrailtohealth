@@ -34,7 +34,8 @@
 	/*sidebar cookbook image*/
 	.layout-2021 #page-body-wrapper.main-contact #block-yui_3_17_2_1_1618689508729_8049 .img, 
 	.layout-2021 #canvas-wrapper.blog-content #block-yui_3_17_2_1_1618689508729_8049 .img,
-	.layout-2021 #canvas-wrapper.recipe-content #block-yui_3_17_2_1_1618689508729_8049 .img {width: 100%;}
+	.layout-2021 #canvas-wrapper.recipe-content #block-yui_3_17_2_1_1618689508729_8049 .img,
+	.layout-2021 #canvas-wrapper.travel-content #block-yui_3_17_2_1_1618689508729_8049 .img {width: 100%;}
 
 	/*blog*/
 	.recipe-content .main-content article, .blog-content .main-content article.individual-post {width:100%;}
