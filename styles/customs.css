@@ -37,9 +37,6 @@ header.summary-block-header {
     margin: 50px 0;
   }
 
-	#yui_3_17_2_1_1619543594781_619 {
-	    margin-top: 50px;
-	}
 
 
 	/* index blogs / recipes / travel  */
@@ -101,6 +98,10 @@ header.summary-block-header {
     padding: 5px 0 0;
     margin-top: 25px;}
 	.summary-carousel-pager.sqs-gallery-controls {margin-top: 25px;}
+	#yui_3_17_2_1_1619543594781_619 {
+			margin-top: 50px;
+	}
+
 
 }
 
