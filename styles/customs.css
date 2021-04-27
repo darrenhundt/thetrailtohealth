@@ -29,7 +29,7 @@
 
 	/*sidebar order cookbook*/
 	#block-yui_3_17_2_1_1618689508729_8049 .img {margin:0 auto; width:71%; background-position: 0 0;}
-	.sidebar-fix-home #block-yui_3_17_2_1_1618689508729_8049 .img {margin:0 auto; width:100%; background-position: 43% 0;}
+	.sidebar-fix-home #block-yui_3_17_2_1_1618689508729_8049 .img {margin:0 auto; width:100%; background-position: 15% 0;}
 }
 
 @media screen and (max-width:768px){
@@ -83,6 +83,7 @@
 
 	.layout-2021 #page-body-wrapper {padding-bottom:0!important;    padding-top: 0!important;}	
 	#testimonialsWrapper {margin-bottom:15px!important;}
+	.sidebar-fix-home #block-yui_3_17_2_1_1618689508729_8049 .img {margin:0 auto; width:100%; background-position: 43% 0;}
 }
 
 @media screen and (max-width:640px){
