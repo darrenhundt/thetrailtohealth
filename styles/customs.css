@@ -55,8 +55,9 @@
 	/*blog*/
 	.recipe-content .main-content article, .blog-content .main-content article.individual-post {width:100%;}
 	/*shop*/
-	.layout-2021 .shop-content #sopMainBodyNew {width:100%;}
 	.layout-2021 .shop-content #sidebar2021New {width: 30%;}
+	/*cookbook*/
+	.layout-2021 .cookbook-content #sidebar2021New {width: 30%;}
 }
 
 @media screen and (max-width:768px){
