@@ -36,7 +36,7 @@
 	.layout-2021 #canvas-wrapper.blog-content #block-yui_3_17_2_1_1618689508729_8049 .img {width: 100%;}
 
 	/*blog*/
-	.blog-content .main-content article.individual-post {width:100%;}
+	.recipe-content .new-layout-blogs-general-2021 article, .blog-content .main-content article.individual-post {width:100%;}
 }
 
 @media screen and (max-width:768px){
