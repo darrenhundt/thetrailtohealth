@@ -58,6 +58,10 @@
 	.blog-content #page-about-me {margin-top:15px;}
 	.blog-content #commenting {margin-bottom:15px;}
 
+
+	/*recipe*/
+	.recipe-content #commenting {margin-bottom:15px;}
+
 	/*contact*/
 
 	.layout-2021 #page-body-wrapper #homeMainColumns  {width:98%;}
