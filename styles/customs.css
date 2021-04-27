@@ -39,12 +39,18 @@
 	.layout-2021 #sidebar2021New {
     width: 100%;}
 
-	.layout-2021 #page-body-wrapper #homeMainColumns #shopMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #coachingMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #journeyMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #cookbookMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #merchandiseMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #brandsMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #amazonMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #pressMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #contactMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns .main-content {
+	.layout-2021 #page-body-wrapper #homeMainColumns #shopMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #coachingMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #journeyMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #cookbookMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #merchandiseMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #brandsMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #amazonMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #pressMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #contactMainBodyNew {
 		width:100%;
 	}
 	.layout-2021 #page-body-wrapper #homeMainColumns #homeMainBodyNew {
 		width:70%;
 	}
+
+	/*contact*/
+	.layout-2021 #page-body-wrapper #homeMainColumns .main-content {width:98%;}
+	.layout-2021 .main-contact #sidebar2021New {width:40%;}
+
+	
 	/*sidebar order cookbook*/
 
 	#block-yui_3_17_2_1_1618689508729_8049 .img{ margin:0 auto; width:100%; background-position: 43% 0; }
@@ -84,6 +90,8 @@
 	.layout-2021 #page-body-wrapper {padding-bottom:0!important;    padding-top: 0!important;}	
 	#testimonialsWrapper {margin-bottom:15px!important;}
 	.sidebar-fix-home #block-yui_3_17_2_1_1618689508729_8049 .img {margin:0 auto; width:100%; background-position: 43% 0;}
+
+	
 }
 
 @media screen and (max-width:640px){
