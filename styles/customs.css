@@ -16,6 +16,10 @@
 	.layout-2021 .cookbook-content #page-body-wrapper #homeMainColumns #cookbookMainBodyNew {width:100%!important;}
 	.layout-2021 .cookbook-content #page-body-wrapper #homeMainColumns #sidebar2021New {width:30%!important;}
 
+	/*merchandise*/
+	.layout-2021 .merchandise-content #page-body-wrapper #homeMainColumns #merchandiseMainBodyNew {width:100%;}
+	.layout-2021 .merchandise-content #page-body-wrapper #homeMainColumns #sidebar2021New {width:30%;}
+
 
 	/*index - blog & travel section*/
 	.layout-2021 .Home-page-body-header {margin-bottom:20px!important;}
