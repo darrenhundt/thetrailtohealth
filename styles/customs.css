@@ -8,9 +8,9 @@
 	.layout-2021 .shop-content .img {background-position: -13px 0;}
 
 	/*shop*/
-	.layout-2021 #page-body-wrapper .shop-content #homeMainColumns #shopMainBodyNew {width:100%;}
+	.layout-2021 .shop-content #page-body-wrapper #homeMainColumns #shopMainBodyNew {width:100%;}
 
-	.layout-2021 #page-body-wrapper .shop-content #sidebar2021new {width:30%;}
+	.layout-2021 .shop-content #page-body-wrapper #sidebar2021new {width:30%;}
 
 	/*index - blog & travel section*/
 	.layout-2021 .Home-page-body-header {margin-bottom:20px!important;}
