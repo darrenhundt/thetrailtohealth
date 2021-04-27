@@ -5,12 +5,17 @@
 
 
 	.layout-2021 .home-content .img,
-	.layout-2021 .shop-content .img {background-position: -13px 0;}
+	.layout-2021 .shop-content .img,
+	.layout-2021 .cookbook-content .img {background-position: -7px 0;}
 
 	/*shop*/
 	.layout-2021 .shop-content #page-body-wrapper #homeMainColumns #shopMainBodyNew {width:100%!important;}
-
 	.layout-2021 .shop-content #page-body-wrapper #homeMainColumns #sidebar2021New {width:30%!important;}
+
+	/*cookbook*/
+	.layout-2021 .cookbook-content #page-body-wrapper #homeMainColumns #shopMainBodyNew {width:100%!important;}
+	.layout-2021 .cookbook-content #page-body-wrapper #homeMainColumns #sidebar2021New {width:30%!important;}
+
 
 	/*index - blog & travel section*/
 	.layout-2021 .Home-page-body-header {margin-bottom:20px!important;}
