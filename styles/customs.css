@@ -60,7 +60,9 @@
 	
 	/*sidebar*/
 	.layout-2021 .shop-content #sidebar2021New,
-	.layout-2021 .cookbook-content #sidebar2021New {width: 30%!important;}
+	.layout-2021 .cookbook-content #sidebar2021New,
+	.layout-2021 .merchandise-content #sidebar2021New,
+	.layout-2021 .brands-content #sidebar2021New {width: 30%!important;}
 
 	/*footer block*/
 	#block-yui_3_17_2_1_1532375454856_5768 {display: none;}
