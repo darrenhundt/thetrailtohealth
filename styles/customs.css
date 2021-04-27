@@ -122,11 +122,15 @@
 	.layout-2021 .sqs-block-summary-v2 .summary-block-setting-text-size-medium .summary-title {font-size:16px;}
 	.layout-2021 .sqs-block-summary-v2 .summary-excerpt {max-height: 206px!important; overflow: hidden;}
 
-	.layout-2021 #page-body-wrapper #homeMainColumns {margin: 0 auto;}
 
-	.layout-2021 #page-body-wrapper #homeMainColumns #homeMainBodyNew {
-		width:100%;
-	}
+	.layout-2021 #page-body-wrapper #homeMainColumns {margin: 0 auto;}
+	.layout-2021 #page-body-wrapper #homeMainColumns #homeMainBodyNew {width:100%;}
+
+
+	/*contact*/
+	.layout-2021 #page-body-wrapper #homeMainColumns .main-content, .layout-2021 .main-contact #sidebar2021New {width: 100%;}
+
+
 	/*sidebar - home*/
 	.sidebar-fix-home #block-yui_3_17_2_1_1618689508729_8049 .img {
     margin: 0 auto; width: 87%; background-position: -25% 0;}
