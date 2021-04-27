@@ -82,7 +82,10 @@
 		width:100%;
 	}
 	.layout-2021 #page-body-wrapper #homeMainColumns #homeMainBodyNew,
-	.layout-2021 #page-body-wrapper #homeMainColumns #cookbookMainBodyNew, {width:70%;}
+	.layout-2021 #page-body-wrapper #homeMainColumns #cookbookMainBodyNew,,
+	.layout-2021 #page-body-wrapper #homeMainColumns #shopMainBodyNew,
+	.layout-2021 #page-body-wrapper #homeMainColumns #merchandiseMainBodyNew,
+	.layout-2021 #page-body-wrapper #homeMainColumns #brandsMainBodyNew, {width:70%;}
 
 	/*blog*/
 	.layout-2021 #page-body-wrapper.one-sidebar .main-content {width: 65%; float: left; margin-right: 25px;}
@@ -103,11 +106,11 @@
 	.layout-2021 #page-body-wrapper.main-contact #homeMainColumns {margin: 50px auto 0;}
 
 	/*shop*/
-	.layout-2021 .shop-content #product-component-a14dec964d2-2 { margin: 0 0 0 29%;}
-	.layout-2021 .shop-content #sidebar2021New {width: 42%;}
+	/* .layout-2021 .shop-content #product-component-a14dec964d2-2 { margin: 0 0 0 29%;}
+	.layout-2021 .shop-content #sidebar2021New {width: 42%;} */
 
 	/*cookbook*/
-	.layout-2021 .cookbook-content #sidebar2021New {width: 30%;}
+	/* .layout-2021 .cookbook-content #sidebar2021New {width: 30%;} */
 
 	/*sidebar order cookbook*/
 
