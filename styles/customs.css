@@ -82,10 +82,7 @@
 		width:100%;
 	}
 	.layout-2021 #page-body-wrapper #homeMainColumns #homeMainBodyNew,
-	.layout-2021 #page-body-wrapper #homeMainColumns #cookbookMainBodyNew,,
-	.layout-2021 #page-body-wrapper #homeMainColumns #shopMainBodyNew,
-	.layout-2021 #page-body-wrapper #homeMainColumns #merchandiseMainBodyNew,
-	.layout-2021 #page-body-wrapper #homeMainColumns #brandsMainBodyNew, {width:70%;}
+	.layout-2021 #page-body-wrapper #homeMainColumns #cookbookMainBodyNew {width:70%;}
 
 	/*blog*/
 	.layout-2021 #page-body-wrapper.one-sidebar .main-content {width: 65%; float: left; margin-right: 25px;}
