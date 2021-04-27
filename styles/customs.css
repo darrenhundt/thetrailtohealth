@@ -49,7 +49,8 @@
 	.layout-2021 #page-body-wrapper #homeMainColumns #homeMainBodyNew {width:70%;}
 
 	/*blog*/
-	.layout-2021 #page-body-wrapper.one-sidebar {} 
+	.layout-2021 #page-body-wrapper.one-sidebar .main-content {width:70%; float: left;} 
+	.layout-2021 #page-body-wrapper.one-sidebar #sidebar-one-wrapper {width:29%;}
 
 	/*contact*/
 
