@@ -20,7 +20,7 @@
 		<squarespace:navigation navigationId="mainNav2021" template="mobile-navigation" />
 		{.end}
 
-	  <div id="canvas-wrapper" class="merchandise-contents">
+	  <div id="canvas-wrapper" class="merchandise-content">
 	  	<div id="canvas">
 
 
