@@ -2,6 +2,7 @@
 @media screen and (min-width:1025px) {
 	.layout-2021 #navigation-top .horizontal-navigation-bar {padding: 0 25px;}
 	.layout-2021 #main-navigation.header-nav {margin-right:100px!important;}
+	.layout-2021 .home-content .img {background-position: -7px 0;}
 
 	/*index - blog & travel section*/
 	.layout-2021 .Home-page-body-header {margin-bottom:20px!important;}
@@ -41,6 +42,7 @@
 	/*blog*/
 	.recipe-content .main-content article, .blog-content .main-content article.individual-post {width:100%;}
 	/*shop*/
+	.layout-2021 .shop-content #sopMainBodyNew {width:100%;}
 	.layout-2021 .shop-content #sidebar2021New {width: 30%;}
 }
 
