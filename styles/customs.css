@@ -66,10 +66,11 @@
 
 	.layout-2021 #sidebar2021New {width: 100%;}
 
-	.layout-2021 #page-body-wrapper #homeMainColumns #shopMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #coachingMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #journeyMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #cookbookMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #merchandiseMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #brandsMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #amazonMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #pressMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #contactMainBodyNew {
+	.layout-2021 #page-body-wrapper #homeMainColumns #shopMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #coachingMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #journeyMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #merchandiseMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #brandsMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #amazonMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #pressMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #contactMainBodyNew {
 		width:100%;
 	}
-	.layout-2021 #page-body-wrapper #homeMainColumns #homeMainBodyNew {width:70%;}
+	.layout-2021 #page-body-wrapper #homeMainColumns #homeMainBodyNew,
+	.layout-2021 #page-body-wrapper #homeMainColumns #cookbookMainBodyNew, {width:70%;}
 
 	/*blog*/
 	.layout-2021 #page-body-wrapper.one-sidebar .main-content {width: 65%; float: left; margin-right: 25px;} 
@@ -183,6 +184,9 @@
 	.layout-2021 #canvas-wrapper.shop-content #product-component-a14dec964d2-2 {margin: 0 0 0 19%;}
 	.layout-2021 #canvas-wrapper.shop-content #block-yui_3_17_2_1_1618689508729_8049 .img{width:80%; padding-bottom:0;}
 	.layout-2021 .shop-content #sidebar2021New {width: 100%;}
+
+	/*cookbook*/
+	.layout-2021 .cookbook-content #sidebar2021New {width: 100%;}
 
 	/*journey*/
 	.layout-2021 #canvas-wrapper.journey-content #block-yui_3_17_2_1_1618689508729_8049 .img{width:100%; background-position: 0 0;}
