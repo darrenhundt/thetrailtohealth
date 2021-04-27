@@ -112,6 +112,10 @@
 
 	.layout-2021 #page-body-wrapper #homeMainColumns {margin: 0 auto;}
 
+	.layout-2021 #page-body-wrapper #homeMainColumns #homeMainBodyNew {
+		width:100%;
+	}
+
 }
 
 
