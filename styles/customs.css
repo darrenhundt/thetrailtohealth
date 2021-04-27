@@ -1,4 +1,43 @@
+.layout-2021 #page-body-wrapper #homeMainColumns {margin-top:0;margin-bottom:0;}
 
+  .layout-2021 #page-body-wrapper #homeMainColumns #homeMainBodyNew .sqs-block-summary-v2 {
+    padding-bottom: 0;
+    padding-top: 0;
+}
+  #bannerCarousel{max-width:1200px; margin:0 auto;}
+  div#block-yui_3_17_2_1_1611179926529_30606 {
+    padding-top: 0;
+}
+  div#page-body-wrapper {
+    padding-top: 0!important;
+    padding-bottom: 0!important;
+}
+  header.summary-block-header {
+    padding-bottom: 15px;
+}
+  a.summary-read-more-link {
+    margin-bottom: 0!important;
+}
+  a.summary-title-link {
+    margin-bottom: 15px!important;
+    display: inline-block!important;
+}
+
+ .sqs-layout:not(.sqs-editing)>.sqs-row:first-child>[class*=sqs-col]:first-child>.sqs-block:last-child, .sqs-layout:not(.sqs-editing) .sqs-block+.sqs-row .sqs-block:not(.float):last-child {
+    padding-bottom: 0;
+}
+  div#block-b18a9190d1cf8a13b72a {
+    margin-top: 45px;
+}
+  div#yui_3_17_2_1_1618522354393_101 {
+    margin-top: 15px;
+}
+  .newsletter-form-wrapper {
+  background: #f3f3f3!important;
+    margin: 50px 0;
+  }
+
+	
 @media screen and (min-width:1025px) {
 	.layout-2021 #navigation-top .horizontal-navigation-bar {padding: 0 25px;}
 	.layout-2021 #main-navigation.header-nav {margin-right:100px!important;}
