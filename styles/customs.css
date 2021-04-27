@@ -52,14 +52,15 @@
 	.layout-2021 #canvas-wrapper.recipe-content #block-yui_3_17_2_1_1618689508729_8049 .img,
 	.layout-2021 #canvas-wrapper.travel-content #block-yui_3_17_2_1_1618689508729_8049 .img,
 	.layout-2021 #canvas-wrapper.shop-content #block-yui_3_17_2_1_1618689508729_8049 .img,
-	.layout-2021 #canvas-wrapper.cookbook-content #block-yui_3_17_2_1_1618689508729_8049 .img {width: 100%;}
+	.layout-2021 #canvas-wrapper.cookbook-content #block-yui_3_17_2_1_1618689508729_8049 .img,
+	.layout-2021 #canvas-wrapper.merchandise-content #block-yui_3_17_2_1_1618689508729_8049 .img {width: 100%;}
 
 	/*blog*/
 	.recipe-content .main-content article, .blog-content .main-content article.individual-post {width:100%;}
 	
 	/*sidebar*/
 	.layout-2021 .shop-content #sidebar2021New,
-	.layout-2021 .cookbook-content #sidebar2021New {width: 30%;}
+	.layout-2021 .cookbook-content #sidebar2021New {width: 30%!important;}
 
 	/*footer block*/
 	#block-yui_3_17_2_1_1532375454856_5768 {display: none;}
