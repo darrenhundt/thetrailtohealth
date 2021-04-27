@@ -118,15 +118,16 @@
 
 	.layout-2021 #sidebar2021New {width: 100%;}
 
-	.layout-2021 #page-body-wrapper #homeMainColumns #shopMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #coachingMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #journeyMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #merchandiseMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #brandsMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #amazonMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #pressMainBodyNew, .layout-2021 #page-body-wrapper #homeMainColumns #contactMainBodyNew {
-		width:100%;
-	}
 	.layout-2021 #page-body-wrapper #homeMainColumns #homeMainBodyNew,
 	.layout-2021 #page-body-wrapper #homeMainColumns #cookbookMainBodyNew,
 	.layout-2021 #page-body-wrapper #homeMainColumns #shopMainBodyNew,
 	.layout-2021 #page-body-wrapper #homeMainColumns #merchandiseMainBodyNew,
 	.layout-2021 #page-body-wrapper #homeMainColumns #brandsMainBodyNew,
-	.layout-2021 #page-body-wrapper #homeMainColumns #amazonMainBodyNew {width:70%;}
+	.layout-2021 #page-body-wrapper #homeMainColumns #amazonMainBodyNew,
+	.layout-2021 #page-body-wrapper #homeMainColumns #journeyMainBodyNew,
+	.layout-2021 #page-body-wrapper #homeMainColumns #coachingMainBodyNew,
+	.layout-2021 #page-body-wrapper #homeMainColumns #contactMainBodyNew,
+	.layout-2021 #page-body-wrapper #homeMainColumns #pressMainBodyNew {width:70%;}
 
 	/*blog*/
 	.layout-2021 #page-body-wrapper.one-sidebar .main-content {width: 65%; float: left; margin-right: 25px;}
