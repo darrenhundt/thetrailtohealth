@@ -8,7 +8,7 @@
 	div#block-yui_3_17_2_1_1611179926529_30606, #block-yui_3_17_2_1_1611179926529_36843 {padding-top:15px!important;padding-bottom:15px!important;}
 	#aboutMeFooter {padding-top:25px!important;}
 	.layout-2021 #page-body-wrapper .main-content h2 a {color: #222;}
-	.blog-content .new-layout-blogs-general-2021 article, .collection-layout-newblog-2021 article {width:100%;}
+	.recipe-content .new-layout-blogs-general-2021 article, .collection-layout-newblog-2021 article {width:100%;}
 }
 
 
@@ -144,8 +144,9 @@
 
 	/*blog*/
 	.layout-2021 #page-body-wrapper.one-sidebar .main-content, .layout-2021.collection-type-blog #sidebar2021New.blog-sidebar {width: 100%;}
-	.layout-2021 #canvas-wrapper.blog-content #block-yui_3_17_2_1_1618689508729_8049 .img{width:80%;}
-	.blog-content #product-component-a14dec964d2-2 {margin: 0 0 0 19%;}
+	.layout-2021 #canvas-wrapper.blog-content #block-yui_3_17_2_1_1618689508729_8049 .img,
+	.layout-2021 #canvas-wrapper.recipe-content #block-yui_3_17_2_1_1618689508729_8049 .img{width:80%;}
+	.blog-content #product-component-a14dec964d2-2, .recipe-content #product-component-a14dec964d2-2 {margin: 0 0 0 19%;}
 
 
 
