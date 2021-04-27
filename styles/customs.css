@@ -129,6 +129,7 @@
 
 	/*contact*/
 	.layout-2021 #page-body-wrapper #homeMainColumns .main-content, .layout-2021 .main-contact #sidebar2021New {width: 100%;}
+	.layout-2021 #page-body-wrapper.main-contact #homeMainColumns {margin: 25px auto 0;}
 
 
 	/*sidebar - home*/
