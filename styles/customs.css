@@ -1,7 +1,7 @@
 /* REMOVE ON SITE LAUNCH */ #page-body-wrapper h2 {display: none;} #page-body-wrapper .newsletter-form-wrapper h2 {display: block;}
 .layout-2021 #page-body-wrapper h2, #page-footer-wrapper h2 {display: block!important;}
 /* sitewide buttons */
-.sqs-block-button-element {border-radius: 0;}
+.sqs-block-button-element {border-radius: 0!important;}
 
 /* header navigation */
 .layout-2021 #main-navigation.header-nav ul li a{color: grey!important}
