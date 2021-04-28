@@ -336,8 +336,10 @@ header.summary-block-header {
   /* coaching */
   #testimonialsWrapper {padding:0;}
   #testimonialsWrapper #testimonialCarousel {padding: 0 15px;}
-  #testimonialsWrapper .flickity-page-dots {right: 3px; bottom: -26px;}
+  #testimonialsWrapper .flickity-page-dots {right: 3px; bottom: -55px;}
   .coaching-content div#aboutMeFooter {margin-top: 75px;}
+  #block-yui_3_17_2_1_1611182343378_12193 .summary-item-list,
+  #block-yui_3_17_2_1_1611182343378_12193 .summary-item {margin-bottom:5%!important;}
 
 	/*contact*/
 	.layout-2021 #page-body-wrapper #homeMainColumns .main-content  {width: 100%;}
