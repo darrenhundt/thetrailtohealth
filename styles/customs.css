@@ -164,7 +164,7 @@ header.summary-block-header {
 
 
 	/* homepage */
-	.layout-2021 #bannerCarousel .flickity-viewport, .layout-2021 #bannerCarousel .banner-slide {max-height:500px;}
+	.layout-2021 #bannerCarousel .flickity-viewport, .layout-2021 #bannerCarousel .banner-slide {height:500px;}
 
 }
 
