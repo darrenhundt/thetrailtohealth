@@ -4,7 +4,7 @@
 
 /* navigation */
 .layout-2021 #main-navigation.header-nav ul li a{color: grey!important}
-#main-navigation a:link, #main-navigation a:visited, .layout-2021 #main-navigation.header-nav ul li.active-link a{color: #000!important}
+#main-navigation a:link, #main-navigation a:visited, #main-navigation a:hover, .layout-2021 #main-navigation.header-nav ul li.active-link a{color: #000!important}
 
 .layout-2021 #page-body-wrapper #homeMainColumns {margin-top:0;margin-bottom:0;}
 
