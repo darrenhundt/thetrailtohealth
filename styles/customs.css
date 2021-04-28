@@ -342,8 +342,9 @@ header.summary-block-header {
 
   /* about me  */
   #page-about-me {margin-top:75px;}
+  #block-yui_3_17_2_1_1613332366841_39376 {padding: 0 17px;}
   /* featured on */
-  #block-b18a9190d1cf8a13b72a, #block-yui_3_17_2_1_1613332366841_57822, #block-yui_3_17_2_1_1613332366841_59976 {padding: 0 15px;}
+  #block-b18a9190d1cf8a13b72a, #block-yui_3_17_2_1_1613332366841_57822, #block-yui_3_17_2_1_1613332366841_59976 {padding: 0 17px;}
   /*newsletter*/
   .newsletter-block .newsletter-form-field-wrapper {width: 100%;}
 
