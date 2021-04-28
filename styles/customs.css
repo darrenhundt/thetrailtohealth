@@ -325,13 +325,13 @@ header.summary-block-header {
 
   /* full page */
   body.canvas-setting-full-width #page-body {margin-right: 0!important; margin-left: 0!important; padding-left: 15px; padding-right: 15px;}
+  .layout-2021 .banner-right {padding-bottom:20px!important;}
 
   /* coaching */
   #testimonialsWrapper {padding:0;}
   #testimonialsWrapper #testimonialCarousel {padding: 0 15px;}
 
 	/*contact*/
-  .layout-2021 .contact-content .banner-right {padding-bottom:20px!important;}
 	.layout-2021 #page-body-wrapper #homeMainColumns .main-content  {width: 100%;}
 	.layout-2021 #page-body-wrapper.main-contact #homeMainColumns {margin: 25px auto 0;}
 
