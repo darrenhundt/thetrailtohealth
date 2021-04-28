@@ -36,7 +36,7 @@ div#yui_3_17_2_1_1618522354393_101 {margin-top: 15px;}
 .sqs-block-summary-v2 .summary-item-record-type-text .summary-read-more-link {font-weight: bold;}
 #homeMainBodyNew a.summary-title-link {font-weight: bold;}
 div#block-yui_3_17_2_1_1619541361497_26888 {display:none;}
-#product-component-a14dec964d2-2 .shopify-buy__layout-vertical .shopify-buy__btn:first-child {margin-top: -20px;padding: 16px 22px;}
+
 
 /* coaching */
 div#block-yui_3_17_2_1_1611182343378_4540 .summary-item,
@@ -100,6 +100,7 @@ a#more-testimonials{font-size: 24px;color: #3a9ed7;font-weight: 400;margin-top: 
 	.layout-2021 #page-body-wrapper .main-content h2 a {color: #222;}
 	.recipe-content .new-layout-blogs-general-2021 article, .collection-layout-newblog-2021 article {width:100%;}
 	.layout-2021 #bannerCarousel .flickity-viewport, .layout-2021 #bannerCarousel .banner-slide {height:500px!important;}
+  div#product-component-a14dec964d2-2 .shopify-buy__layout-vertical .shopify-buy__btn {margin-top: -20px!important;padding: 16px 22px!important;}
 
 	#block-yui_3_17_2_1_1611179926529_4230 .sqs-gallery-design-carousel .sqs-gallery-container, #block-yui_3_17_2_1_1611179926529_31170 .sqs-gallery-design-carousel .sqs-gallery-container, #block-yui_3_17_2_1_1611179926529_37412 .sqs-gallery-design-carousel .sqs-gallery-container {border-bottom: 1px solid #e7e5e5; padding: 5px 0 0; margin-top: 25px;}
   #block-yui_3_17_2_1_1611179926529_37412 .sqs-gallery-design-carousel .sqs-gallery-container {border-bottom: 0;}
