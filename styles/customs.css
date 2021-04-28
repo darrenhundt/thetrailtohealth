@@ -42,7 +42,6 @@ header.summary-block-header {
 
 
 	div#block-yui_3_17_2_1_1619541361497_26888 {display:none;}
-  #block-yui_3_17_2_1_1611179926529_37412 {display:none!important;}
 
 
 @media screen and (min-width:1025px) {
@@ -95,7 +94,7 @@ header.summary-block-header {
 	.recipe-content .new-layout-blogs-general-2021 article, .collection-layout-newblog-2021 article {width:100%;}
 	.layout-2021 #bannerCarousel .flickity-viewport, .layout-2021 #bannerCarousel .banner-slide {height:500px!important;}
 
-	.sqs-gallery-design-carousel .sqs-gallery-container {border-bottom: 1px solid #e7e5e5; padding: 5px 0 0; margin-top: 25px;}
+	#block-yui_3_17_2_1_1611179926529_4230 .sqs-gallery-design-carousel .sqs-gallery-container, #block-yui_3_17_2_1_1611179926529_31170 .sqs-gallery-design-carousel .sqs-gallery-container, #block-yui_3_17_2_1_1611179926529_37412 .sqs-gallery-design-carousel .sqs-gallery-container {border-bottom: 1px solid #e7e5e5; padding: 5px 0 0; margin-top: 25px;}
 
   .margin-top-0{margin-top: 0px!important;}
 	.summary-carousel-pager.sqs-gallery-controls {margin-top: 25px;}
