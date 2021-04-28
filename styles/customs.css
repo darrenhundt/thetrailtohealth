@@ -92,7 +92,7 @@ header.summary-block-header {
 	#aboutMeFooter {padding-top:25px!important;}
 	.layout-2021 #page-body-wrapper .main-content h2 a {color: #222;}
 	.recipe-content .new-layout-blogs-general-2021 article, .collection-layout-newblog-2021 article {width:100%;}
-	.layout-2021 #bannerCarousel .flickity-viewport, .layout-2021 #bannerCarousel .banner-slide {height:500px!important;}
+	.layout-2021 #bannerCarousel .flickity-viewport, .layout-2021 #bannerCarousel .banner-slide {max-height:500px!important;}
 
 	.sqs-gallery-design-carousel .sqs-gallery-container {border-bottom: 1px solid #e7e5e5; padding: 5px 0 0; margin-top: 25px;}
 	.summary-carousel-pager.sqs-gallery-controls {margin-top: 25px;}
