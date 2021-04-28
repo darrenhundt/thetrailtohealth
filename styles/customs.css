@@ -42,7 +42,7 @@ header.summary-block-header {
 
 
 	div#block-yui_3_17_2_1_1619541361497_26888 {display:none;}
-  #block-yui_3_17_2_1_1611179926529_37412 .sqs-gallery-design-carousel div#yui_3_17_2_1_1619619819279_836.summary-item-list-container.sqs-gallery-container {font-size: 50px;color:red!important;}
+  .sqs-gallery-design-carousel .summary-item-list-container.sqs-gallery-container {font-size: 50px;color:red!important;}
 
 
 @media screen and (min-width:1025px) {
