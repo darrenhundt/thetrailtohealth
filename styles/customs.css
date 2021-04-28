@@ -331,8 +331,10 @@ header.summary-block-header {
   #testimonialsWrapper #testimonialCarousel {padding: 0 15px;}
 
 	/*contact*/
+  .layout-2021 .contact-content .banner-right {padding-bottom:20px!important;}
 	.layout-2021 #page-body-wrapper #homeMainColumns .main-content  {width: 100%;}
 	.layout-2021 #page-body-wrapper.main-contact #homeMainColumns {margin: 25px auto 0;}
+
 
 	/*blog*/
 	.layout-2021 #page-body-wrapper.one-sidebar .main-content, .layout-2021.collection-type-blog #sidebar2021New.blog-sidebar {width: 100%;}
