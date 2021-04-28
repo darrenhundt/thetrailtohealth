@@ -323,6 +323,9 @@ header.summary-block-header {
 	.layout-2021 #canvas-wrapper.contact-content #product-component-a14dec964d2-2,
  	.layout-2021 #canvas-wrapper.press-content #product-component-a14dec964d2-2 {margin: 0 0 0 19%;}
 
+  /* full page */
+  body.canvas-setting-full-width #page-body {margin-right: 0!important; margin-left: 0!important; padding-left: 15px; padding-right: 15px;}
+
   /* coaching */
   #testimonialsWrapper {padding:0;}
   #testimonialsWrapper #testimonialCarousel {padding: 0 15px;}
