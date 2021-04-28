@@ -54,6 +54,7 @@ header.summary-block-header {
 	.layout-2021 #main-navigation.header-nav {margin-right:100px!important;}
 
   .layout-2021 .home-content .img  {background-position: -25px 0;}
+   .home-content div#block-yui_3_17_2_1_1611179926529_21860 {width: 94%}
 
 	.layout-2021 .shop-content .img,
 	.layout-2021 .cookbook-content .img,
@@ -77,6 +78,8 @@ header.summary-block-header {
 	.layout-2021 .journey-content #page-body-wrapper #homeMainColumns #journeyMainBodyNew,
 	.layout-2021 .contact-content #page-body-wrapper #homeMainColumns #contactMainBodyNew,
 	.layout-2021 .press-content #page-body-wrapper #homeMainColumns #pressMainBodyNew {width:100%!important;}
+
+  .layout-2021 .home-content #page-body-wrapper #homeMainColumns #homeMainBodyNew {width: 75%!important}
 
 	/*sidebar*/
 	.layout-2021 .home-content #page-body-wrapper #homeMainColumns #sidebar2021New,
