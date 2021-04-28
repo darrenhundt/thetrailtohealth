@@ -1,6 +1,6 @@
 /* REMOVE ON SITE LAUNCH */
 #page-body-wrapper h2 {display: none;}
-.layout-2021 #page-body-wrapper h2, #page-footer-wrapper h2 {display: block}
+.layout-2021 #page-body-wrapper h2, #page-footer-wrapper h2 {display: block!important;}
 
 .layout-2021 #page-body-wrapper #homeMainColumns {margin-top:0;margin-bottom:0;}
 
