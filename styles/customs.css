@@ -51,7 +51,7 @@ header.summary-block-header {
 
   /* coaching */
   div#block-yui_3_17_2_1_1611182343378_4540 .summary-item,
-  div#block-yui_3_17_2_1_1611182343378_12193 .summary-item{margin-bottom:0!important;}
+  div#block-yui_3_17_2_1_1611182343378_12193 .summary-item{margin-bottom:5px!important;}
 
 
 @media screen and (min-width:1025px) {
