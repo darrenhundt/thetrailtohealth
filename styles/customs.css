@@ -95,8 +95,8 @@ header.summary-block-header {
 	.recipe-content .new-layout-blogs-general-2021 article, .collection-layout-newblog-2021 article {width:100%;}
 	.layout-2021 #bannerCarousel .flickity-viewport, .layout-2021 #bannerCarousel .banner-slide {height:500px!important;}
 
-	.sqs-gallery-design-carousel .sqs-gallery-container {border-bottom: 1px solid #e7e5e5; padding: 5px 0 0; margin-top: 25px;}
-  .sqs-gallery-design-carousel #yui_3_17_2_1_1619618168366_619.sqs-gallery-container {margin-top: 50px!important;}
+	/* .sqs-gallery-design-carousel .sqs-gallery-container {border-bottom: 1px solid #e7e5e5; padding: 5px 0 0; margin-top: 25px;} */
+  #yui_3_17_2_1_1619618168366_619.sqs-gallery-container {margin-top: 50px!important;}
 	.summary-carousel-pager.sqs-gallery-controls {margin-top: 25px;}
 	#yui_3_17_2_1_1619543594781_619 {margin-top: 50px;}
 
