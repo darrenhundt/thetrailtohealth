@@ -336,6 +336,7 @@ header.summary-block-header {
   /* coaching */
   #testimonialsWrapper {padding:0;}
   #testimonialsWrapper #testimonialCarousel {padding: 0 15px;}
+  #testimonialsWrapper .flickity-page-dots {right: -3px;}
 
 	/*contact*/
 	.layout-2021 #page-body-wrapper #homeMainColumns .main-content  {width: 100%;}
