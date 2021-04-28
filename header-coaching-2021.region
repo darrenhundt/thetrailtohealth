@@ -64,7 +64,7 @@
                             <div class="sqs-block-button-container--left" data-animation-role="button" data-alignment="left" data-button-size="small" id="yui_3_17_2_1_1611692500706_358">
                               <a href="https://thetrailtohealth.satoriapp.com/offers/163702-30-min-discovery-session" class="sqs-block-button-element--small sqs-block-button-element" data-initialized="true" target="_blank">SCHEDULE A DISCOVERY CALL</a>
                               <div>
-                              	<a href="#testimonialCarousel">Read My Testimonals</a>
+                              	<a href="#testimonialCarousel" id="more-testimonials">Read My Testimonals</a>
                               </div>
                             </div>
                           </div>
@@ -74,7 +74,7 @@
                       </div>
                     </div>
                   </div>
-                  
+
                 </div>
             </div>
 				    <div id="navigation-bottom">
