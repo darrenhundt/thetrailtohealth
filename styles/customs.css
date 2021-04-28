@@ -193,14 +193,13 @@ header.summary-block-header {
 	.blog-content #page-about-me {margin-top:15px;}
 	.blog-content #commenting {margin-bottom:15px;}
 
-
 	/*recipe*/
 	.recipe-content #commenting {margin-bottom:15px;}
 	.recipe-content #product-component-a14dec964d2-2 { margin: 0 0 0 29%;}
 
 	/*contact*/
 	.layout-2021 #page-body-wrapper #homeMainColumns  {width:98%;}
-	.layout-2021 .main-contact .main-content h2 {margin-right:20px;}
+	.layout-2021 .contact-content .main-content h2 {margin-right:20px;}
 	.layout-2021 #page-body-wrapper.main-contact #homeMainColumns {margin: 50px auto 0;}
 
 	/*shop*/
@@ -274,7 +273,7 @@ header.summary-block-header {
 	.layout-2021 .sqs-block-summary-v2 .summary-excerpt {max-height: 206px!important; overflow: hidden;}
 
 
-	.layout-2021 #page-body-wrapper #homeMainColumns {margin: 0 auto;}
+	.layout-2021 #page-body-wrapper #homeMainColumns {margin: 15px auto;}
 
 	.layout-2021 #page-body-wrapper #homeMainColumns #homeMainBodyNew,
 	.layout-2021 #page-body-wrapper #homeMainColumns #shopMainBodyNew,
