@@ -2,6 +2,9 @@
 #page-body-wrapper h2 {display: none;} #page-body-wrapper .newsletter-form-wrapper h2 {display: block;}
 .layout-2021 #page-body-wrapper h2, #page-footer-wrapper h2 {display: block!important;}
 
+/* navigation */
+#main-navigation a:link, #main-navigation a:visited {color: grey!important}
+
 .layout-2021 #page-body-wrapper #homeMainColumns {margin-top:0;margin-bottom:0;}
 
 .layout-2021 #page-body-wrapper #homeMainColumns #homeMainBodyNew .sqs-block-summary-v2 {
