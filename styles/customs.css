@@ -42,6 +42,8 @@ header.summary-block-header {
 
 	/* index blogs / recipes / travel  */
 	.sqs-block-summary-v2 .summary-block-setting-design-carousel .summary-collection-title { display: block; font-size: 32px; font-weight: 700; color: #222; margin-top:10px; }
+  .sqs-block-summary-v2 .summary-item-record-type-text .summary-read-more-link {font-weight: bold;}
+  #homeMainBodyNew a.summary-title-link {font-weight: bold;}
 
 
 	div#block-yui_3_17_2_1_1619541361497_26888 {display:none;}
