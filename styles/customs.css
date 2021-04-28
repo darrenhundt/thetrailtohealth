@@ -39,7 +39,7 @@ header.summary-block-header {
 
 	/* index blogs / recipes / travel  */
 	.sqs-block-summary-v2 .summary-block-setting-design-carousel .summary-collection-title { display: block; font-size: 32px; font-weight: 700; color: #222; margin-top:10px; }
-  #yui_3_17_2_1_1619618168366_619.sqs-gallery-container {margin-top: 50px!important;}
+
 
 	div#block-yui_3_17_2_1_1619541361497_26888 {display:none;}
 
@@ -96,6 +96,7 @@ header.summary-block-header {
 	.layout-2021 #bannerCarousel .flickity-viewport, .layout-2021 #bannerCarousel .banner-slide {height:500px!important;}
 
 	.sqs-gallery-design-carousel .sqs-gallery-container {border-bottom: 1px solid #e7e5e5; padding: 5px 0 0; margin-top: 25px;}
+  .sqs-gallery-design-carousel #yui_3_17_2_1_1619618168366_619.sqs-gallery-container {margin-top: 50px!important;}
 	.summary-carousel-pager.sqs-gallery-controls {margin-top: 25px;}
 	#yui_3_17_2_1_1619543594781_619 {margin-top: 50px;}
 
