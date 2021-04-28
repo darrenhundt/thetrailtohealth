@@ -53,7 +53,8 @@ header.summary-block-header {
 	.layout-2021 #navigation-top .horizontal-navigation-bar {padding: 0 25px;}
 	.layout-2021 #main-navigation.header-nav {margin-right:100px!important;}
 
-	.layout-2021 .home-content .img,
+  .layout-2021 .home-content .img  {background-position: -25px 0;}
+
 	.layout-2021 .shop-content .img,
 	.layout-2021 .cookbook-content .img,
 	.layout-2021 .merchandise-content .img,
