@@ -326,6 +326,9 @@ header.summary-block-header {
 	.layout-2021 #canvas-wrapper.contact-content #product-component-a14dec964d2-2,
  	.layout-2021 #canvas-wrapper.press-content #product-component-a14dec964d2-2 {margin: 0 0 0 19%;}
 
+  /* coaching */
+  #testimonialsWrapper {padding:0;}
+  #testimonialsWrapper #testimonialCarousel {padding: 0 15px;}
 
 	/*contact*/
 	.layout-2021 #page-body-wrapper #homeMainColumns .main-content  {width: 100%;}
