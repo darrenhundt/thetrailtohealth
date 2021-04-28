@@ -37,12 +37,12 @@ header.summary-block-header {
     margin: 50px 0;
   }
 
-
-
 	/* index blogs / recipes / travel  */
 	.sqs-block-summary-v2 .summary-block-setting-design-carousel .summary-collection-title { display: block; font-size: 32px; font-weight: 700; color: #222; margin-top:10px; }
 
 	div#block-yui_3_17_2_1_1619541361497_26888 {display:none;}
+
+
 
 @media screen and (min-width:1025px) {
 	.layout-2021 #navigation-top .horizontal-navigation-bar {padding: 0 25px;}
@@ -94,14 +94,12 @@ header.summary-block-header {
 	.recipe-content .new-layout-blogs-general-2021 article, .collection-layout-newblog-2021 article {width:100%;}
 	.layout-2021 #bannerCarousel .flickity-viewport, .layout-2021 #bannerCarousel .banner-slide {height:500px!important;}
 
-	.sqs-gallery-design-carousel .sqs-gallery-container {    border-bottom: 1px solid #e7e5e5;
-    padding: 5px 0 0;
-    margin-top: 25px;}
+	.sqs-gallery-design-carousel .sqs-gallery-container {border-bottom: 1px solid #e7e5e5; padding: 5px 0 0; margin-top: 25px;}
 	.summary-carousel-pager.sqs-gallery-controls {margin-top: 25px;}
-	#yui_3_17_2_1_1619543594781_619 {
-			margin-top: 50px;
-	}
+	#yui_3_17_2_1_1619543594781_619 {margin-top: 50px;}
 
+  /* shop */
+  .shop-content #homeMainColumns{margin:25px 0!important;}
 
 }
 
