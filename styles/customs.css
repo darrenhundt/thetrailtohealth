@@ -124,7 +124,7 @@ a#more-testimonials{font-size: 24px;color: #3a9ed7;font-weight: 400;margin-top: 
 
 	/* journey */
 	.layout-2021 #journeyMainBodyNew p {font-size: 16px; font-weight: 200;}
-	.layout-2021 #journeyMainBodyNew header.summary-block-header
+	.layout-2021 #journeyMainBodyNew header.summary-block-header {padding-top: 0;}
 
 }
 
