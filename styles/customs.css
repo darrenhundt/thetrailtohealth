@@ -10,7 +10,7 @@
 /* footer navigation */
 .layout-2021 #page-footer-wrapper.footer-wrapper-2021 #main-navigation li.external-link a, #page-footer-wrapper.footer-wrapper-2021 #main-navigation li.external-link a {color: #7d7d7d!important}
 .layout-2021 #page-footer-wrapper.footer-wrapper-2021 #main-navigation li.external-link a:hover {color: #000!important}
-.layout-2021 #page-footer-wrapper #page-footer p {color: #7d7d7d;font-family: 'Roboto'!important;font-weight: 400;font-size: 16px;line-height: 26px;}
+.layout-2021 #page-footer-wrapper #page-footer p {color: rgba(49, 49, 49, 0.5);font-family: 'Roboto'!important;font-weight: 200!important;font-size: 12px;line-height: 26px;}
 
 /* layout homeMainColumns */
 .layout-2021 #page-body-wrapper #homeMainColumns {margin-top:0;margin-bottom:0;}
