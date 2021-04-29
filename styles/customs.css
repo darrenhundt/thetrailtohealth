@@ -111,6 +111,13 @@ a#more-testimonials{font-size: 24px;color: #3a9ed7;font-weight: 400;margin-top: 
   .layout-2021 .margin-top-0{margin-top: 0px!important;}
 	.layout-2021 .summary-carousel-pager.sqs-gallery-controls {margin-top: 25px;}
 	#yui_3_17_2_1_1619543594781_619 {margin-top: 50px!important;}
+		/* recipe */
+	.layout-2021 .home-content div#block-yui_3_17_2_1_1611179926529_4230 {margin-top: -51px!important;}
+		/* blog */
+	.layout-2021 .home-content div#block-yui_3_17_2_1_1611179926529_31170 {margin-top: -26px!important;}
+		/* travel */
+	.layout-2021 .home-content div#block-yui_3_17_2_1_1611179926529_37412 {margin-top: -27px!important;}
+
 
   /* shop */
   .layout-2021 .shop-content #homeMainColumns{margin:25px 0!important;}
