@@ -20,7 +20,7 @@ div#block-yui_3_17_2_1_1611179926529_30606 {padding-top: 0;}
 div#page-body-wrapper {padding-top: 0!important; padding-bottom: 0!important;}
 .layout-2021 header.summary-block-header {padding-bottom: 15px;}
 .layout-2021 a.summary-read-more-link {margin-bottom: 0!important;}
-.layout-2021 a.summary-title-link {font-weight: 700;display: inline-block!important;}
+.layout-2021 a.summary-title-link {display: inline-block!important;}
 
 /* instagram button */
 div#block-yui_3_17_2_1_1611179926529_19931 a {font-weight: 700;font-size: 14px;padding: 15px 20px;font-family: 'Roboto';line-height: 19px;}
@@ -32,9 +32,8 @@ div#yui_3_17_2_1_1618522354393_101 {margin-top: 15px;}
 .layout-2021 .newsletter-form-wrapper {background: #f3f3f3!important;margin: 50px 0;}
 
 /* index blogs / recipes / travel  */
-.layout-2021 .sqs-block-summary-v2 .summary-block-setting-design-carousel .summary-collection-title { display: block; font-size: 32px; font-weight: 700; color: #222; margin-top:10px; }
+.layout-2021 .sqs-block-summary-v2 .summary-block-setting-design-carousel .summary-collection-title { display: block; font-size: 30px; font-weight: 700; color: #222; margin-top:10px; }
 .layout-2021 .sqs-block-summary-v2 .summary-item-record-type-text .summary-read-more-link {font-weight: bold;}
-.layout-2021 #homeMainBodyNew a.summary-title-link {font-weight: bold;}
 div#block-yui_3_17_2_1_1619541361497_26888 {display:none;}
 
 
