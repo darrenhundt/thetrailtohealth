@@ -139,7 +139,7 @@ a#more-testimonials{font-size: 24px;color: #3a9ed7;font-weight: 400;margin-top: 
 
 
 @media screen and (max-width:1024px) {
-	.layout-2021 #sidebar2021New {width: 30%;}
+	.layout-2021 #sidebar2021New {width: 30%;top: -25px;position: relative;}
 	.layout-2021 #page-body-wrapper .main-content h2 a {color: #222;}
 
 	.layout-2021 #page-body-wrapper #homeMainColumns .main-content,
@@ -334,7 +334,7 @@ a#more-testimonials{font-size: 24px;color: #3a9ed7;font-weight: 400;margin-top: 
 	.layout-2021 .journey-content #sidebar2021New,
 	.layout-2021 .coaching-content #sidebar2021New,
 	.layout-2021 .contact-content #sidebar2021New,
-	.layout-2021 .press-content #sidebar2021New {width: 100%;}
+	.layout-2021 .press-content #sidebar2021New {width: 100%;top: 0;}
 
 
 	.layout-2021 #canvas-wrapper.blog-content #block-yui_3_17_2_1_1618689508729_8049 .img,
