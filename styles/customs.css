@@ -58,7 +58,7 @@ a#more-testimonials{font-size: 24px;color: #3a9ed7;font-weight: 400;margin-top: 
     font-size: 12px!important;
 	}
 /* index */
-#bannerCarousel h1 {margin-bottom:0;}
+#bannerCarousel h1, #bannerCarousel p {margin-bottom:0;}
 
 
 @media screen and (min-width:1025px) {
