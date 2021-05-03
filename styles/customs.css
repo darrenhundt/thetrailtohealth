@@ -49,6 +49,9 @@ h1#testimonialsTitle {margin-bottom:45px}
 a#more-testimonials{font-size: 24px;color: #3a9ed7;font-weight: 400;margin-top: 20px;display: inline-block;}
 
 
+/* MENU */
+.layout-2021 #main-navigation.header-nav ul li a {color: #666!important;}
+.layout-2021 #main-navigation.header-nav ul li a {color: #999!important;}
 .layout-2021 #main-navigation.header-nav ul li a {font-size: 12px;}
 .horizontal-navigation-bar nav.main-nav .folder .subnav li a {
     padding: 3px 1em!important;
