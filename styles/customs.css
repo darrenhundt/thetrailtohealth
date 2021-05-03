@@ -10,7 +10,7 @@
 /* footer navigation */
 .layout-2021 #page-footer-wrapper.footer-wrapper-2021 #main-navigation li.external-link a, #page-footer-wrapper.footer-wrapper-2021 #main-navigation li.external-link a {color: #7d7d7d!important}
 .layout-2021 #page-footer-wrapper.footer-wrapper-2021 #main-navigation li.external-link a:hover {color: #000!important}
-.layout-2021 #page-footer-wrapper #page-footer p {color: rgba(49, 49, 49, 0.5);font-family: 'Roboto'!important;font-weight: 200!important;font-size: 12px;line-height: 26px;}
+.layout-2021 #page-footer-wrapper #page-footer p {color: rgba(49, 49, 49, 0.5);font-weight: 200!important;font-size: 12px;line-height: 26px;}
 
 /* layout homeMainColumns */
 .layout-2021 #page-body-wrapper #homeMainColumns {margin-top:0;margin-bottom:0;}
@@ -23,7 +23,7 @@ div#page-body-wrapper {padding-top: 0!important; padding-bottom: 0!important;}
 .layout-2021 a.summary-title-link {display: inline-block!important;}
 
 /* instagram button */
-div#block-yui_3_17_2_1_1611179926529_19931 a {font-weight: 700;font-size: 14px;padding: 15px 20px;font-family: 'Roboto';line-height: 19px;}
+div#block-yui_3_17_2_1_1611179926529_19931 a {font-weight: 700;font-size: 14px;padding: 15px 20px;line-height: 19px;}
 
 /* featured on */
 #block-yui_3_17_2_1_1613332366841_57822 {padding:0;}
@@ -49,7 +49,11 @@ h1#testimonialsTitle {margin-bottom:45px}
 a#more-testimonials{font-size: 24px;color: #3a9ed7;font-weight: 400;margin-top: 20px;display: inline-block;}
 
 
-
+.layout-2021 #main-navigation.header-nav ul li a {font-size: 12px;}
+.horizontal-navigation-bar nav.main-nav .folder .subnav li a {
+    padding: 3px 1em!important;
+    font-size: 12px!important;
+	}
 
 
 @media screen and (min-width:1025px) {
