@@ -148,7 +148,7 @@ a#more-testimonials{font-size: 24px;color: #3a9ed7;font-weight: 400;margin-top: 
 }
 
 
-.layout-2021 .home-content div#block-yui_3_17_2_1_1611179926529_4230 { margin-bottom:15px}
+.layout-2021 .home-content div#block-yui_3_17_2_1_1611179926529_4230 a { margin-bottom:15px}
 
 @media screen and (max-width:1024px) {
 	.layout-2021 #sidebar2021New {width: 30%;top: -25px;position: relative;}
