@@ -103,8 +103,8 @@ a#more-testimonials{font-size: 20px;color: #3a9ed7;font-weight: 400;margin-top: 
   .layout-2021 .journey-content #page-body-wrapper.featured-on-body-wrapper,
   .layout-2021 .coaching-content #page-body-wrapper.featured-on-body-wrapper,
   .layout-2021 .blog-content #page-body-wrapper.featured-on-body-wrapper,
-  .layout-2021 .recipes-content #page-body-wrapper.featured-on-body-wrapper, {padding-top: 0px!important;border-top: 1px solid #e8e8e8;margin-top:45px;}
-  .layout-2021 .travel-content #page-body-wrapper.featured-on-body-wrapper
+  .layout-2021 .recipes-content #page-body-wrapper.featured-on-body-wrapper,
+  .layout-2021 .travel-content #page-body-wrapper.featured-on-body-wrapper {padding-top: 0px!important;border-top: 1px solid #e8e8e8;margin-top:45px;}
 
 	/*sidebar*/
 	.layout-2021 .home-content #page-body-wrapper #homeMainColumns #sidebar2021New,
@@ -137,6 +137,8 @@ a#more-testimonials{font-size: 20px;color: #3a9ed7;font-weight: 400;margin-top: 
 
   .layout-2021 .margin-top-0{margin-top: 0px!important;}
 	#yui_3_17_2_1_1619543594781_619 {margin-top: 50px!important;}
+  /* coaching */
+	.layout-2021 .coaching-content p{font-size: 20px}
 		/* recipe */
 	.layout-2021 .home-content div#block-yui_3_17_2_1_1611179926529_4230 {margin-top: -51px!important;}
 		/* blog */
