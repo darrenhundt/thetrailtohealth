@@ -98,6 +98,9 @@ a#more-testimonials{font-size: 24px;color: #3a9ed7;font-weight: 400;margin-top: 
 
   .layout-2021 .home-content #page-body-wrapper #homeMainColumns #homeMainBodyNew {width: 75%!important}
 
+  /* featured on content */
+  #page-body-wrapper.featured-on-body-wrapper {padding-top: 0px!important;border-top: 1px solid #e8e8e8;}
+
 	/*sidebar*/
 	.layout-2021 .home-content #page-body-wrapper #homeMainColumns #sidebar2021New,
 	.layout-2021 .shop-content #page-body-wrapper #homeMainColumns #sidebar2021New,
@@ -149,7 +152,7 @@ a#more-testimonials{font-size: 24px;color: #3a9ed7;font-weight: 400;margin-top: 
 
 }
 
-
+/* home page recipes */
 .layout-2021 .home-content div#block-yui_3_17_2_1_1611179926529_4230 a { margin-bottom:15px}
 
 @media screen and (max-width:1024px) {
