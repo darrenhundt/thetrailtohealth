@@ -46,18 +46,36 @@
 				    </div><!-- navigation-top -->
 
             <div class="full-width journey">
-              <squarespace:query collection="new-journey-banner-slide" limit="1">
-                <div class="journey-carousel" id="bannerCarousel">
-                  {.repeated section items}
-                  <div class="banner-slide banner-slide-{@index}">
-                    <div class="banner-left" style="background-image: url('{assetUrl}?format=1000w')">
-
+              <div id="bannerCarousel">
+                  <div class="banner-slide banner-slide-1 is-selected">
+                    <div class="banner-left" style="background-image: url('/assets/newJourneyHeader2021.jpg')">
                     </div>
-                    <div class="banner-right banner-right-smaller">{body}</div>
+                    <div class="banner-right banner-right-smaller"><div class="sqs-layout sqs-grid-12 columns-12" data-layout-label="Post Body" data-type="item" data-updated-on="1611182056412" id="item-6008afd9f2f64a14a2955e1f">
+                      <div class="row sqs-row">
+                        <div class="col sqs-col-12 span-12">
+                          <div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-7fc3a53e97b048abf36b">
+                            <div class="sqs-block-content">
+                              <h1 style="white-space:pre-wrap;">It Was A Long Road To Get Here...</h1>
+                              <p class="" style="white-space:pre-wrap;">My Trail To Health started in 2012 after a tick bite<br>that led me down the path I am on today... </p>
+                            </div>
+                          </div>
+                          <div class="sqs-block button-block sqs-block-button" data-block-type="53" id="block-e5edc03a23f53e6f728a">
+                          <div class="sqs-block-content" id="yui_3_17_2_1_1611692500706_359">
+                            <div class="sqs-block-button-container--left" data-animation-role="button" data-alignment="left" data-button-size="small" id="yui_3_17_2_1_1611692500706_358">
+                              <a href="https://thetrailtohealth.com/blog/how-i-healed-from-lyme" class="sqs-block-button-element--small sqs-block-button-element" data-initialized="true" target="_blank">Learn How I healed From Lyme Disease</a>
+                              <div>
+                              	<a href="#testimonialCarousel" id="more-testimonials">Read My Testimonals</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        </div>
+                      </div>
+                      </div>
+                    </div>
                   </div>
-                  {.end}
+
                 </div>
-              </squarespace:query>
             </div>
 				    <div id="navigation-bottom">
 				    	<div class="horizontal-navigation-bar clear{.section website}{.if logoImageUrl} with-logo{.or} with-title{.end}{.end}">
