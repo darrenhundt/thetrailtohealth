@@ -99,7 +99,7 @@ a#more-testimonials{font-size: 24px;color: #3a9ed7;font-weight: 400;margin-top: 
   .layout-2021 .home-content #page-body-wrapper #homeMainColumns #homeMainBodyNew {width: 75%!important}
 
   /* featured on content */
-  #page-body-wrapper.featured-on-body-wrapper {padding-top: 0px!important;border-top: 1px solid #e8e8e8;}
+  .layout-2021 .journey-content #page-body-wrapper.featured-on-body-wrapper {padding-top: 0px!important;border-top: 1px solid #e8e8e8;}
 
 	/*sidebar*/
 	.layout-2021 .home-content #page-body-wrapper #homeMainColumns #sidebar2021New,
