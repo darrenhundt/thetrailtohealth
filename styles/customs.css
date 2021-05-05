@@ -10,6 +10,9 @@
 .layout-2021 #main-navigation.header-nav ul li a{color: grey!important}
 .layout-2021 #main-navigation a:link, .layout-2021 #main-navigation a:visited, .layout-2021 #main-navigation a:hover, .layout-2021 #main-navigation.header-nav ul li.active-link a{color: #000!important}
 
+/* page headers */
+.layout-2021 .blog-content .banner-left {background-position: initial;}
+
 /* footer navigation */
 .layout-2021 #page-footer-wrapper.footer-wrapper-2021 #main-navigation li.external-link a, #page-footer-wrapper.footer-wrapper-2021 #main-navigation li.external-link a {color: #7d7d7d!important}
 .layout-2021 #page-footer-wrapper.footer-wrapper-2021 #main-navigation li.external-link a:hover {color: #000!important}
