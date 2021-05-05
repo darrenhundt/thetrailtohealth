@@ -52,7 +52,7 @@ div#block-yui_3_17_2_1_1619541361497_26888 {display:none;}
 .layout-2021 #bannerCarousel .banner-slide p.affliate {font-size: 12px!important;line-height: 15px!important;margin-top: 150px!important;}
 
 /* cookbook */
-a#more-recipes{font-size: 20px;color: #3a9ed7;font-weight: 400;margin-top: 20px;display: inline-block;}
+a#more-recipes, a[href="gallery1"]{font-size: 20px;color: #3a9ed7;font-weight: 400;margin-top: 20px;display: inline-block;}
 
 /* coaching */
 div#block-yui_3_17_2_1_1611182343378_4540 .summary-item,
