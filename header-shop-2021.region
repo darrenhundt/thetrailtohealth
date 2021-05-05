@@ -127,10 +127,15 @@
 										      "button": {
 										        "background-color": "#fff",
 										        "color":"#333",
-										        "padding-left": "15px",
-										        "padding-right": "15px",
+                            "padding-top": "16px",
+										        "padding-bottom": "16px",
+                            "padding-right": "22px",
+                            "padding-left": "22px",
+                            "font-size": "16px",
+                            "font-weight": "700",
 										        "border":"1px solid #333",
-										        "font-weight":"bold",
+                            "line-height": "22px",
+                            "letter-spacing": ".135em",
 										        ":hover": {
 										          "background-color": "#333",
 										          "color":"#fff"
