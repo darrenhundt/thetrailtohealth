@@ -103,7 +103,8 @@ div#block-e5edc03a23f53e6f728a {padding-left:0;margin-top: 15px!important;}
 
 @media screen and (min-width:1025px) {
   /* arrows on travel page */
-  .layout-2021 .travel-content .flickity-button.flickity-prev-next-button {display: none!important;}
+  .layout-2021 .travel-content .flickity-button.flickity-prev-next-button,
+  .layout-2021 .press-content .flickity-button.flickity-prev-next-button  {display: none!important;}
 	.layout-2021 #navigation-top .horizontal-navigation-bar {padding: 0 25px;}
 	.layout-2021 #main-navigation.header-nav {margin-right:100px!important;}
   .layout-2021 #page-body-wrapper #homeMainColumns {margin-top:50px!important;}
