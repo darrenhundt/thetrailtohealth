@@ -67,10 +67,10 @@ a#more-testimonials{font-size: 20px;color: #3a9ed7;font-weight: 400;margin-top: 
 /* about me section */
 .about-me-wrapper {
   padding-top: 20px !important;
-    border-top: 1px solid #e8e8e8;
-    margin-top: 45px;
-
+  border-top: 1px solid #e8e8e8;
+  margin-top: 45px!important;
 }
+.home-content .about-me-wrapper {border-top: 0!important;}
 
 
 
