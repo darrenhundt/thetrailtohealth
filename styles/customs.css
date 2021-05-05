@@ -118,7 +118,13 @@ a#more-testimonials{font-size: 20px;color: #3a9ed7;font-weight: 400;margin-top: 
   .layout-2021 .coaching-content #page-body-wrapper.featured-on-body-wrapper,
   .layout-2021 .blog-content #page-body-wrapper.featured-on-body-wrapper,
   .layout-2021 .recipe-content #page-body-wrapper.featured-on-body-wrapper,
-  .layout-2021 .travel-content #page-body-wrapper.featured-on-body-wrapper {padding-top: 0px!important;border-top: 1px solid #e8e8e8;margin-top:45px;}
+  .layout-2021 .travel-content #page-body-wrapper.featured-on-body-wrapper,
+  .layout-2021 .shop-content #page-body-wrapper.featured-on-body-wrapper,
+  .layout-2021 .cookbook-content #page-body-wrapper.featured-on-body-wrapper,
+  .layout-2021 .merchandise-content #page-body-wrapper.featured-on-body-wrapper,
+  .layout-2021 .brands-content #page-body-wrapper.featured-on-body-wrapper,
+  .layout-2021 .amazon-content #page-body-wrapper.featured-on-body-wrapper,
+  .layout-2021 .press-content #page-body-wrapper.featured-on-body-wrapper {padding-top: 0px!important;border-top: 1px solid #e8e8e8;margin-top:45px;}
 
 	/*sidebar*/
 	.layout-2021 .home-content #page-body-wrapper #homeMainColumns #sidebar2021New,
