@@ -3,6 +3,7 @@
 /* sitewide buttons */
 .layout-2021 .sqs-block-button-element {border-radius: 0!important;}
 .layout-2021 .banner-right .sqs-layout .button-block {margin-top: 0!important;padding-top: 0!important;}
+.layout-2021 #shopMainBodyNew  .sqs-block-button .sqs-block-button-element--medium {font-weight: 700;font-size: 14px;padding: 15px 20px;line-height: 19px;}
 
 /* header navigation */
 .layout-2021 #main-navigation.header-nav ul li a{color: grey!important}
