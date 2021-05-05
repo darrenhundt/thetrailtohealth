@@ -139,6 +139,8 @@
                             "font-weight": "700",
 										        "border":"1px solid #333",
                             "font-family": "proxima-nova",
+                            "line-height": "22px",
+                            "letter-spacing": ".135em",
 										        ":hover": {
 										          "background-color": "#333",
 										          "color":"#fff"
