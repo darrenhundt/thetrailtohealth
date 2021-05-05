@@ -237,7 +237,9 @@
                 								})();
                 								/*]]>*/
                 								</script>
-                                <a href="/recipes/category/Cookbook">View Book Recipes</a>
+                                <div>
+                                  <a href="/recipes/category/Cookbook" id="more-Recipes">View Book Recipes</a>
+                                </div>
                               </div>
                             </div>
                           </div>
