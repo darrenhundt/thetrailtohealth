@@ -11,7 +11,7 @@
 .layout-2021 #main-navigation a:link, .layout-2021 #main-navigation a:visited, .layout-2021 #main-navigation a:hover, .layout-2021 #main-navigation.header-nav ul li.active-link a{color: #000!important}
 
 /* page headers */
-.layout-2021 .blog-content .banner-left {background-position: initial;}
+.layout-2021 .blog-content .banner-left, .layout-2021 .brands-content .banner-left {background-position: initial;}
 .layout-2021 .blog-content.travel-content .banner-left {background-position: center center;}
 
 /* footer navigation */
