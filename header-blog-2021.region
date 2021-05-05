@@ -49,7 +49,7 @@
 				    </div><!-- navigation-top -->
 
             <div class="full-width">
-              
+
                 <div id="bannerCarousel">
                   <div class="banner-slide banner-slide-1 is-selected non-banner-slide">
                     <div class="banner-left" style="background-image: url('/assets/newBlogHeader2021.jpg')">
@@ -131,8 +131,10 @@
 										      "button": {
 										        "background-color": "#fff",
 										        "color":"#333",
-										        "padding-left": "15px",
-										        "padding-right": "15px",
+										        "padding-top": "16px",
+										        "padding-bottom": "16px",
+                            "padding-right": "22px",
+                            "padding-left": "22px",
 										        "border":"1px solid #333",
 										        ":hover": {
 										          "background-color": "#333",
@@ -244,9 +246,9 @@
                       </div>
                     </div>
                   </div>
-                  
+
                 </div>
-              
+
             </div>
 				    <div id="navigation-bottom">
 				    	<div class="horizontal-navigation-bar clear{.section website}{.if logoImageUrl} with-logo{.or} with-title{.end}{.end}">
