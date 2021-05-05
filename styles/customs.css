@@ -150,7 +150,7 @@ a#more-testimonials{font-size: 20px;color: #3a9ed7;font-weight: 400;margin-top: 
 		/* recipe */
 	.layout-2021 .home-content div#block-yui_3_17_2_1_1611179926529_4230 {margin-top: -51px!important;}
   .layout-2021 .recipe-content .excerpt-content {display: none;}
-  .layout-2021 .recipe-content .collection-type-blog article+article {margin-top:10px;}
+  .recipe-content .collection-type-blog article+article {margin-top:10px!important;}
 		/* blog */
 	.layout-2021 .home-content div#block-yui_3_17_2_1_1611179926529_31170 {margin-top: -26px!important;}
 		/* travel */
