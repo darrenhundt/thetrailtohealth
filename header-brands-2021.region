@@ -56,7 +56,7 @@
 	                        <div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-7fc3a53e97b048abf36b">
 	                          <div class="sqs-block-content">
 	                            <h1 style="white-space:pre-wrap;">Shop My Favorite Brands!</h1>
-	                            <p>These are products and tools I use everyday in my personal life and love them enough to share with you and of course some discounts on them too!</p>
+	                            <p>These are products and tools I use everyday<br>in my personal life and love them enough to<br>share with you and of course some discounts<br>on them too!</p>
 	                            <p class="affliate">*I earn a small affilaite commission with your purchase with the links that keep me creating content for my blog. There is no extra charge to you. Read my <a href="/disclosure-policy/">full disclosure</a>.</p>
 	                          </div>
 	                        </div>
