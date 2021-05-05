@@ -65,6 +65,9 @@ a#more-testimonials{font-size: 20px;color: #3a9ed7;font-weight: 400;margin-top: 
 .layout-2021 #bannerCarousel .banner-right a[href*="yahoo"] {width: 25%;}
 
 
+.layout-2021 .blog-content .has-image.shopify-buy__layout-vertical.shopify-buy__product {display: none;}
+
+
 @media screen and (min-width:1025px) {
 	.layout-2021 #navigation-top .horizontal-navigation-bar {padding: 0 25px;}
 	.layout-2021 #main-navigation.header-nav {margin-right:100px!important;}
