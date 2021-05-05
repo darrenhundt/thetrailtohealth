@@ -63,8 +63,6 @@ body.layout-2021:not(.button-style-default).button-corner-style-square .sqs-edit
     transition: all 0.3s ease-in-out;
 }
 
-
-
 /* cookbook */
 a#more-recipes, #block-fe8f14ffe4509ba7c476 a{font-size: 20px;color: #3a9ed7;font-weight: 400;margin-top: 20px;display: inline-block;}
 #block-fe8f14ffe4509ba7c476 a{margin-top: 0;}
@@ -75,6 +73,8 @@ div#block-yui_3_17_2_1_1611182343378_12193 .summary-item{margin-bottom:5px!impor
 h1#testimonialsTitle {margin-bottom:45px}
 a#more-testimonials{font-size: 20px;color: #3a9ed7;font-weight: 400;margin-top: 20px;display: inline-block;}
 
+/* contact */
+#block-21cf0c2d7c5d588bf6c3 a {font-size: 14px;padding:15px 20px;font-weight: 700;letter-spacing: 0.2em;border-width: 2px;}
 
 /* MENU */
 .layout-2021 #main-navigation.header-nav ul li a {color: #666!important;}
