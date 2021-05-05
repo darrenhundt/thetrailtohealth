@@ -49,7 +49,7 @@
 				    </div><!-- navigation-top -->
 
             <div class="full-width">
-              
+
                 <div id="bannerCarousel">
                   <div class="banner-slide banner-slide-1 is-selected non-banner-slide">
                     <div class="banner-left" style="background-image: url('/assets/newRecipeHeader2021.png')">
@@ -59,7 +59,7 @@
                         <div class="col sqs-col-12 span-12">
                           <div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-7fc3a53e97b048abf36b">
                             <div class="sqs-block-content">
-                              <h1 style="white-space:pre-wrap;">Cookbook Author, Healthy Lifestyle & Food Blooger.</h1>
+                              <h1 style="white-space:pre-wrap;">Cookbook Author, Healthy<br>Lifestyle & Food Blooger.</h1>
                               <!-- <p class="" style="white-space:pre-wrap;">Lorem ipsum loremexplore ways to navigate living your full potential through healthy diet and lifestyle.</p> -->
                             </div>
                           </div>
@@ -244,9 +244,9 @@
                       </div>
                     </div>
                   </div>
-                  
+
                 </div>
-              
+
             </div>
 				    <div id="navigation-bottom">
 				    	<div class="horizontal-navigation-bar clear{.section website}{.if logoImageUrl} with-logo{.or} with-title{.end}{.end}">
