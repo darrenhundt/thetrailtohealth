@@ -173,7 +173,7 @@ div#block-e5edc03a23f53e6f728a {padding-left:0;margin-top: 15px!important;}
 	.layout-2021 .recipe-content .new-layout-blogs-general-2021 article, .collection-layout-newblog-2021 article {width:100%;}
 	.layout-2021 #bannerCarousel .flickity-viewport, .layout-2021 #bannerCarousel .banner-slide {height:420px!important;}
 
-  /* 300px headers blog, recipe, travel, shop, cookbook, merchandise, brands, amazon, */
+  /* 300px headers blog, recipe, travel, shop, cookbook, merchandise, brands, amazon, press*/
   .layout-2021 .blog-content #bannerCarousel .banner-slide,
   .layout-2021 .recipe-content #bannerCarousel .banner-slide,
   .layout-2021 .travel-content #bannerCarousel .banner-slide,
@@ -181,7 +181,7 @@ div#block-e5edc03a23f53e6f728a {padding-left:0;margin-top: 15px!important;}
   .layout-2021 .cookbook-content #bannerCarousel .banner-slide,
   .layout-2021 .merchandise-content #bannerCarousel .banner-slide,
   .layout-2021 .brands-content #bannerCarousel .banner-slide,
-  .layout-2021 .amazon-content #bannerCarousel .banner-slide
+  .layout-2021 .amazon-content #bannerCarousel .banner-slide,
   .layout-2021 .press-content #bannerCarousel .banner-slide{height:300px!important;}
 
     /* carousel item 2 */
