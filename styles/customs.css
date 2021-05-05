@@ -64,6 +64,13 @@ a#more-testimonials{font-size: 20px;color: #3a9ed7;font-weight: 400;margin-top: 
 .layout-2021 #bannerCarousel .banner-slide p {margin:0!important;}
 .layout-2021 .home-content #bannerCarousel .banner-right a[href*="yahoo"] {width: 25%;}
 
+/* about me section */
+.about-me-wrapper {
+  padding-top: 20px !important;
+    border-top: 1px solid #e8e8e8;
+    margin-top: 45px;
+}
+}
 
 
 
