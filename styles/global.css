@@ -1086,7 +1086,7 @@ article {
 }
 
 
-article + article { margin-top: @articleSpacing; }
+article + article { margin-top: 10px; }
 
 .passthrough {
   padding-left: 0.5em;
