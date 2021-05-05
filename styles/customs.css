@@ -41,6 +41,8 @@ div#block-yui_3_17_2_1_1619541361497_26888 {display:none;}
 .layout-2021 #block-yui_3_17_2_1_1611179926529_37412 .summary-carousel-pager.sqs-gallery-controls,
 .layout-2021 #block-yui_3_17_2_1_1611179926529_31170 .summary-carousel-pager.sqs-gallery-controls {margin-top: 25px;}
 .layout-2021 .blog-content #page-header-wrapper {border-bottom: 0;}
+/* arrows */
+.flickity-prev-next-button { width: 60px;height: 60px;background: #fff;}
 
 /* amazon */
 .layout-2021 #bannerCarousel .banner-slide p.affliate {font-size: 12px!important;line-height: 15px!important;margin-top: 150px;}
