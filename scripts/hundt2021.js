@@ -1,13 +1,21 @@
 // JavaScript Document
 
 $(document).ready(function(){
-  console.log('hfh2021');
+  $('body').click(function(e) {
+
+    var target = $(e.target);
+    
+    console.log(target);
+
+    if($(target).is(':contains("Coaching")')){
+      console.log("Coaching")
+    }
+  }
+
   const queryString = window.location.search;
   const windowURL = window.location.href;
   const urlParams = new URLSearchParams(queryString);
   const blogCategory = urlParams.get('category');
-  console.log({blogCategory});
-  console.log({windowURL});
   var urlCategory;
   if ( windowURL.includes("blog") ) {
     console.log('blog category page');
