@@ -1,10 +1,10 @@
 <div id="testimonialsWrapper">
   <h1 id="testimonialsTitle">Here's what my clients have to say...</h1>
-  
+
                 <squarespace:query collection="2021-testimonials" limit="10">
-                  
-                <div id="testimonialCarousel">
-                  
+
+                <div id="testimonialCarousel"  data-flickity='{ "autoPlay": false }'>
+
                   {.repeated section items}
                     <div class="testimonial-slide testimonial-slide-{@index}">
                       <img class="testimonial-quote testimonial-quote-open" src="/assets/openQuote.png" />
@@ -13,9 +13,9 @@
                       <img class="testimonial-quote testimonial-quote-close" src="/assets/closeQuote.png" />
                     </div>
                   {.end}
-                  
+
                 </div>
-                  
+
               </squarespace:query>
 </div>
 
