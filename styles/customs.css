@@ -464,7 +464,7 @@ a#more-testimonials{font-size: 20px;color: #3a9ed7;font-weight: 400;margin-top: 
   #block-yui_3_17_2_1_1611182343378_4540 .summary-item,{margin-bottom:3%!important;}
 
   #testimonialCarousel .flickity-prev-next-button.next, #testimonialCarousel .flickity-prev-next-button.previous {display: block!important;}
-  #testimonialCarousel .flickity-prev-next-button {background:transparent!important; color:#fff!important;}
+  #testimonialCarousel .flickity-prev-next-button, #testimonialCarousel .flickity-button:hover {background:transparent!important; color:#fff!important;}
 
 	/*contact*/
 	.layout-2021 #page-body-wrapper #homeMainColumns .main-content  {width: 100%;}
