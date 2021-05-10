@@ -1,4 +1,4 @@
-<div id="testimonialsWrapper" data-flickity='{ "autoPlay": false, "pauseAutoPlayOnHover": true }'>
+<div id="testimonialsWrapper" data-flickity='{ "autoPlay": false }'>
   <h1 id="testimonialsTitle">Here's what my clients have to say...</h1>
 
                 <squarespace:query collection="2021-testimonials" limit="10">
