@@ -1,9 +1,9 @@
-<div id="testimonialsWrapper">
+<div id="testimonialsWrapper" data-flickity='{ "autoPlay": false, "pauseAutoPlayOnHover": true }'>
   <h1 id="testimonialsTitle">Here's what my clients have to say...</h1>
 
                 <squarespace:query collection="2021-testimonials" limit="10">
 
-                <div id="testimonialCarousel"  data-flickity='{ "autoPlay": false }'>
+                <div id="testimonialCarousel">
 
                   {.repeated section items}
                     <div class="testimonial-slide testimonial-slide-{@index}">
