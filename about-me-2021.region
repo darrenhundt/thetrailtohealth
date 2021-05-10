@@ -6,17 +6,17 @@
       <div id="content">
         <div id="page-about-me" class="extra-wrapper">
           <!-- <squarespace:block-field id="aboutMeFooter" description="About Me Prefooter" columns="12" label="About Me Prefooter" /> -->
-          <div class="container">
-            <div class="row">
-              <div class="col-12">
+          <div class="sqs-layout sqs-grid-12 columns-12">
+            <div class="sqs-row">
+              <div class="sqs-col sqs-col-12">
                 <h1>About Me</h1>
               </div>
             </div>
-            <div class="row">
-              <div class="col-sm-2">
+            <div class="sqs-row">
+              <div class="sqs-col sqs-col-2">
                 <img src="https://images.squarespace-cdn.com/content/v1/5692edc9df40f361d6f8b0a4/1619807867103-T0MCWVRJL7E4XV2K2WWI/ke17ZwdGBToddI8pDm48kA_SSaoz4elkj-HsZd8gX3Z7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UWPwZyNcweDIvdeL5kotwkIXjs9g0WibSO_cU-Ijy4Pwg6poS-6WGGnXqDacZer4yQ/newJourneyHeader2021.jpeg" alt="" class="img-fluid">
               </div>
-              <div class="col-sm-10">
+              <div class="sqs-col sqs-col-10">
                 <h3>My name is Erika and I am a Certified Health Coach</h3>
                 <p>I am here to be your trail guide on the unpaved trail to healing. I have healed myself and am in remission from Lyme Disease, Multiple Autoimmune Diseases and a myriad of other conditions from food allergies, toxic mold, detoxing from heavy metals, leaky gut, etc. I’ve worked with some of the best doctors in the San Francisco bay area and Los Angeles and received my health coaching certification from the Institute of Integrative Nutrition. There are a lot of options on your path towards healing and I am here to share in my knowledge to help you recover and gain your life back. Learn More</p>
               </div>
