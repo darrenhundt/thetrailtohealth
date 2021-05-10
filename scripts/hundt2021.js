@@ -11,7 +11,7 @@ $(document).ready(function(){
   var urlCategory;
   if ( windowURL.includes("blog") ) {
     console.log('blog category page');
-    
+
     if ( windowURL.includes('category/Gluten') ) {
       $( ".custom-nav-link[data-category='Gluten']" ).addClass('active-nav-link');
     } else if ( windowURL.includes('category/Food%20&%20Diet') ) {
@@ -36,7 +36,7 @@ $(document).ready(function(){
       $( ".custom-nav-link[data-category='All']" ).addClass('active-nav-link');
     }
   }
-  
+
   $('#bannerCarousel.actual-carousel').flickity({
     // options
     cellAlign: 'left',
@@ -45,12 +45,12 @@ $(document).ready(function(){
     adaptiveHeight: false,
     wrapAround: true
   });
-  
+
   $('#testimonialCarousel').flickity({
     pageDots: true,
     prevNextButtons: true,
     wrapAround: true,
-    autoPlay: 4000,
+    autoPlay: false,
     pauseAutoPlayOnHover: true
   });
   $('.custom-nav-list').flickity({
@@ -68,13 +68,13 @@ $(document).ready(function(){
   });
   */
   $("#blogNav").addClass("carousel-loaded");
-  
+
   $('#page-footer .mobile-only').on('click',function(){
-    
+
     var myParent = $(this).closest('li');
     var mySubnav = myParent.find('.subnav');
     var clickedElement = $(this);
-    
+
     if ($(this).hasClass('open-footer-nav')) {
       $(this).removeClass('open-footer-nav');
       mySubnav.slideUp();
