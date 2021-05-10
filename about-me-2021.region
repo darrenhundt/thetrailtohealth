@@ -5,8 +5,8 @@
     <div id="content-wrapper">
       <div id="content">
         <div id="page-about-me" class="extra-wrapper">
-          <!-- <squarespace:block-field id="aboutMeFooter" description="About Me Prefooter" columns="12" label="About Me Prefooter" /> -->
-          <div class="sqs-layout sqs-grid-12 columns-12">
+          <squarespace:block-field id="aboutMeFooter" description="About Me Prefooter" columns="12" label="About Me Prefooter" />
+          <!-- <div class="sqs-layout sqs-grid-12 columns-12">
             <div class="sqs-row">
               <div class="sqs-col sqs-col-12">
                 <h1>About Me</h1>
@@ -21,7 +21,7 @@
                 <p>I am here to be your trail guide on the unpaved trail to healing. I have healed myself and am in remission from Lyme Disease, Multiple Autoimmune Diseases and a myriad of other conditions from food allergies, toxic mold, detoxing from heavy metals, leaky gut, etc. I’ve worked with some of the best doctors in the San Francisco bay area and Los Angeles and received my health coaching certification from the Institute of Integrative Nutrition. There are a lot of options on your path towards healing and I am here to share in my knowledge to help you recover and gain your life back. Learn More</p>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </div> <!-- content-wrapper -->
