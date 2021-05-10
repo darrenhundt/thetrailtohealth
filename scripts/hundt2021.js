@@ -63,7 +63,7 @@ $(document).ready(function(){
     cellAlign: 'center',
     pauseAutoPlayOnHover: true
   });
-  $('body').click(function(e) {
+  $('a').click(function(e) {
 
     var target = $(e.target);
 
