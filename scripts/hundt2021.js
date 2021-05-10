@@ -63,6 +63,17 @@ $(document).ready(function(){
     cellAlign: 'center',
     pauseAutoPlayOnHover: true
   });
+  $('body').click(function(e) {
+
+    var target = $(e.target);
+
+    console.log(target);
+
+    if($(target).is(':contains("Coaching")')){
+      console.log("Coaching")
+    }
+  });​
+
   /*
   $('.custom-nav-list').slick({
   });
