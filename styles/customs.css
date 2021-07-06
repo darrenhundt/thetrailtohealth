@@ -394,6 +394,7 @@ header.newsletter-form-header {text-align: center!important;}
 }
 
 @media screen and (max-width:640px){
+  .shopify-buy__btn {width:100%;}
   /* instagram button */
   div#block-yui_3_17_2_1_1611179926529_19931 a {padding: 15px 55px;}
 
@@ -475,7 +476,7 @@ header.newsletter-form-header {text-align: center!important;}
 	.layout-2021 #canvas-wrapper.journey-content #product-component-a14dec964d2-2,
 	.layout-2021 #canvas-wrapper.coaching-content #product-component-a14dec964d2-2,
 	.layout-2021 #canvas-wrapper.contact-content #product-component-a14dec964d2-2,
- 	.layout-2021 #canvas-wrapper.press-content #product-component-a14dec964d2-2 {margin: 0 0 0 19%;}
+ 	.layout-2021 #canvas-wrapper.press-content #product-component-a14dec964d2-2 {margin: 0 0 0 0;}
 
   /* full page */
   body.canvas-setting-full-width #page-body {margin-right: 0!important; margin-left: 0!important; padding-left: 15px; padding-right: 15px;}
@@ -483,7 +484,6 @@ header.newsletter-form-header {text-align: center!important;}
 
   /* home page */
   .layout-2021 .summary-carousel-pager.sqs-gallery-controls {margin-top:22px!important;}
-  div#product-component-a14dec964d2-2 {position: relative;left: 48px;top: -25px;}
 
   /* coaching */
   #testimonialsWrapper {padding:0;}
