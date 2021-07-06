@@ -113,6 +113,9 @@ header.newsletter-form-header {text-align: center!important;}
 .layout-2021 ul#recipe-list-2.custom-nav-list {padding-top:0;}
 
 
+strong{color:red!important}
+
+
 @media screen and (min-width:1025px) {
   /* arrows on travel page */
   .layout-2021 .travel-content .flickity-button.flickity-prev-next-button,
