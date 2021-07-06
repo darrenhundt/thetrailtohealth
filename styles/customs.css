@@ -394,7 +394,7 @@ header.newsletter-form-header {text-align: center!important;}
 }
 
 @media screen and (max-width:640px){
-  .shopify-buy__btn {width:100%;}
+  .shopify-buy__btn {width:100%!important;}
   /* instagram button */
   div#block-yui_3_17_2_1_1611179926529_19931 a {padding: 15px 55px;}
 
