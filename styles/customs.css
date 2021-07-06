@@ -247,8 +247,7 @@ header.newsletter-form-header {text-align: center!important;}
 	.layout-2021 #page-body-wrapper #homeMainColumns #brandsMainBodyNew,
 	.layout-2021 #page-body-wrapper #homeMainColumns #amazonMainBodyNew,
 	.layout-2021 #page-body-wrapper #homeMainColumns #pressMainBodyNew,
-	.layout-2021 #page-body-wrapper #homeMainColumns #contactMainBodyNew,
-	  {
+	.layout-2021 #page-body-wrapper #homeMainColumns #contactMainBodyNew {
 		width:70%;
 	}
 
@@ -362,9 +361,6 @@ header.newsletter-form-header {text-align: center!important;}
 	.layout-2021 #bannerCarousel button.flickity-button.flickity-prev-next-button {bottom: 40%;}
   .layout-2021 div#block-7fc3a53e97b048abf36b {padding-bottom: 0!important;}
   .layout-2021 .cookbook-content .shopify-buy__btn-wrapper {margin-top:0;}
-  strong {
-      color: red;
-  }
 
 	/*yahoo image home header slide 4*/
 	#bannerCarousel div#block-yui_3_17_2_1_1615230707963_180731.sqs-block.image-block.sqs-block-image.sqs-text-ready  {display: none!important;}
@@ -477,7 +473,7 @@ header.newsletter-form-header {text-align: center!important;}
   #block-yui_3_17_2_1_1611182343378_12193 .summary-item-list,
   #block-yui_3_17_2_1_1611182343378_4540 .summary-item-list,
   #block-yui_3_17_2_1_1611182343378_12193 .summary-item,
-  #block-yui_3_17_2_1_1611182343378_4540 .summary-item,{margin-bottom:3%!important;}
+  #block-yui_3_17_2_1_1611182343378_4540 .summary-item{margin-bottom:3%!important;}
 
   #testimonialCarousel .flickity-prev-next-button.next, #testimonialCarousel .flickity-prev-next-button.previous {display: block!important;}
   #testimonialCarousel .flickity-prev-next-button, #testimonialCarousel .flickity-button:hover {background:transparent!important; color:#fff!important;}
