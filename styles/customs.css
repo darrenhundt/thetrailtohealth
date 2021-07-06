@@ -55,7 +55,7 @@ div#block-yui_3_17_2_1_1619541361497_26888 {display:none;}
 .flickity-prev-next-button { width: 60px;height: 60px;background: #fff;}
 
 /* brands */
-.layout-2021 .brands-content .sqs-block-summary-v2 .summary-read-more-link {margin: 0 0 10px 0;font-size: 14px;line-height: 20px;text-align: center;border: 2px solid #000;padding: 15px 20px;font-weight: 700!important;text-transform: uppercase;transition: all 0.3s ease-in-out;letter-spacing: 0.2em;width: 75%;margin: 0 auto;}
+.layout-2021 .brands-content .sqs-block-summary-v2 .summary-read-more-link {margin: 0 0 10px 0;font-size: 14px;line-height: 20px;text-align: center;border: 1px solid #000;padding: 15px 20px;font-weight: normal!important;text-transform: uppercase;transition: all 0.3s ease-in-out;letter-spacing: 0.2em;width: 65%;}
 .layout-2021 .brands-content .sqs-block-summary-v2 .summary-read-more-link:hover {background-color: #000;color:#fff;}
 
 /* amazon */
