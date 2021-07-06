@@ -113,7 +113,13 @@ header.newsletter-form-header {text-align: center!important;}
 .layout-2021 ul#recipe-list-2.custom-nav-list {padding-top:0;}
 
 
-strong{color:red!important}
+#block-fe8f14ffe4509ba7c476{color: #222;font-family: proxima-nova;
+    font-size: 21px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: .03em;
+    text-transform: none;
+    line-height: 130%;}
 
 
 @media screen and (min-width:1025px) {
