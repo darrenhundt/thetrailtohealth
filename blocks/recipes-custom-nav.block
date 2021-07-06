@@ -1,12 +1,12 @@
 <div class="recipes-nav" id="blogNav">
-  <ul class="custom-nav-list">
+  <ul class="custom-nav-list" id="recipe-list-1">
     <li class="custom-nav-item"><a class="custom-nav-link active-nav-link" href="https://thetrailtohealth.com/recipes">All Recipes</a></li>
     <li class="custom-nav-item"><a class="custom-nav-link" href="https://thetrailtohealth.com/recipes?category=Cookbook">Book Recipes</a></li>
     <li class="custom-nav-item"><a class="custom-nav-link" href="https://thetrailtohealth.com/recipes?category=Blog%20Recipes">Blog Recipes</a></li>
     <li class="custom-nav-item"><a class="custom-nav-link" href="https://thetrailtohealth.com/recipes?category=Round%20Up">Recipe Round Ups</a></li>
     <li class="custom-nav-item"><a class="custom-nav-link" href="https://thetrailtohealth.com/recipes?category=Quarantine%20Recipes">Quarantine Recipes</a></li>
   </ul>
-  <ul class="custom-nav-list">
+  <ul class="custom-nav-list" id="recipe-list-2">
     <li class="custom-nav-item"><a class="custom-nav-link" href="https://thetrailtohealth.com/recipes?category=Appetizers">Appetizers</a></li>
     <li class="custom-nav-item"><a class="custom-nav-link" href="https://thetrailtohealth.com/recipes?category=Desserts%2CBaked">Bakery & Dessert</a></li>
     <li class="custom-nav-item"><a class="custom-nav-link" href="https://thetrailtohealth.com/recipes?category=Beverages">Beverages</a></li>
