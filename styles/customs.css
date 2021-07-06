@@ -124,6 +124,8 @@ header.newsletter-form-header {text-align: center!important;}
     letter-spacing: .02em;
     line-height: 1.6em;}
 
+.contact-conent #page-body-wrapper.about-me-wrapper {border-top:none;}
+
 
 @media screen and (min-width:1025px) {
   /* arrows on travel page */
