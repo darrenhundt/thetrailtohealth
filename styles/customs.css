@@ -120,6 +120,9 @@ header.newsletter-form-header {text-align: center!important;}
     letter-spacing: .03em;
     text-transform: none;
     line-height: 130%;}
+#block-fe8f14ffe4509ba7c476  p{    font-style: normal;
+    letter-spacing: .02em;
+    line-height: 1.6em;}
 
 
 @media screen and (min-width:1025px) {
