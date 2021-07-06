@@ -108,7 +108,7 @@ a#more-testimonials:hover{color:#000;}
 .home-content #page-body-wrapper.about-me-wrapper {border-top: 0!important;margin-top:0!important;padding-top: 0 !important;}
 
 .flickity-enabled.is-draggable .flickity-viewport {width: 95%; margin: 0 auto;}
-
+header.newsletter-form-header {text-align: center;}
 @media screen and (min-width:1025px) {
   /* arrows on travel page */
   .layout-2021 .travel-content .flickity-button.flickity-prev-next-button,
