@@ -1,5 +1,5 @@
 <div id="testimonialsWrapper">
-  <h1 id="testimonialsTitle">Here's what my clients have to say...</h1>
+  <h1 id="testimonialsTitle">Here's What My Clients Have To Say...</h1>
 
                 <squarespace:query collection="2021-testimonials" limit="10">
 
