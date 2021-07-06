@@ -77,8 +77,8 @@ a#more-recipes, #block-fe8f14ffe4509ba7c476 a{font-size: 20px;color: #3a9ed7;fon
 div#block-yui_3_17_2_1_1611182343378_4540 .summary-item,
 div#block-yui_3_17_2_1_1611182343378_12193 .summary-item{margin-bottom:5px!important;}
 h1#testimonialsTitle {margin-bottom:45px}
-a#more-testimonials{font-size: 20px;color: #3a9ed7;font-weight: 400;margin-top: 20px;display: inline-block;}
-
+a#more-testimonials{font-size: 20px;color: #00b3db;font-weight: 400;margin-top: 20px;display: inline-block;    transition: all .3s ease-in-out;}
+a#more-testimonials:hover{color:#000;}
 /* press */
 .press-content div#block-e5edc03a23f53e6f728a {padding-left:0;margin-top: 15px!important;}
 .layout-2021 .banner-right .sqs-layout .html-block a {color: #000;}
