@@ -357,11 +357,12 @@ header.newsletter-form-header {text-align: center!important;}
 	.layout-2021 .flickity-slider .banner-slide .banner-left {height: 50vw;}
 	.layout-2021 #bannerCarousel .flickity-viewport, .layout-2021 #bannerCarousel .banner-slide {max-height:420px;}
 	.layout-2021 .banner-right {padding-top:15px!important;}
-	.layout-2021 #bannerCarousel .banner-slide h1 {font-size: 30px!important; margin-bottom: 5px;}
+	.layout-2021 #bannerCarousel .banner-slide h1 {font-size: 30px!important; margin-bottom: 5px; margin-top:10px;}
 	.layout-2021 #bannerCarousel .banner-slide p {font-size: 20px!important;}
 	.layout-2021 #bannerCarousel button.flickity-button.flickity-prev-next-button {bottom: 40%;}
   .layout-2021 div#block-7fc3a53e97b048abf36b {padding-bottom: 0!important;}
   .layout-2021 .cookbook-content .shopify-buy__btn-wrapper {margin-top:0;}
+  #block-fe8f14ffe4509ba7c476 p {color: red;}
 
 
 	/*yahoo image home header slide 4*/
