@@ -362,7 +362,9 @@ header.newsletter-form-header {text-align: center!important;}
 	.layout-2021 #bannerCarousel button.flickity-button.flickity-prev-next-button {bottom: 40%;}
   .layout-2021 div#block-7fc3a53e97b048abf36b {padding-bottom: 0!important;}
   .layout-2021 .cookbook-content .shopify-buy__btn-wrapper {margin-top:0;}
-
+  strong {
+      color: red;
+  }
 
 	/*yahoo image home header slide 4*/
 	#bannerCarousel div#block-yui_3_17_2_1_1615230707963_180731.sqs-block.image-block.sqs-block-image.sqs-text-ready  {display: none!important;}
