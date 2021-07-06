@@ -476,7 +476,7 @@ header.newsletter-form-header {text-align: center!important;}
 	.layout-2021 #canvas-wrapper.journey-content #product-component-a14dec964d2-2,
 	.layout-2021 #canvas-wrapper.coaching-content #product-component-a14dec964d2-2,
 	.layout-2021 #canvas-wrapper.contact-content #product-component-a14dec964d2-2,
- 	.layout-2021 #canvas-wrapper.press-content #product-component-a14dec964d2-2 {margin: 0 0 0 0;}
+ 	.layout-2021 #canvas-wrapper.press-content #product-component-a14dec964d2-2 {margin: 0 0 0 30px;}
 
   /* full page */
   body.canvas-setting-full-width #page-body {margin-right: 0!important; margin-left: 0!important; padding-left: 15px; padding-right: 15px;}
