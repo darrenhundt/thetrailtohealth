@@ -98,7 +98,7 @@ a#more-testimonials:hover{color:#000;}
 .layout-2021 .home-content #bannerCarousel .banner-right a[href*="yahoo"] {width: 25%;}
 
 /* about me section */
-#page-body-wrapper.about-me-wrapper {padding-top: 13px !important;border-top: 1px solid #e8e8e8; margin-top: 45px!important;}
+#page-body-wrapper.about-me-wrapper {padding-top: 13px !important;border-top: 1px solid #e8e8e8; margin-top: 0!important;}
 .home-content #page-body-wrapper.about-me-wrapper {border-top: 0!important;margin-top:0!important;padding-top: 0 !important;}
 
 
@@ -198,7 +198,7 @@ a#more-testimonials:hover{color:#000;}
   .layout-2021 .margin-top-0{margin-top: 0px!important;}
 	#yui_3_17_2_1_1619543594781_619 {margin-top: 50px!important;}
   /* coaching */
-	.layout-2021 .coaching-content p{font-size: 20px}
+	.layout-2021 .coaching-content p{font-size: 15px; font-weight: 300; line-height: 1.6em; letter-spacing: .2px; color: rgb(84,84,84);}
 		/* recipe */
 	.layout-2021 .home-content div#block-yui_3_17_2_1_1611179926529_4230 {margin-top: -51px!important;}
   .layout-2021 .recipe-content .excerpt-content {display: none;}
