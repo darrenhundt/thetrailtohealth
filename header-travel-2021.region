@@ -36,7 +36,7 @@
                 {.section website}
                   {.if logoImageUrl}
                   <div id="banner-wrapper" data-content-field="site-title">
-                    <a href="/"><img id="banner" src="https://images.squarespace-cdn.com/content/v1/5692edc9df40f361d6f8b0a4/1615244642335-PEX7704Z8CCI5IOKYGT2/yahoo.png?format=100w" alt="{siteTitle}" /></a>
+                    <a href="/"><img id="banner" src="{logoImageUrl}?format=1500w" alt="{siteTitle}" /></a>
                   </div>
                   {.or}
                   <div id="site-title-wrapper" data-content-field="site-title">
@@ -60,7 +60,7 @@
                           <div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-7fc3a53e97b048abf36b">
                             <div class="sqs-block-content">
                               <div class="yahoo-logo">
-                                <img src="/assets/yahoo-logo.png" class="img-responsive">
+                                <img src="https://images.squarespace-cdn.com/content/v1/5692edc9df40f361d6f8b0a4/1615244642335-PEX7704Z8CCI5IOKYGT2/yahoo.png?format=100w" class="img-responsive">
                               </div>
                               <h1 style="white-space:pre-wrap;">Taking You Around The World.<br>Gluten Free Of Course...</h1>
                             </div>
