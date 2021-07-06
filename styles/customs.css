@@ -404,6 +404,8 @@ header.newsletter-form-header {text-align: center!important;}
 	.newsletter-form-wrapper{margin:0!important;}
 	.sqs-block-newsletter {padding: 0!important;}
 
+  .layout-2021 #bannerCarousel {max-height:550px;}
+
 	.layout-2021 #bannerCarousel button.flickity-button.flickity-prev-next-button {bottom: 30%;}
 	.layout-2021 .flickity-slider .banner-slide .banner-left {height: 30vh;}
 	.layout-2021 .flickity-slider .banner-right {padding-top:0;}
