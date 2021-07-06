@@ -420,8 +420,7 @@ header.newsletter-form-header {text-align: center!important;}
   .layout-2021 .journey-content #bannerCarousel .banner-slide .sqs-block-button-element { font-size: 11px !important; margin-bottom: 10px!important; }
 
   .layout-2021 .coaching-content #testimonialsWrapper .testimonial-quote {width:20px;}
-  .layout-2021 .coaching-content .flickity-slider { left: -15px!important; width: 105%!important;}
-  #testimonialCarousel .flickity-prev-next-button.next, #testimonialCarousel .flickity-prev-next-button.previous {display: none!important;}
+  .layout-2021 .coaching-content .flickity-slider { left: -15px!important; width: 105%!important;}/
 
 	.layout-2021 .sqs-block-summary-v2 .summary-block-setting-text-size-medium .summary-title {font-size:16px;}
 	.layout-2021 .sqs-block-summary-v2 .summary-excerpt {max-height: 206px!important; overflow: hidden;}
@@ -495,7 +494,7 @@ header.newsletter-form-header {text-align: center!important;}
   #block-yui_3_17_2_1_1611182343378_12193 .summary-item,
   #block-yui_3_17_2_1_1611182343378_4540 .summary-item{margin-bottom:3%!important;}
 
-  #testimonialCarousel .flickity-prev-next-button.next, #testimonialCarousel .flickity-prev-next-button.previous {display: block!important;}
+  #testimonialCarousel .flickity-prev-next-button.next, #testimonialCarousel .flickity-prev-next-button.previous {display: none!important;}
   #testimonialCarousel .flickity-prev-next-button, #testimonialCarousel .flickity-button:hover {background:transparent!important; color:#fff!important;}
 
 	/*contact*/
