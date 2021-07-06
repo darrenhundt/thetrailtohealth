@@ -26,7 +26,7 @@
 					      </nav>
 					    </div>
 					    {.end}{.end}{.end}
-              
+
               <div id="homeMainColumns">
                 <squarespace:block-field id="homeMainBodyNew" description="New Home Main Body" columns="12" label="New Home Main 2021 Content" />
                 <squarespace:block-field id="sidebar2021New" description="New Sidebar 2021" columns="12" label="New Sidebar 2021" />
@@ -36,9 +36,7 @@
 								{squarespace.main-content}
 							</div>
 
-							<div id="page-body-footer" class="extra-wrapper">
-								<squarespace:block-field id="page-footer-{collection.id}" description="Page Footer" columns="12" label="{collection.title} Footer Content" />
-							</div>
+
 
 						</div>
 					</div> <!-- content-wrapper -->
@@ -46,7 +44,5 @@
 					<div class="clearer" id="body-clearer"></div>
 
 		      </div>
+					<hr>
 		    </div> <!-- page-body-wrapper -->
-
-
-
