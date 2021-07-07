@@ -146,7 +146,7 @@ header.newsletter-form-header {text-align: center!important;}
 	.layout-2021 .press-content .img {background-position: -15px 0;}
 
   .home-content div#block-yui_3_17_2_1_1611179926529_21860 {width: 89%}
-  .layout-2021 .home-content .img {background-position: -10px 0;}
+  .layout-2021 .home-content .img {background-position: -15px 0;}
 
 	/*main content*/
 	.layout-2021 #page-body-wrapper #homeMainColumns .main-content,
@@ -267,7 +267,7 @@ header.newsletter-form-header {text-align: center!important;}
 
 	/*sidebar order cookbook*/
 	#block-yui_3_17_2_1_1618689508729_8049 .img {margin:0 auto; width:71%; background-position: 0 0;}
-	.sidebar-fix-home #block-yui_3_17_2_1_1618689508729_8049 .img {margin:0 auto; width:100%; background-position: 15% 0;}
+	.sidebar-fix-home #block-yui_3_17_2_1_1618689508729_8049 .img {margin:0 auto; width:100%; background-position: 50% 0;}
 
 
 	/*sidebar cookbook image*/
@@ -463,7 +463,7 @@ header.newsletter-form-header {text-align: center!important;}
 	.layout-2021 #canvas-wrapper.journey-content #block-yui_3_17_2_1_1618689508729_8049 .img,
 	.layout-2021 #canvas-wrapper.coaching-content #block-yui_3_17_2_1_1618689508729_8049 .img,
 	.layout-2021 #canvas-wrapper.contact-content #block-yui_3_17_2_1_1618689508729_8049 .img,
-	.layout-2021 #canvas-wrapper.press-content #block-yui_3_17_2_1_1618689508729_8049 .img {width:90%; padding-bottom:0; background-position: 3px 0;}
+	.layout-2021 #canvas-wrapper.press-content #block-yui_3_17_2_1_1618689508729_8049 .img {width:100%; padding-bottom:0; background-position: 0 85%;}
 
 
 	.layout-2021 #canvas-wrapper.blog-content #product-component-a14dec964d2-2,
@@ -510,7 +510,7 @@ header.newsletter-form-header {text-align: center!important;}
   #block-yui_3_17_2_1_1611179926529_20543 {padding-bottom:0!important;}
   /* cookbook */
   #block-yui_3_17_2_1_1618689508729_8049 {padding-bottom: 3px!important;}
-	.sidebar-fix-home #block-yui_3_17_2_1_1618689508729_8049 .img {margin: 0 auto; width: 87%; background-position: 7px 0;}
+	.sidebar-fix-home #block-yui_3_17_2_1_1618689508729_8049 .img {margin: 0 auto; width: 100%; background-position: 0 -35px;}
 
   /* about me  */
   #block-yui_3_17_2_1_1616874444058_7284 {display: none;}
