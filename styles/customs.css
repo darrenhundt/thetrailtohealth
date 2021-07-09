@@ -29,7 +29,7 @@
 .layout-2021 div#page-body-wrapper {padding-top: 0!important; padding-bottom: 0!important;}
 .layout-2021 header.summary-block-header {padding-bottom: 15px;}
 .layout-2021 a.summary-read-more-link {margin-bottom: 0!important;font-weight: 300!important;}
-.layout-2021 .home-content a.summary-title-link {display: inline-block!important; margin-bottom: 43px!important;}
+.layout-2021 .home-content a.summary-title-link {display: inline-block!important; }
 
 /* instagram button */
 div#block-yui_3_17_2_1_1611179926529_19931 a {font-weight: 700;font-size: 14px;padding: 15px 20px;line-height: 19px;}
@@ -128,7 +128,6 @@ header.newsletter-form-header {text-align: center!important;}
 .layout-2021 .recipe-content .excerpt-content {display: none;}
 
 
-.layout-2021 .home-content #yui_3_17_2_1_1625854438393_641 a.summary-title-link {margin-bottom:3px!important;}
 
 
 
