@@ -127,7 +127,9 @@ header.newsletter-form-header {text-align: center!important;}
 .layout-2021 .contact-content #page-body-wrapper.about-me-wrapper {border-top:none;}
 .layout-2021 .recipe-content .excerpt-content {display: none;}
 
-
+#canvas-wrapper #homeMainColumns h1 {
+    font-weight: 400!important;
+}
 
 
 
@@ -180,7 +182,7 @@ header.newsletter-form-header {text-align: center!important;}
   .layout-2021 .brands-content #page-body-wrapper.featured-on-body-wrapper,
   .layout-2021 .amazon-content #page-body-wrapper.featured-on-body-wrapper,
   .layout-2021 .contact-content #page-body-wrapper.featured-on-body-wrapper,
-  .layout-2021 .press-content #page-body-wrapper.featured-on-body-wrapper {padding-top: 0px!important;border-top: 1px solid #e8e8e8;margin-top:45px;}
+  .layout-2021 .press-content #page-body-wrapper.featured-on-body-wrapper {padding-top: 0px!important;border-top: 1px solid #e8e8e8;margin-top:38px;}
 
 	/*sidebar*/
 	.layout-2021 .home-content #page-body-wrapper #homeMainColumns #sidebar2021New,
