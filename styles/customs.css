@@ -231,6 +231,7 @@ header.newsletter-form-header {text-align: center!important;}
 	.layout-2021 .coaching-content p{font-size: 15px; font-weight: 300; line-height: 1.6em; letter-spacing: .2px; color: rgb(84,84,84);}
 		/* recipe */
 	.layout-2021 .home-content div#block-yui_3_17_2_1_1611179926529_4230 {margin-top: -51px!important;}
+  #recipe-list-1 .flickity-button {display: none;}
 
 		/* blog */
 	.layout-2021 .home-content div#block-yui_3_17_2_1_1611179926529_31170 {margin-top: -26px!important;}
