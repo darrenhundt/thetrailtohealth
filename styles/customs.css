@@ -413,7 +413,7 @@ header.newsletter-form-header {text-align: center!important;}
 	.sqs-block-newsletter {padding: 0!important;}
 
   .layout-2021 #bannerCarousel {max-height:550px;}
-  .layout-2021 .home-content .sqs-layout .sqs-row .sqs-block:last-child {padding-bottom: 40px !important;}
+  .layout-2021 .home-content .sqs-layout .sqs-row .sqs-block:last-child {padding-bottom: 0px !important;padding-top: 40px!important;}
 
 	.layout-2021 #bannerCarousel button.flickity-button.flickity-prev-next-button {bottom: 30%;}
 	.layout-2021 .flickity-slider .banner-slide .banner-left {height: 30vh;}
@@ -486,7 +486,7 @@ header.newsletter-form-header {text-align: center!important;}
  	.layout-2021 #canvas-wrapper.press-content #product-component-a14dec964d2-2 {margin: 0 0 0 30px;}
 
   /* full page */
-  body.canvas-setting-full-width #page-body {margin-right: 0!important; margin-left: 0!important; padding-left: 15px; padding-right: 15px;}
+  body.canvas-setting-full-width #page-body {margin-right: 0!important; margin-left: 0!important; margin-bottom:25px; padding-left: 15px; padding-right: 15px;}
   .layout-2021 .banner-right {padding-bottom:20px!important;}
 
   /* home page */
