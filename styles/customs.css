@@ -552,4 +552,20 @@ header.newsletter-form-header {text-align: center!important;}
   .layout-2021 div#block-yui_3_17_2_1_1611179926529_31170 .summary-carousel-pager.sqs-gallery-controls {margin-top:35px!important}
   div#block-yui_3_17_2_1_1618689508729_8049 {padding-top:25px!important;}
 
+  /* featured on content */
+  .layout-2021 .home-content #page-body-wrapper.featured-on-body-wrapper,
+  .layout-2021 .journey-content #page-body-wrapper.featured-on-body-wrapper,
+  .layout-2021 .coaching-content #page-body-wrapper.featured-on-body-wrapper,
+  .layout-2021 .blog-content #page-body-wrapper.featured-on-body-wrapper,
+  .layout-2021 .recipe-content #page-body-wrapper.featured-on-body-wrapper,
+  .layout-2021 .travel-content #page-body-wrapper.featured-on-body-wrapper,
+  .layout-2021 .shop-content #page-body-wrapper.featured-on-body-wrapper,
+  .layout-2021 .cookbook-content #page-body-wrapper.featured-on-body-wrapper,
+  .layout-2021 .merchandise-content #page-body-wrapper.featured-on-body-wrapper,
+  .layout-2021 .brands-content #page-body-wrapper.featured-on-body-wrapper,
+  .layout-2021 .amazon-content #page-body-wrapper.featured-on-body-wrapper,
+  .layout-2021 .contact-content #page-body-wrapper.featured-on-body-wrapper,
+  .layout-2021 .press-content #page-body-wrapper.featured-on-body-wrapper {margin-top:0;}
+  body.canvas-setting-full-width #page-body {margin-bottom:0;}
+
 }
