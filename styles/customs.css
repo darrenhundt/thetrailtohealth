@@ -323,7 +323,7 @@ header.newsletter-form-header {text-align: center!important;}
 @media screen and (max-width:768px){
 	html, body{overflow-x: hidden;}
 	p[data-rte-preserve-empty="true"] {display: none;}
-	#block-5d708d35a95784f0cb37, /*instagrab images on sidrbar*/#block-yui_3_17_2_1_1611179926529_21860 {display: none;}
+	#block-5d708d35a95784f0cb37, /*instagrab images on sidrbar*/{display: none;}
 
 	.layout-2021 #sidebar2021New {width: 100%;}
 
