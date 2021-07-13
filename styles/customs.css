@@ -147,6 +147,7 @@ header.newsletter-form-header {text-align: center!important;}
 .layout-2021 .amazon-content #page-body-wrapper.featured-on-body-wrapper,
 .layout-2021 .contact-content #page-body-wrapper.featured-on-body-wrapper,
 .layout-2021 .press-content #page-body-wrapper.featured-on-body-wrapper {padding-top: 25px!important;border-top: 1px solid #e8e8e8;margin-top:38px;}
+#block-yui_3_17_2_1_1611179926529_4230 .sqs-gallery-design-carousel .sqs-gallery-container, #block-yui_3_17_2_1_1611179926529_31170 .sqs-gallery-design-carousel .sqs-gallery-container, #block-yui_3_17_2_1_1611179926529_37412 .sqs-gallery-design-carousel .sqs-gallery-container {border-bottom: 1px solid #e7e5e5; padding: 5px 0 0; margin-top: 25px;}
 
 @media screen and (min-width:1025px) {
   /* arrows on travel page */
