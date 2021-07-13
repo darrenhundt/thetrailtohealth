@@ -436,7 +436,7 @@ header.newsletter-form-header {text-align: center!important;}
 	.layout-2021 .sqs-block-summary-v2 .summary-excerpt {max-height: 206px!important; overflow: hidden;}
 
 
-	.layout-2021 #page-body-wrapper #homeMainColumns {margin: 15px auto;}
+	.layout-2021 #page-body-wrapper #homeMainColumns {margin: 15px -40px;;}
 
 	.layout-2021 #page-body-wrapper #homeMainColumns #homeMainBodyNew,
 	.layout-2021 #page-body-wrapper #homeMainColumns #shopMainBodyNew,
