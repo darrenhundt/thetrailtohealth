@@ -56,11 +56,10 @@ div#block-yui_3_17_2_1_1619541361497_26888 {display:none;}
 
 
 
-body[id^="item"] article{width:100%;}
+/* body[id^="item"] article{width:100%;} */
 body[id^="item"] .entry-title{font-size: 30px!important;}
-.sidebar-position-right .one-sidebar #sidebar-one {
-    padding-left: 0px!important;
-}
+.sidebar-position-right .one-sidebar #sidebar-one {padding-left: 0px!important;}
+
 /* arrows */
 .flickity-prev-next-button { width: 60px;height: 60px;background: #fff;}
 
@@ -244,7 +243,6 @@ header.newsletter-form-header {text-align: center!important;}
 	div#block-yui_3_17_2_1_1611179926529_30606, #block-yui_3_17_2_1_1611179926529_36843 {padding-top:15px!important;padding-bottom:15px!important;}
 	.layout-2021 #aboutMeFooter {padding-top:23px!important;}
 	.layout-2021 #page-body-wrapper .main-content h2 a {color: #222;}
-	.layout-2021 .recipe-content .new-layout-blogs-general-2021 article, .collection-layout-newblog-2021 article {width:100%!important;}
 	.layout-2021 #bannerCarousel .flickity-viewport, .layout-2021 #bannerCarousel .banner-slide {height:420px!important;}
 
   /* 300px headers blog, recipe, travel, shop, cookbook, merchandise, brands, amazon, press*/
