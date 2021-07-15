@@ -7,7 +7,7 @@
     <li class="custom-nav-item"><a class="custom-nav-link" href="https://thetrailtohealth.com/recipes?category=Quarantine%20Recipes">Quarantine Recipes</a></li>
   </ul>
   <ul class="custom-nav-list" id="recipe-list-2">
-    <li class="custom-nav-item"><a class="custom-nav-link" href="https://thetrailtohealth.com/recipes?category=Appetizers">Appetizers</a></li>
+    <li class="custom-nav-item"><a class="custom-nav-link active-nav-link" href="https://thetrailtohealth.com/recipes?category=Appetizers">Appetizers</a></li>
     <li class="custom-nav-item"><a class="custom-nav-link" href="https://thetrailtohealth.com/recipes?category=Desserts%2CBaked">Bakery & Dessert</a></li>
     <li class="custom-nav-item"><a class="custom-nav-link" href="https://thetrailtohealth.com/recipes?category=Beverages">Beverages</a></li>
     <li class="custom-nav-item"><a class="custom-nav-link" href="https://thetrailtohealth.com/recipes/category/Bowls%20&%20Wraps">Bowls & Wraps</a></li>
