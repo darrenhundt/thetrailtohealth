@@ -6,6 +6,9 @@
 .layout-2021 #shopMainBodyNew  .sqs-block-button .sqs-block-button-element--medium {font-weight: 700;font-size: 14px;padding: 15px 20px;line-height: 19px; transition: all 0.3s ease-in-out;}
 .layout-2021 #shopMainBodyNew  .sqs-block-button .sqs-block-button-element--medium:hover {background-color: #000;color: #fff;}
 
+/* social media for blog/travel/revipes */
+#share {text-align: left;}
+
 /* header navigation */
 .layout-2021 #main-navigation.header-nav ul li a{color: grey!important}
 .layout-2021 #main-navigation a:link, .layout-2021 #main-navigation a:visited, .layout-2021 #main-navigation a:hover, .layout-2021 #main-navigation.header-nav ul li.active-link a{color: #000!important}
@@ -59,6 +62,9 @@ div#block-yui_3_17_2_1_1619541361497_26888 {display:none;}
 
 body[id^="item"] article{width:100%;}
 body[id^="item"] .entry-title{font-size: 30px!important;}
+
+
+
 .sidebar-position-right .one-sidebar #sidebar-one {padding-left: 0px!important;}
 
 /* arrows */
