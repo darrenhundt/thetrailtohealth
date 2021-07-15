@@ -6,9 +6,6 @@
 .layout-2021 #shopMainBodyNew  .sqs-block-button .sqs-block-button-element--medium {font-weight: 700;font-size: 14px;padding: 15px 20px;line-height: 19px; transition: all 0.3s ease-in-out;}
 .layout-2021 #shopMainBodyNew  .sqs-block-button .sqs-block-button-element--medium:hover {background-color: #000;color: #fff;}
 
-/* social media for blog/travel/revipes */
-#share {text-align: left;}
-
 /* header navigation */
 .layout-2021 #main-navigation.header-nav ul li a{color: grey!important}
 .layout-2021 #main-navigation a:link, .layout-2021 #main-navigation a:visited, .layout-2021 #main-navigation a:hover, .layout-2021 #main-navigation.header-nav ul li.active-link a{color: #000!important}
@@ -59,12 +56,15 @@ div#block-yui_3_17_2_1_1619541361497_26888 {display:none;}
   /* open comments button */
   #toggleComments #toggleCommentsLink { background-color: #fff; color: #333; border: 1px solid; font-weight: bold; transition: all 0.3s ease-in-out}
   #toggleComments #toggleCommentsLink:hover{background-color:#333; color:#fff}
+
 /* ARTICLES IN BLOGS RECIPES AND TRAVEL */
-body[id^="item"] article{width:100%;}
+body[id^="item"] article{width:100%;margin-top: 0;}
 body[id^="item"] h2{font-size:21px!important;letter-spacing: .03em;line-height: 130%;}
 body[id^="item"] p{font-weight: 300; font-style: normal; letter-spacing: .02em; line-height: 1.6em;  margin:5px 0 24px!important;}
 body[id^="item"] .entry-title{font-size: 30px!important;font-weight:100!important;}
 
+/* social media for blog/travel/revipes */
+#share {text-align: left;margin-top:1em;}
 
 
 .sidebar-position-right .one-sidebar #sidebar-one {padding-left: 0px!important;}
