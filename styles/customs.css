@@ -25,7 +25,7 @@
 .layout-2021 #bannerCarousel{max-width:1200px; margin:0 auto;}
 .layout-2021 #bannerCarousel p a {color: #00b3db; transition: all 0.3s ease-in-out;}
 .layout-2021 #bannerCarousel h1:first-child {margin-bottom: 0;}
-.layout-2021 #bannerCarousel h1:last-child {margin-top: 0;} 
+.layout-2021 #bannerCarousel h1:last-child {margin-top: 0!important;margin-bottom:10px!important;} 
 .layout-2021 #bannerCarousel p a:hover {color:#000;}
 .layout-2021 div#block-yui_3_17_2_1_1611179926529_30606 {padding-top: 0;}
 .layout-2021 div#page-body-wrapper {padding-top: 0!important; padding-bottom: 0!important;}
