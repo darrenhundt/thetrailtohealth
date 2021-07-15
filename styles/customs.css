@@ -157,7 +157,7 @@ header.newsletter-form-header {text-align: center!important;}
 .travel-content #page-body-wrapper.about-me-wrapper,
 .shop-content #page-body-wrapper.about-me-wrapper,
 .cookbook-content #page-body-wrapper.about-me-wrapper,
-.merchandise-content #page-body-wrapper.about-me-wrapper {margin-top:35px;}
+.merchandise-content #page-body-wrapper.about-me-wrapper {margin-top:35px!important;}
 /* FOOTER */
 #main-navigation .all-posts-link {display: block;}
 
