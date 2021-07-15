@@ -583,6 +583,6 @@ header.newsletter-form-header {text-align: center!important;}
 
   .layout-2021 .home-content #page-body-wrapper #homeMainColumns {margin: 15px auto -40px;}
 
-  #canvas-wrapper #sidebar-one-wrapper {z-index:-1000!important;}
+  /* #canvas-wrapper #sidebar-one-wrapper {z-index:-1000!important;} */
   .blog-content.travel-content .post p {font-size:14px;}
 }
