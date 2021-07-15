@@ -195,7 +195,6 @@ body.canvas-setting-site-width #canvas-wrapper { width: auto; max-width: @siteWi
   #sidebar-one-wrapper,
   #sidebar-two-wrapper {
     width: auto !important;
-    float: none !important;
     margin-left: 0 !important;
     margin-right: 0 !important;
     margin-bottom: @vgrid;
