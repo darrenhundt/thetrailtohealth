@@ -180,7 +180,7 @@ header.newsletter-form-header {text-align: center!important;}
   background: #fff;
   z-index: 2;
 }
-.layout-2021 .custom-nav-list.sticky-nav {padding-top:0; padding-bottom:0;}
+.layout-2021 .custom-nav-list.sticky-nav {padding-top:0; padding-bottom:0;margin:0 auto!important;}
 /* brands carousel */
 .brands-content ul.custom-nav-list.flickity-enabled.is-draggable {
     margin: 0 auto;
