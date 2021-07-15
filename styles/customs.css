@@ -64,7 +64,7 @@ body[id^="item"] article{width:100%;}
 body[id^="item"] p{    font-weight: 300;
     font-style: normal;
     letter-spacing: .02em;
-    line-height: 1.6em;}
+    line-height: 1.6em;margin:24px 0;}
 body[id^="item"] .entry-title{font-size: 30px!important;font-weight:100!important;}
 
 
