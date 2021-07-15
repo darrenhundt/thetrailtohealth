@@ -64,9 +64,9 @@
 	                            <div class="sqs-block-button-container--left" data-animation-role="button" data-alignment="left" data-button-size="small" id="yui_3_17_2_1_1611692500706_358">
 		                            <div id='product-component-a14dec964d2-2'></div>
                                 <script type="text/javascript">
-                								/*<![CDATA[*/
+                                /*<![CDATA[*/
 
-                                (function () {
+                								(function () {
                 								  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
                 								  if (window.ShopifyBuy) {
                 								    if (window.ShopifyBuy.UI) {
