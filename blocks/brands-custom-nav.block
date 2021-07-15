@@ -1,6 +1,6 @@
 <div id="blogNav">
   <ul class="custom-nav-list">
-    <li class="custom-nav-item"><a data-category="All" class="custom-nav-link active-nav-link" href="https://thetrailtohealth.com/brands-2021/">All Brands</a></li>
+    <li class="custom-nav-item"><a data-category="All" class="custom-nav-link active-nav-link" href="/shopping">All Brands</a></li>
     <li class="custom-nav-item"><a data-category="Kitchen" class="custom-nav-link" href="#kitchen">Kitchen</a></li>
     <li class="custom-nav-item"><a data-category="Grocery Delivery" class="custom-nav-link" href="#grocery">Grocery Delivery</a></li>
     <li class="custom-nav-item"><a data-category="Foods" class="custom-nav-link" href="#food">Foods</a></li>
@@ -21,5 +21,3 @@
     <li class="custom-nav-item"><a data-category="Education &amp; Blogging" class="custom-nav-link" href="#education">Education &amp; Blogging</a></li>
   </ul>
 </div>
-
-
