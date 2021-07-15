@@ -333,6 +333,7 @@ header.newsletter-form-header {text-align: center!important;}
 }
 .layout-2021 #bannerCarousel .banner-slide h1 {font-size: 30px!important; margin-bottom: 10px; margin-top:0;}
 .layout-2021 #bannerCarousel .banner-slide h1:first-child {margin-bottom: 0 !important;}
+.layout-2021 .merchandise-content #bannerCarousel .banner-slide h1:first-child {margin-bottom: 10px !important;}
 
 @media screen and (max-width:768px){
 	html, body{overflow-x: hidden;}
