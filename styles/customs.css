@@ -221,7 +221,7 @@ header.newsletter-form-header {text-align: center!important;}
   .layout-2021 .merchandise-content #bannerCarousel .banner-slide,
   .layout-2021 .brands-content #bannerCarousel .banner-slide,
   .layout-2021 .amazon-content #bannerCarousel .banner-slide,
-  .layout-2021 .press-content #bannerCarousel .banner-slide{height:300px!important;}
+  .layout-2021 .press-content #bannerCarousel .banner-slide {height:300px!important;}
 
     /* carousel item 2 */
   div#product-component-a14dec964d2-2 .shopify-buy__layout-vertical .shopify-buy__btn {margin-top: -20px!important;padding: 16px 22px!important;}
