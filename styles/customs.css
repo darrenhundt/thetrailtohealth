@@ -55,15 +55,8 @@ div#block-yui_3_17_2_1_1619541361497_26888 {display:none;}
 .layout-2021 .recipe-content #page-header-wrapper  {border-bottom: 0;}
 
 
-.new-layout-blogs-general-2021 article,
-.collection-layout-newblog-2021 article,
-#collection-60107661840b340b596beedd article,
-#collection-5692ff0cc03355f6755d9dc2 article,
-#collection-5b47a0aa575d1f5997eaa305 article,
-#collection-5c9e22c1fa0d605f4af6e486 article{}
 
-
-body[id^="item"] article{width:100%;}
+body[id^="item"] article{width:100%;font-size: 30px !important;}
 /* arrows */
 .flickity-prev-next-button { width: 60px;height: 60px;background: #fff;}
 
