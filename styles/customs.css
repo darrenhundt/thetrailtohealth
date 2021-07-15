@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 .layout-2021 #page-body-wrapper h2 {display: none;} .layout-2021 #page-body-wrapper .newsletter-form-wrapper h2 {display: block;}
 .layout-2021 #page-body-wrapper h2, #page-footer-wrapper h2 {display: block!important;}
 /* sitewide buttons */
