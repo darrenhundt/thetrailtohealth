@@ -157,6 +157,8 @@ header.newsletter-form-header {text-align: center!important;}
 #blogNav {border-bottom: 1px solid #e7e5e5;}
 /* coaching page quotes - undue when fixed */
 .layout-2021 .coaching-content #testimonialsWrapper .testimonial-quote {display: none!important;}
+/* coaching */
+.layout-2021 .coaching-content p{font-size: 15px; font-weight: 300; line-height: 1.6em; letter-spacing: .2px; color: rgb(84,84,84);}
 /* featured on content */
 .layout-2021 .home-content #page-body-wrapper.featured-on-body-wrapper,
 .layout-2021 .journey-content #page-body-wrapper.featured-on-body-wrapper,
@@ -282,8 +284,6 @@ header.newsletter-form-header {text-align: center!important;}
 
   .layout-2021 .margin-top-0{margin-top: 0px!important;}
 	#yui_3_17_2_1_1619543594781_619 {margin-top: 50px!important;}
-  /* coaching */
-	.layout-2021 .coaching-content p{font-size: 15px; font-weight: 300; line-height: 1.6em; letter-spacing: .2px; color: rgb(84,84,84);}
 		/* recipe */
 	.layout-2021 .home-content div#block-yui_3_17_2_1_1611179926529_4230 {margin-top: -51px!important;}
   #recipe-list-1 .flickity-button {display: none;}
