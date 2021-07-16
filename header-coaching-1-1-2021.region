@@ -20,7 +20,7 @@
 		<squarespace:navigation navigationId="mainNav2021" template="mobile-navigation" />
 		{.end}
 
-	  <div id="canvas-wrapper">
+	  <div id="canvas-wrapper" class="coaching-content">
 	  	<div id="canvas">
 
 
@@ -45,7 +45,7 @@
 				    	</div>
 				    </div><!-- navigation-top -->
 
-            
+
 				    <div id="navigation-bottom">
 				    	<div class="horizontal-navigation-bar clear{.section website}{.if logoImageUrl} with-logo{.or} with-title{.end}{.end}">
 
