@@ -65,7 +65,7 @@ body[id^="item"] article{width:100%;margin-top: 0!important;}
 body[id^="item"] h2{font-size:21px!important;letter-spacing: .03em;line-height: 130%;}
 body[id^="item"] p{font-size: 15px;font-weight: 300; font-style: normal; letter-spacing: .02em; line-height: 1.6em;  margin:5px 0 24px!important;}
 body[id^="item"] .entry-title{font-size: 30px!important;font-weight:100!important;}
-body[id^="item"] #canvas-wrapper.OneOnOne-coaching-content #page-body-wrapper .content-testimonialsWrapper .entry-title{font-size: 30px!important;font-weight:100!important;}
+body[id^="item"] #canvas-wrapper.OneOnOne-coaching-content #page-body-wrapper .entry-title{font-size: 30px!important;font-weight:100!important;}
 .OneOnOne-coaching-content time.published {display: none;}
 /* social media for blog/travel/revipes */
 #share {text-align: left;margin-top:1em;}
