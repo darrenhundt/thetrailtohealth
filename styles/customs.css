@@ -67,7 +67,7 @@ body[id^="item"] p{font-size: 15px;font-weight: 300; font-style: normal; letter-
 body[id^="item"] .entry-title{font-size: 30px!important;font-weight:100!important;}
 body[id^="item"] #canvas-wrapper.OneOnOne-coaching-content #page-body-wrapper .entry-title{font-size: 30px!important;font-weight:100!important;}
 .OneOnOne-coaching-content time.published {display: none;}
-.OneOnOne-coaching-content article header {margin-bottom:8px;}
+.OneOnOne-coaching-content article header {margin-bottom:0;}
 /* social media for blog/travel/revipes */
 #share {text-align: left;margin-top:1em;}
 
