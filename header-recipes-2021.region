@@ -17,7 +17,7 @@
     <style>html {overflow-x: hidden;}</style>
   </head>
   {.if template.mobileStylesEnabled}{.or}<!-- Mobile Styles Are Disabled -->{.end}
-  <body class="{squarespace.page-classes}{.section website}{.if logoImageUrl} has-logo-image{.or} no-logo-image{.end}{.end}{.section collection}{.background-source-video?} has-page-thumbnail{.or}{.section mainImage} has-page-thumbnail{.end}{.end}{.end} layout-2021 new-layout-blogs-general-2021" id="{squarespace.page-id}" ontouchstart="">
+  <body class="{squarespace.page-classes}{.section website}{.if logoImageUrl} has-logo-image{.or} no-logo-image{.end}{.end}{.section collection}{.background-source-video?} has-page-thumbnail{.or}{.section mainImage} has-page-thumbnail{.end}{.end}{.end} layout-2021 new-layout-blogs-general-2021 new-layout-recipes-2021" id="{squarespace.page-id}" ontouchstart="">
 
 		{.if template.mobileStylesEnabled}
 		<squarespace:navigation navigationId="mainNav2021" template="mobile-navigation" />
