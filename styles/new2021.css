@@ -784,12 +784,12 @@
   width: 25%;
   min-height: 10px;
   padding-top: 20px;
-  padding-left:0 !important;
+  padding-left:0px !important;
 }
 @media (max-width: 640px) {
   .layout-2021 #sidebar2021New {
     width: 100%;
-    padding-left: 0px;
+    padding-left: 0px !important;
   }
 }
 .layout-2021 #sidebar2021New #sidebar-shopify-button iframe {
