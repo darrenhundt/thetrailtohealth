@@ -1,6 +1,6 @@
 <div id="blogNav">
   <ul class="custom-nav-list">
-    <li class="custom-nav-item"><a data-category="All" class="custom-nav-link" href="/blog">All posts</a></li>
+    <li class="custom-nav-item"><a data-category="All" class="custom-nav-link active-nav-link" href="/blog">All posts</a></li>
     <li class="custom-nav-item"><a data-category="Food-Diet" class="custom-nav-link" href="/blog/category/Food%20&%20Diet">Food & Diet</a></li>
     <li class="custom-nav-item"><a data-category="Gluten" class="custom-nav-link" href="/blog/category/Gluten">Gluten</a></li>
     <li class="custom-nav-item"><a data-category="Healthy-Home" class="custom-nav-link" href="/blog/category/Healthy%20Home">Healthy Home & Tools</a></li>
