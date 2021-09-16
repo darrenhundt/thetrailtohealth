@@ -259,6 +259,7 @@
 }
 .layout-2021 .banner-left {
   width: 50%;
+  margin-left: 70px;
   background-size: cover;
   background-position: center center;
 }
