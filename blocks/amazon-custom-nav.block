@@ -4,12 +4,12 @@
     <li class="custom-nav-item"><a data-category="kitchen-equpment" class="custom-nav-link" href="#kitchen-equipment">Kitchen Equipment</a></li>
     <li class="custom-nav-item"><a data-category="kitchen-tools" class="custom-nav-link" href="#kitchen-tools">Kitchen Tools</a></li>
     <li class="custom-nav-item"><a data-category="foods" class="custom-nav-link" href="#foods">Foods</a></li>
-    <li class="custom-nav-item"><a data-category="tech" class="custom-nav-link" href="#tech">Tech</a></li>
-    <li class="custom-nav-item"><a data-category="home" class="custom-nav-link" href="#home">Home</a></li>
-    <li class="custom-nav-item"><a data-category="household" class="custom-nav-link" href="#household">Household</a></li>
+    <li class="custom-nav-item"><a data-category="tech" class="custom-nav-link" href="#travel">Travel</a></li>
+    <li class="custom-nav-item"><a data-category="home" class="custom-nav-link" href="#books">Books</a></li>
+    <!--<li class="custom-nav-item"><a data-category="household" class="custom-nav-link" href="#household">Household</a></li>
     <li class="custom-nav-item"><a data-category="health" class="custom-nav-link" href="#health">Health Supplies</a></li>
     <li class="custom-nav-item"><a data-category="books" class="custom-nav-link" href="#books">Books</a></li>
-    <li class="custom-nav-item"><a data-category="fashion" class="custom-nav-link" href="#fashion">Fashion</a></li>
+    <li class="custom-nav-item"><a data-category="fashion" class="custom-nav-link" href="#fashion">Fashion</a></li>--->
   </ul>
 </div>
 
