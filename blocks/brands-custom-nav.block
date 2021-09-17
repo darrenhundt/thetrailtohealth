@@ -6,7 +6,7 @@
     <li class="custom-nav-item"><a data-category="Foods" class="custom-nav-link" href="#food">Foods</a></li>
     <li class="custom-nav-item"><a data-category="Favorite Snacks" class="custom-nav-link" href="#snacks">Favorite Snacks</a></li>
     <li class="custom-nav-item"><a data-category="Meal Delivery" class="custom-nav-link" href="#meals">Meal Delivery</a></li>
-    <li class="custom-nav-item"><a data-category="Subscriptions" class="custom-nav-link" href="#subscription">Subscriptions</a></li>
+    <!----<li class="custom-nav-item"><a data-category="Subscriptions" class="custom-nav-link" href="#subscription">Subscriptions</a></li>--->
     <li class="custom-nav-item"><a data-category="At Home Diagnostics" class="custom-nav-link" href="#diagnostics">At Home Diagnostics</a></li>
     <li class="custom-nav-item"><a data-category="Better Sleep" class="custom-nav-link" href="#sleep">Better Sleep</a></li>
     <li class="custom-nav-item"><a data-category="Health Tech" class="custom-nav-link" href="#tech">Health Tech</a></li>
