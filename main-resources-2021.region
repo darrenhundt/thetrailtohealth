@@ -26,10 +26,9 @@
 					      </nav>
 					    </div>
 					    {.end}{.end}{.end}
-              l
               
               <div id="homeMainColumns">
-                <squarespace:block-field id="journeyMainBodyNew" description="New Journey Main Body" columns="12" label="New Journey Main 2021 Content" />
+                <squarespace:block-field id="journeyMainBodyNew" description="New Journey Main Body" columns="12" label="New Resources Main 2021 Content" />
                 <squarespace:block-field id="sidebar2021New" description="New Sidebar 2021" columns="12" label="New Sidebar 2021" />
               </div>
 
