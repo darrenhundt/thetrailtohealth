@@ -405,7 +405,7 @@
   margin: 0!important;
 }
 .layout-2021 .footer-wrapper-2021 #main-navigation ul li a {
-  font-weight: 500;
+  font-weight: 300;
   font-size: 16px;
   color: #000000;
 }
@@ -423,7 +423,7 @@
   }
 }
 .layout-2021 #main-navigation.footer-nav .folder-collection > a {
-  color: black!important;
+  color: #000 !important;
   display: block;
   border-bottom: 1px solid black;
   margin-bottom: 10px;
