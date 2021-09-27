@@ -98,7 +98,7 @@ a#more-recipes, #block-fe8f14ffe4509ba7c476 a{font-size: 20px;color: #3a9ed7;fon
 
 /* coaching */
 div#block-yui_3_17_2_1_1611182343378_4540 .summary-item,
-div#block-yui_3_17_2_1_1611182343378_12193 .summary-item{margin-bottom:5px!important;}
+div#block-yui_3_17_2_1_1611182343378_12193 .summary-item{margin-bottom:25px!important;}
 h1#testimonialsTitle {margin-bottom:45px}
 a#more-testimonials{font-size: 20px;color: #00b3db;font-weight: 400;margin-top: 20px;display: inline-block;    transition: all .3s ease-in-out;}
 a#more-testimonials:hover{color:#000;}
@@ -501,7 +501,7 @@ header.newsletter-form-header {text-align: center!important;}
   .layout-2021 .coaching-content .flickity-slider { left: -15px!important; width: 105%!important;}
   #testimonialCarousel .flickity-prev-next-button.next, #testimonialCarousel .flickity-prev-next-button.previous {display: none!important;}
 
-	.layout-2021 .sqs-block-summary-v2 .summary-block-setting-text-size-medium .summary-title {font-size:16px;}
+	.layout-2021 .sqs-block-summary-v2 .summary-block-setting-text-size-medium .summary-title {font-size:20px;}
 	.layout-2021 .sqs-block-summary-v2 .summary-excerpt {max-height: 206px!important; overflow: hidden;}
 
 
