@@ -200,6 +200,15 @@ $(document).ready(function(){
 			$(this).attr('href','/shop-page/');
 			$(this).attr('onclick','');
 		}
+		if (linkContent == 'Home') {
+			$(this).attr('href','/');
+			$(this).attr('onclick','');
+		}
+		
+		if (linkContent == 'Coaching') {
+			$(this).attr('href','/coaching/');
+			$(this).attr('onclick','');
+		}
 		if (linkContent == 'Press') {
 			$(this).attr('href','/press/');
 			$(this).attr('onclick','');
