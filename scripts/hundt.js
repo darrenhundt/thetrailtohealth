@@ -200,9 +200,9 @@ $(document).ready(function(){
 			$(this).attr('href','/shop-page/');
 			$(this).attr('onclick','');
 		}
-		if (linkContent == 'Coaching') {
+		/*if (linkContent == 'Coaching') {
 			$(this).attr('href','/coaching/');
-			$(this).attr('onclick','');
+			$(this).attr('onclick','');*/
 		}
 		if (linkContent == 'Press') {
 			$(this).attr('href','/press/');
