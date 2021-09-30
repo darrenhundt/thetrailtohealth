@@ -202,8 +202,8 @@ $(document).ready(function(){
 		}
 		/*if (linkContent == 'Coaching') {
 			$(this).attr('href','/coaching/');
-			$(this).attr('onclick','');*/
-		}
+			$(this).attr('onclick','');
+		}*/
 		if (linkContent == 'Press') {
 			$(this).attr('href','/press/');
 			$(this).attr('onclick','');
