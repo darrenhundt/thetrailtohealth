@@ -200,8 +200,8 @@ $(document).ready(function(){
 			$(this).attr('href','/shop-page/');
 			$(this).attr('onclick','');
 		}
-		if (linkContent == 'Home') {
-			$(this).attr('href','/');
+		if (linkContent == 'About') {
+			$(this).attr('href','/myjourney');
 			$(this).attr('onclick','');
 		}
 		
