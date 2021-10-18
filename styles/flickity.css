@@ -88,6 +88,14 @@ https://flickity.metafizzy.co
 
 .flickity-prev-next-button.previous { left: -30px; }
 .flickity-prev-next-button.next { right: -30px; }
+@media only screen 
+  and (min-width: 320px) 
+  and (max-width: 480px)
+   {
+.flickity-prev-next-button.previous { left: 10px; }
+.flickity-prev-next-button.next { right: 10px; }
+}
+
 /* right to left */
 .flickity-rtl .flickity-prev-next-button.previous {
   left: auto;
