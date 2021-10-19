@@ -13,14 +13,8 @@
 					</div>
 					<div class="popup-actions">
 						<a href="/shop/"><img src="/assets/popupCookbookImage.png" /></a>
-						<!--<a class="modal-button" href="/shop">BUY NOW</a>-->
-						<a class="" id="sidebar-shopify-button" style="">
-           
-  	<iframe>
-      
-              <div class="has-image shopify-buy__layout-vertical shopify-buy__product"><div class="shopify-buy__btn-wrapper" data-element="product.buttonWrapper"><button class="shopify-buy__btn  " data-element="product.button">BUY NOW</button></div></div></iframe>
-  
-          </a>
+						<a class="modal-button" href="/shop">BUY NOW</a>
+						
 						
 					</div>
 				</div>
