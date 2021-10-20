@@ -78,7 +78,7 @@ body[id^="item"] #canvas-wrapper.OneOnOne-coaching-content #page-body-wrapper .e
 .flickity-prev-next-button { width: 60px;height: 60px;background: #fff;}
 
 /* brands */
-.layout-2021 .brands-content .sqs-block-summary-v2 .summary-read-more-link {margin: 0 0 10px 0;font-size: 14px;line-height: 20px;text-align: center;border: 1px solid #000!important;padding: 10px 0!important;font-weight: bold!important;text-transform: uppercase;transition: all 0.3s ease-in-out;letter-spacing: .3px;width:50%;}
+.layout-2021 .brands-content .sqs-block-summary-v2 .summary-read-more-link {margin: 0 0 10px 0;font-size: 14px;line-height: 20px;text-align: center;border: 1px solid #000!important;padding: 10px 0!important;font-weight: bold!important;text-transform: uppercase;transition: all 0.3s ease-in-out;letter-spacing: .3px;width:70%;}
 .layout-2021 .brands-content .sqs-block-summary-v2 .summary-read-more-link:hover {background-color: #000;color:#fff;}
 
 /* amazon */
