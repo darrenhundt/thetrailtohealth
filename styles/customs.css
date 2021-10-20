@@ -408,8 +408,8 @@ header.newsletter-form-header {text-align: center!important;}
 
 	/*blog*/
 	.layout-2021 #page-body-wrapper.one-sidebar .main-content {width: 65%; float: left; margin-right: 25px;}
-	/*.layout-2021.collection-type-blog #sidebar2021New.blog-sidebar{width:29%;} */
-	/*.blog-content #product-component-a14dec964d2-2 { margin: 0 0 0 29%;} */
+	.layout-2021.collection-type-blog #sidebar2021New.blog-sidebar{width:29%;}
+	.blog-content #product-component-a14dec964d2-2 { margin: 0 0 0 29%;}
 	.blog-content #page-about-me {margin-top:15px;}
 	.blog-content #commenting {margin-bottom:15px;}
   .blog-content p {font-size: 14px;}
