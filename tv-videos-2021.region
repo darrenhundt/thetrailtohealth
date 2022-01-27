@@ -1,0 +1,63 @@
+<div id="page-body-wrapper" class="one-sidebar one-sidebar-new-blog one-sidebar-flush-top">
+	<!-- last chance for full bleed content new blog-->
+
+	<div id="page-body">
+		<!-- last chance for full width content  -->
+		<div id="content-wrapper">
+			<div id="content">
+
+		    
+			    <div class="main-content" data-content-field="main-content" data-collection-id="{collection.id}" data-edit-main-image="Page Banner">
+									
+
+								<div id="page-body-header" class="extra-wrapper">
+									<squarespace:block-field id="page-header-{collection.id}" description="Page Header" columns="12" label="{collection.title} Header Content" />
+								</div>
+									
+									
+									<div class="tv-recipes-wrapper">
+										<squarespace:query collection="recipes" category="Video Recipe" limit="0">
+											{.repeated section items}
+												<div class="video-recipe-item">
+													<div class="video-recipe-item-inner">
+														<a href="{fullUrl}">
+															<div class="thumbnail content-fill">
+																<img {@|image-meta} />
+															</div>
+														</a>
+														<div class="recipe-title-length-wrapper">
+															<h2><a href="{fullUrl}">{title}</a></h2>
+															<p class="segment-length">{customContent.segmentLength}</p>
+														</div>
+														<div class="sqs-block-button">
+															<a target="_blank" class="video-recipe-button sqs-block-button-element--medium sqs-block-button-element download-link" href="{customContent.videoLink}">Download Video</a>
+														</div>
+														<div class="sqs-block-button">
+															<a target="_blank" class="video-recipe-button sqs-block-button-element--medium sqs-block-button-element" href="{customContent.photosLink}">Download Photos</a>
+														</div>
+													</div>
+												</div>
+											{.end}
+										</squarespace:query>
+									</div> <!-- .tv-recipes-wrapper -->
+									
+									{squarespace.main-content}
+								</div>
+
+				<div id="page-body-footer" class="extra-wrapper">
+					<squarespace:block-field id="page-footer-{collection.id}" description="Page Footer" columns="12" label="{collection.title} Footer Content" />
+				</div>
+
+			</div>
+		</div> <!-- content-wrapper -->
+
+		<div id="sidebar-one-wrapper" class="vertical-navigation-bar-wrapper">
+			<div id="sidebar-one" class="vertical-navigation-bar">
+				<squarespace:block-field id="sidebar2021New" class="blog-sidebar" description="New Sidebar 2021" columns="12" label="New videos 2021" />
+			</div>
+		</div><!-- sidebar-one-wrapper -->
+
+		<div class="clearer" id="body-clearer"></div>
+
+  	</div>
+</div> <!-- page-body-wrapper -->
