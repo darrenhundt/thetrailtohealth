@@ -13,7 +13,7 @@
 								</div>
 
 						    <!-- // CATEGORY NAV -->
-						    {.section collection}<script>console.log(`this is collection data {@|json}`);</script>{.equal? typeName "products"}{.section categories}
+						    {.section collection}{.equal? typeName "products"}{.section categories}
 							
 						    <div id="categoryNav" role="navigation">
 						      <input type="checkbox" name="category-nav-toggle" id="categoryNavToggle" class="category-nav-toggle hidden" />
