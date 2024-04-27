@@ -32,8 +32,8 @@
 								{.section website}
 								<div class="site-info">
 									{.if siteTitle}<h3 class="site-title">{siteTitle}</h3>{.end}
-							    {.if siteDescription}<div class="site-description">{siteDescription}</div>{.end}
-							  </div>
+							    	{.if siteDescription}<div class="site-description">{siteDescription}</div>{.end}
+							  	</div>
 							  {.end}
 								<squarespace:block-field id="sidebar-one-blocks" label="Sidebar One Content" />
 								
