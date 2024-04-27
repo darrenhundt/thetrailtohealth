@@ -63,7 +63,7 @@
                 {.or}
                   {.section mainImage}
                     <div id="page-thumb" class="content-fill">
-                      <img {@|image-meta} />
+                      
                     </div>
                   {.end}
                 {.end}
