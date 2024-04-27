@@ -8,7 +8,7 @@
 				<div class="popup-top"><img {@|image-meta} /></div>
 				<div class="popup-bottom">
 					<div class="popup-title-wrapper">
-						<h2>{.if title}{title}{.end}</h2> tatiii
+						<h2>{.if title}{title}tatiii{.end}</h2> 
 						{excerpt}
 					</div>
 					<div class="popup-actions">
