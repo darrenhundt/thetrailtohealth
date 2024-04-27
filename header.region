@@ -25,8 +25,7 @@
 				<div id="page-header-wrapper">
 					<div id="page-header">
 
-				    <div id="navigation-top">
-				    	<div class="horizontal-navigation-bar clear{.section website}{.if logoImageUrl} with-logo{.or} with-title{.end}{.end}">
+				    <div class="horizontal-navigation-bar {.section website}{.if logoImageUrl} with-logo{.or} with-title{.end}{.end} element-is-flex element-is-space-between element-is-align-center">
 
 				    		<!-- // logo or site title markup in nav area -->
 					      {.section website}
