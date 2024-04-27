@@ -21,7 +21,7 @@
 		<squarespace:navigation navigationId="mainNav" template="mobile-navigation" />
 		{.end}
 
-	  <div id="canvas-wrapper">
+	  <div id="canvas-wrapper" class="blog-content">
 	  	<div id="canvas">
 
 
