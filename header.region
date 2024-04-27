@@ -4,17 +4,19 @@
 	  {.if template.mobileStylesEnabled}
 	  <meta name="viewport" content="width=device-width, initial-scale=1">
 	  {.end}
-	  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-	  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-	  <squarespace:script src="site-bundle.js" combo="false" />
-	  <squarespace:script src="jquery.matchHeight-min.js" combo="false" />
-	  <squarespace:script src="flickity.js" combo="false" />
-	  <squarespace:script src="hundt.js" combo="false" />
-	  <squarespace:script src="hundt2021.js" combo="false" />
-	  <style>html {overflow-x: hidden;}</style>
+    {squarespace-headers}
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,900;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <squarespace:script src="site-bundle.js" combo="false" />
+    <squarespace:script src="jquery.matchHeight-min.js" combo="false" />
+    <squarespace:script src="flickity.js" combo="false" />
+    <squarespace:script src="hundt.js" combo="false" />
+	<squarespace:script src="hundt2021.js" combo="false" />
+    <style>html {overflow-x: hidden;}</style>
+    <meta name="p:domain_verify" content="13df77703a96655a5c067011aa215475"/>
   </head>
   {.if template.mobileStylesEnabled}{.or}<!-- Mobile Styles Are Disabled -->{.end}
-  <body class="{squarespace.page-classes}{.section website}{.if logoImageUrl} has-logo-image{.or} no-logo-image{.end}{.end}{.section collection}{.background-source-video?} has-page-thumbnail{.or}{.section mainImage} has-page-thumbnail{.end}{.end}{.end}" id="{squarespace.page-id}" ontouchstart="">
+  <body class="{squarespace.page-classes}{.section website}{.if logoImageUrl} has-logo-image{.or} no-logo-image{.end}{.end}{.section collection}{.background-source-video?} has-page-thumbnail{.end}{.end}{.end} layout-2021 new-layout-blogs-general-2021" id="{squarespace.page-id}" ontouchstart="">
 
 		{.if template.mobileStylesEnabled}
 		<squarespace:navigation navigationId="mainNav" template="mobile-navigation" />
@@ -58,17 +60,17 @@
 
 							<!-- // page thumbnail image as banner image -->
 							{.section collection}
-								{.background-source-video?}
-								<div id="page-thumb" class="content-fill">
-									{@|apply sqs-video-background.block}
-								</div>
-								{.or}
-								{.section mainImage}
-									<div id="page-thumb" class="content-fill">
-									<img {@|image-meta} />
-									</div>
-								{.end}
-								{.end}
+                {.background-source-video?}
+                  <div id="page-thumb" class="content-fill">
+                    {@|apply sqs-video-background.block}
+                  </div>
+                {.or}
+                  {.section mainImage}
+                    <div id="page-thumb" class="content-fill">
+                      <img {@|image-meta} />
+                    </div>
+                  {.end}
+                {.end}
 							{.end}
 
 							<div class="banner-overlay"></div>
