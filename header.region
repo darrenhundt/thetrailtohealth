@@ -5,11 +5,14 @@
 	  <meta name="viewport" content="width=device-width, initial-scale=1">
 	  {.end}
     {squarespace-headers}
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <squarespace:script src="site-bundle.js" combo="false" />
     <squarespace:script src="jquery.matchHeight-min.js" combo="false" />
-    <squarespace:script src="lity.min.js" combo="false" />
+    <squarespace:script src="flickity.js" combo="false" />
     <squarespace:script src="hundt.js" combo="false" />
-    <meta name="p:domain_verify" content="13df77703a96655a5c067011aa215475"/>
+    <squarespace:script src="hundt2021.js" combo="false" />
+    <style>html {overflow-x: hidden;}</style>
   </head>
   {.if template.mobileStylesEnabled}{.or}<!-- Mobile Styles Are Disabled -->{.end}
   <body class="{squarespace.page-classes}{.section website}{.if logoImageUrl} has-logo-image{.or} no-logo-image{.end}{.end}{.section collection}{.background-source-video?} has-page-thumbnail{.or}{.section mainImage} has-page-thumbnail{.end}{.end}{.end}" id="{squarespace.page-id}" ontouchstart="">
