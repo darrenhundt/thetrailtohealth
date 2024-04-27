@@ -2,24 +2,7 @@
 {.repeated section items}
 
   <article class="{@|item-classes}" id="article-{id}" data-item-id="{id}" data-article-handle="{urlId}">
-    <div class="popup-content">
-			<div class="closer">X</div>
-			<div class="popup-inner-wrapper">
-				<div class="popup-top"><img {@|image-meta} /></div>
-				<div class="popup-bottom">
-					<div class="popup-title-wrapper">
-						<h2>{.if title}{title}{.end}</h2> 
-						{excerpt}
-					</div>
-					<div class="popup-actions">
-						<a href="/shop/"><img src="/assets/popupCookbookImage.png" /></a>
-						<a class="modal-button" href="/shop">BUY NOW</a>
-						
-						
-					</div>
-				</div>
-			</div>
-		</div>
+    
     <div class="content-wrapper">
   	  
       <div class="post{.passthrough?} link-list-item{.end}">
