@@ -12,7 +12,7 @@
 								
 
 						    <div class="main-content" data-content-field="main-content" data-collection-id="{collection.id}" data-edit-main-image="Page Banner">
-									
+									{squarespace.main-content}
 								</div>
 
 								<div id="page-body-footer" class="extra-wrapper">
@@ -31,7 +31,7 @@
 							    {.if siteDescription}<div class="site-description">{siteDescription}</div>{.end}
 							  </div>
 							  {.end}
-                <squarespace:block-field id="sidebar2021New" class="blog-sidebar" description="New Sidebar 2021" columns="12" label="New Sidebar 2021" />
+                				<squarespace:block-field id="sidebar2021New" class="blog-sidebar" description="New Sidebar 2021" columns="12" label="New Sidebar 2021" />
 							</div>
 						</div><!-- sidebar-one-wrapper -->
 
