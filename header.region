@@ -105,7 +105,7 @@
 						      </div>
 					        {.or}
 						      <div id="site-title-wrapper" data-content-field="site-title">
-					          <h1 id="site-title" class="page-title"><a href="/" rel="bookmark">{siteTitle} this is nothing</a></h1>
+					          <h1 id="site-title" class="page-title"><a href="/" rel="bookmark">{siteTitle}</a></h1>
 					        </div>
 					        {.end}
 
