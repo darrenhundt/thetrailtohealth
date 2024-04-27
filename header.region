@@ -28,7 +28,7 @@
 				    <div class="horizontal-navigation-bar {.section website}{.if logoImageUrl} with-logo{.or} with-title{.end}{.end} element-is-flex element-is-space-between element-is-align-center">
 
 				    		<!-- // logo or site title markup in nav area -->
-					      {.section website}
+					    {.section website}
 					      	{.if logoImageUrl}
 						      <div id="banner-wrapper" data-content-field="site-title">
 						        <a href="/"><img id="banner" src="{logoImageUrl}?format=1500w" alt="{siteTitle}" /></a>
@@ -40,12 +40,12 @@
 					        {.end}
 
 					    		<squarespace:navigation navigationId="mainNav" template="main-navigation" />
-				          {.if socialAccounts}
-			            <div id="sqs-social" class="social-links sqs-svg-icon--list" data-content-field="connected-accounts">
-        						{@|apply sqs-social-links}
-			            </div>
-				          {.end}
-					      {.end}
+							{.if socialAccounts}
+								<div id="sqs-social" class="social-links sqs-svg-icon--list" data-content-field="connected-accounts">
+										{@|apply sqs-social-links}
+								</div>
+							{.end}
+					    {.end}
 
 				    	</div>
 				    </div><!-- navigation-top -->
@@ -55,17 +55,17 @@
 
 							<!-- // page thumbnail image as banner image -->
 							{.section collection}
-                {.background-source-video?}
-                  <div id="page-thumb" class="content-fill">
-                    {@|apply sqs-video-background.block}
-                  </div>
-                {.or}
-                  {.section mainImage}
-                    <div id="page-thumb" class="content-fill">
-                      <img {@|image-meta} />
-                    </div>
-                  {.end}
-                {.end}
+								{.background-source-video?}
+									<div id="page-thumb" class="content-fill">
+										{@|apply sqs-video-background.block}
+									</div>
+									{.or}
+										{.section mainImage}
+											<div id="page-thumb" class="content-fill">
+											<img {@|image-meta} />
+											</div>
+										{.end}
+								{.end}
 							{.end}
 
 							<div class="banner-overlay"></div>
