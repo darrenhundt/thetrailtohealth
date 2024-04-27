@@ -14,7 +14,7 @@
 
 						    <!-- // CATEGORY NAV -->
 						    {.section collection}{.equal? typeName "products"}{.section categories}
-							<script>console.log({collection|json})</script>
+							<script>console.log({@|json});</script>
 						    <div id="categoryNav" role="navigation">
 						      <input type="checkbox" name="category-nav-toggle" id="categoryNavToggle" class="category-nav-toggle hidden" />
 						      <label for="categoryNavToggle" class="category-nav-toggle-label" onclick></label>
