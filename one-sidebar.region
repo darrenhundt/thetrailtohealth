@@ -2,7 +2,7 @@
 
 				<div id="page-body-wrapper" class="one-sidebar one-sidebar-new-blog one-sidebar-flush-top">
           <!-- last chance for full bleed content -->
-          
+           {@|apply blog-custom-nav.block}
 					<div id="page-body">
 <!-- last chance for full width content  -->
 						<div id="content-wrapper">
