@@ -116,15 +116,15 @@
 
 									<squarespace:navigation navigationId="mainNav" template="main-navigation" />
 
-				          {.if socialAccounts}
-                  <div id="sqs-social" class="social-links sqs-svg-icon--list" data-content-field="connected-accounts">
-        						{@|apply sqs-social-links}
-			            </div>
-				          {.end}
-					      {.end}
+				          	{.if socialAccounts}
+							<div id="sqs-social" class="social-links sqs-svg-icon--list" data-content-field="connected-accounts">
+										{@|apply sqs-social-links}
+								</div>
+								{.end}
+								{.end}
 
-				    	</div>
-				    </div><!-- navigation-bottom -->
+								</div>
+							</div><!-- navigation-bottom -->
 
-				  </div>
-				</div><!-- page-header-wrapper -->
+				  		</div>
+					</div><!-- page-header-wrapper -->
