@@ -48,9 +48,6 @@
 				    	</div>
 				    </div><!-- navigation-top -->
 
-            <div class="full-width">
-
-                <div id="bannerCarousel">
                     <div id="banner-area-wrapper">
                         <div id="banner-area">
 
@@ -100,9 +97,8 @@
                 </div><!-- banner-area-wrapper -->
 
 
-                </div>
 
-            </div>
+
 				    <div id="navigation-bottom">
 				    	<div class="horizontal-navigation-bar clear{.section website}{.if logoImageUrl} with-logo{.or} with-title{.end}{.end}">
 
