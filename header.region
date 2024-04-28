@@ -7,7 +7,7 @@
     {squarespace-headers}
     <squarespace:script src="site-bundle.js" combo="false" />
     <squarespace:script src="jquery.matchHeight-min.js" combo="false" />
-    <squarespace:script src="lity.min.js" combo="false" />
+    <squarespace:script src="flickity.js" combo="false" />
     <squarespace:script src="hundt.js" combo="false" />
     <meta name="p:domain_verify" content="13df77703a96655a5c067011aa215475"/>
   </head>
