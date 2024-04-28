@@ -1,9 +1,9 @@
 <!doctype html>
 <html>
   <head>
-	  {.if template.mobileStylesEnabled}
-	  <meta name="viewport" content="width=device-width, initial-scale=1">
-	  {.end}
+	{.if template.mobileStylesEnabled}
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	{.end}
     {squarespace-headers}
     <squarespace:script src="site-bundle.js" combo="false" />
     <squarespace:script src="jquery.matchHeight-min.js" combo="false" />
@@ -15,7 +15,7 @@
   <body class="{squarespace.page-classes}{.section website}{.if logoImageUrl} has-logo-image{.or} no-logo-image{.end}{.end}{.section collection}{.background-source-video?} has-page-thumbnail{.or}{.section mainImage} has-page-thumbnail{.end}{.end}{.end}" id="{squarespace.page-id}" ontouchstart="">
 
 		{.if template.mobileStylesEnabled}
-		<squarespace:navigation navigationId="mainNav" template="mobile-navigation" />
+			<squarespace:navigation navigationId="mainNav" template="mobile-navigation" />
 		{.end}
 
 	  <div id="canvas-wrapper">
