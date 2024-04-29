@@ -4,9 +4,7 @@
     <li class="custom-nav-item"><a data-category="Lyme" class="custom-nav-link" href="/podcast/category/Lyme">Lyme</a></li>
     <li class="custom-nav-item"><a data-category="Mold" class="custom-nav-link" href="/podcast/category/Mold">Mold</a></li>
     <li class="custom-nav-item"><a data-category="Stem Cells" class="custom-nav-link" href="/podcast/category/Stem%20Cells">Stem Cells</a></li>
-
     <li class="custom-nav-item"><a data-category="Autoimmune" class="custom-nav-link" href="/podcast/category/Autoimmune">Autoimmune</a></li>
-
     <li class="custom-nav-item"><a data-category="Gut Health" class="custom-nav-link" href="/podcast/category/Gut%20Health">Gut Health</a></li>
     <li class="custom-nav-item"><a data-category="MindplusBody" class="custom-nav-link" href="/podcast/category/MindplusBody">Mind+Body</a></li>
     <li class="custom-nav-item"><a data-category="Biohacking" class="custom-nav-link" href="/podcast/category/Biohacking">Biohacking</a></li>
