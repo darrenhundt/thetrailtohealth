@@ -7,7 +7,7 @@
 
     <li class="custom-nav-item"><a data-category="Autoimmune" class="custom-nav-link" href="/podcast/category/Autoimmune">Autoimmune</a></li>
 
-    <li class="custom-nav-item"><a data-category="Gut-Health" class="custom-nav-link" href="/podcast/category/Gut%20Health">Gut Health</a></li>
+    <li class="custom-nav-item"><a data-category="Gut Health" class="custom-nav-link" href="/podcast/category/Gut%20Health">Gut Health</a></li>
     <li class="custom-nav-item"><a data-category="Mind+Body" class="custom-nav-link" href="/podcast/category/mindbody">Mind+Body</a></li>
     <li class="custom-nav-item"><a data-category="Biohacking" class="custom-nav-link" href="/podcast/category/Biohacking">Biohacking</a></li>
     <li class="custom-nav-item"><a data-category="Misc Health" class="custom-nav-link" href="/podcast/category/misc%20health">Misc Health</a></li>
