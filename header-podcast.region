@@ -80,7 +80,6 @@
                            {.section siteTagLine}<p id="site-tagline" class="site-subtitle">{siteTagLine}</p>{.end}
                           </div>
                         {.end}
-                        <squarespace:navigation navigationId="mainNav2021" template="main-navigation" />
                     {.end}
 
                             <!-- // page title markup in banner area -->
