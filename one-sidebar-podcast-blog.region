@@ -9,7 +9,7 @@
 							<div id="content">
 
 								<div id="page-body-header" class="extra-wrapper podcast">
-									
+									<squarespace:block-field id="page-header-{collection.id}" description="Page Header" columns="12" label="{collection.title} Header Content" />
 								</div>
 
 						    <!-- // CATEGORY NAV -->
