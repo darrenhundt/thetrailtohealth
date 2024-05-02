@@ -213,6 +213,10 @@ $(document).ready(function(){
 			$(this).attr('href','/press/');
 			$(this).attr('onclick','');
 		}
+		if (linkContent == 'Podcast') {
+			$(this).attr('href','/podcast/');
+			$(this).attr('onclick','');
+		}
 	});
 	
 	if ($('#collection-5e8fac64d61b45104195397f').length) {
