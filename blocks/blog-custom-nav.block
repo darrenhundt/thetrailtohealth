@@ -2,7 +2,7 @@
   <ul class="custom-nav-list">
     <li class="custom-nav-item"><a data-category="All" class="custom-nav-link active-nav-link" href="/blog">All posts</a></li>
     <li class="custom-nav-item"><a data-category="Nutrition" class="custom-nav-link" href="/blog?category=Nutrition">Nutrition</a></li>
-    <li class="custom-nav-item"><a data-category="Biohacking & Wellness" class="custom-nav-link" href="/blog?category=Biohacking%20&%20Wellness">Biohacking & Wellness</a></li>
+    <li class="custom-nav-item"><a data-category="Biohacking and Wellness" class="custom-nav-link" href="/blog?category=Biohacking%20&%20Wellness">Biohacking & Wellness</a></li>
     <li class="custom-nav-item"><a data-category="Healthy Home" class="custom-nav-link" href="/blog?category=Healthy Home">Healthy Home</a></li>
     <li class="custom-nav-item"><a data-category="Gluten" class="custom-nav-link" href="/blog/category/Gluten">Gluten</a></li>
     <li class="custom-nav-item"><a data-category="Lipedema" class="custom-nav-link" href="/blog/category/Lipedema">Lipedema</a></li>
