@@ -772,7 +772,7 @@
   white-space: nowrap;
 }
 .layout-2021 a.custom-nav-link.active-nav-link {
-  border-width: 2px;
+  border-width: 3px;
   border-color: #000;
 }
 .layout-2021 a.custom-nav-link:hover {
