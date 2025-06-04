@@ -43,7 +43,7 @@ $(document).ready(function() {
             $(this).addClass('active-nav-link');
             // Update the hidden heading with the current category
             var categoryText = $(this).text();
-            $('.main-content .hidden-heading').text(categoryText);
+            $('.main-content .hidden-heading').addClass('touched-heading').text(categoryText);
             console.log(categoryText);
             foundMatch = true;
             return false;
