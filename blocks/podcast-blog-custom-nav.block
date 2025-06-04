@@ -15,7 +15,7 @@
   </ul>
 </div>
 <!-- comment from cursor number 2 -->
-
+<script>
 $(document).ready(function() {
     var currentUrl = window.location.href.toLowerCase();
     if (!currentUrl.includes('/podcast')) return;
@@ -50,3 +50,4 @@ $(document).ready(function() {
         $('#blogNav a[data-category="All-Episodes"]').addClass('active-nav-link');
     }
 });
+</script>
