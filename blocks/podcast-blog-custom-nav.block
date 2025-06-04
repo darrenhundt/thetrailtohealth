@@ -16,3 +16,37 @@
 </div>
 <!-- comment from cursor number 2 -->
 
+$(document).ready(function() {
+    var currentUrl = window.location.href.toLowerCase();
+    if (!currentUrl.includes('/podcast')) return;
+    
+    // Remove active classes from all links
+    $('#blogNav .custom-nav-link').removeClass('active-nav-link');
+    
+    // Find and highlight the matching link
+    var foundMatch = false;
+    $('#blogNav .custom-nav-link').each(function() {
+        var linkHref = $(this).attr('href');
+        if (!linkHref) return;
+        
+        var normalizedLinkHref = linkHref.toLowerCase();
+        var fullLinkUrl = normalizedLinkHref.startsWith('/') 
+            ? window.location.origin.toLowerCase() + normalizedLinkHref 
+            : normalizedLinkHref;
+            
+        if (currentUrl === fullLinkUrl || 
+            (linkHref !== '/podcast' && currentUrl.includes(fullLinkUrl))) {
+            $(this).addClass('active-nav-link');
+            // Update the hidden heading with the current category
+            var categoryText = $(this).text();
+            $('.main-content .hidden-heading').text(categoryText);
+            foundMatch = true;
+            return false;
+        }
+    });
+    
+    // If no match found, highlight "All Episodes" and keep heading as is
+    if (!foundMatch) {
+        $('#blogNav a[data-category="All-Episodes"]').addClass('active-nav-link');
+    }
+});
