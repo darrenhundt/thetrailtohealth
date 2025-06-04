@@ -34,8 +34,12 @@ $(document).ready(function() {
             ? window.location.origin.toLowerCase() + normalizedLinkHref 
             : normalizedLinkHref;
             
-        if (currentUrl === fullLinkUrl || 
-            (linkHref !== '/podcast' && currentUrl.includes(fullLinkUrl))) {
+        // Decode both URLs for comparison
+        var decodedCurrentUrl = decodeURIComponent(currentUrl);
+        var decodedLinkUrl = decodeURIComponent(fullLinkUrl);
+            
+        if (decodedCurrentUrl === decodedLinkUrl || 
+            (linkHref !== '/podcast' && decodedCurrentUrl.includes(decodedLinkUrl))) {
             $(this).addClass('active-nav-link');
             // Update the hidden heading with the current category
             var categoryText = $(this).text();
