@@ -56,7 +56,7 @@ $(document).ready(function(){
   $('.custom-nav-list').flickity({
     pageDots: false,
     prevNextButtons: true,
-    groupCells: 5,
+    groupCells: window.innerWidth < 920 ? 1 : 3,
     contain: true,
     wrapAround: false,
     autoPlay: false,
@@ -64,6 +64,13 @@ $(document).ready(function(){
     pauseAutoPlayOnHover: true
   });
 
+  $(window).on('resize', function() {
+    var $carousel = $('.custom-nav-list').data('flickity');
+    if ($carousel) {
+      $carousel.options.groupCells = window.innerWidth < 920 ? 1 : 3;
+      $carousel.reposition();
+    }
+  });
 
   /*
   $('.custom-nav-list').slick({
