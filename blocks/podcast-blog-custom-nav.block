@@ -29,22 +29,34 @@ $(document).ready(function() {
         var linkHref = $(this).attr('href');
         if (!linkHref) return;
         
-        var normalizedLinkHref = linkHref.toLowerCase();
-        var fullLinkUrl = normalizedLinkHref.startsWith('/') 
-            ? window.location.origin.toLowerCase() + normalizedLinkHref 
-            : normalizedLinkHref;
-            
-        // Decode both URLs for comparison
-        var decodedCurrentUrl = decodeURIComponent(currentUrl);
-        var decodedLinkUrl = decodeURIComponent(fullLinkUrl);
-            
-        if (decodedCurrentUrl === decodedLinkUrl || 
-            (linkHref !== '/podcast' && decodedCurrentUrl.includes(decodedLinkUrl))) {
+        // Get the category from the data attribute
+        var category = $(this).attr('data-category');
+        
+        // For the main podcast page
+        if (linkHref === '/podcast' && !currentUrl.includes('category=') && !currentUrl.includes('/category/')) {
+            $(this).addClass('active-nav-link');
+            foundMatch = true;
+            return false;
+        }
+        
+        // Extract category from URL - handle both formats
+        var categoryInUrl = '';
+        if (currentUrl.includes('category=')) {
+            // Handle query parameter format: ?category=Gut%20Health
+            var queryString = currentUrl.split('?')[1];
+            var params = new URLSearchParams(queryString);
+            categoryInUrl = decodeURIComponent(params.get('category') || '');
+        } else if (currentUrl.includes('/category/')) {
+            // Handle path format: /category/Gut%20Health
+            categoryInUrl = decodeURIComponent(currentUrl.split('/category/')[1] || '');
+        }
+        
+        // Compare categories
+        if (categoryInUrl && categoryInUrl.toLowerCase() === category.toLowerCase()) {
             $(this).addClass('active-nav-link');
             // Update the hidden heading with the current category
             var categoryText = $(this).text();
             $('.main-content .hidden-heading').addClass('touched-heading').text(categoryText);
-            console.log(categoryText);
             foundMatch = true;
             return false;
         }
