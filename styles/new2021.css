@@ -756,10 +756,10 @@
   width: auto;
   text-align: center;
 }
-.layout-2021 ul.custom-nav-list .flickity-prev-next-button.previous {
+.layout-2021.new-layout-blogs-general-2021 ul.custom-nav-list .flickity-prev-next-button.previous {
   -10px;
 }
-.layout-2021 ul.custom-nav-list .flickity-prev-next-button.next {
+.layout-2021.new-layout-blogs-general-2021 ul.custom-nav-list .flickity-prev-next-button.next {
   -10px;
 }
 @media (max-width: 640px) {
