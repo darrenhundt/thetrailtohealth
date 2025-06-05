@@ -53,7 +53,9 @@ $(document).ready(function(){
     autoPlay: false,
     pauseAutoPlayOnHover: true
   });
-  $('.custom-nav-list').flickity({
+
+  // Initialize podcast navigation carousel
+  var $podcastNav = $('.custom-nav-list').flickity({
     pageDots: false,
     prevNextButtons: true,
     groupCells: window.innerWidth < 920 ? 1 : 3,
@@ -64,6 +66,7 @@ $(document).ready(function(){
     pauseAutoPlayOnHover: true
   });
 
+  // Update groupCells on window resize
   $(window).on('resize', function() {
     var $carousel = $('.custom-nav-list').data('flickity');
     if ($carousel) {
@@ -72,14 +75,70 @@ $(document).ready(function(){
     }
   });
 
-  /*
-  $('.custom-nav-list').slick({
-  });
-  */
+  // Handle podcast navigation highlighting and carousel positioning
+  if (windowURL.includes('/podcast')) {
+    var currentUrl = windowURL.toLowerCase();
+    var foundMatch = false;
+    
+    // Remove active classes from all links
+    $('#blogNav .custom-nav-link').removeClass('active-nav-link');
+    
+    // Find and highlight the matching link
+    $('#blogNav .custom-nav-link').each(function() {
+      var linkHref = $(this).attr('href');
+      if (!linkHref) return;
+      
+      // Get the category from the data attribute and trim any extra spaces
+      var category = $(this).attr('data-category').trim();
+      
+      // For the main podcast page
+      if (linkHref === '/podcast' && !currentUrl.includes('category=') && !currentUrl.includes('/category/')) {
+        $(this).addClass('active-nav-link');
+        foundMatch = true;
+        return false;
+      }
+      
+      // Extract category from URL - handle both formats
+      var categoryInUrl = '';
+      if (currentUrl.includes('category=')) {
+        // Handle query parameter format: ?category=Gut%20Health
+        var queryString = currentUrl.split('?')[1];
+        var params = new URLSearchParams(queryString);
+        categoryInUrl = decodeURIComponent(params.get('category') || '').trim();
+      } else if (currentUrl.includes('/category/')) {
+        // Handle path format: /category/Gut%20Health
+        categoryInUrl = decodeURIComponent(currentUrl.split('/category/')[1] || '').trim();
+      }
+      
+      // Compare categories
+      if (categoryInUrl && categoryInUrl.toLowerCase() === category.toLowerCase()) {
+        $(this).addClass('active-nav-link');
+        // Update the hidden heading with the current category
+        var categoryText = $(this).text().trim();
+        $('.main-content .hidden-heading').addClass('touched-heading').text(categoryText);
+        foundMatch = true;
+        return false;
+      }
+    });
+    
+    // If no match found, highlight "All Episodes" and keep heading as is
+    if (!foundMatch) {
+      $('#blogNav a[data-category="All-Episodes"]').addClass('active-nav-link');
+    }
+
+    // After Flickity is initialized, select the active cell
+    $podcastNav.on('ready.flickity', function() {
+      var $activeLink = $('#blogNav .custom-nav-link.active-nav-link');
+      if ($activeLink.length) {
+        var activeIndex = $activeLink.parent().index();
+        $podcastNav.flickity('select', activeIndex);
+      }
+    });
+  }
+
   $("#blogNav").addClass("carousel-loaded");
 
   $('#page-footer .mobile-only').on('click',function(){
-
     var myParent = $(this).closest('li');
     var mySubnav = myParent.find('.subnav');
     var clickedElement = $(this);
@@ -95,7 +154,6 @@ $(document).ready(function(){
         mySubnav.slideDown();
         bonusSubnav.slideDown();
         clickedElement.html('-');
-        //
       } else {
         $(this).addClass('open-footer-nav');
         mySubnav.slideDown();
