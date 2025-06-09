@@ -778,6 +778,10 @@
   white-space: nowrap;
 }
 .layout-2021 a.custom-nav-link.active-nav-link {
+  color: white;
+  background: #333;
+}
+.layout-2021 a.custom-nav-link.active-nav-link:hover {
   border-width: 3px;
   border-color: #000;
 }
