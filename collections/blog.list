@@ -44,7 +44,7 @@
         <!--POST BODY-->
         
         {.excerpt?}
-        
+        å
         {.main-image?}
         <div class="excerpt-thumb">
           <div class="intrinsic">
@@ -58,7 +58,7 @@
         </div>
         {.end}
         
-  			{.if title}<h1 class="entry-title" data-content-field="title">{.passthrough?}<a href="{sourceUrl}" target="_blank">{title}<span class="passthrough">&rarr;</span></a>{.or}<a href="{fullUrl}">{title}</a>{.end}</h1>{.end}
+  			{.if title}<h1 class="entry-title" data-content-field="title">{.passthrough?}<a href="{sourceUrl}" target="_blank">{title}<span class="passthrough">&rarr;</span></a>{.or}<a href="{fullUrl}" target="_blank">{title}</a>{.end}</h1>{.end}
 
         <div class="body entry-content excerpt-content">{excerpt}<span class="inline-action"><a class="inline-read-more" href="{fullUrl}">Read More</a></span></div>
         
