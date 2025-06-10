@@ -46,7 +46,7 @@
 				    </div><!-- navigation-top -->
 
 
-				    <div id="social-content-area" style="display: none!important">
+				    <div id="social-content-area" style="">
 				    	<div class="social-content-wrapper">
 				    		<!-- Social icons or other content can be placed here -->
 				    		{.if socialAccounts}
@@ -54,6 +54,11 @@
 				    			{@|apply sqs-social-links}
 				    		</div>
 				    		{.end}
+				          {.if socialAccounts}
+                  <div id="sqs-social" class="social-links sqs-svg-icon--list" data-content-field="connected-accounts">
+        						{@|apply sqs-social-links}
+			            </div>
+				          {.end}
 				    	</div>
 				    </div><!-- social-content-area -->
 
