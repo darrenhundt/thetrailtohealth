@@ -50,13 +50,8 @@
 				    	<div class="social-content-wrapper">
 					      {.section website}
 				    		<!-- Social icons or other content can be placed here -->
-				    		{.if socialAccounts}
-                  <div id="header-social" class="social-links sqs-svg-icon--list" data-content-field="connected-accounts">
-                    {@|apply sqs-social-links}
-                  </div>
-                  {.end}
-                    {.if socialAccounts}
-                    <div id="sqs-social" class="social-links sqs-svg-icon--list" data-content-field="connected-accounts">
+                  {.if socialAccounts}
+                    <div id="sqs-social" class="social-links sqs-svg-icon--list" data-content-field="connected-accounts" style="display: none;">
                       {@|apply sqs-social-links}
                     </div>
                     {.end}
