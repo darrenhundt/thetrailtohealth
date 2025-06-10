@@ -43,21 +43,23 @@
 					    		<squarespace:navigation navigationId="mainNav2021" template="main-navigation" />
 					      {.end}
 				    	</div>
+
+              <div id="social-content-area" style="">
+                <div class="social-content-wrapper">
+                  {.section website}
+                  <!-- Social icons or other content can be placed here -->
+                    {.if socialAccounts}
+                      <div id="sqs-social" class="social-links sqs-svg-icon--list" data-content-field="connected-accounts" style="display: none;">
+                        {@|apply sqs-social-links}
+                      </div>
+                      {.end}
+                    {.end}
+                </div>
+              </div><!-- social-content-area -->
+
 				    </div><!-- navigation-top -->
 
 
-				    <div id="social-content-area" style="">
-				    	<div class="social-content-wrapper">
-					      {.section website}
-				    		<!-- Social icons or other content can be placed here -->
-                  {.if socialAccounts}
-                    <div id="sqs-social" class="social-links sqs-svg-icon--list" data-content-field="connected-accounts" style="display: none;">
-                      {@|apply sqs-social-links}
-                    </div>
-                    {.end}
-				          {.end}
-				    	</div>
-				    </div><!-- social-content-area -->
 
             <div class="full-width">
               <squarespace:query collection="new-header-slides" limit="10">
