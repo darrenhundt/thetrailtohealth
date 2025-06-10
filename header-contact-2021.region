@@ -27,7 +27,7 @@
 	  	<div id="canvas">
 
 
-				<div id="page-header-wrapper">
+				<div id="page-header-wrapper" class="header-contact-2021">
 					<div id="page-header">
 
 				    <div id="navigation-top">
@@ -60,7 +60,7 @@
                         <div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-7fc3a53e97b048abf36b">
                           <div class="sqs-block-content">
                             <h1 style="white-space:pre-wrap;">Get In Touch.</h1>
-                            <p>Let’s connect and see how I can be<br> a part of yourtrail to health.</p>
+                            <p>Let's connect and see how I can be<br> a part of yourtrail to health.</p>
                           </div>
                         </div>
                         <div class="sqs-block button-block sqs-block-button" data-block-type="53" id="block-e5edc03a23f53e6f728a">
