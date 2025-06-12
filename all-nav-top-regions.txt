@@ -1,0 +1,366 @@
+<!-- Navigation sections from all 17 header region files -->
+
+
+<!-- From header-2021.region -->
+
+				    <div id="navigation-top">
+				    	<div class="horizontal-navigation-bar {.section website}{.if logoImageUrl} with-logo{.or} with-title{.end}{.end} element-is-flex element-is-space-between element-is-align-center">
+
+				    		<!-- // logo or site title markup in nav area -->
+					      {.section website}
+					      	{.if logoImageUrl}
+						      <div id="banner-wrapper" data-content-field="site-title">
+						        <a href="/"><img id="banner" src="{logoImageUrl}?format=1500w" alt="{siteTitle}" /></a>
+						      </div>
+					        {.or}
+									<div id="site-title-wrapper" data-content-field="site-title">
+										<h1 id="site-title" class="page-title"><a href="/" rel="bookmark">{siteTitle}</a></h1>
+									</div>
+					        {.end}
+
+					    		<squarespace:navigation navigationId="mainNav2021" template="main-navigation" />
+					      {.end}
+
+				    	</div>
+				    </div><!-- navigation-top -->
+
+<!-- From header-amazon-2021.region -->
+
+				    <div id="navigation-top">
+				    	<div class="horizontal-navigation-bar {.section website}{.if logoImageUrl} with-logo{.or} with-title{.end}{.end} element-is-flex element-is-space-between element-is-align-center">
+				    		<!-- // logo or site title markup in nav area -->
+					      {.section website}
+					      	{.if logoImageUrl}
+						      <div id="banner-wrapper" data-content-field="site-title">
+						        <a href="/"><img id="banner" src="{logoImageUrl}?format=1500w" alt="{siteTitle}" /></a>
+						      </div>
+					        {.or}
+									<div id="site-title-wrapper" data-content-field="site-title">
+										<h1 id="site-title" class="page-title"><a href="/" rel="bookmark">{siteTitle}</a></h1>
+									</div>
+					        {.end}
+					    		<squarespace:navigation navigationId="mainNav2021" template="main-navigation" />
+					      {.end}
+				    	</div>
+				    </div><!-- navigation-top -->
+
+<!-- From header-blog-2021.region -->
+
+				    <div id="navigation-top">
+				    	<div class="horizontal-navigation-bar {.section website}{.if logoImageUrl} with-logo{.or} with-title{.end}{.end} element-is-flex element-is-space-between element-is-align-center">
+				    		<!-- // logo or site title markup in nav area -->
+					      {.section website}
+					      	{.if logoImageUrl}
+						      <div id="banner-wrapper" data-content-field="site-title">
+						        <a href="/"><img id="banner" src="{logoImageUrl}?format=1500w" alt="{siteTitle}" /></a>
+						      </div>
+					        {.or}
+									<div id="site-title-wrapper" data-content-field="site-title">
+										<h1 id="site-title" class="page-title"><a href="/" rel="bookmark">{siteTitle}</a></h1>
+									</div>
+					        {.end}
+					    		<squarespace:navigation navigationId="mainNav2021" template="main-navigation" />
+					      {.end}
+				    	</div>
+				    </div><!-- navigation-top -->
+
+<!-- From header-brands-2021.region -->
+
+				    <div id="navigation-top">
+				    	<div class="horizontal-navigation-bar {.section website}{.if logoImageUrl} with-logo{.or} with-title{.end}{.end} element-is-flex element-is-space-between element-is-align-center">
+				    		<!-- // logo or site title markup in nav area -->
+					      {.section website}
+					      	{.if logoImageUrl}
+						      <div id="banner-wrapper" data-content-field="site-title">
+						        <a href="/"><img id="banner" src="{logoImageUrl}?format=1500w" alt="{siteTitle}" /></a>
+						      </div>
+					        {.or}
+									<div id="site-title-wrapper" data-content-field="site-title">
+										<h1 id="site-title" class="page-title"><a href="/" rel="bookmark">{siteTitle}</a></h1>
+									</div>
+					        {.end}
+					    		<squarespace:navigation navigationId="mainNav2021" template="main-navigation" />
+					      {.end}
+				    	</div>
+				    </div><!-- navigation-top -->
+
+<!-- From header-coaching-1-1-2021.region -->
+
+				    <div id="navigation-top">
+				    	<div class="horizontal-navigation-bar {.section website}{.if logoImageUrl} with-logo{.or} with-title{.end}{.end} element-is-flex element-is-space-between element-is-align-center">
+				    		<!-- // logo or site title markup in nav area -->
+					      {.section website}
+					      	{.if logoImageUrl}
+						      <div id="banner-wrapper" data-content-field="site-title">
+						        <a href="/"><img id="banner" src="{logoImageUrl}?format=1500w" alt="{siteTitle}" /></a>
+						      </div>
+					        {.or}
+									<div id="site-title-wrapper" data-content-field="site-title">
+										<h1 id="site-title" class="page-title"><a href="/" rel="bookmark">{siteTitle}</a></h1>
+									</div>
+					        {.end}
+					    		<squarespace:navigation navigationId="mainNav2021" template="main-navigation" />
+					      {.end}
+				    	</div>
+				    </div><!-- navigation-top -->
+
+<!-- From header-coaching-2021.region -->
+
+				    <div id="navigation-top">
+				    	<div class="horizontal-navigation-bar {.section website}{.if logoImageUrl} with-logo{.or} with-title{.end}{.end} element-is-flex element-is-space-between element-is-align-center">
+				    		<!-- // logo or site title markup in nav area -->
+					      {.section website}
+					      	{.if logoImageUrl}
+						      <div id="banner-wrapper" data-content-field="site-title">
+						        <a href="/"><img id="banner" src="{logoImageUrl}?format=1500w" alt="{siteTitle}" /></a>
+						      </div>
+					        {.or}
+									<div id="site-title-wrapper" data-content-field="site-title">
+										<h1 id="site-title" class="page-title"><a href="/" rel="bookmark">{siteTitle}</a></h1>
+									</div>
+					        {.end}
+					    		<squarespace:navigation navigationId="mainNav2021" template="main-navigation" />
+					      {.end}
+				    	</div>
+				    </div><!-- navigation-top -->
+
+<!-- From header-contact-2021.region -->
+
+				    <div id="navigation-top">
+				    	<div class="horizontal-navigation-bar {.section website}{.if logoImageUrl} with-logo{.or} with-title{.end}{.end} element-is-flex element-is-space-between element-is-align-center">
+				    		<!-- // logo or site title markup in nav area -->
+					      {.section website}
+					      	{.if logoImageUrl}
+						      <div id="banner-wrapper" data-content-field="site-title">
+						        <a href="/"><img id="banner" src="{logoImageUrl}?format=1500w" alt="{siteTitle}" /></a>
+						      </div>
+					        {.or}
+									<div id="site-title-wrapper" data-content-field="site-title">
+										<h1 id="site-title" class="page-title"><a href="/" rel="bookmark">{siteTitle}</a></h1>
+									</div>
+					        {.end}
+					    		<squarespace:navigation navigationId="mainNav2021" template="main-navigation" />
+					      {.end}
+				    	</div>
+				    </div><!-- navigation-top -->
+
+<!-- From header-cookbook-2021.region -->
+
+				    <div id="navigation-top">
+				    	<div class="horizontal-navigation-bar {.section website}{.if logoImageUrl} with-logo{.or} with-title{.end}{.end} element-is-flex element-is-space-between element-is-align-center">
+				    		<!-- // logo or site title markup in nav area -->
+					      {.section website}
+					      	{.if logoImageUrl}
+						      <div id="banner-wrapper" data-content-field="site-title">
+						        <a href="/"><img id="banner" src="{logoImageUrl}?format=1500w" alt="{siteTitle}" /></a>
+						      </div>
+					        {.or}
+									<div id="site-title-wrapper" data-content-field="site-title">
+										<h1 id="site-title" class="page-title"><a href="/" rel="bookmark">{siteTitle}</a></h1>
+									</div>
+					        {.end}
+					    		<squarespace:navigation navigationId="mainNav2021" template="main-navigation" />
+					      {.end}
+				    	</div>
+				    </div><!-- navigation-top -->
+
+<!-- From header-home-2021.region -->
+
+				    <div id="navigation-top">
+				    	<div class="horizontal-navigation-bar {.section website}{.if logoImageUrl} with-logo{.or} with-title{.end}{.end} element-is-flex element-is-space-between element-is-align-center">
+				    		<!-- // logo or site title markup in nav area -->
+					      {.section website}
+					      	{.if logoImageUrl}
+						      <div id="banner-wrapper" data-content-field="site-title">
+						        <a href="/"><img id="banner" src="{logoImageUrl}?format=1500w" alt="{siteTitle}" /></a>
+						      </div>
+					        {.or}
+									<div id="site-title-wrapper" data-content-field="site-title">
+										<h1 id="site-title" class="page-title"><a href="/" rel="bookmark">{siteTitle}</a></h1>
+									</div>
+					        {.end}
+					    		<squarespace:navigation navigationId="mainNav2021" template="main-navigation" />
+					      {.end}
+				    	</div>
+
+              <div id="social-content-area" style="">
+                <div class="social-content-wrapper">
+                  {.section website}
+                  <!-- Social icons or other content can be placed here -->
+                    {.if socialAccounts}
+                      <div id="sqs-social" class="social-links sqs-svg-icon--list" data-content-field="connected-accounts" style="display: none;">
+                        {@|apply sqs-social-links}
+                      </div>
+                      {.end}
+                    {.end}
+                </div>
+              </div><!-- social-content-area -->
+
+				    </div><!-- navigation-top -->
+
+<!-- From header-journey-2021.region -->
+
+				    <div id="navigation-top">
+				    	<div class="horizontal-navigation-bar {.section website}{.if logoImageUrl} with-logo{.or} with-title{.end}{.end} element-is-flex element-is-space-between element-is-align-center">
+				    		<!-- // logo or site title markup in nav area -->
+					      {.section website}
+					      	{.if logoImageUrl}
+						      <div id="banner-wrapper" data-content-field="site-title">
+						        <a href="/"><img id="banner" src="{logoImageUrl}?format=1500w" alt="{siteTitle}" /></a>
+						      </div>
+					        {.or}
+									<div id="site-title-wrapper" data-content-field="site-title">
+										<h1 id="site-title" class="page-title"><a href="/" rel="bookmark">{siteTitle}</a></h1>
+									</div>
+					        {.end}
+					    		<squarespace:navigation navigationId="mainNav2021" template="main-navigation" />
+					      {.end}
+				    	</div>
+				    </div><!-- navigation-top -->
+
+<!-- From header-merchandise-2021.region -->
+
+				    <div id="navigation-top">
+				    	<div class="horizontal-navigation-bar {.section website}{.if logoImageUrl} with-logo{.or} with-title{.end}{.end} element-is-flex element-is-space-between element-is-align-center">
+				    		<!-- // logo or site title markup in nav area -->
+					      {.section website}
+					      	{.if logoImageUrl}
+						      <div id="banner-wrapper" data-content-field="site-title">
+						        <a href="/"><img id="banner" src="{logoImageUrl}?format=1500w" alt="{siteTitle}" /></a>
+						      </div>
+					        {.or}
+									<div id="site-title-wrapper" data-content-field="site-title">
+										<h1 id="site-title" class="page-title"><a href="/" rel="bookmark">{siteTitle}</a></h1>
+									</div>
+					        {.end}
+					    		<squarespace:navigation navigationId="mainNav2021" template="main-navigation" />
+					      {.end}
+				    	</div>
+				    </div><!-- navigation-top -->
+
+<!-- From header-podcast.region -->
+
+				    <div id="navigation-top">
+				    	<div class="horizontal-navigation-bar {.section website}{.if logoImageUrl} with-logo{.or} with-title{.end}{.end} element-is-flex element-is-space-between element-is-align-center">
+				    		<!-- // logo or site title markup in nav area -->
+					      {.section website}
+					      	{.if logoImageUrl}
+						      <div id="banner-wrapper" data-content-field="site-title">
+						        <a href="/"><img id="banner" src="{logoImageUrl}?format=1500w" alt="{siteTitle}" /></a>
+						      </div>
+					        {.or}
+									<div id="site-title-wrapper" data-content-field="site-title">
+										<h1 id="site-title" class="page-title"><a href="/" rel="bookmark">{siteTitle}</a></h1>
+									</div>
+					        {.end}
+					    		<squarespace:navigation navigationId="mainNav2021" template="main-navigation" />
+					      {.end}
+				    	</div>
+				    </div><!-- navigation-top -->
+
+<!-- From header-press-2021.region -->
+
+				    <div id="navigation-top">
+				    	<div class="horizontal-navigation-bar {.section website}{.if logoImageUrl} with-logo{.or} with-title{.end}{.end} element-is-flex element-is-space-between element-is-align-center">
+				    		<!-- // logo or site title markup in nav area -->
+					      {.section website}
+					      	{.if logoImageUrl}
+						      <div id="banner-wrapper" data-content-field="site-title">
+						        <a href="/"><img id="banner" src="{logoImageUrl}?format=1500w" alt="{siteTitle}" /></a>
+						      </div>
+					        {.or}
+									<div id="site-title-wrapper" data-content-field="site-title">
+										<h1 id="site-title" class="page-title"><a href="/" rel="bookmark">{siteTitle}</a></h1>
+									</div>
+					        {.end}
+					    		<squarespace:navigation navigationId="mainNav2021" template="main-navigation" />
+					      {.end}
+				    	</div>
+				    </div><!-- navigation-top -->
+
+<!-- From header-recipes-2021.region -->
+
+				    <div id="navigation-top">
+				    	<div class="horizontal-navigation-bar {.section website}{.if logoImageUrl} with-logo{.or} with-title{.end}{.end} element-is-flex element-is-space-between element-is-align-center">
+				    		<!-- // logo or site title markup in nav area -->
+					      {.section website}
+					      	{.if logoImageUrl}
+						      <div id="banner-wrapper" data-content-field="site-title">
+						        <a href="/"><img id="banner" src="{logoImageUrl}?format=1500w" alt="{siteTitle}" /></a>
+						      </div>
+					        {.or}
+									<div id="site-title-wrapper" data-content-field="site-title">
+										<h1 id="site-title" class="page-title"><a href="/" rel="bookmark">{siteTitle}</a></h1>
+									</div>
+					        {.end}
+					    		<squarespace:navigation navigationId="mainNav2021" template="main-navigation" />
+					      {.end}
+				    	</div>
+				    </div><!-- navigation-top -->
+
+<!-- From header-shop-2021.region -->
+
+				    <div id="navigation-top">
+				    	<div class="horizontal-navigation-bar {.section website}{.if logoImageUrl} with-logo{.or} with-title{.end}{.end} element-is-flex element-is-space-between element-is-align-center">
+				    		<!-- // logo or site title markup in nav area -->
+					      {.section website}
+					      	{.if logoImageUrl}
+						      <div id="banner-wrapper" data-content-field="site-title">
+						        <a href="/"><img id="banner" src="{logoImageUrl}?format=1500w" alt="{siteTitle}" /></a>
+						      </div>
+					        {.or}
+									<div id="site-title-wrapper" data-content-field="site-title">
+										<h1 id="site-title" class="page-title"><a href="/" rel="bookmark">{siteTitle}</a></h1>
+									</div>
+					        {.end}
+					    		<squarespace:navigation navigationId="mainNav2021" template="main-navigation" />
+					      {.end}
+				    	</div>
+				    </div><!-- navigation-top -->
+
+<!-- From header-travel-2021.region -->
+
+            <div id="navigation-top">
+              <div class="horizontal-navigation-bar {.section website}{.if logoImageUrl} with-logo{.or} with-title{.end}{.end} element-is-flex element-is-space-between element-is-align-center">
+                <!-- // logo or site title markup in nav area -->
+                {.section website}
+                  {.if logoImageUrl}
+                  <div id="banner-wrapper" data-content-field="site-title">
+                    <a href="/"><img id="banner" src="{logoImageUrl}?format=1500w" alt="{siteTitle}" /></a>
+                  </div>
+                  {.or}
+                  <div id="site-title-wrapper" data-content-field="site-title">
+                    <h1 id="site-title" class="page-title"><a href="/" rel="bookmark">{siteTitle}</a></h1>
+                  </div>
+                  {.end}
+                  <squarespace:navigation navigationId="mainNav2021" template="main-navigation" />
+                {.end}
+              </div>
+            </div><!-- navigation-top -->
+
+<!-- From header.region -->
+				    <div id="navigation-top">
+				    	<div class="horizontal-navigation-bar clear{.section website}{.if logoImageUrl} with-logo{.or} with-title{.end}{.end}">
+
+				    		<!-- // logo or site title markup in nav area -->
+					      {.section website}
+					      	{.if logoImageUrl}
+						      <div id="banner-wrapper" data-content-field="site-title">
+						        <a href="/"><img id="banner" src="{logoImageUrl}?format=1500w" alt="{siteTitle}" /></a>
+						      </div>
+					        {.or}
+									<div id="site-title-wrapper" data-content-field="site-title">
+										<h1 id="site-title" class="page-title"><a href="/" rel="bookmark">{siteTitle}</a></h1>
+									</div>
+					        {.end}
+
+					    		<squarespace:navigation navigationId="mainNav" template="main-navigation" />
+				          {.if socialAccounts}
+			            <div id="sqs-social" class="social-links sqs-svg-icon--list" data-content-field="connected-accounts">
+        						{@|apply sqs-social-links}
+			            </div>
+				          {.end}
+					      {.end}
+
+				    	</div>
+				    </div><!-- navigation-top -->
