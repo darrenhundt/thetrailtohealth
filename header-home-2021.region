@@ -1,7 +1,7 @@
-{@|apply aa-head-common-2025.block 
-  additionalScripts="<squarespace:script src='flickity.js' combo='false' /><squarespace:script src='hundt2021.js' combo='false' />"
-}
-
+<!doctype html>
+<html>
+  {@|apply aa-head-common-2025.block}
+  
   {.if template.mobileStylesEnabled}{.or}<!-- Mobile Styles Are Disabled -->{.end}
   <body class="{squarespace.page-classes}{.section website}{.if logoImageUrl} has-logo-image{.or} no-logo-image{.end}{.end}{.section collection}{.background-source-video?} has-page-thumbnail{.or}{.section mainImage} has-page-thumbnail{.end}{.end}{.end} layout-2021" id="{squarespace.page-id}" ontouchstart="">
 

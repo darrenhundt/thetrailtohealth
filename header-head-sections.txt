@@ -1,0 +1,299 @@
+<!-- This file contains the <head> sections from all header region files -->
+
+<!-- From header.region -->
+<!doctype html>
+<html>
+  <head>
+	{.if template.mobileStylesEnabled}
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	{.end}
+    {squarespace-headers}
+    <squarespace:script src="site-bundle.js" combo="false" />
+    <squarespace:script src="jquery.matchHeight-min.js" combo="false" />
+    <squarespace:script src="flickity.js" combo="false" />
+    <squarespace:script src="hundt.js" combo="false" />
+    <meta name="p:domain_verify" content="13df77703a96655a5c067011aa215475"/>
+  </head>
+</html>
+
+<!-- From header-2021.region -->
+<!doctype html>
+<html>
+  <head>
+	  {.if template.mobileStylesEnabled}
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  {.end}
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,900;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    {squarespace-headers}
+    <squarespace:script src="site-bundle.js" combo="false" />
+    <squarespace:script src="jquery.matchHeight-min.js" combo="false" />
+    <squarespace:script src="hundt.js" combo="false" />
+  </head>
+</html>
+
+<!-- From header-podcast.region -->
+<!doctype html>
+<html>
+  <head>
+	  {.if template.mobileStylesEnabled}
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  {.end}
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,900;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    {squarespace-headers}
+    <squarespace:script src="site-bundle.js" combo="false" />
+    <squarespace:script src="jquery.matchHeight-min.js" combo="false" />
+    <squarespace:script src="flickity.js" combo="false" />
+    <squarespace:script src="hundt.js" combo="false" />
+    <squarespace:script src="hundt2021.js" combo="false" />
+    <style>html {overflow-x: hidden;}</style>
+  </head>
+</html>
+
+<!-- From header-blog-2021.region -->
+<!doctype html>
+<html>
+  <head>
+	  {.if template.mobileStylesEnabled}
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  {.end}
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,900;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    {squarespace-headers}
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <squarespace:script src="site-bundle.js" combo="false" />
+    <squarespace:script src="jquery.matchHeight-min.js" combo="false" />
+    <squarespace:script src="flickity.js" combo="false" />
+    <squarespace:script src="hundt.js" combo="false" />
+    <squarespace:script src="hundt2021.js" combo="false" />
+    <style>html {overflow-x: hidden;}</style>
+  </head>
+</html>
+
+<!-- From header-home-2021.region -->
+<!doctype html>
+<html>
+  <head>
+  <!-- header-home-2021.region -->
+	  {.if template.mobileStylesEnabled}
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  {.end}
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,900;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    {squarespace-headers}
+    <squarespace:script src="site-bundle.js" combo="false" />
+    <squarespace:script src="jquery.matchHeight-min.js" combo="false" />
+    <squarespace:script src="flickity.js" combo="false" />
+    <squarespace:script src="hundt.js" combo="false" />
+    <squarespace:script src="hundt2021.js" combo="false" />
+  </head>
+</html>
+
+<!-- From header-shop-2021.region -->
+<!doctype html>
+<html>
+  <head>
+	  {.if template.mobileStylesEnabled}
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  {.end}
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,900;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    {squarespace-headers}
+    <squarespace:script src="site-bundle.js" combo="false" />
+    <squarespace:script src="jquery.matchHeight-min.js" combo="false" />
+    <squarespace:script src="flickity.js" combo="false" />
+    <squarespace:script src="hundt.js" combo="false" />
+    <squarespace:script src="hundt2021.js" combo="false" />
+  </head>
+</html>
+
+<!-- From header-press-2021.region -->
+<!doctype html>
+<html>
+  <head>
+	  {.if template.mobileStylesEnabled}
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  {.end}
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,900;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    {squarespace-headers}
+    <squarespace:script src="site-bundle.js" combo="false" />
+    <squarespace:script src="jquery.matchHeight-min.js" combo="false" />
+    <squarespace:script src="flickity.js" combo="false" />
+    <squarespace:script src="hundt.js" combo="false" />
+    <squarespace:script src="hundt2021.js" combo="false" />
+  </head>
+</html>
+
+<!-- From header-amazon-2021.region -->
+<!doctype html>
+<html>
+  <head>
+	  {.if template.mobileStylesEnabled}
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  {.end}
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,900;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    {squarespace-headers}
+    <squarespace:script src="site-bundle.js" combo="false" />
+    <squarespace:script src="jquery.matchHeight-min.js" combo="false" />
+    <squarespace:script src="flickity.js" combo="false" />
+    <squarespace:script src="hundt.js" combo="false" />
+    <squarespace:script src="hundt2021.js" combo="false" />
+  </head>
+</html>
+
+<!-- From header-brands-2021.region -->
+<!doctype html>
+<html>
+  <head>
+	  {.if template.mobileStylesEnabled}
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  {.end}
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,900;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    {squarespace-headers}
+    <squarespace:script src="site-bundle.js" combo="false" />
+    <squarespace:script src="jquery.matchHeight-min.js" combo="false" />
+    <squarespace:script src="flickity.js" combo="false" />
+    <squarespace:script src="hundt.js" combo="false" />
+    <squarespace:script src="hundt2021.js" combo="false" />
+  </head>
+</html>
+
+<!-- From header-travel-2021.region -->
+<!doctype html>
+<html>
+  <head>
+    {.if template.mobileStylesEnabled}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {.end}
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,900;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    {squarespace-headers}
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <squarespace:script src="site-bundle.js" combo="false" />
+    <squarespace:script src="jquery.matchHeight-min.js" combo="false" />
+    <squarespace:script src="flickity.js" combo="false" />
+    <squarespace:script src="hundt.js" combo="false" />
+    <squarespace:script src="hundt2021.js" combo="false" />
+    <style>html {overflow-x: hidden;}</style>
+  </head>
+</html>
+
+<!-- From header-recipes-2021.region -->
+<!doctype html>
+<html>
+  <head>
+	  {.if template.mobileStylesEnabled}
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  {.end}
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,900;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    {squarespace-headers}
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <squarespace:script src="site-bundle.js" combo="false" />
+    <squarespace:script src="jquery.matchHeight-min.js" combo="false" />
+    <squarespace:script src="flickity.js" combo="false" />
+    <squarespace:script src="hundt.js" combo="false" />
+    <squarespace:script src="hundt2021.js" combo="false" />
+    <style>html {overflow-x: hidden;}</style>
+  </head>
+</html>
+
+<!-- From header-cookbook-2021.region -->
+<!doctype html>
+<html>
+  <head>
+	  {.if template.mobileStylesEnabled}
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  {.end}
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,900;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    {squarespace-headers}
+    <squarespace:script src="site-bundle.js" combo="false" />
+    <squarespace:script src="jquery.matchHeight-min.js" combo="false" />
+    <squarespace:script src="flickity.js" combo="false" />
+    <squarespace:script src="hundt.js" combo="false" />
+    <squarespace:script src="hundt2021.js" combo="false" />
+  </head>
+</html>
+
+<!-- From header-journey-2021.region -->
+<!doctype html>
+<html>
+  <head>
+	  {.if template.mobileStylesEnabled}
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  {.end}
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,900;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    {squarespace-headers}
+    <squarespace:script src="site-bundle.js" combo="false" />
+    <squarespace:script src="jquery.matchHeight-min.js" combo="false" />
+    <squarespace:script src="flickity.js" combo="false" />
+    <squarespace:script src="hundt.js" combo="false" />
+    <squarespace:script src="hundt2021.js" combo="false" />
+  </head>
+</html>
+
+<!-- From header-coaching-1-1-2021.region -->
+<!doctype html>
+<html>
+  <head>
+	  {.if template.mobileStylesEnabled}
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  {.end}
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,900;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    {squarespace-headers}
+    <squarespace:script src="site-bundle.js" combo="false" />
+    <squarespace:script src="jquery.matchHeight-min.js" combo="false" />
+    <squarespace:script src="flickity.js" combo="false" />
+    <squarespace:script src="hundt.js" combo="false" />
+    <squarespace:script src="hundt2021.js" combo="false" />
+  </head>
+</html>
+
+<!-- From header-contact-2021.region -->
+<!doctype html>
+<html>
+  <head>
+	  {.if template.mobileStylesEnabled}
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  {.end}
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,900;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    {squarespace-headers}
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <squarespace:script src="site-bundle.js" combo="false" />
+    <squarespace:script src="jquery.matchHeight-min.js" combo="false" />
+    <squarespace:script src="flickity.js" combo="false" />
+    <squarespace:script src="hundt.js" combo="false" />
+    <squarespace:script src="hundt2021.js" combo="false" />
+    <style>html {overflow-x: hidden;}</style>
+  </head>
+</html>
+
+<!-- From header-merchandise-2021.region -->
+<!doctype html>
+<html>
+  <head>
+	  {.if template.mobileStylesEnabled}
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  {.end}
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,900;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    {squarespace-headers}
+    <squarespace:script src="site-bundle.js" combo="false" />
+    <squarespace:script src="jquery.matchHeight-min.js" combo="false" />
+    <squarespace:script src="flickity.js" combo="false" />
+    <squarespace:script src="hundt.js" combo="false" />
+    <squarespace:script src="hundt2021.js" combo="false" />
+  </head>
+</html> 

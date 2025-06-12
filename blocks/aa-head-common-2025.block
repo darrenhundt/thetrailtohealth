@@ -1,21 +1,37 @@
 
-<!-- ========================================= -->
-<!-- FILE: head-common-2025.block -->
-<!-- ========================================= -->
-<!doctype html>
-<html>
   <head>
+    <!-- Mobile viewport (UNIVERSAL - in all 17 headers) -->
     {.if template.mobileStylesEnabled}
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {.end}
+    
+    <!-- Google Fonts (in 16 of 17 headers - missing only from original 'header') -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,900;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    
+    <!-- Squarespace core (UNIVERSAL - in all 17 headers) -->
     {squarespace-headers}
+    
+    <!-- External Slick Carousel (in 4 headers: blog, travel, recipes, contact) -->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    
+    <!-- Core Squarespace Scripts (UNIVERSAL - in all 17 headers) -->
     <squarespace:script src="site-bundle.js" combo="false" />
     <squarespace:script src="jquery.matchHeight-min.js" combo="false" />
+    
+    <!-- Flickity (in 16 of 17 headers - missing only from header-2021) -->
+    <squarespace:script src="flickity.js" combo="false" />
+    
+    <!-- Custom Scripts (UNIVERSAL - in all 17 headers) -->
     <squarespace:script src="hundt.js" combo="false" />
     
-    <!-- Optional additional scripts/styles passed as parameters -->
-    {additionalScripts}
-    {additionalStyles}
+    <!-- Enhanced 2021 Script (in 15 of 17 headers - missing from header and header-2021) -->
+    <squarespace:script src="hundt2021.js" combo="false" />
+    
+    <!-- Pinterest Domain Verification (only in original 'header') -->
+    <meta name="p:domain_verify" content="13df77703a96655a5c067011aa215475"/>
+    
+    <!-- Overflow fix (in 5 headers: podcast, blog, travel, recipes, contact) -->
+    <style>html {overflow-x: hidden;}</style>
   </head>
