@@ -2,7 +2,7 @@
 <!-- top social icon and search area -->
 <div id="preNavigation">
 	<div id="nav-middle-content" class="extra-wrapper">
-		<squarespace:block-field id="pre-nav-social" description="Social and Search" columns="3" label="Social and Search Blocks" />
+		<squarespace:block-field id="pre-nav-social" description="Social and Search" columns="12" label="Social and Search Blocks" />
 	</div>
 </div>
 <!-- end top social icon area -->
