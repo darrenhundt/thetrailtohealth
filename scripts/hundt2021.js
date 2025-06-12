@@ -9,6 +9,15 @@ $(document).ready(function(){
   console.log({blogCategory});
   console.log({windowURL});
   var urlCategory;
+  if ( windowURL.includes("recipes") ) {
+    console.log('recipes category page');
+    const hiddenHeading = document.querySelector('.main-content .hidden-heading');
+    if (hiddenHeading) {
+      if (blogCategory) {
+        hiddenHeading.textContent = blogCategory + ' Recipes';
+      }
+    }
+  }
   if ( windowURL.includes("blog") ) {
     console.log('blog category page');
     const hiddenHeading = document.querySelector('.main-content .hidden-heading');
