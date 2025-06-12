@@ -18,25 +18,25 @@ $(document).ready(function(){
       }
     }
 
-    if ( windowURL.includes('category/Gluten') ) {
+    if ( windowURL.includes('category/Gluten') || windowURL.includes('category=Gluten') ) {
       $( ".custom-nav-link[data-category='Gluten']" ).addClass('active-nav-link');
-    } else if ( windowURL.includes('category/Food%20&%20Diet') ) {
+    } else if ( windowURL.includes('category/Food%20&%20Diet') || windowURL.includes('category=Food%20%26%20Diet') ) {
       $( ".custom-nav-link[data-category='Food-Diet']" ).addClass('active-nav-link');
-    } else if ( windowURL.includes('category/Healthy%20Home') ) {
+    } else if ( windowURL.includes('category/Healthy%20Home') || windowURL.includes('category=Healthy%20Home') ) {
       $( ".custom-nav-link[data-category='Healthy-Home']" ).addClass('active-nav-link');
-    } else if ( windowURL.includes('category/Health%20Tips') ) {
+    } else if ( windowURL.includes('category/Health%20Tips') || windowURL.includes('category=Health%20Tips') ) {
       $( ".custom-nav-link[data-category='Health-Tips']" ).addClass('active-nav-link');
-    } else if ( windowURL.includes('category/Lifestyle') ) {
+    } else if ( windowURL.includes('category/Lifestyle') || windowURL.includes('category=Lifestyle') ) {
       $( ".custom-nav-link[data-category='Lifestyle']" ).addClass('active-nav-link');
-    } else if ( windowURL.includes('category/Lyme%20Disease') ) {
+    } else if ( windowURL.includes('category/Lyme%20Disease') || windowURL.includes('category=Lyme%20Disease') ) {
       $( ".custom-nav-link[data-category='Lyme-Disease']" ).addClass('active-nav-link');
-    } else if ( windowURL.includes('category/Stem%20Cells') ) {
+    } else if ( windowURL.includes('category/Stem%20Cells') || windowURL.includes('category=Stem%20Cells') ) {
       $( ".custom-nav-link[data-category='Stem-Cells']" ).addClass('active-nav-link');
-    } else if ( windowURL.includes('category/Thyroid') ) {
+    } else if ( windowURL.includes('category/Thyroid') || windowURL.includes('category=Thyroid') ) {
       $( ".custom-nav-link[data-category='Thyroid']" ).addClass('active-nav-link');
-    } else if ( windowURL.includes('category/Weight%20Loss') ) {
+    } else if ( windowURL.includes('category/Weight%20Loss') || windowURL.includes('category=Weight%20Loss') ) {
       $( ".custom-nav-link[data-category='Weight-Loss']" ).addClass('active-nav-link');
-    } else if ( windowURL.includes('category/Blogging%20&%20Biz') ) {
+    } else if ( windowURL.includes('category/Blogging%20&%20Biz') || windowURL.includes('category=Blogging%20%26%20Biz') ) {
       $( ".custom-nav-link[data-category='Blogging-Biz']" ).addClass('active-nav-link');
     } else {
       $( ".custom-nav-link[data-category='All']" ).addClass('active-nav-link');
