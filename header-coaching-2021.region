@@ -27,23 +27,7 @@
 				<div id="page-header-wrapper" class="header-coaching-2021">
 					<div id="page-header">
 
-				    <div id="navigation-top">
-				    	<div class="horizontal-navigation-bar {.section website}{.if logoImageUrl} with-logo{.or} with-title{.end}{.end} element-is-flex element-is-space-between element-is-align-center">
-				    		<!-- // logo or site title markup in nav area -->
-					      {.section website}
-					      	{.if logoImageUrl}
-						      <div id="banner-wrapper" data-content-field="site-title">
-						        <a href="/"><img id="banner" src="{logoImageUrl}?format=1500w" alt="{siteTitle}" /></a>
-						      </div>
-					        {.or}
-									<div id="site-title-wrapper" data-content-field="site-title">
-										<h1 id="site-title" class="page-title"><a href="/" rel="bookmark">{siteTitle}</a></h1>
-									</div>
-					        {.end}
-					    		<squarespace:navigation navigationId="mainNav2021" template="main-navigation" />
-					      {.end}
-				    	</div>
-				    </div><!-- navigation-top -->
+{@|apply aa-navigation-top-2025.block}
 
             <div class="full-width">
               <div id="bannerCarousel">
