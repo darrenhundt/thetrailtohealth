@@ -52,6 +52,7 @@
 
                   								(function () {
                   								  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+                                    // why are these if statements breaking?
                   								  if (window.ShopifyBuy) {
                   								    if (window.ShopifyBuy.UI) {
                   								      ShopifyBuyInit();
