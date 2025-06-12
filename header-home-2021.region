@@ -33,7 +33,7 @@
 
 <div id="navigation-middle">
 	<div id="nav-middle-content" class="extra-wrapper">
-		<squarespace:block-field id="nav-middle-header" description="Social and Search" columns="12" label="Social and Search Blocks" />
+		<squarespace:block-field id="nav-middle-header" description="Social and Search" columns="2" label="Social and Search Blocks" />
 	</div>
 </div><!-- navigation-middle -->
 
