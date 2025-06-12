@@ -30,6 +30,8 @@ a#nextLink {
 	&:after {
 		content: 'Older Posts →';
 		font-size: 16px;
+    background: black;
+    color: white;
 	}
 }
 a#prevLink {
@@ -37,7 +39,14 @@ a#prevLink {
 	&:after {
 		content: '← Newer Posts';
 		font-size: 16px;
+    background: black;
+    color: white;
 	}
+}
+a#nextLink:hover,
+a#prevLink:hover {
+  background: white;
+  color: black;
 }
 article {
 	.post {
