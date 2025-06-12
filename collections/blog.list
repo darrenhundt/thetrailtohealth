@@ -44,7 +44,7 @@
         <!--POST BODY-->
         
         {.excerpt?}
-        å
+        
         {.main-image?}
         <div class="excerpt-thumb">
           <div class="intrinsic">

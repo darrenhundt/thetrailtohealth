@@ -11,6 +11,12 @@ $(document).ready(function(){
   var urlCategory;
   if ( windowURL.includes("blog") ) {
     console.log('blog category page');
+    const hiddenHeading = document.querySelector('.main-content .hidden-heading');
+    if (hiddenHeading) {
+      if (blogCategory) {
+        hiddenHeading.textContent = blogCategory + ' Posts';
+      }
+    }
 
     if ( windowURL.includes('category/Gluten') ) {
       $( ".custom-nav-link[data-category='Gluten']" ).addClass('active-nav-link');
@@ -162,3 +168,4 @@ $(document).ready(function(){
     }
   });
 });
+
