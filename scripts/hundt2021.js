@@ -67,7 +67,7 @@ $(document).ready(function(){
       $( ".custom-nav-link[data-category='Weight-Loss']" ).addClass('active-nav-link');
     } else if ( windowURL.includes('category/Blogging%20&%20Biz') || windowURL.includes('category=Blogging%20%26%20Biz') ) {
       $( ".custom-nav-link[data-category='Blogging-Biz']" ).addClass('active-nav-link');
-    } else if ( windowURL.includes('category/Biohacking%20&%20Wellness') || windowURL.includes('category=Biohacking%20%26%20Wellness') ) {
+    } else if ( windowURL.includes('category/Biohacking%20%26%20Wellness') || windowURL.includes('category=Biohacking%20%26%20Wellness') ) {
       $( ".custom-nav-link[data-category='Biohacking-Wellness']" ).addClass('active-nav-link');
     } else if ( windowURL.includes('category/Nutrition') || windowURL.includes('category=Nutrition') ) {
       $( ".custom-nav-link[data-category='Nutrition']" ).addClass('active-nav-link');
