@@ -67,6 +67,18 @@ $(document).ready(function(){
       $( ".custom-nav-link[data-category='Weight-Loss']" ).addClass('active-nav-link');
     } else if ( windowURL.includes('category/Blogging%20&%20Biz') || windowURL.includes('category=Blogging%20%26%20Biz') ) {
       $( ".custom-nav-link[data-category='Blogging-Biz']" ).addClass('active-nav-link');
+    } else if ( windowURL.includes('category/Biohacking%20&%20Wellness') || windowURL.includes('category=Biohacking%20%26%20Wellness') ) {
+      $( ".custom-nav-link[data-category='Biohacking-Wellness']" ).addClass('active-nav-link');
+    } else if ( windowURL.includes('category/Nutrition') || windowURL.includes('category=Nutrition') ) {
+      $( ".custom-nav-link[data-category='Nutrition']" ).addClass('active-nav-link');
+    } else if ( windowURL.includes('category/Weight%20Management') || windowURL.includes('category=Weight%20Management') ) {
+      $( ".custom-nav-link[data-category='Weight-Management']" ).addClass('active-nav-link');
+    } else if ( windowURL.includes('category/Seasonal') || windowURL.includes('category=Seasonal') ) {
+      $( ".custom-nav-link[data-category='Seasonal']" ).addClass('active-nav-link');
+    } else if ( windowURL.includes('category/Blogging') || windowURL.includes('category=Blogging') ) {
+      $( ".custom-nav-link[data-category='Blogging']" ).addClass('active-nav-link');
+    } else if ( windowURL.includes('category/Lipedema') || windowURL.includes('category=Lipedema') ) {
+      $( ".custom-nav-link[data-category='Lipedema']" ).addClass('active-nav-link');
     } else {
       $( ".custom-nav-link[data-category='All']" ).addClass('active-nav-link');
     }
