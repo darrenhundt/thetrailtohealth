@@ -5,7 +5,7 @@ $(document).ready(function(){
   const queryString = window.location.search;
   const windowURL = window.location.href;
   const urlParams = new URLSearchParams(queryString);
-  const blogCategory = urlParams.get('category');
+  let blogCategory = urlParams.get('category');
   console.log({blogCategory});
   console.log({windowURL});
   var urlCategory;
@@ -39,7 +39,7 @@ $(document).ready(function(){
         console.log('Found category in path:', blogCategory);
       }
     }
-    
+
     const hiddenHeading = document.querySelector('.main-content .hidden-heading');
     if (hiddenHeading) {
       if (blogCategory) {
