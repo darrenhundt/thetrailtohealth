@@ -29,6 +29,17 @@ $(document).ready(function(){
   }
   if ( windowURL.includes("blog") ) {
     console.log('blog category page');
+
+
+    // If no category in URL params, check if it's in the path
+    if (!blogCategory) {
+      const pathMatch = windowURL.match(/\/category\/([^\/\?]+)/);
+      if (pathMatch) {
+        blogCategory = decodeURIComponent(pathMatch[1]);
+        console.log('Found category in path:', blogCategory);
+      }
+    }
+    
     const hiddenHeading = document.querySelector('.main-content .hidden-heading');
     if (hiddenHeading) {
       if (blogCategory) {
