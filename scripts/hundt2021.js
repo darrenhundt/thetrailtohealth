@@ -79,6 +79,8 @@ $(document).ready(function(){
       $( ".custom-nav-link[data-category='Blogging']" ).addClass('active-nav-link');
     } else if ( windowURL.includes('category/Lipedema') || windowURL.includes('category=Lipedema') ) {
       $( ".custom-nav-link[data-category='Lipedema']" ).addClass('active-nav-link');
+    } else if ( windowURL.includes('category/Fertility') || windowURL.includes('category=Fertility') ) {
+      $( ".custom-nav-link[data-category='Fertility']" ).addClass('active-nav-link');
     } else {
       $( ".custom-nav-link[data-category='All']" ).addClass('active-nav-link');
     }
