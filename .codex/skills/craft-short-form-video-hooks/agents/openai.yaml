@@ -1,4 +1,0 @@
-interface:
-  display_name: "Craft Short-Form Video Hooks"
-  short_description: "Write credible, original short-form hooks"
-  default_prompt: "Use $craft-short-form-video-hooks to create and score original hooks for my next short-form video."
